@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+
+# macOS Finder files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# MkDocs build output
+site/
