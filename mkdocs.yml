@@ -1,3 +1,12 @@
 site_name: Flashpoint Campaigns Cold War Documentation
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: green
+    accent: amber
+  font:
+    text: Special Elite
+    code: IBM Plex Mono
+extra_css:
+  - assets/stylesheets/extra.css
