@@ -4,37 +4,74 @@ watch:
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: green
-    accent: amber
+    - scheme: flashpoint
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   font:
     text: Courier Prime
     code: IBM Plex Mono
   features:
     - content.tooltips
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
     - search.suggest
+    - toc.follow
+    - toc.integrate
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/mil-symbols.css
 plugins:
   - tags
   - offline
   - search
+  - localsearch
   - git-revision-date-localized
 #  - mkdocs-literate-nav
   - mkdocs-video
   - mermaid2
-  - live-edit
-  - awesome-nav
+#  - live-edit
+  - awesome-nav  
   - macros
   - autolinks
   - autorefs
   - enumerate-headings:
       exclude:
         - index.md
+  - exporter:
+      buttons:
+        - title: Download as PDF
+          icon: material-file-download-outline
+          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
+      formats:
+        pdf:
+          explicit: true
+          enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
+          # concurrency: 8
+          #stylesheets:
+          #  - docs/assets/stylesheets/pdf.scss
+          # covers:
+          #  front: docs/assets/templates/covers/front.html.j2
+          #  back: docs/assets/templates/covers/back.html.j2
+          aggregator:
+            enabled: true
+            output: FCCW-FM.pdf
+            covers: book
 markdown_extensions:
   - meta
   - abbr
   - tables
+  - toc:
+      toc_depth: 3
   - attr_list
   - def_list
   - md_in_html
@@ -44,7 +81,10 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbr.md
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.blocks.caption
