@@ -1,4 +1,6 @@
-site_name: Flashpoint Campaigns Cold War Documentation
+site_name: Flashpoint Campaigns Documentation
+watch:
+  - includes
 theme:
   name: material
   palette:
@@ -6,7 +8,51 @@ theme:
     primary: green
     accent: amber
   font:
-    text: Special Elite
+    text: Courier Prime
     code: IBM Plex Mono
+  features:
+    - content.tooltips
+    - search.suggest
 extra_css:
   - assets/stylesheets/extra.css
+plugins:
+  - tags
+  - offline
+  - search
+  - git-revision-date-localized
+#  - mkdocs-literate-nav
+  - mkdocs-video
+  - mermaid2
+  - live-edit
+  - awesome-nav
+  - macros
+  - autolinks
+  - autorefs
+  - enumerate-headings:
+      exclude:
+        - index.md
+markdown_extensions:
+  - meta
+  - abbr
+  - tables
+  - attr_list
+  - def_list
+  - md_in_html
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra:
+  generator: false
+  test_macro: ==yabba== ^^dabba^^ **doo**
