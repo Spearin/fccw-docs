@@ -1,3 +1,19 @@
+[data-md-color-scheme="flashpoint"] {
+    --md-primary-fg-color: #8f0000;
+    --md-typeset-a-color: var(--md-primary-fg-color);
+    --md-accent-fg-color: #f80000;
+    --md-primary-fg-color--light: var(--md-accent-fg-color);
+    --md-primary-fg-color--dark: #3c0000;
+    --md-text-font: "Georgia";
+}
+
+[data-md-color-scheme="slate"] {
+.sym-en-land, .sym-en-land1, .sym-fr-land, .sym-fr-land1 {
+  color: #FFF;
+}
+}
+
 .md-content h1, h2, h3 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
 }
