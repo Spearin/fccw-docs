@@ -4,3 +4,5 @@
 *[OTS]: On Target Simulations
 *[UK]: United Kingdom
 *[US]: United States
+*[FAQ]: Frequently Asked Questions
+*[USSR]: Union of Soviet Socialist Republics 

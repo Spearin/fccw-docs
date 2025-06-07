@@ -44,8 +44,8 @@ plugins:
   - autolinks
   - autorefs
   - enumerate-headings:
-      exclude:
-        - index.md
+      include:
+        - FCCW/FieldManuals/*.md
   - exporter:
       buttons:
         - title: Download as PDF
@@ -57,8 +57,8 @@ plugins:
           explicit: true
           enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
           # concurrency: 8
-          #stylesheets:
-          #  - docs/assets/stylesheets/pdf.scss
+          stylesheets:
+            - docs/assets/stylesheets/pdf.scss
           # covers:
           #  front: docs/assets/templates/covers/front.html.j2
           #  back: docs/assets/templates/covers/back.html.j2

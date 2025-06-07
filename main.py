@@ -12,15 +12,28 @@ When we see :en-tank: outside of backticks, we replace it with
 SYMBOL_MAP = {
     # Example entries; fill in the rest
     "en-tank":      ("sym-en-land",    "A"),
-    "en-infantry":  ("sym-en-land",    "\uE002"),
-    "en-artillery": ("sym-en-land",    "\uE003"),
-    "en-armor":     ("sym-en-land1",   "\uE010"),
-    "en-spy":       ("sym-en-land1",   "\uE011"),
-    "fr-tank":      ("sym-fr-land",    "\uE020"),
-    "fr-infantry":  ("sym-fr-land",    "I"),
-    "fr-armor":     ("sym-fr-land1",   "\uE030"),
-    "fr-spy":       ("sym-fr-land1",   "\uE031"),
-    # …and so on for all tags…
+    "fr-armored":           ("sym-fr-land", "A"),
+    "fr-cavalry":           ("sym-fr-land", "C"),
+    "fr-artillery":         ("sym-fr-land", "F"),
+    "fr-engineer":          ("sym-fr-land", "G"),
+    "fr-aviation":          ("sym-fr-land", "H"),
+    "fr-infantry":          ("sym-fr-land", "I"),
+    "fr-armor-recon":       ("sym-fr-land", "J"),
+    "fr-mechanized":        ("sym-fr-land", "K"),
+    "fr-tank-destroyer":    ("sym-fr-land", "L"),
+    "fr-antiarmor":         ("sym-fr-land", "M"),
+    "fr-air-defense":       ("sym-fr-land", "N"),
+    "fr-headquarters":      ("sym-fr-land", "O"),
+    "fr-signal":            ("sym-fr-land", "Q"),
+    "fr-chemical":          ("sym-fr-land", "R"),
+    "fr-reconnaissance":    ("sym-fr-land", "S"),
+    "fr-transport":         ("sym-fr-land", "T"),
+    "fr-medical":           ("sym-fr-land", "U"),
+    "fr-maintenance":       ("sym-fr-land", "V"),
+    "fr-supply":            ("sym-fr-land", "W"),
+    "fr-engine":            ("sym-fr-land", "X"),
+    "fr-commando":          ("sym-fr-land", "Y"),
+    "fr-militia":           ("sym-fr-land", "Z")
 }
 
 # Pattern to find :tag-name: (lowercase letters, digits, hyphens)
