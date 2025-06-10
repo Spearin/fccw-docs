@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="campaign-game-play-overview.html" rel="prev"/>
+<link href="../battlefield-operations/02-battlefield.html" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.14" name="generator"/>
+<title>Designer Notes - Flashpoint Campaigns Documentation</title>
+<link href="../../../assets/stylesheets/main.342714a4.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/iframe-worker/shim"></script>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/mil-symbols.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#designer-notes">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-header__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Flashpoint Campaigns Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Designer Notes
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="amber" data-md-color-media="" data-md-color-primary="green" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../index.html">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../01-faq.html">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../02-setup.html">
+        
+  
+  
+    
+  
+  Setup
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../03-releases.html">
+        
+  
+  
+    
+  
+  Releases
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../credits.html">
+        
+  
+  
+    
+  
+  Credits
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../hotkeys.html">
+        
+  
+  
+    
+  
+  Hotkeys
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../field-manuals.html">
+          
+  
+  
+  Field Manuals
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Reference/timeline.html">
+          
+  
+  
+  Reference
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Guides/index.html">
+          
+  
+  
+  Creator Guides
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../backend/backend.html">
+          
+  
+  
+  Backend
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Flashpoint Campaigns Documentation
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../index.html">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01-faq.html">
+<span class="md-ellipsis">
+    FAQ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02-setup.html">
+<span class="md-ellipsis">
+    Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../03-releases.html">
+<span class="md-ellipsis">
+    Releases
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hotkeys.html">
+<span class="md-ellipsis">
+    Hotkeys
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+<span class="md-ellipsis">
+    Field Manuals
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            Field Manuals
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../field-manuals.html">
+<span class="md-ellipsis">
+    RTFM
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_7_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+<span class="md-ellipsis">
+    FM01 Game Operations
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_7_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_2">
+<span class="md-nav__icon md-icon"></span>
+            FM01 Game Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="01-gameops.html">
+<span class="md-ellipsis">
+    Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="welcome-commander-screen.html">
+<span class="md-ellipsis">
+    Welcome Commander Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="user-preferences.html">
+<span class="md-ellipsis">
+    User Preferences
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-new-scenario.html">
+<span class="md-ellipsis">
+    Start a New Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-new-campaign.html">
+<span class="md-ellipsis">
+    Start a New Campaign
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-pbem-game.html">
+<span class="md-ellipsis">
+    Start a PBEM++ Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="starting-a-pbem-classic-game.html">
+<span class="md-ellipsis">
+    Starting a PBEM Classic Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="resuming-games.html">
+<span class="md-ellipsis">
+    Resuming Games
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="game-launch-and-user-interface.html">
+<span class="md-ellipsis">
+    Game Launch and User Interface
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="announcement-dialog.html">
+<span class="md-ellipsis">
+    Announcement Dialog
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="main-menu-bar.html">
+<span class="md-ellipsis">
+    Main Menu Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="status-bar.html">
+<span class="md-ellipsis">
+    Status Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="core-game-panels.html">
+<span class="md-ellipsis">
+    Core Game Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="info-view-panels.html">
+<span class="md-ellipsis">
+    Info View Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="staff-dialogs.html">
+<span class="md-ellipsis">
+    Staff Dialogs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="the-game-map.html">
+<span class="md-ellipsis">
+    The Game Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="unit-counters.html">
+<span class="md-ellipsis">
+    Unit Counters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="specific-unit-roles.html">
+<span class="md-ellipsis">
+    Specific Unit Roles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="special-unit-types.html">
+<span class="md-ellipsis">
+    Special Unit Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="order-of-battle-oob-tree.html">
+<span class="md-ellipsis">
+    Order of Battle (OOB) Tree
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="issuing-orders.html">
+<span class="md-ellipsis">
+    Issuing Orders
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="plotting-movement-and-fires.html">
+<span class="md-ellipsis">
+    Plotting Movement and Fires
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="standard-operating-procedures-sop.html">
+<span class="md-ellipsis">
+    Standard Operating Procedures (SOP)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="spotting-and-line-of-sight-los.html">
+<span class="md-ellipsis">
+    Spotting and Line of Sight (LOS)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="combat-operations.html">
+<span class="md-ellipsis">
+    Combat Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="combat-soft-factors.html">
+<span class="md-ellipsis">
+    Combat Soft Factors
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="supply-and-logistics.html">
+<span class="md-ellipsis">
+    Supply and Logistics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="time-of-day.html">
+<span class="md-ellipsis">
+    Time of Day
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="weather.html">
+<span class="md-ellipsis">
+    Weather
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="victory-conditions-and-end-game.html">
+<span class="md-ellipsis">
+    Victory Conditions and End Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="campaign-game-play-overview.html">
+<span class="md-ellipsis">
+    Campaign Game Play Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Designer Notes
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="designer-notes.html">
+<span class="md-ellipsis">
+    Designer Notes
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#infantry">
+<span class="md-ellipsis">
+      Infantry
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#planning">
+<span class="md-ellipsis">
+      Planning
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mobility">
+<span class="md-ellipsis">
+      Mobility
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tempo">
+<span class="md-ellipsis">
+      Tempo
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#initiative">
+<span class="md-ellipsis">
+      Initiative
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recon-and-intel">
+<span class="md-ellipsis">
+      Recon and Intel
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#survival">
+<span class="md-ellipsis">
+      Survival
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#artillery">
+<span class="md-ellipsis">
+      Artillery
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lethality">
+<span class="md-ellipsis">
+      Lethality
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition">
+<span class="md-ellipsis">
+      Ammunition
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dispersion">
+<span class="md-ellipsis">
+      Dispersion
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#line-of-sight-and-line-of-fire">
+<span class="md-ellipsis">
+      Line of Sight and Line of Fire
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+<span class="md-ellipsis">
+    FM02 Battlefield Operations
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_3">
+<span class="md-nav__icon md-icon"></span>
+            FM02 Battlefield Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battlefield-operations/02-battlefield.html">
+<span class="md-ellipsis">
+    FM02: Battlefield Primer
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+<span class="md-ellipsis">
+    FM03 Tutorials
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_4">
+<span class="md-nav__icon md-icon"></span>
+            FM03 Tutorials
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/00-tutorial-intro.html">
+<span class="md-ellipsis">
+    Introduction to Tutorials
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/air-assault-ops.html">
+<span class="md-ellipsis">
+    Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/air-support-ops.html">
+<span class="md-ellipsis">
+    Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/artillery-ops.html">
+<span class="md-ellipsis">
+    Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/convoy-ops.html">
+<span class="md-ellipsis">
+    Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/engineer-ops.html">
+<span class="md-ellipsis">
+    Engineer Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Reference
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/timeline.html">
+<span class="md-ellipsis">
+    WW3 Timeline
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/maps.html">
+<span class="md-ellipsis">
+    Game Maps
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Campaigns
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
+<span class="md-nav__icon md-icon"></span>
+            Campaigns
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/index.html">
+<span class="md-ellipsis">
+    Game Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/nato-campaigns.html">
+<span class="md-ellipsis">
+    NATO Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/wp-campaigns.html">
+<span class="md-ellipsis">
+    Warsaw Pact Campaigns
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Forces
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_4">
+<span class="md-nav__icon md-icon"></span>
+            Forces
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Forces/NATO/index.html">
+<span class="md-ellipsis">
+    NATO Order of Battle
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4_2" id="__nav_8_4_2_label" tabindex="0">
+<span class="md-ellipsis">
+    WP
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_8_4_2">
+<span class="md-nav__icon md-icon"></span>
+            WP
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Forces/WP/index.html">
+<span class="md-ellipsis">
+    Warsaw Pact Order of Battle
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/sources.html">
+<span class="md-ellipsis">
+    Sources
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<span class="md-ellipsis">
+    Creator Guides
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            Creator Guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Guides/index.html">
+<span class="md-ellipsis">
+    Creator's Guides
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    Backend
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            Backend
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/backend.html">
+<span class="md-ellipsis">
+    Site Features
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/macros.html">
+<span class="md-ellipsis">
+    Macros
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/symbols.html">
+<span class="md-ellipsis">
+    Military Symbol Test
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#infantry">
+<span class="md-ellipsis">
+      Infantry
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#planning">
+<span class="md-ellipsis">
+      Planning
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mobility">
+<span class="md-ellipsis">
+      Mobility
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tempo">
+<span class="md-ellipsis">
+      Tempo
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#initiative">
+<span class="md-ellipsis">
+      Initiative
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recon-and-intel">
+<span class="md-ellipsis">
+      Recon and Intel
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#survival">
+<span class="md-ellipsis">
+      Survival
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#artillery">
+<span class="md-ellipsis">
+      Artillery
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lethality">
+<span class="md-ellipsis">
+      Lethality
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition">
+<span class="md-ellipsis">
+      Ammunition
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dispersion">
+<span class="md-ellipsis">
+      Dispersion
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#line-of-sight-and-line-of-fire">
+<span class="md-ellipsis">
+      Line of Sight and Line of Fire
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div><h1 id="designer-notes"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.</span> Designer Notes</h1>
+<blockquote>
+<p><strong>Note</strong>: Images omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>The following section contains some designer notes and thoughts on various topics covered in the game. These items pair well with the information in the Battlefield Primer (FM02) and add more background to the various features and capabilities of the game engine.</p>
+<h2 id="infantry"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.1</span> Infantry</h2>
+<p>Infantry units perform best when dug in and in areas with plenty of cover. In built-up areas like cities, infantry can take down unsupported tanks. In the open, infantry becomes very vulnerable to all types of fire. Digging infantry out of high cover can be a real chore and usually requires the use of artillery and your infantry to remove.</p>
+<h2 id="planning"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.2</span> Planning</h2>
+<p>However accurate it may be that plans don’t survive contact with the enemy, maneuver must be carefully pre-planned. The operational commander can expect to feel more like a traffic cop than a battlefield commander of WWII vintage once maneuvering has begun. However, this is as it should be. Victory can depend on units getting to the same place at the same time. Traffic jams (only one company-sized maneuver element fits easily in one map location) are gifts to opposing air and artillery forces. Hostile helicopters love giant traffic jams and are incredibly effective in destroying them. </p>
+<p>In addition to the requirement to pre-plan, players must remain flexible to meet the rapidly changing situations common in modern combat. The reason for this necessity is a lack of information. You are unlikely to know precisely where the enemy is, what they have, or what their objectives are during setup while you are making plans. A good plan will incorporate accurate guesses as to these points, will not depend too crucially upon those guesses, and will include methods to improve your intelligence on the enemy while denying him similar intelligence. Field reconnaissance will often result in the loss of the units performing the recon, so it is best to arrange that recon is not performed inadvertently by valuable non reconnaissance units.</p>
+<h2 id="mobility"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.3</span> Mobility</h2>
+<p>Combat occurs “over the ground”, not “for the ground”. Despite the perils of tactical movement, units need to be constantly engaged in operational movement. Once the enemy has identified them in a particular location they can all too easily be fixed in place with suppressive fires and kept out of the battle.</p>
+<p>There are few “must have” locations to defend, so the objective is to find and defeat the enemy combat units, not seize, or hold mere ground.</p>
+<h2 id="tempo"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.4</span> Tempo</h2>
+<p>Modern combat occurs around the clock. Multiple echelons are necessary to sustain the necessary level of commitment. Each in turn works its way to the front, engages, and then disengages to rest and replenish. The idea is to seize the initiative, set the tempo of combat at a level higher than the enemy can sustain, and then dislocate him with fresh units when his forces inevitably crack. In the circumstances, a fast but sloppy solution trumps a well-ordered but slower solution. The other implication is that there is no time to learn on the job. All units must be fully trained in peacetime because there will be no time once the shooting starts.</p>
+<h2 id="initiative"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.5</span> Initiative</h2>
+<p>Players should not wait until they engage the enemy before exercising their command initiative, by then it will be too late. You should make most of your decisions and give many of your orders before even starting to play. Things like combat doctrine and reporting structures should not usually be changed during play. This reflects reality. In Cold War combat a lot of destruction happens very quickly. This means there is no time for a battalion or brigade commander to assess the situation, decide, and choose a course of action once the shooting has started.</p>
+<h2 id="recon-and-intel"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.6</span> Recon and Intel</h2>
+<p>This is a game in which to be located by your opponent is often fatal so you will either wish to stay well-hidden or to keep on the move. The latter will usually be necessary. In moving it is good to remember, especially for large forces on roads, that there are stacking limits. You cannot get much more than a single large, full-strength company into one location. We have had attacks break down in play testing due to traffic jams. Locating one of your traffic jams is an enemy dream. Every remote delivery weapon (and a few direct-fire ones) will end up trying to clear out that traffic problem for you, so avoid creating backups. Ideally, the main task for your ground units will be to mop up on such a location, having already had the air force and artillery do all the dirty work.</p>
+<p>This is more effective and a lot safer than wading into a head-on-ground engagement oneself. Unfortunately, it is not always possible for events to work out so cleanly. So, you will probably have to engage the enemy with your ground forces at some point. When you do so, keep in mind that snoopers tend to get shot at. Determining opposing strength locations with your HQ or main elements is not good practice. That is what reconnaissance is for. You will often find that they merely present you with a flaming datum, better than your staff vehicle.</p>
+<h2 id="survival"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.7</span> Survival</h2>
+<p>Complete units should not melt away in just a couple of minutes except in catastrophically adverse circumstances. Rarely should the voluntary loss rate exceed one vehicle per minute. All combatants are assumed to have residual survival instincts and will modify their behavior once they come under fire. They will not press on suicidally but instead will suffer a mission abort once the rate of loss passes a certain threshold - which can be aggravated by the loss of HQ vehicles. They will retire to the nearest safe location and reorganize for another attempt. Exception: the less realistically trained the troops are, the more ‘dash’ (voluntary risk assumption) they can be expected to show. Virtually all troops in the Soviet-style will fall into this category initially.</p>
+<h2 id="artillery"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.8</span> Artillery</h2>
+<p>Artillery support is crucial but limited. Demand will far outstrip supply. A frontal attack on an unsuppressed defense no matter what the odds will likely result in ruin. Artillery must be used to prepare the way and then support the attack. The dilemma is that artillery has notable supply limitations and cannot be used lavishly except for the very highest priority tasks. Five minutes of moderate firing per location ought to be considered lavish. During the attack smoke will be laid and obvious danger points suppressed, but the barrage will be limited to two-minute concentrations as needed unless resupply is assured. On the modern battlefield, quality of fire support counts more than quantity, and the destruction of units through fire alone should be considered most unlikely. Counter-battery fire is an important role and a substantial fraction (¼ – ⅓) should be assigned to it. The same rules apply to air strikes, only more so.</p>
+<h2 id="lethality"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.9</span> Lethality</h2>
+<p>This is the age of the empty battlefield. If you can see it, you can probably kill it. Western-style units will stay hidden unless forced otherwise by movement orders. During movement, they will seek to use all available cover and move in short high-speed dashes to minimize exposure. If adequate cover is unavailable, smoke will be used lavishly. As in times past, the best movement route is the most covered route, not the shortest route. Warsaw Pact units put a higher premium on cohesion and predictability. They will be much less likely to take advantage of available cover in most circumstances.</p>
+<h2 id="ammunition"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.10</span> Ammunition</h2>
+<p>Ammunition is relatively bulky, heavy, and scarce. Most units can fire off everything they carry in 10 minutes or less and yet they need to be able to go eight hours or more. This militates against high-volume low-payoff exchanges. Assume that the intensity half-range is 500m. Units will generally shoot at 4x intensity at targets within that range, at 2x from 500 to 1000m, and at 1x beyond that. There is also a sniping/harassment level of fire that can occur at extreme ranges to keep the other side honest, but this need not be simulated at the company level. Both sides have stockpiled enormous quantities of ammunition and other supplies, but experience has shown that it is used up at far higher than expected rates. Expect severe supply difficulties within 30 days for both sides and potentially crippling shortages of critical items within 10 days. This cannot be a long war.</p>
+<h2 id="dispersion"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.11</span> Dispersion</h2>
+<p>In the age of ultra-lethal weapons, dispersion is the key to survival. Historically, troop densities have dropped every time that weapon lethality increased. The concentration of units is an invitation to wholesale destruction, yet attacks must concentrate to a degree to achieve success. Move dispersed, attack concentrated!</p>
+<h2 id="line-of-sight-and-line-of-fire"><span class="enumerate-headings-plugin enumerate-heading-plugin">32.12</span> Line of Sight and Line of Fire</h2>
+<p>Typical combat ranges may be a lot shorter than expected. Most improvements to direct-fire weapons have been to extend the range past three km, but in most cases, the line of fire will not be nearly that long. At one point the Soviets calculated that 50% of all combat would occur at 500 m or less. This puts a premium on delivering the first round fast and accurately rather than at an extended range. Tactical situational awareness leading to consistently getting the first shot in may well determine who lives and who dies. The best shot might not be the longest shot, or the one with the most sweeping field of view, but rather the most unexpected shot.</p></div>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 10, 2025 19:24:14 UTC">June 10, 2025</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.tabs", "navigation.top", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+</body>
+</html>

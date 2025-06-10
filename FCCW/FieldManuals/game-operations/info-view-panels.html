@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="core-game-panels.html" rel="prev"/>
+<link href="staff-dialogs.html" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.14" name="generator"/>
+<title>Info View Panels - Flashpoint Campaigns Documentation</title>
+<link href="../../../assets/stylesheets/main.342714a4.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/iframe-worker/shim"></script>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/mil-symbols.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#info-view-panels">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-header__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Flashpoint Campaigns Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Info View Panels
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="amber" data-md-color-media="" data-md-color-primary="green" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../index.html">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../01-faq.html">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../02-setup.html">
+        
+  
+  
+    
+  
+  Setup
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../03-releases.html">
+        
+  
+  
+    
+  
+  Releases
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../credits.html">
+        
+  
+  
+    
+  
+  Credits
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../hotkeys.html">
+        
+  
+  
+    
+  
+  Hotkeys
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../field-manuals.html">
+          
+  
+  
+  Field Manuals
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Reference/timeline.html">
+          
+  
+  
+  Reference
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Guides/index.html">
+          
+  
+  
+  Creator Guides
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../backend/backend.html">
+          
+  
+  
+  Backend
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Flashpoint Campaigns Documentation
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../index.html">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01-faq.html">
+<span class="md-ellipsis">
+    FAQ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02-setup.html">
+<span class="md-ellipsis">
+    Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../03-releases.html">
+<span class="md-ellipsis">
+    Releases
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hotkeys.html">
+<span class="md-ellipsis">
+    Hotkeys
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+<span class="md-ellipsis">
+    Field Manuals
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            Field Manuals
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../field-manuals.html">
+<span class="md-ellipsis">
+    RTFM
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_7_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+<span class="md-ellipsis">
+    FM01 Game Operations
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_7_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_2">
+<span class="md-nav__icon md-icon"></span>
+            FM01 Game Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="01-gameops.html">
+<span class="md-ellipsis">
+    Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="welcome-commander-screen.html">
+<span class="md-ellipsis">
+    Welcome Commander Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="user-preferences.html">
+<span class="md-ellipsis">
+    User Preferences
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-new-scenario.html">
+<span class="md-ellipsis">
+    Start a New Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-new-campaign.html">
+<span class="md-ellipsis">
+    Start a New Campaign
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="start-a-pbem-game.html">
+<span class="md-ellipsis">
+    Start a PBEM++ Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="starting-a-pbem-classic-game.html">
+<span class="md-ellipsis">
+    Starting a PBEM Classic Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="resuming-games.html">
+<span class="md-ellipsis">
+    Resuming Games
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="game-launch-and-user-interface.html">
+<span class="md-ellipsis">
+    Game Launch and User Interface
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="announcement-dialog.html">
+<span class="md-ellipsis">
+    Announcement Dialog
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="main-menu-bar.html">
+<span class="md-ellipsis">
+    Main Menu Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="status-bar.html">
+<span class="md-ellipsis">
+    Status Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="core-game-panels.html">
+<span class="md-ellipsis">
+    Core Game Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Info View Panels
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="info-view-panels.html">
+<span class="md-ellipsis">
+    Info View Panels
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-unit-popup-menu">
+<span class="md-ellipsis">
+      The Unit Popup Menu
+    </span>
+</a>
+<nav aria-label="The Unit Popup Menu" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-menu-layout">
+<span class="md-ellipsis">
+      General Menu Layout
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unit-dashboard">
+<span class="md-ellipsis">
+      Unit Dashboard
+    </span>
+</a>
+<nav aria-label="Unit Dashboard" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-layout">
+<span class="md-ellipsis">
+      General Layout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#orders-tab">
+<span class="md-ellipsis">
+      Orders Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#subunits-tab">
+<span class="md-ellipsis">
+      Subunits Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#staff-tab">
+<span class="md-ellipsis">
+      Staff Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#log-tab">
+<span class="md-ellipsis">
+      Log Tab
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sub-unit-inspector-sui">
+<span class="md-ellipsis">
+      Sub-Unit Inspector (SUI)
+    </span>
+</a>
+<nav aria-label="Sub-Unit Inspector (SUI)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-layout_1">
+<span class="md-ellipsis">
+      General Layout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#platform-tab">
+<span class="md-ellipsis">
+      Platform Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#weapons-tab">
+<span class="md-ellipsis">
+      Weapons Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sensors-tab">
+<span class="md-ellipsis">
+      Sensors Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#systems-tab">
+<span class="md-ellipsis">
+      Systems Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transport-tab">
+<span class="md-ellipsis">
+      Transport Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#further-information-on-capabilities">
+<span class="md-ellipsis">
+      Further Information on Capabilities
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commandunit-log">
+<span class="md-ellipsis">
+      Command/Unit Log
+    </span>
+</a>
+<nav aria-label="Command/Unit Log" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#log-capabilities">
+<span class="md-ellipsis">
+      Log Capabilities
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#off-map-assets">
+<span class="md-ellipsis">
+      Off-Map Assets
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="staff-dialogs.html">
+<span class="md-ellipsis">
+    Staff Dialogs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="the-game-map.html">
+<span class="md-ellipsis">
+    The Game Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="unit-counters.html">
+<span class="md-ellipsis">
+    Unit Counters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="specific-unit-roles.html">
+<span class="md-ellipsis">
+    Specific Unit Roles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="special-unit-types.html">
+<span class="md-ellipsis">
+    Special Unit Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="order-of-battle-oob-tree.html">
+<span class="md-ellipsis">
+    Order of Battle (OOB) Tree
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="issuing-orders.html">
+<span class="md-ellipsis">
+    Issuing Orders
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="plotting-movement-and-fires.html">
+<span class="md-ellipsis">
+    Plotting Movement and Fires
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="standard-operating-procedures-sop.html">
+<span class="md-ellipsis">
+    Standard Operating Procedures (SOP)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="spotting-and-line-of-sight-los.html">
+<span class="md-ellipsis">
+    Spotting and Line of Sight (LOS)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="combat-operations.html">
+<span class="md-ellipsis">
+    Combat Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="combat-soft-factors.html">
+<span class="md-ellipsis">
+    Combat Soft Factors
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="supply-and-logistics.html">
+<span class="md-ellipsis">
+    Supply and Logistics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="time-of-day.html">
+<span class="md-ellipsis">
+    Time of Day
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="weather.html">
+<span class="md-ellipsis">
+    Weather
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="victory-conditions-and-end-game.html">
+<span class="md-ellipsis">
+    Victory Conditions and End Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="campaign-game-play-overview.html">
+<span class="md-ellipsis">
+    Campaign Game Play Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="designer-notes.html">
+<span class="md-ellipsis">
+    Designer Notes
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+<span class="md-ellipsis">
+    FM02 Battlefield Operations
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_3">
+<span class="md-nav__icon md-icon"></span>
+            FM02 Battlefield Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battlefield-operations/02-battlefield.html">
+<span class="md-ellipsis">
+    FM02: Battlefield Primer
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+<span class="md-ellipsis">
+    FM03 Tutorials
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_4">
+<span class="md-nav__icon md-icon"></span>
+            FM03 Tutorials
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/00-tutorial-intro.html">
+<span class="md-ellipsis">
+    Introduction to Tutorials
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/air-assault-ops.html">
+<span class="md-ellipsis">
+    Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/air-support-ops.html">
+<span class="md-ellipsis">
+    Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/artillery-ops.html">
+<span class="md-ellipsis">
+    Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/convoy-ops.html">
+<span class="md-ellipsis">
+    Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorials/engineer-ops.html">
+<span class="md-ellipsis">
+    Engineer Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Reference
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/timeline.html">
+<span class="md-ellipsis">
+    WW3 Timeline
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/maps.html">
+<span class="md-ellipsis">
+    Game Maps
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Campaigns
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
+<span class="md-nav__icon md-icon"></span>
+            Campaigns
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/index.html">
+<span class="md-ellipsis">
+    Game Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/nato-campaigns.html">
+<span class="md-ellipsis">
+    NATO Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/wp-campaigns.html">
+<span class="md-ellipsis">
+    Warsaw Pact Campaigns
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Forces
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_4">
+<span class="md-nav__icon md-icon"></span>
+            Forces
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Forces/NATO/index.html">
+<span class="md-ellipsis">
+    NATO Order of Battle
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4_2" id="__nav_8_4_2_label" tabindex="0">
+<span class="md-ellipsis">
+    WP
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_8_4_2">
+<span class="md-nav__icon md-icon"></span>
+            WP
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Forces/WP/index.html">
+<span class="md-ellipsis">
+    Warsaw Pact Order of Battle
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/sources.html">
+<span class="md-ellipsis">
+    Sources
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<span class="md-ellipsis">
+    Creator Guides
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            Creator Guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Guides/index.html">
+<span class="md-ellipsis">
+    Creator's Guides
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    Backend
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            Backend
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/backend.html">
+<span class="md-ellipsis">
+    Site Features
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/macros.html">
+<span class="md-ellipsis">
+    Macros
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/symbols.html">
+<span class="md-ellipsis">
+    Military Symbol Test
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-unit-popup-menu">
+<span class="md-ellipsis">
+      The Unit Popup Menu
+    </span>
+</a>
+<nav aria-label="The Unit Popup Menu" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-menu-layout">
+<span class="md-ellipsis">
+      General Menu Layout
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unit-dashboard">
+<span class="md-ellipsis">
+      Unit Dashboard
+    </span>
+</a>
+<nav aria-label="Unit Dashboard" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-layout">
+<span class="md-ellipsis">
+      General Layout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#orders-tab">
+<span class="md-ellipsis">
+      Orders Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#subunits-tab">
+<span class="md-ellipsis">
+      Subunits Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#staff-tab">
+<span class="md-ellipsis">
+      Staff Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#log-tab">
+<span class="md-ellipsis">
+      Log Tab
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sub-unit-inspector-sui">
+<span class="md-ellipsis">
+      Sub-Unit Inspector (SUI)
+    </span>
+</a>
+<nav aria-label="Sub-Unit Inspector (SUI)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-layout_1">
+<span class="md-ellipsis">
+      General Layout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#platform-tab">
+<span class="md-ellipsis">
+      Platform Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#weapons-tab">
+<span class="md-ellipsis">
+      Weapons Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sensors-tab">
+<span class="md-ellipsis">
+      Sensors Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#systems-tab">
+<span class="md-ellipsis">
+      Systems Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transport-tab">
+<span class="md-ellipsis">
+      Transport Tab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#further-information-on-capabilities">
+<span class="md-ellipsis">
+      Further Information on Capabilities
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commandunit-log">
+<span class="md-ellipsis">
+      Command/Unit Log
+    </span>
+</a>
+<nav aria-label="Command/Unit Log" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#log-capabilities">
+<span class="md-ellipsis">
+      Log Capabilities
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#off-map-assets">
+<span class="md-ellipsis">
+      Off-Map Assets
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div><h1 id="info-view-panels"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.</span> Info View Panels</h1>
+<blockquote>
+<p><strong>Note</strong>: Images omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>There are five additional information panels that you will use during the game for various functions. There are the Unit Popup Menu, Unit Dashboard, Sub-Unit Inspector, Command Log, and Off-Map Assets. The following sections will detail them all.</p>
+<h2 id="the-unit-popup-menu"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.1</span> The Unit Popup Menu</h2>
+<p>The Unit Popup Menu is the primary means of interfacing with the selected unit or units. Right-clicking on a unit will bring up the menu. You can also select multiple units and then right-click one of the units to bring up the menu. Any orders given to one selected unit will also apply to any other selected units.</p>
+<h3 id="general-menu-layout"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.1.1</span> General Menu Layout</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<ol>
+<li>The first section provides a means to open the Unit Dashboard (See Section 14.2 below) or open the Subunit Inspector (See Section 14.3 below) for the unit right clicked on.</li>
+<li>The second section of the menu has SOP-related commands. Set and Adjust SOP are covered in Section 11.5 above. The SOP Manager is covered in Section 23 below.</li>
+<li>The third section of the menu shows all of the available orders for the selected unit. The selections will change based on the unit’s capabilities. See Section 21 below for details of the orders.</li>
+<li>The fourth section of the menu contains functions related to unit Commands, Roles, and Overlays. <ul>
+<li><strong>Flash HQ Location</strong> – Flash the hex location of the unit’s immediate HQ unit.</li>
+<li><strong>Select Unit and Subordinates as Current Group </strong>– This is a shortcut to select a formation of units based on a single selected unit.</li>
+<li><strong>Detach and Make Unit Independent</strong> – Removes the selected unit from the formation and HQ it is under and places it as its force. For most subunits, it is better and safer to use the Order of Battle Tree to do subordinations see Section 20 below.</li>
+<li><strong>Unit Role</strong>: - Displays the unit’s current role in the battle. Can be changed via the arrow and sub-menu that pops up. See Section 18 below.</li>
+<li><strong>Show </strong>– Clicking the arrow with bring up a sub-menu with the Unit Overlay options. See Section 11.6 above for details on the various overlays.</li>
+</ul>
+</li>
+</ol>
+<h2 id="unit-dashboard"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2</span> Unit Dashboard</h2>
+<p>The Unit Dashboard is the central interface for dealing with many important factors of the selected unit. Double-clicking a unit on the map will bring up the Dashboard. Having a unit selected and hitting F6 will also bring up the Dashboard. From the Unit Popup Menu, you can open the Dashboard via the menu item selection there.</p>
+<h3 id="general-layout"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2.1</span> General Layout</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<ol>
+<li>The top bar shows the name of the selected unit.</li>
+<li>You can click the Lock to freeze the panel on the selected unit. The Expand/Collapse icon will collapse the tabbed section of the dialog to save space.</li>
+<li>This area shows the counter of the currently selected unit. Below the counter is an indication of the current tactical posture of the unit. </li>
+<li>This area of text relays the current SitRep (Situation Report) of the unit. This is the composition of the unit, the hex the unit is in (hyperlinked can click to go there on the map), the unit’s commander rank and name, the experience level of the unit, and the unit’s role. Finally, an indication of the unit is under fire and the number of spotted enemy units. In cases of critical alerts, like low ammo, a line will show up in this area noting the problem.</li>
+<li>The information in this area covers the unit’s Critical Ammo level (primary weapons), Readiness, Morale, Range to HQ (local HQ for the unit), and any Orders Delay. The percentages from 100% high to 0% low and have status icons to the right. These icons are a green circle for good condition, a yellow upward triangle for marginal condition, a red downward triangle for critical condition, and finally, a black square for a combat ineffective condition.</li>
+<li>The tabbed area covers the unit’s Orders, Subunits, Staff, and Unit Log information, as detailed in the following sections. <blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="orders-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2.2</span> Orders Tab</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<ol>
+<li>This window lists the unit’s orders noting the type of order, the hex location of the order, and the estimated start time of the order execution. As seen below, you can click to select any of the orders and then right-click to bring up a popup menu to change the selected order. The selection is context-sensitive based on the initial order.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<ol>
+<li>If you change an order(s), you can then hit Apply to make the changes or cancel to ignore changes.</li>
+<li>This is a text summary of the currently selected order with time and distance information.</li>
+<li>This option, when shown, allows you to add additional delay time BEFORE an order starts. This is useful if you are trying to synchronize units to get to locations at the same time.</li>
+<li>This window provided a summary of the unit’s current SOP (Standard Operating Procedures) for the highlighted order.</li>
+<li>Click this button to edit the current unit’s SOP. See Section 23 below for details on how to set the SOP items.</li>
+</ol>
+<h3 id="subunits-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2.3</span> Subunits Tab</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<ol>
+<li>In this window, you will see all the subunits within the selected unit on the map. If there are more units than can be seen in the dialog, a scroll bar will be shown to allow you to see all the items. You can click on any of the subunits in the first window to display information about that subunit in the second window. If units have fallen out or have been destroyed or died, icons will appear over the subunit art, and the information in the second window will note that state.</li>
+<li>This window shows a breakdown of the subunit's Weapons and current Ammunition levels, Emitters (radars) if they have them, or EW detectors (ESM or Radar detectors). The hyperlink at the top will open the Subunit Inspector (SUI) to see more details about the subunit.</li>
+<li>You can move the splitter bar left or right to resize the windows.</li>
+<li>You can resize the dialog by dragging the corner point. The dialog has a minimum size set by the game.</li>
+</ol>
+<h3 id="staff-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2.4</span> Staff Tab</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>The Staff tab of the Dashboard provides many valuable bits of information about the selected unit. </p>
+<ol>
+<li>Under Staff Alerts and Reminders, you will get information on weapons that are out of ammo, what artillery units can support this unit (if available), unique unit capabilities and any claims of enemy units destroyed.</li>
+<li>Under Ammo Summary, shows the total ammo inventory for the unit in the Staff page of the Unit Dashboard to save clicking around to look it up manually.</li>
+<li>Under Active Contacts, a list of detected enemy units is shown. Contact number, type of detection (visual, thermal, radar, etc.), number and type of units (if known), range of the contact, and a hyperlinked Hex location.</li>
+</ol>
+<h3 id="log-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.2.5</span> Log Tab</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>The Log tab lists messages that are recorded to the various unit logs, related to the actions of the selected unit. Both the game Time and Tag (type of message) are listed with the Message. On the face of it, Radio Logs/Unit Logs don’t look like much has changed. On closer inspection, you will see that all messages are not Tagged (instead of just some of them as before, unit names are highlights, and locations are given subtle highlights (just bold, no color).</p>
+<p>Unit names you can now click on to take you to that unit if it’s not in the frame. You can also click on a location to go to that location on the map.</p>
+<p>In the top right corner, there is a search field that filters the display down to just messages involving the desired text (searching for a particular unit or vehicle type). Search is case-sensitive.</p>
+<p>The message Tag can be of the following types:</p>
+<ul>
+<li><strong>sitrep</strong> – This is a breakdown of the current active subunits in the unit, hex location, unit readiness, unit morale, and average ammo level, and the number of spotted enemy units.</li>
+<li><strong>orders </strong>– If the unit gets a new order or a change in orders, the new order is listed here with start and end times and hexes if available.</li>
+<li><strong>loss </strong>– If the unit loses any subunits, they are listed here and the hex they were lost in.</li>
+<li><strong>spot </strong>– This message notes that your unit has spotted an enemy unit, a temporary enemy bridge, a VP location, and other spottable items.</li>
+<li><strong>claim </strong>– If your unit kills or believes it has killed enemy subunits, they will be listed in this entry with the number, type, and hex of the kills.</li>
+<li><strong>(empty) </strong>– These entries are mainly updates on a unit moving to a new hex and the detail of the cover, concealment, and mobility of the hex moved into.</li>
+</ul>
+<p>Another obvious change is the little filter icon next to Tags. Also, you can right click on it, or anywhere on the log, will cause a pop-up filtering menu as shown below.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>For convenience, the Tags column can be set to show only the dominant primary tag for a log entry, or to show all the tags that are in the entry.</p>
+<p>We can now easily filter the logs by Tag type. If you want to see just the message that involves just bullets firing, Select “Shots Only”. </p>
+<p>To see different set of things you want to be visible, then select Custom Filter Settings, a popup menu will have very large list of Tags. Uncheck the Tag types that you don’t want to see, and then once done set your filter to “Custom Filter”.</p>
+<p>To set up different colors to make your tags stand out using different colors. Select the “Highlight Settings” and a popup menu with a very large list of Tags. For example, let’s say I want to see messages with the Tag “Mines”, select “Mines” from the list and you then can set the color for that Tag.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ Be Caution for you to not overdo it, it may be too hard to read the text.</p>
+</div>
+<h2 id="sub-unit-inspector-sui"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3</span> Sub-Unit Inspector (SUI)</h2>
+<p>The Sub-Unit Inspector is the primary tool for deep diving into all the information on a given sub-unit in the game. The following sections will detail all the various tabs and the information displayed. You can open this dialog with the F6 key for any selected unit.</p>
+<h3 id="general-layout_1"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.1</span> General Layout</h3>
+<ol>
+<li>You can click the lock to freeze this dialog or click the “X” to close.</li>
+<li>Sub-unit name and then the type of sub-unit in parenthesis.</li>
+<li>Unit Code of the sub-unit from the data file.</li>
+<li>Sub-unit silhouette or image if available via mod.</li>
+<li>National Flag or Emblem.</li>
+<li>This listing notes the number of the selected sub-units that are Active, Fallen Out, or Destroyed in the current scenario.</li>
+<li>The date unit is active in the game.</li>
+<li>This is a five-tabbed panel that covers the Platform, Weapons, Sensors, Systems, and Transport that the selected sub-unit has. These tabs are detailed in the following sections.</li>
+<li>If there is more than one type of sub-unit available based on the Scope chosen, you can use the controls here to page through them.</li>
+<li>You can use the drop-down selections here to look at other national data files (Source) in the scenario and change the Scope from Selected Unit, Units in the Scenario, or all units in the data file.</li>
+<li>You can use this icon to drag the SUI larger or smaller.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="platform-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.2</span> Platform Tab</h3>
+<p>The Platform tab provides information related to the general capabilities of a given sub-unit. Here you will find the values for Victory Point cost, Crew size, Use date, and Size rating. </p>
+<p>Then the Mobility Type and Maximum Speed.</p>
+<p>Protection Ratings (Armor) for the Front, Flank (side), and Top/Rear of the sub-unit or a static Protection Factor for aircraft and helicopters are shown in this section.</p>
+<p>Next, under Particulars is a listing of platform-specific characteristics/traits that it has that can impact gameplay, if available.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<h3 id="weapons-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.3</span> Weapons Tab</h3>
+<p>Every weapon system on a platform/sub-unit is listed on this tab with its various performance parameters and any unique characteristics that the systems possess.</p>
+<p>Shown are the Weapon Name and Type. Then the number of rounds or bursts of ammo carried typically (those values can be different in scenarios based on supply and munitions loadouts). The damage rating for the weapon or munition is shown with its type. Lastly, the maximum range in meters is listed. If the weapon system has any unique characteristics used in the game, those are listed after the munition specifications.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Basic Ammo comes in various types as noted below:</p>
+<ul>
+<li><strong>Armor Piercing (AP)</strong> – These are solid, long-rod projectiles used to defeat armor.</li>
+<li><strong>High Explosive Anti-Tank (HEAT) </strong>– This round uses an explosive charge to create a plasma jet that cuts through armor.</li>
+<li>__High Explosive (HE) – __These rounds use a blast fragmentation warhead and affect an area. </li>
+<li><strong>Area -</strong> This type of damage reflects weapons that impact an area and are used against soft targets that cover an amount of ground.</li>
+</ul>
+<h3 id="sensors-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.4</span> Sensors Tab</h3>
+<p>The Sensors tab shows all the equipment on a platform that is used to detect, spot, or range enemy units on the map.  If a system has detection capability, it will list the ranges (under optimal conditions) that it can Detect an enemy unit, Classify the type of enemy unit, and identify the sub-units of an enemy unit. Other Sensor systems have an impact on combat calculations.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<h3 id="systems-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.5</span> Systems Tab</h3>
+<p>Any other systems that provide a unique capability not already covered in the other tabs will be noted here.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<h3 id="transport-tab"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.6</span> Transport Tab</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>The Transport tab shows all the transport capability on a platform that is used to provide a unique capability not already covered in the other tabs will be noted here.</p>
+<h3 id="further-information-on-capabilities"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.3.7</span> Further Information on Capabilities</h3>
+<p>To get more details on these various Capabilities, you can check out the information in FM02: Battlefield Primer and in deeper detail in FM09: Data Structures and Editing.</p>
+<h2 id="commandunit-log"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.4</span> Command/Unit Log</h2>
+<p>The Command/Unit Log is a dialog that shows all the latest Log messages for all units in your force. It will list the last 50 entries. You can dig deeper by looking at the Unit Log in the Dashboard for each unit. This dialog can be opened and closed on the screen with the F7 key. The dialog does allow for expanding and collapsing via the arrow’s icon in the upper right of the dialog.</p>
+<p>A complete listing of log entries can be found in the Operations Report on the Log tab.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>As the game unfolds, a series of messages are recorded to the unit logs with a time stamp, a “tag” or type of log entry, and then the text of the entry. </p>
+<h3 id="log-capabilities"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.4.1</span> Log Capabilities</h3>
+<ul>
+<li>All messages are now Tagged (instead of just some of them as before) </li>
+<li>Tags are now filterable (see below)</li>
+<li>Unit names are highlighted to make them easier to find and hotlink to the Dashboard</li>
+<li>Locations are given a subtle highlight (just bold, no color) and are hot linked to flash on the map</li>
+<li>The log is searchable – see the top right corner</li>
+<li>Highlight colors may be specified by tag type so that specific tags can be emphasized or de-emphasized (see below)</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>There is a new filter icon (a yellow funnel icon) next to the “Tags” column header. Right-click on it, or anywhere else on the log, to pop up the filtering menu.</p>
+<p>For convenience, the Tags column can be set to show only the dominant primary tag for a log entry, or to show all tags.</p>
+<p><strong>Filtering</strong>. The log can be filtered by Tag types. To see just the messages that involve bullets flying, use the “Shots Only” combat filter. For further customization, use the “Custom Filter Settings” popout to uncheck the Tag types you don't want to see, and then set the filter to “Custom Filter.” You will not see messages you don't care about.</p>
+<p><strong>Highlight Settings</strong>. The highlight settings are a way to make the tags you want to stand out using different colors. Use with care! It's all too easy to set everything to have a highlight color and become dazzled by the beautiful but unreadable Christmas tree-like effect that results. </p>
+<p>This new system is used everywhere we show the unit logs – this log, the unit dashboard, the counter-battery screen, and the TOC Ops Unit Logs report. </p>
+<p>If this dialog has the Windows focus, then it can be closed by tapping the Escape key.  </p>
+<h2 id="off-map-assets"><span class="enumerate-headings-plugin enumerate-heading-plugin">14.5</span> Off-Map Assets</h2>
+<p>The Off-Map Assets dialog provides you with a listing of any of your forces that exist off-map for the scenario. This is currently an aircraft or artillery asset in a scenario that you can order to support your on-map forces. As you can see in the dialog below, this shows the headquarters and an artillery battery located 2km off the West edge of the game map. </p>
+<ol>
+<li>Name of the overall force being supported by the off-map assets.</li>
+<li>Name the smaller off-map asset formations available to use.</li>
+<li>The counter of each supporting off-map unit, name, type, size, training level, and off-map location of the unit</li>
+<li>Menu hyperlink that will open the Unit Popup Menu so you can issue orders to these off-map assets.</li>
+<li>This text block tells for each unit what its Current Orders are, Readiness, Morale, Ammo levels, and current Delay for orders to process.</li>
+<li>This second text block shows the unit’s composition by platform and type and then a breakdown of the ammo carried by the unit.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol></div>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 10, 2025 19:24:14 UTC">June 10, 2025</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.tabs", "navigation.top", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+</body>
+</html>
