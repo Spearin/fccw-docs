@@ -21,11 +21,11 @@ theme:
   features:
     - content.tooltips
     - navigation.tabs
-    - navigation.expand
+#    - navigation.expand
     - navigation.top
     - search.suggest
     - toc.follow
-    - toc.integrate
+#    - toc.integrate
 extra_css:
   - assets/stylesheets/extra.css
   - assets/stylesheets/mil-symbols.css
@@ -49,8 +49,9 @@ plugins:
       exclude:
         - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
       restart_increment_after:
-        - FCCW/FieldManuals/01-gameops.md
-        - FCCW/FieldManuals/02-battlefield.md
+        - FCCW/FieldManuals/game-operations/01-gameops.md
+        - FCCW/FieldManuals/battlefield-operations/02-battlefield.md
+        - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
   - exporter:
       buttons:
         - title: Download as PDF

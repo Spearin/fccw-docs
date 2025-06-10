@@ -6,3 +6,4 @@
 *[US]: United States
 *[FAQ]: Frequently Asked Questions
 *[USSR]: Union of Soviet Socialist Republics
+*[RTFM]: Read The Field Manuals

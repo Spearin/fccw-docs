@@ -1,5 +1,7 @@
 ---
 title: Hotkeys
+hide:
+  - navigation
 ---
 # Hotkey Use in Flashpoint Campaigns
 

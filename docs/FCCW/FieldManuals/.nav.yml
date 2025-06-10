@@ -1,1 +1,6 @@
 title: Field Manuals
+nav:
+  - RTFM: field-manuals.md
+  - FM01 Game Operations: game-operations/
+  - FM02 Battlefield Operations: battlefield-operations/
+  - FM03 Tutorials: Tutorials/

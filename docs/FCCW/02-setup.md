@@ -1,5 +1,7 @@
 ---
 title: Setup
+hide:
+  - navigation
 ---
 # Setup Guide
 

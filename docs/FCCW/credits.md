@@ -1,5 +1,7 @@
 ---
 title: Credits
+hide:
+  - navigation
 ---
 
 # Game Credits

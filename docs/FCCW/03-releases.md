@@ -1,5 +1,7 @@
 ---
 title: Releases
+hide:
+  - navigation
 ---
 # Release Notes
 

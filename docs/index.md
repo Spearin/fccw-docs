@@ -19,3 +19,9 @@ The game is packed with information dialogs, map overlays, and range rings to ai
 __*Flashpoint Campaigns: Cold War*__ is a data\-rich simulation where each nation has information on National Characteristics, Command Parameters, and Orders of Battle\. Data Tables are packed with era\-specific equipment and troops\. Weapon Systems of the time, such as guns, missiles, precision munitions, small arms, and much more, are comprehensively modeled\. 
 
 As a toolkit, you can create your own scenarios and campaigns\. You can also dive deeper and create or modify game data, artwork, and sound effects as you see fit\. All these modding capabilities are supported by detailed documentation\.
+
+## Gender Pronouns and Inclusion
+
+We understand that users of all genders will play our simulation\. We try to keep language in the game and manuals gender\-neutral, when possible, but sometimes use the pronoun “he” to refer to the user\. This is merely to streamline the writing, not to exclude anyone or note a specific gender\. 
+
+The On Target Simulations team supports the inclusion of all people in the field of wargaming\.
