@@ -5,4 +5,4 @@
 *[UK]: United Kingdom
 *[US]: United States
 *[FAQ]: Frequently Asked Questions
-*[USSR]: Union of Soviet Socialist Republics 
+*[USSR]: Union of Soviet Socialist Republics

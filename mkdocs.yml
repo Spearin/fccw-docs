@@ -16,8 +16,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Courier Prime
-    code: IBM Plex Mono
+    text: IBM Plex Mono
+    code: Roboto Mono
   features:
     - content.tooltips
     - navigation.tabs
@@ -46,6 +46,11 @@ plugins:
   - enumerate-headings:
       include:
         - FCCW/FieldManuals/*.md
+      exclude:
+        - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
+      restart_increment_after:
+        - FCCW/FieldManuals/01-gameops.md
+        - FCCW/FieldManuals/02-battlefield.md
   - exporter:
       buttons:
         - title: Download as PDF
@@ -71,7 +76,7 @@ markdown_extensions:
   - abbr
   - tables
   - toc:
-      toc_depth: 3
+      toc_depth: 4
   - attr_list
   - def_list
   - md_in_html
