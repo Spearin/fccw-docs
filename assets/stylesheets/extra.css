@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
 [data-md-color-scheme="flashpoint"] {
     --md-primary-fg-color: #8f0000;
     --md-typeset-a-color: var(--md-primary-fg-color);
@@ -5,15 +7,24 @@
     --md-primary-fg-color--light: var(--md-accent-fg-color);
     --md-primary-fg-color--dark: #3c0000;
     --md-text-font: "Georgia";
+    .md-content h1, h2, h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    }
 }
 
 [data-md-color-scheme="slate"] {
 .sym-en-land, .sym-en-land1, .sym-fr-land, .sym-fr-land1 {
   color: #FFF;
 }
+.md-content h1, h2 {
+    font-family: "Handjet", 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: var(--md-accent-fg-color)
 }
 
-.md-content h1, h2, h3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
+}
+
+.md-typeset h1 {
+    margin: 0 0 0.25em;
 }
