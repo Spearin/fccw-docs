@@ -27,22 +27,19 @@
 /* One CSS‐class per font file: */
 .sym-en-land {
   font-family: "NATO-EN-LAND" !important;
-  speak: none;
   font-style: normal;
 }
 .sym-en-land1 {
   font-family: "NATO-EN-LAND1" !important;
-  speak: none;
   font-style: normal;
 }
 .sym-fr-land {
   font-family: "NATO-FR-LAND" !important;
-  speak: none;
+
   font-style: normal;
 }
 .sym-fr-land1 {
   font-family: "NATO-FR-LAND1" !important;
-  speak: none;
   font-style: normal;
 }
 
