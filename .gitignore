@@ -13,3 +13,5 @@ Thumbs.db
 
 # MkDocs build output
 site/
+
+utils/
