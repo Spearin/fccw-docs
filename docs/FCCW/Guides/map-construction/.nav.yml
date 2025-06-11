@@ -1,0 +1,19 @@
+title: Map Construction
+nav:
+  - Section: index.md
+  - map-making.md
+  - example-map-area-and-example-qgis-project.md
+  - getting-started.md
+  - defining-our-map.md
+  - exporting-our-elevation-only-map-for-map-values-scanning.md
+  - intermezzo-the-terrain-per-ots-render-tool.md
+  - drawing-our-map-water-and-roads.md
+  - drawing-on-our-map-towns-minor-roads-and-railroads.md
+  - drawing-on-our-map-minor-rivers-streams-forests-and-fields.md
+  - prettying-up-our-map-with-labels.md
+  - creating-our-second-map.md
+  - appendix-a-example-project.md
+  - appendix-b-default-fcss-map-data-types.md
+  - appendix-c-utm-zones.md
+  - appendix-d-representing-water-obstacles.md
+  - appendix-e-creating-a-new-elevation-correction-layer.md

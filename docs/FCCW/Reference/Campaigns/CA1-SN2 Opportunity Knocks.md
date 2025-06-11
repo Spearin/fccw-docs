@@ -1,0 +1,1 @@
+RottenburgCA1-SN2 Opportunity Knocks@Jd    d    dWilliam van der Sterren (OTS) OI;@J9]@LRottenburg am Neckar, Baden-Wrttemberg, West-Germany, 4829'00"N 0856'00"E dMike Johnstonemikegunner19@gmail.com	A0@#	@@Second scenario in CA campaignJ N"Rottenburg am Neckar, West-Germany

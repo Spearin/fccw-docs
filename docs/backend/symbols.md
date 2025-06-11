@@ -1,5 +1,8 @@
 # Military Symbol Test
 
+!!! warning
+    These symbols are not necessarily accurate to their labels. This is a test.
+
 Below is a list of all letters A–Z. For each letter:
 
 1. **Character**: the key from the font (in backticks)  

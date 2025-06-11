@@ -1,0 +1,1 @@
+WendlingenCA1-SN4 Anvil(@Sd    d    dWilliam van der Sterren (OTS) 㒕@	9]@LWendlingen am Neckar, Baden-Wrttemberg, West-Germany, 4840'00"N 0923'00"E dMike JohnstoneMikegunner19@gmail.com@V`6\@(Fourth scenario in the Canadian CampaignN;"Wendlingen am Neckar, West-Germany

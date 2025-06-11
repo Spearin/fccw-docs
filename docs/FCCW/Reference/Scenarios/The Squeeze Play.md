@@ -1,0 +1,11 @@
+# The Squeeze Play
+
+*22 July 1989, 1800hrs, Amberg, West Germany - West-German vs Czechoslovakian forces*
+
+
+
+With the NATO forces starting to fall back under heavy pressure, the unexpected Czechoslovakian juggernaut continued to move forward relentlessly. The sheer number of NATO forces on the Czechoslovakian border should have theoretically been more than enough to stop the Pact forces. NATO also banked on the belief that the Czechoslovakian forces would not be as sanguine towards the war as the remainder of the Pact. In practice, the Czechoslovakians proved to be tenacious attackers despite their natural handicap in equipment. Not only that, but they also made excellent use of the full width of the combat area, keeping a relentless advance despite the best efforts of NATO aviation. What ultimately started to tip the battle was that, with an inconclusive fight in their hands, the Soviet and Czechoslovakian second echelons were now nearing the border. This prompted NATO to start a strategic fighting retreat, whilst NATO's own second-echelon forces moved forward to plug the gaps. 
+
+Such was the strategic situation that the advance group of the Czechoslovakian 2nd Motorized Division found as they approached Amber from the south. A reasonably sized city and the location of substantial army facilities, Amberg had been under a civilian evacuation order since the start of the war. West German forces clung to the city, but nobody expected the Pact forces to conduct a street-fighting battle over it. The city was easily isolated and bypassed since it possessed good east-west communication links near it but not through it. In fact, the best link, the Autobahn 6, ran just south of it.A group of the 2nd Motorized Division was advancing on a parallel route to the Autobahn. They had to cross the Vils at Theuern and then plow through the wooded hills of the Hirschwald Nature Park west of it.  
+
+CNATO had planned for this eventuality in advance. The Hirschwald Nature Park offered natural cover and highly defensive terrain, while the more open terrain to the west of it afforded good approach routes for armor. Elements of the 2nd Motorized Division were just about to be squeezed in a vice by the 12th Panzer Brigade.

@@ -1,0 +1,9 @@
+# A tough nut to crack
+
+*25 July 1989, 1800hrs, Tbingen, West Germany - French vs Soviet forces*
+
+
+
+Within hours of the Soviets securing (via air assault) crossings over the Neckar, the Soviet 15th Tank Division had leapfrogged the 48th Motorized Rifle Division and was advancing on a general southwest axis. The increasing complexity of the defending terrain and the ominous presence of strong forces defending Stuttgart gave its commander pause for thought. It was evident that leaving their northern flank exposed to a possible strong attack was not an option. The 48th Motorized Rifle Division was on the way to be routed south of the Neckar, and this threatened the southern flank of the Soviet advance. The 901st Air Assault Bn was on police duty on the crossings, and it would take some time to release. Meanwhile, the lead elements of the 15th Tank Division had crossed the river. 
+
+Without additional assistance, it was a foregone conclusion to the Warsaw Pact command that the 48th Motorized Rifle Division would soon be a ghost formation as its attacking spearhead was being obliterated by the stubborn defense of the West Germans. Fortunately, the temporarily halted 15th Tank Division was in a position to come to the rescue. The 15th Tank Division just needed to get their entire force across the Neckar River. There were adequate crossing locations at Tbingen and Rottenburg. Tbingen, in particular, was one of the pivotal points in the local NATO defensive and logistical efforts. What's more, the area had natural cover from the north since the approaches were wooded hills that would afford protection to an attacker. Unfortunately for the Soviets, they also offered concealment to the defender. The French 24eme Gr de Chasseurs laid in wait as the 15th Tank Division tried an ambitious attack on both sides of the river.

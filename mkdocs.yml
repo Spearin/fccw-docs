@@ -47,6 +47,7 @@ plugins:
   - macros
   - autolinks
   - autorefs
+  - glightbox
   - enumerate-headings:
       include:
         - FCCW/FieldManuals/*.md
@@ -98,6 +99,8 @@ markdown_extensions:
         - includes/abbr.md
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.blocks.caption
   - pymdownx.tasklist:
       custom_checkbox: true

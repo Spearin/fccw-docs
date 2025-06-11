@@ -1,0 +1,21 @@
+title: Data Structures & Editing
+nav:
+  - Section: index.md
+  - location-of-data-files.md
+  - data-file-structure-overview.md
+  - platform-types.md
+  - platform-characteristics.md
+  - command.md
+  - formations.md
+  - description-iunits.md
+  - defining-armor-value-and-specials.md
+  - air-unit-size-and-pf-rating-calculator.md
+  - systems.md
+  - weapon-munition-types.md
+  - surnames.md
+  - credits.md
+  - notice.md
+  - data-folder-setup.md
+  - using-the-data-validation-tool.md
+  - file-xls-importexport-editing.md
+  - future-updates.md

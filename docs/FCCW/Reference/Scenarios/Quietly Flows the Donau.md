@@ -1,0 +1,13 @@
+# Quietly flows the Donau
+
+*21 July 1989, 0800hrs, East of Straubing, West Germany - West-German vs Czechoslovakian forces*
+
+
+
+On the Bavarian East, the war had, so far, been slow in developing. The Czechoslovakian forces had been split from the first hour, with the 2nd Motorized Rifle Division taking a northwest route that would eventually lead to Amberg. Meanwhile, the 15th Motorized Rifle Division took a more southwest route aimed at Munich. Their hope was that the dual-pronged advance would split the already dispersed NATO defenses. The West-German 11th Panzer Grenadeir Brigade had control of the area and, for the first day of the offensive, had been able to hold the line with minor issues. The fact that it was close to its higher HQ had helped in coordinating the defense under the heavy EW blanket laid down by the Czechoslovakians. 
+
+On the Czechoslovakian side, the 2nd Motorized Rifle Division had a slow start. Even though it had no real opposition until it got closer to the Donau, its HQ was concerned with keeping its northern flank connected with the 19th Motorized Rifle Division. That meant that there was a significant dispersal of assets and efforts. In spite of this, the fact that they advanced against very light opposition meant that their forward groups were in sight of the Donau by the morning of the second day.  
+
+0The Czechoslovakian plan was to deploy the main body after they secured crossings by coup de main (surprise). Unfortunately, NATO s continuous dispute over the air made any attempt at helicopter operations extremely hazardous. Meanwhile, one Panzer Grenadier battalion kept trying to exploit the gap between the two Czechoslovakian divisions while another battalion had set up defensive positions around the area of their intended crossing. The 2nd Motorized Rifle Division was brought to a halt by a combination of their extreme caution and NATO s aggression. 
+
+As with many things in war, it was a totally unforeseen event that turned the tide. The bridge at Stephanposching did not collapse completely when the demolition charges detonated and remained usable. As a demolition team was dispatched to the site, the Czechoslovakians saw the opportunity they had hoped for. The 2nd Motorized Rifle Division, finding that they may have in their hands an assault crossing, started to move forward with their crossing assets and engineering support towards this site. They were now ready to take full opportunity of it, and a battle quickly ensued as a forward group of the 2nd Motorized Rifle Division battled it out with a detachment of the 111th PzG Bn for possession of the crossing area.

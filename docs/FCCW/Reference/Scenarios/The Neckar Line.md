@@ -1,0 +1,11 @@
+# The Neckar Line
+
+*29 July 1989, 0600hrs, Rottweil, West Germany - French vs Czechoslovakian forces*
+
+
+
+The entrance of the Soviet Southern Group of Forces in the war was marred by logistical difficulties, internal political complications, the chaos in the Balkans caused by the disintegration of Yugoslavia into civil war, and indecision as to its objectives. It was quickly becoming a serious contention inside the Pact, which was further complicated by a sudden command change of all of its top commanders, who were considered politically unreliable. When it finally started, it moved into the total chaos of war, and it found the roads clogged with refugees and their supply lines interrupted. Making matters worse, some of their units were being routinely diverted for internal policing operations due to the rebirth of the Hungarian anti-communist movement. By the time it had crossed the Austrian frontier, the delay had caused a multitude of issues for the Czechoslovakians. To add insult to injury, a Soviet Army commander had to justify to the commander of the Czechoslovakian forces in Bavaria. Still, it had arrived in Bavaria and was finally crossing the border. With its arrival, the fate of the isolated NATO forces in eastern Bavaria was sealed, and they began an active and almost simultaneous evacuation west, hotly pursued by the Czechoslovakians, who had now found a second lease of life.  
+
+For the Czechoslovakians, the advance had become a difficult affair. Not only were they fighting highly mobile operations over an ever-increasing area far from their logical base, but their dual role of having to be a police force and an attacking force was becoming a serious drag on their resources. In short, by the time they were approaching the Neckar in Rottweil, they were behind schedule with their Soviet counterpart and near the end of their strength.  
+
+The area had two major targets. The first was the Autobahn 81 crossing. Even if it was destroyed, cutting this north-south artery would hinder NATO's efforts. The Autobahn 81 could also serve as a temporary runway. Negating this was seen as a valuable proposition. The 4th Armoured Division was boldly advancing into a brutal engagement with the French tanks of the 3eme Regiment Dragoons.
