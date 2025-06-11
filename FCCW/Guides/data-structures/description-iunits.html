@@ -1,0 +1,3184 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="formations.html" rel="prev"/>
+<link href="defining-armor-value-and-specials.html" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.14" name="generator"/>
+<title>Description (IUnits - Flashpoint Campaigns Documentation</title>
+<link href="../../../assets/stylesheets/main.342714a4.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/iframe-worker/shim"></script>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/mil-symbols.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#description-iunits">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-header__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Flashpoint Campaigns Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Description (IUnits
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="amber" data-md-color-media="" data-md-color-primary="green" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../index.html">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../01-faq.html">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../02-setup.html">
+        
+  
+  
+    
+  
+  Setup
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../03-releases.html">
+        
+  
+  
+    
+  
+  Releases
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../credits.html">
+        
+  
+  
+    
+  
+  Credits
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../hotkeys.html">
+        
+  
+  
+    
+  
+  Hotkeys
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../FieldManuals/index.html">
+          
+  
+  
+    
+  
+  Field Manuals
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Reference/timeline.html">
+          
+  
+  
+    
+  
+  Reference
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../index.html">
+          
+  
+  
+    
+  
+  Creator Guides
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../backend/backend.html">
+          
+  
+  
+    
+  
+  Backend
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Flashpoint Campaigns Documentation
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../index.html">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01-faq.html">
+<span class="md-ellipsis">
+    FAQ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02-setup.html">
+<span class="md-ellipsis">
+    Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../03-releases.html">
+<span class="md-ellipsis">
+    Releases
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hotkeys.html">
+<span class="md-ellipsis">
+    Hotkeys
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/index.html">
+<span class="md-ellipsis">
+    Field Manuals
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            Field Manuals
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/index.html">
+<span class="md-ellipsis">
+    FM01 Game Operations
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_2">
+<span class="md-nav__icon md-icon"></span>
+            FM01 Game Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/welcome-commander-screen.html">
+<span class="md-ellipsis">
+    Welcome Commander Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/user-preferences.html">
+<span class="md-ellipsis">
+    User Preferences
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-new-scenario.html">
+<span class="md-ellipsis">
+    Start a New Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-new-campaign.html">
+<span class="md-ellipsis">
+    Start a New Campaign
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-pbem-game.html">
+<span class="md-ellipsis">
+    Start a PBEM++ Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/starting-a-pbem-classic-game.html">
+<span class="md-ellipsis">
+    Starting a PBEM Classic Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/resuming-games.html">
+<span class="md-ellipsis">
+    Resuming Games
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/game-launch-and-user-interface.html">
+<span class="md-ellipsis">
+    Game Launch and User Interface
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/announcement-dialog.html">
+<span class="md-ellipsis">
+    Announcement Dialog
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/main-menu-bar.html">
+<span class="md-ellipsis">
+    Main Menu Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/status-bar.html">
+<span class="md-ellipsis">
+    Status Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/core-game-panels.html">
+<span class="md-ellipsis">
+    Core Game Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/info-view-panels.html">
+<span class="md-ellipsis">
+    Info View Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/staff-dialogs.html">
+<span class="md-ellipsis">
+    Staff Dialogs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/the-game-map.html">
+<span class="md-ellipsis">
+    The Game Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/unit-counters.html">
+<span class="md-ellipsis">
+    Unit Counters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/specific-unit-roles.html">
+<span class="md-ellipsis">
+    Specific Unit Roles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/special-unit-types.html">
+<span class="md-ellipsis">
+    Special Unit Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/order-of-battle-oob-tree.html">
+<span class="md-ellipsis">
+    Order of Battle (OOB) Tree
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/issuing-orders.html">
+<span class="md-ellipsis">
+    Issuing Orders
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/plotting-movement-and-fires.html">
+<span class="md-ellipsis">
+    Plotting Movement and Fires
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/standard-operating-procedures-sop.html">
+<span class="md-ellipsis">
+    Standard Operating Procedures (SOP)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/spotting-and-line-of-sight-los.html">
+<span class="md-ellipsis">
+    Spotting and Line of Sight (LOS)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/combat-operations.html">
+<span class="md-ellipsis">
+    Combat Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/combat-soft-factors.html">
+<span class="md-ellipsis">
+    Combat Soft Factors
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/supply-and-logistics.html">
+<span class="md-ellipsis">
+    Supply and Logistics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/time-of-day.html">
+<span class="md-ellipsis">
+    Time of Day
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/weather.html">
+<span class="md-ellipsis">
+    Weather
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/victory-conditions-and-end-game.html">
+<span class="md-ellipsis">
+    Victory Conditions and End Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/campaign-game-play-overview.html">
+<span class="md-ellipsis">
+    Campaign Game Play Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/designer-notes.html">
+<span class="md-ellipsis">
+    Designer Notes
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/index.html">
+<span class="md-ellipsis">
+    FM02 Battlefield Primer
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_3">
+<span class="md-nav__icon md-icon"></span>
+            FM02 Battlefield Primer
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/surviving-modern-warfare.html">
+<span class="md-ellipsis">
+    Surviving Modern Warfare
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/tips-and-tricks-helpful-staff-tips.html">
+<span class="md-ellipsis">
+    Tips and Tricks – Helpful Staff Tips
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/types-of-units-in-the-game.html">
+<span class="md-ellipsis">
+    Types of Units in the Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/nato-symbols.html">
+<span class="md-ellipsis">
+    NATO Symbols
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/force-organization.html">
+<span class="md-ellipsis">
+    Force Organization
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/counter-layout-and-map-objects.html">
+<span class="md-ellipsis">
+    Counter Layout and Map Objects
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/table-of-common-abbreviations.html">
+<span class="md-ellipsis">
+    Table of Common Abbreviations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/index.html">
+<span class="md-ellipsis">
+    FM03 Tutorials
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_4">
+<span class="md-nav__icon md-icon"></span>
+            FM03 Tutorials
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/engineer-ops.html">
+<span class="md-ellipsis">
+    Engineer Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/artillery-ops.html">
+<span class="md-ellipsis">
+    Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/air-support-ops.html">
+<span class="md-ellipsis">
+    Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/air-assault-ops.html">
+<span class="md-ellipsis">
+    Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/convoy-ops.html">
+<span class="md-ellipsis">
+    Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Reference
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/timeline.html">
+<span class="md-ellipsis">
+    WW3 Timeline
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/maps.html">
+<span class="md-ellipsis">
+    Game Maps
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Campaigns/index.html">
+<span class="md-ellipsis">
+    Campaigns
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
+<span class="md-nav__icon md-icon"></span>
+            Campaigns
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN1%20Hold%20Them%20Here.html">
+<span class="md-ellipsis">
+    CA1 SN1 Hold Them Here
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN2%20Opportunity%20Knocks.html">
+<span class="md-ellipsis">
+    CA1 SN2 Opportunity Knocks
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN3%20A%20Little%20Farther.html">
+<span class="md-ellipsis">
+    CA1 SN3 A Little Farther
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN4%20Anvil.html">
+<span class="md-ellipsis">
+    CA1 SN4 Anvil
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN1%20On%20Your%20Mark.html">
+<span class="md-ellipsis">
+    CZ1 SN1 On Your Mark
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN2%20Gaining%20Speed.html">
+<span class="md-ellipsis">
+    CZ1 SN2 Gaining Speed
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN3%20Change%20of%20Plans.html">
+<span class="md-ellipsis">
+    CZ1 SN3 Change of Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN4%20Going%20for%20Gold.html">
+<span class="md-ellipsis">
+    CZ1 SN4 Going for Gold
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN1%20Liberation%20Begins.html">
+<span class="md-ellipsis">
+    EG1 SN1 Liberation Begins
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN2%20The%20Kitchen%20Sink.html">
+<span class="md-ellipsis">
+    EG1 SN2 The Kitchen Sink
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN3%20Joy%20Ride.html">
+<span class="md-ellipsis">
+    EG1 SN3 Joy Ride
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN4%20Valley%20of%20the%20Damned.html">
+<span class="md-ellipsis">
+    EG1 SN4 Valley of the Damned
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN5%20For%20the%20Fatherland.html">
+<span class="md-ellipsis">
+    EG1 SN5 For the Fatherland
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN1%20Bridges%20to%20Nowhere.html">
+<span class="md-ellipsis">
+    Bridges to Nowhere
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN2%20Go%20West.html">
+<span class="md-ellipsis">
+    Go West
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN3%20Tripwire.html">
+<span class="md-ellipsis">
+    Tripwire
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN4%20Epilogue.html">
+<span class="md-ellipsis">
+    Epilogue
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/nato-campaigns.html">
+<span class="md-ellipsis">
+    NATO Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN1%20Battle%20of%20Braunschweig.html">
+<span class="md-ellipsis">
+    UK1 SN1 Battle of Braunschweig
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN2%20Fancy%20Meeting%20You%20Here.html">
+<span class="md-ellipsis">
+    UK1 SN2 Fancy Meeting You Here
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN3%20The%20Ghost%20of%20Arminius.html">
+<span class="md-ellipsis">
+    UK1 SN3 The Ghost of Arminius
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN4%20Tea%20Time.html">
+<span class="md-ellipsis">
+    UK1 SN4 Tea Time
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN1%20Fog%20of%20War.html">
+<span class="md-ellipsis">
+    Scenario Briefing: A Fog of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN2%20Tall%20Order.html">
+<span class="md-ellipsis">
+    Scenario Briefing: A Tall Order
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN3%20Iron%20Rangers.html">
+<span class="md-ellipsis">
+    Scenario Briefing: The Iron Rangers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN4%20Percutio.html">
+<span class="md-ellipsis">
+    Scenario Briefing: Percutio
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN5%20Deathmatch.html">
+<span class="md-ellipsis">
+    Scenario Briefing: Deathmatch
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN1%20Stop%20Gap.html">
+<span class="md-ellipsis">
+    Stop Gap
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN2%20Holding%20the%20Line.html">
+<span class="md-ellipsis">
+    Holding the Line
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN3%20Push%20Back.html">
+<span class="md-ellipsis">
+    Push Back
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN4%20Revisiting%20Schotten.html">
+<span class="md-ellipsis">
+    Revisiting Schotten
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN1%20Red%20Hammer.html">
+<span class="md-ellipsis">
+    Red Hammer
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN2%20Goddess%20of%20War.html">
+<span class="md-ellipsis">
+    Goddess Of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN3%20Valley%20of%20Death.html">
+<span class="md-ellipsis">
+    Valley of Death
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN4%20Hells%20Gate.html">
+<span class="md-ellipsis">
+    Hells Gate
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN5%20Gotterdammerung.html">
+<span class="md-ellipsis">
+    Gotterdammerung
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN1%20A%20Beautiful%20Morning.html">
+<span class="md-ellipsis">
+    A Beautiful Morning
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN2%20Sun%20in%20the%20Forecast.html">
+<span class="md-ellipsis">
+    Sun in the Forescast
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN3%20Traffic%20Stop.html">
+<span class="md-ellipsis">
+    Traffic Stop
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN4%20All%20That%20Glitters.html">
+<span class="md-ellipsis">
+    All That Glitters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN1%20Leading%20the%20Way.html">
+<span class="md-ellipsis">
+    Leading the Way
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN2%20Uphill%20Struggle.html">
+<span class="md-ellipsis">
+    Uphill Struggle
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN3%20Night%20Knights.html">
+<span class="md-ellipsis">
+    Night Knights
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN4%20The%20Coburg%20Pocket.html">
+<span class="md-ellipsis">
+    Coburg Pocket
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN5%20Operation%20Entgleisen.html">
+<span class="md-ellipsis">
+    Operation Entgleisen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN6%20The%20Blood%20Trail.html">
+<span class="md-ellipsis">
+    Blood Trail
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN7%20One%20Last%20Catfight.html">
+<span class="md-ellipsis">
+    One Last Catfight
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/wp-campaigns.html">
+<span class="md-ellipsis">
+    Warsaw Pact Campaigns
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Scenarios
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_4">
+<span class="md-nav__icon md-icon"></span>
+            Scenarios
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Brief%20Moment%20In%20Time.html">
+<span class="md-ellipsis">
+    A Brief Moment In Time
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Final%20Push.html">
+<span class="md-ellipsis">
+    A Final Push
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Second%20Dance.html">
+<span class="md-ellipsis">
+    A Second Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Time%20to%20Dance.html">
+<span class="md-ellipsis">
+    A Time To Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Tough%20Nut%20To%20Crack.html">
+<span class="md-ellipsis">
+    A tough nut to crack
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Air%20and%20Land.html">
+<span class="md-ellipsis">
+    Air and Land
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/An%20Autobahn%20Too%20Far.html">
+<span class="md-ellipsis">
+    An autobahn too far
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Armageddons%20Dawn.html">
+<span class="md-ellipsis">
+    Armageddon's Dawn
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Beaning%20the%20Beamers.html">
+<span class="md-ellipsis">
+    Beaning the Beamers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Breakaway.html">
+<span class="md-ellipsis">
+    BREAKAWAY
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Brothers%20in%20Arms.html">
+<span class="md-ellipsis">
+    Brothers in Arms
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Chance%20Encounter.html">
+<span class="md-ellipsis">
+    Chance Encounter
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Cross%20Checking.html">
+<span class="md-ellipsis">
+    CROSS CHECKING
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Crossing%20the%20Waldnaab.html">
+<span class="md-ellipsis">
+    Crossing the Waldnaab
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Desperation.html">
+<span class="md-ellipsis">
+    Desperation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Desperation_1.html">
+<span class="md-ellipsis">
+    Desperation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/End%20Of%20The%20Road.html">
+<span class="md-ellipsis">
+    End of the road
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Every%20Cat%20is%20Black%20at%20Night.html">
+<span class="md-ellipsis">
+    Every cat is black at night
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Eyes%20Ears%20and%20Teeth.html">
+<span class="md-ellipsis">
+    Eyes, Ears and Teeth
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Falling%20From%20The%20Sky.html">
+<span class="md-ellipsis">
+    Falling from the sky
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Finale.html">
+<span class="md-ellipsis">
+    Finale
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/First%20Clash.html">
+<span class="md-ellipsis">
+    First Clash
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Flying%20Scotsmen.html">
+<span class="md-ellipsis">
+    Flying Scotsmen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/For%20Queen%20And%20Country.html">
+<span class="md-ellipsis">
+    For Queen and Country
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/GM%20Giraud.html">
+<span class="md-ellipsis">
+    GM Giraud
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Go%20West%20Young%20Man.html">
+<span class="md-ellipsis">
+    Go West Young Man
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Hammer%20Falls.html">
+<span class="md-ellipsis">
+    Hammer Falls
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/High%20Sticking.html">
+<span class="md-ellipsis">
+    HIGH STICKING
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Huenfeld%20Bridges.html">
+<span class="md-ellipsis">
+    Hnfeld Bridges
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Hunting%20in%20the%20Woods.html">
+<span class="md-ellipsis">
+    Hunting in the Woods
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/It%20Begins.html">
+<span class="md-ellipsis">
+    It Begins
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Kampfgruppe%20Becker.html">
+<span class="md-ellipsis">
+    Kampfgruppe Becker
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Lesson%20of%20War.html">
+<span class="md-ellipsis">
+    Lesson of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Link%20Up.html">
+<span class="md-ellipsis">
+    Link Up
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Meeting%20in%20Arolsen.html">
+<span class="md-ellipsis">
+    Meeting in Arolsen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Once%20More%20Unto%20The%20Breach.html">
+<span class="md-ellipsis">
+    Once more unto the breach
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Overture.html">
+<span class="md-ellipsis">
+    Overture
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Panzers%20Forward.html">
+<span class="md-ellipsis">
+    Panzers Forward
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Pursuit.html">
+<span class="md-ellipsis">
+    Pursuit
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Quietly%20Flows%20the%20Donau.html">
+<span class="md-ellipsis">
+    Quietly flows the Donau
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Race%20to%20the%20Fulda.html">
+<span class="md-ellipsis">
+    Race to the Fulda
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Regulars%20Forward.html">
+<span class="md-ellipsis">
+    Regulars Forward
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Return%20to%20Fulda.html">
+<span class="md-ellipsis">
+    Return to Fulda
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Rude%20Awakening.html">
+<span class="md-ellipsis">
+    Rude Awakening
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Schlacht%20bei%20Diemelstadt.html">
+<span class="md-ellipsis">
+    Schlact bei Diemelstadt
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Seek-Fix-Destroy.html">
+<span class="md-ellipsis">
+    Seek, Fix, Destroy
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Soviet%20Main%20Attack%20Force.html">
+<span class="md-ellipsis">
+    Soviet Main Attack Force
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Steel%20Rain.html">
+<span class="md-ellipsis">
+    Steel Rain
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Armored%20Fist.html">
+<span class="md-ellipsis">
+    The Armored Fist
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Battle%20Of%20The%20Nations.html">
+<span class="md-ellipsis">
+    The Battle Of The Nations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Donau%20Gap.html">
+<span class="md-ellipsis">
+    The Donau Gap
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20First%20Dance.html">
+<span class="md-ellipsis">
+    The First Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Great%20Escape.html">
+<span class="md-ellipsis">
+    The Great Escape
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Heilbronn%20Gambit.html">
+<span class="md-ellipsis">
+    The Heilbronn Gambit
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Long%20Night.html">
+<span class="md-ellipsis">
+    The Long Night
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Moles%20of%20Minden.html">
+<span class="md-ellipsis">
+    The Moles of Minden
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Neckar%20Line.html">
+<span class="md-ellipsis">
+    The Neckar Line
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Ordeal%20of%20the%204th%20Lancers.html">
+<span class="md-ellipsis">
+    The ordeal of the 4th Lancers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Ride%20of%20the%2012th%20Cuirassier.html">
+<span class="md-ellipsis">
+    The Ride of the 12th Cuirassiers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Screen.html">
+<span class="md-ellipsis">
+    The Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Squeeze%20Play.html">
+<span class="md-ellipsis">
+    The Squeeze Play
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Three%20Sisters.html">
+<span class="md-ellipsis">
+    The Three Sisters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2007%20-%20Engineer%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 07 Engineer Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2008%20-%20Artillery%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 08 Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2009%20-%20Air%20Support%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 09 Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2010%20-%20Air%20Assault%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 10 Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2011%20-%20Military%20Convoy%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 11 Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Forces/NATO/index.html">
+<span class="md-ellipsis">
+    Forces
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_5">
+<span class="md-nav__icon md-icon"></span>
+            Forces
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_5_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Forces/WP/index.html">
+<span class="md-ellipsis">
+    WP
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_5_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_8_5_2">
+<span class="md-nav__icon md-icon"></span>
+            WP
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/sources.html">
+<span class="md-ellipsis">
+    Sources
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../index.html">
+<span class="md-ellipsis">
+    Creator Guides
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            Creator Guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../scenario-design/index.html">
+<span class="md-ellipsis">
+    Scenario Design
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_2">
+<span class="md-nav__icon md-icon"></span>
+            Scenario Design
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/the-top-menu.html">
+<span class="md-ellipsis">
+    The Top Menu
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/creating-a-new-scenario.html">
+<span class="md-ellipsis">
+    Creating a New Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/battle-plans.html">
+<span class="md-ellipsis">
+    Battle Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/altering-an-existing-scenario.html">
+<span class="md-ellipsis">
+    Altering an Existing Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/updating-scenario-data.html">
+<span class="md-ellipsis">
+    Updating Scenario Data
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/html-quick-reference.html">
+<span class="md-ellipsis">
+    HTML Quick Reference
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scenario-design/some-scenario-design-dos-and-donts.html">
+<span class="md-ellipsis">
+    Some Scenario Design Do’s and Don’t’s
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../battle-planning/index.html">
+<span class="md-ellipsis">
+    Battle Planning
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_3">
+<span class="md-nav__icon md-icon"></span>
+            Battle Planning
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/creating-battle-plans.html">
+<span class="md-ellipsis">
+    Creating Battle Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-plans-sops.html">
+<span class="md-ellipsis">
+    Battle Plans SOPs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-plans-for-off-map-artillery-and-air-force.html">
+<span class="md-ellipsis">
+    Battle Plans for Off-map Artillery and Air Force
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-planning-dos-and-dont.html">
+<span class="md-ellipsis">
+    Battle Planning Dos and Don’t
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../campaign-design/index.html">
+<span class="md-ellipsis">
+    Campaign Design
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_4">
+<span class="md-nav__icon md-icon"></span>
+            Campaign Design
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/creating-a-campaign-scenario.html">
+<span class="md-ellipsis">
+    Creating a Campaign Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/campaign-editor.html">
+<span class="md-ellipsis">
+    Campaign Editor
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/tips-tricks-and-best-practices.html">
+<span class="md-ellipsis">
+    Tips, Tricks, and Best Practices
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../map-construction/index.html">
+<span class="md-ellipsis">
+    Map Construction
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_5">
+<span class="md-nav__icon md-icon"></span>
+            Map Construction
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/map-making.html">
+<span class="md-ellipsis">
+    Map Making
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/example-map-area-and-example-qgis-project.html">
+<span class="md-ellipsis">
+    Example Map Area and Example QGis Project
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/defining-our-map.html">
+<span class="md-ellipsis">
+    Defining Our Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/exporting-our-elevation-only-map-for-map-values-scanning.html">
+<span class="md-ellipsis">
+    Exporting Our 'Elevation Only' Map for Map Values Scanning
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/intermezzo-the-terrain-per-ots-render-tool.html">
+<span class="md-ellipsis">
+    Intermezzo: The Terrain per OTS Render Tool
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-our-map-water-and-roads.html">
+<span class="md-ellipsis">
+    Drawing Our Map: Water and Roads
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-on-our-map-towns-minor-roads-and-railroads.html">
+<span class="md-ellipsis">
+    Drawing on Our Map: Towns, Minor Roads, and Railroads
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-on-our-map-minor-rivers-streams-forests-and-fields.html">
+<span class="md-ellipsis">
+    Drawing on Our Map: Minor Rivers, Streams, Forests and Fields
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/prettying-up-our-map-with-labels.html">
+<span class="md-ellipsis">
+    Prettying up Our Map with Labels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/creating-our-second-map.html">
+<span class="md-ellipsis">
+    Creating Our Second Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-a-example-project.html">
+<span class="md-ellipsis">
+    Appendix A. Example Project
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-b-default-fcss-map-data-types.html">
+<span class="md-ellipsis">
+    Appendix B. Default FCSS Map Data Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-c-utm-zones.html">
+<span class="md-ellipsis">
+    Appendix C. UTM zones
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-d-representing-water-obstacles.html">
+<span class="md-ellipsis">
+    Appendix D. Representing Water Obstacles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-e-creating-a-new-elevation-correction-layer.html">
+<span class="md-ellipsis">
+    Appendix E. Creating a New Elevation Correction Layer
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../making-mods/index.html">
+<span class="md-ellipsis">
+    Making Mods
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_6">
+<span class="md-nav__icon md-icon"></span>
+            Making Mods
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/replacing-national-art-assets.html">
+<span class="md-ellipsis">
+    Replacing National Art Assets
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/animations.html">
+<span class="md-ellipsis">
+    Animations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/counter-art-elements.html">
+<span class="md-ellipsis">
+    Counter Art Elements
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/map-markers.html">
+<span class="md-ellipsis">
+    Map Markers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/art-restrictions.html">
+<span class="md-ellipsis">
+    Art Restrictions
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/replacing-sound-assets.html">
+<span class="md-ellipsis">
+    Replacing Sound Assets
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/editing-game-ini-files.html">
+<span class="md-ellipsis">
+    Editing Game INI Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/css-files.html">
+<span class="md-ellipsis">
+    CSS Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/sil-making-101.html">
+<span class="md-ellipsis">
+    Sil Making 101
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_9_7" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="index.html">
+<span class="md-ellipsis">
+    Data Structures &amp; Editing
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_7" id="__nav_9_7_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_9_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_7">
+<span class="md-nav__icon md-icon"></span>
+            Data Structures &amp; Editing
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="location-of-data-files.html">
+<span class="md-ellipsis">
+    Location of Data Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data-file-structure-overview.html">
+<span class="md-ellipsis">
+    Data File Structure Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="platform-types.html">
+<span class="md-ellipsis">
+    Platform Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="platform-characteristics.html">
+<span class="md-ellipsis">
+    Platform Characteristics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="command.html">
+<span class="md-ellipsis">
+    Command
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="formations.html">
+<span class="md-ellipsis">
+    Formations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Description (IUnits
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="description-iunits.html">
+<span class="md-ellipsis">
+    Description (IUnits
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sutag">
+<span class="md-ellipsis">
+      SUTag
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#name">
+<span class="md-ellipsis">
+      Name
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nato-designation">
+<span class="md-ellipsis">
+      NATO Designation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#picid">
+<span class="md-ellipsis">
+      PICID
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#natopic">
+<span class="md-ellipsis">
+      NATOPIC
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#su-type">
+<span class="md-ellipsis">
+      SU Type
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#compid">
+<span class="md-ellipsis">
+      CompID
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#first-year-avail">
+<span class="md-ellipsis">
+      First Year Avail
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#last-year-avail">
+<span class="md-ellipsis">
+      Last Year Avail
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#crew">
+<span class="md-ellipsis">
+      Crew
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mobility">
+<span class="md-ellipsis">
+      Mobility
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#speed">
+<span class="md-ellipsis">
+      Speed
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transport-organic">
+<span class="md-ellipsis">
+      Transport (Organic)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#size">
+<span class="md-ellipsis">
+      Size
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mass">
+<span class="md-ellipsis">
+      Mass
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inttrp">
+<span class="md-ellipsis">
+      IntTrp
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#intwt">
+<span class="md-ellipsis">
+      IntWt
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exttrp">
+<span class="md-ellipsis">
+      ExtTrp
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#extwt">
+<span class="md-ellipsis">
+      ExtWt
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fcrf">
+<span class="md-ellipsis">
+      FC/RF
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stab">
+<span class="md-ellipsis">
+      Stab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-characteristics-lists">
+<span class="md-ellipsis">
+      The Characteristics Lists
+    </span>
+</a>
+<nav aria-label="The Characteristics Lists" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abilities-list">
+<span class="md-ellipsis">
+      Abilities List
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#defenses-list">
+<span class="md-ellipsis">
+      Defenses List
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#equipment-list">
+<span class="md-ellipsis">
+      Equipment List
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integrated-weapons-list">
+<span class="md-ellipsis">
+      Integrated Weapons List
+    </span>
+</a>
+<nav aria-label="Integrated Weapons List" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#system-with-single-ammo-allocation">
+<span class="md-ellipsis">
+      System with Single Ammo Allocation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#system-with-munitions">
+<span class="md-ellipsis">
+      System with Munitions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition-allocation">
+<span class="md-ellipsis">
+      Ammunition Allocation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-protection-factor">
+<span class="md-ellipsis">
+      PF (Protection Factor)
+    </span>
+</a>
+<nav aria-label="PF (Protection Factor)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-soft-units">
+<span class="md-ellipsis">
+      PF for Soft Units
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-air-units">
+<span class="md-ellipsis">
+      PF for Air Units
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-ground-vehicle-units">
+<span class="md-ellipsis">
+      PF for Ground Vehicle Units
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="defining-armor-value-and-specials.html">
+<span class="md-ellipsis">
+    Defining Armor Value and Specials
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="air-unit-size-and-pf-rating-calculator.html">
+<span class="md-ellipsis">
+    Air Unit Size and PF Rating Calculator
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="systems.html">
+<span class="md-ellipsis">
+    Systems
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="weapon-munition-types.html">
+<span class="md-ellipsis">
+    Weapon Munition Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="surnames.html">
+<span class="md-ellipsis">
+    Surnames
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="notice.html">
+<span class="md-ellipsis">
+    Notice
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data-folder-setup.html">
+<span class="md-ellipsis">
+    Data Folder Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="using-the-data-validation-tool.html">
+<span class="md-ellipsis">
+    Using the Data Validation Tool
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="file-xls-importexport-editing.html">
+<span class="md-ellipsis">
+    File XLS Import/Export Editing
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="future-updates.html">
+<span class="md-ellipsis">
+    Future Updates
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_8" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../weather-setup/index.html">
+<span class="md-ellipsis">
+    Weather Setup
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_8" id="__nav_9_8_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_8_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_8">
+<span class="md-nav__icon md-icon"></span>
+            Weather Setup
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-system.html">
+<span class="md-ellipsis">
+    Weather System
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-in-the-game.html">
+<span class="md-ellipsis">
+    Weather in the Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-data-files.html">
+<span class="md-ellipsis">
+    Weather Data Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/tips-for-creating-your-own-weather-data.html">
+<span class="md-ellipsis">
+    Tips for Creating Your Own Weather Data
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    Backend
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            Backend
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/backend.html">
+<span class="md-ellipsis">
+    Site Features
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/macros.html">
+<span class="md-ellipsis">
+    Macros
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/symbols.html">
+<span class="md-ellipsis">
+    Military Symbol Test
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sutag">
+<span class="md-ellipsis">
+      SUTag
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#name">
+<span class="md-ellipsis">
+      Name
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nato-designation">
+<span class="md-ellipsis">
+      NATO Designation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#picid">
+<span class="md-ellipsis">
+      PICID
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#natopic">
+<span class="md-ellipsis">
+      NATOPIC
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#su-type">
+<span class="md-ellipsis">
+      SU Type
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#compid">
+<span class="md-ellipsis">
+      CompID
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#first-year-avail">
+<span class="md-ellipsis">
+      First Year Avail
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#last-year-avail">
+<span class="md-ellipsis">
+      Last Year Avail
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#crew">
+<span class="md-ellipsis">
+      Crew
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mobility">
+<span class="md-ellipsis">
+      Mobility
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#speed">
+<span class="md-ellipsis">
+      Speed
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transport-organic">
+<span class="md-ellipsis">
+      Transport (Organic)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#size">
+<span class="md-ellipsis">
+      Size
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mass">
+<span class="md-ellipsis">
+      Mass
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inttrp">
+<span class="md-ellipsis">
+      IntTrp
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#intwt">
+<span class="md-ellipsis">
+      IntWt
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exttrp">
+<span class="md-ellipsis">
+      ExtTrp
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#extwt">
+<span class="md-ellipsis">
+      ExtWt
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fcrf">
+<span class="md-ellipsis">
+      FC/RF
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stab">
+<span class="md-ellipsis">
+      Stab
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-characteristics-lists">
+<span class="md-ellipsis">
+      The Characteristics Lists
+    </span>
+</a>
+<nav aria-label="The Characteristics Lists" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abilities-list">
+<span class="md-ellipsis">
+      Abilities List
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#defenses-list">
+<span class="md-ellipsis">
+      Defenses List
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#equipment-list">
+<span class="md-ellipsis">
+      Equipment List
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integrated-weapons-list">
+<span class="md-ellipsis">
+      Integrated Weapons List
+    </span>
+</a>
+<nav aria-label="Integrated Weapons List" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#system-with-single-ammo-allocation">
+<span class="md-ellipsis">
+      System with Single Ammo Allocation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#system-with-munitions">
+<span class="md-ellipsis">
+      System with Munitions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition-allocation">
+<span class="md-ellipsis">
+      Ammunition Allocation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-protection-factor">
+<span class="md-ellipsis">
+      PF (Protection Factor)
+    </span>
+</a>
+<nav aria-label="PF (Protection Factor)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-soft-units">
+<span class="md-ellipsis">
+      PF for Soft Units
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-air-units">
+<span class="md-ellipsis">
+      PF for Air Units
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pf-for-ground-vehicle-units">
+<span class="md-ellipsis">
+      PF for Ground Vehicle Units
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div><h1 id="description-iunits">Description (IUnits</h1>
+<blockquote>
+<p><strong>Note</strong>: Images omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>The Units tab is where each specific platform (aircraft, tank, infantry squad, etc.) is defined by a list of values, characteristics and pointers to other data used by the game engine to operate in the simulation.</p>
+<h2 id="sutag">SUTag</h2>
+<p>The SUTag is an alphanumeric entry that must be a unique identifier for each entry. Our basic format is a two-character letter code for the country and then an integer value like “WG23”, or “UK357”. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><em>__</em>Once you set these values for a dataset and use it in the scenario editor, any edits, or reorders of the SUTags that break the initial SUTag-<abbr title="Atomic Element of Capability">Platform</abbr> relationship will cause existing scenarios to load bad data if you update a scenarios data with a corrupted dataset with remapped SUTags. If you need to add more platforms between entries (for data consistency/appearance) You should add to the code with additional alphanumeric characters. For example, if you had “UK357” and “UK358” in your list and wanted to add in two more variants, you can add rows to the spreadsheet in between them and use SUTags like “UK357A” and “UK357B”. You could also add a new value greater than the largest one in the SUTag list.</p>
+</div>
+<h2 id="name">Name</h2>
+<p>This is the given identification of a specific platform or squad as used by its nation. For example, “M1A1 Abrams”, “T-80BV, “Challenger”, etc.</p>
+<h2 id="nato-designation"><abbr title="North Atlantic Treaty Organization">NATO</abbr> Designation</h2>
+<p>This is a platform’s specific <abbr title="North Atlantic Treaty Organization">NATO</abbr> designation, if one exists. For example, SA-3 Goa (for an S-125 Neva). This field is included to allow for most OpFor hardware of Russian origin to carry its given <abbr title="North Atlantic Treaty Organization">NATO</abbr> designated code and name. It can also be used for alternate names used by countries for other countries’ hardware.</p>
+<h2 id="picid">PICID</h2>
+<p>This is the filename of the unit’s silhouette image or <abbr title="North Atlantic Treaty Organization">NATO</abbr> standard icon for squads. The images are in Modules\Common\Data\Common Folder. Images specifications can be found in the Game Engine Modifications document.</p>
+<h2 id="natopic">NATOPIC</h2>
+<p>This is the filename for the <abbr title="North Atlantic Treaty Organization">NATO</abbr> standard icon for all units. The images are in Modules\Common\Data\<abbr title="North Atlantic Treaty Organization">NATO</abbr> Folder. Images specifications can be found in the Game Engine Modifications document.</p>
+<h2 id="description">Description</h2>
+<p>This is a concise description explaining the platform’s type and function. For example, “Main Battle Tank”, “Wheeled <abbr title="Armored Personnel Carrier">APC</abbr>”, etc. This description is displayed in the Sub-Unit Inspector and in several other information panels. </p>
+<p>For aircraft, drones, and helicopters, the description is followed by a dash and then a list of weapon types carried to help the user see the various loadouts. As an example, the <abbr title="United States">US</abbr> F-16D Close Air Support aircraft has a Description of “<abbr title="Close Air Support">CAS</abbr> Aircraft - Can/FAE/IB” denoting the aircraft has a Cannon, Fuel Air Explosive bomb, and Iron Bombs as its weapons.</p>
+<h2 id="su-type">SU Type</h2>
+<p>The <abbr title="Atomic Element of Capability">Platform</abbr> Type (Subunit Type or SU Type) is the unique classification of the unit based on the values found in Section 4 above. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><em>__</em> A unit MUST have one of these codes for the game to recognize it and employ it properly. Users cannot add their own SU Types to the game as it requires supporting code.</p>
+</div>
+<h2 id="compid">CompID</h2>
+<p>Composition ID or CompID is a user generated value used to help define types and subtypes of platforms that are used in the creation of formations. In most cases, this is the same as the SU Type. </p>
+<p>In certain cases, if you need to highlight or set apart a platform unit(s) you can make your own alphanumeric identifier. This CompID then can be used in a formation composition and only those units with the particular CompID will show in the selection screen in the Scenario Editor.</p>
+<h2 id="first-year-avail">First Year Avail</h2>
+<p>This is the year in which the unit entered service in useful numbers. Based on scenario start date, any unit whose start date is greater than the scenario date will not display in the selection window.</p>
+<h2 id="last-year-avail">Last Year Avail</h2>
+<p>This is the last year in which the unit served in useful numbers. Based on scenario start date, any units whose end date is less than the scenario date will not display in the selection window.</p>
+<h2 id="crew">Crew</h2>
+<p>This is the number of personnel used to man a particular platform or system. This does not include passengers.</p>
+<h2 id="mobility">Mobility</h2>
+<p>This value indicates the type of propulsion/movement used by a particular unit. Refer to 12 above for the valid types. This value is used in several movement calculations and ability checks when units move in the game.</p>
+<h2 id="speed">Speed</h2>
+<p>This is the top speed (in km/hr) of the platform. Movement on the ground for most types of movement orders is much less than the maximum speed entered as the game considers slower movement rates when in a combat area and based on the type of movement order the units are following. Speed for aircraft, drones, and helicopters will factor in its defensive capability in combat engagements.</p>
+<h2 id="transport-organic">Transport (Organic)</h2>
+<p>For a positive value, this is the number of passenger units that can be loaded on a particular platform. For a negative number, this is the relative amount of space taken up by the unit to be transported. To see if a unit can be loaded on a transport, you add a positive transport value to the negative transport value(s) and must be greater than or equal to zero. For example, you can load a <abbr title="United States">US</abbr> HMMWV (Transport = 2) with two Sniper Teams (Transport = -1) or one Scout unit (Transport = -2).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ Organic Transport is used for mechanized forces to keep IFVs and troops in a cohesive unit. We have added a Tactical Transport (TT) feature for ad-hoc transport of troops and also to support air assault operations.</p>
+</div>
+<h2 id="size">Size</h2>
+<p>This factor is a relative measure of volume for the unit in question. Size is used in both spotting and combat to modify certain calculations.</p>
+<p>For leg units this is equal to 0 for 1-4 Crew, 1 for 5-8, and an additional +1 for every 4 Crew. </p>
+<p>For vehicles and weapon systems, find a unit of similar size in an existing listing and use that number. </p>
+<p>For Air Units, please use the Aircraft Values Spreadsheet to get the size rating.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ This new attribute is still being worked on and may see some values change as we improve the method of calculations (especially for ground vehicles.</p>
+</div>
+<h2 id="mass">Mass</h2>
+<p>Mass is the weight of the vehicle or squad in pounds (<abbr title="United States">US</abbr>). Squads are based on 250 pounds per person, weapon, and engineering teams at 300 pounds a person, and vehicles based on empty weights rounded to the nearest 100 pounds. This value is used to determine if the unit can be carried by a transport vehicle (via Tactical Transport) or how many can be carried based on the transport’s Internal and External Weight limits. All Units require a Mass value.</p>
+<h2 id="inttrp">IntTrp</h2>
+<p>Internal Troops (IntTrp) is the maximum number of troops that a transport can carry internally. This value is only used on units that are using the Tactical Transport feature and not an organic transport unit type.</p>
+<h2 id="intwt">IntWt</h2>
+<p>Internal Weight (IntWt) is the maximum weight that a transport can carry internally. This value is only used on units that are using the Tactical Transport feature.</p>
+<h2 id="exttrp">ExtTrp</h2>
+<p>External Troops (ExtTrp) is the maximum number of troops that a transport can carry externally. This value is only used on units that are using the Tactical Transport feature and not an organic transport type.</p>
+<h2 id="extwt">ExtWt</h2>
+<p>External Weight (ExtWt) is the maximum weight that a transport can carry externally (like a sling load on a helicopter). This value is only used on units that are using the Tactical Transport feature.</p>
+<h2 id="fcrf">FC/RF</h2>
+<p>This is a relative measure of a unit’s Fire Control/Range Finder (FC/RF) systems. The range of value is 0 (no system) to 20 (future ultra-AI sensor fusion). This value is used in combat when working out the chance to hit calculations.</p>
+<h2 id="stab">Stab</h2>
+<p>The Stab (Stability) value is used to rate a unit’s ability to fire accurately at a moving target while moving itself. Stab value ranges from 0 (no stability system) to 10 (fully stabilized, accuracy remarkably close to static target and static shooter). Values in the middle can be used for units with lesser stabilization systems. </p>
+<p>For air SU Type systems, AIRAT and AIRSD are set to 5, AIRLB are set to 7, AIRGS are set to 9, AIRUT are set to 3, Drones (HELOSC/AIRAT) are set to 8, Unarmed HELOs are a 0, Armed are 5 through 9 depending on unit use and technology level. Most purpose-built attack helicopters will be an 8.</p>
+<h2 id="the-characteristics-lists">The Characteristics Lists</h2>
+<p>There are three columns in the data file devoted to lists of parameters. The first three deal with Abilities, Defenses, and Equipment <abbr title="Atomic Element of Capability">Platform</abbr> Characteristics. As you can see from the image below, these lists can be rather lengthy.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<h3 id="abilities-list">Abilities List</h3>
+<p>These Characteristic Codes are broken down into four functional groups and the lists and descriptions of these codes can be found in Section 5.1 above. These groups are Abilities-Engineering, Abilities-General, Abilities-Transport, and Abilities-Logistical. If your unit in question has any of the abilities found in these lists, you add them to a comma delimited list in the Abilities List spreadsheet field.</p>
+<h3 id="defenses-list">Defenses List</h3>
+<p>These Shared Characteristic Codes are broken down into three functional groups and the lists and descriptions of these codes can be found in Section 5.1 above. These groups are Defenses-Abilities, Defenses-Countermeasures, and Defenses-Protection. If your unit in question has any of the defenses found in the lists, you add them a comma delimited list in the Defenses List spreadsheet field. A number of these Shared Characteristic Codes are used in setting the levels of unit protection and will have additional explanation in Section 19 below of this document.</p>
+<h3 id="equipment-list">Equipment List</h3>
+<p>These Shared Characteristic Codes are broken down into two functional groups and the lists and descriptions of these codes can be found in Section 5.1 above. These groups are Equipment-Receivers, Equipment-Sensors, Equipment-Target Acquisition, and Equipment-Weapon Locating Sensors. If your unit in question has any of the equipment found in the lists, you add them a comma delimited list in the Equipment List spreadsheet field.</p>
+<h2 id="integrated-weapons-list">Integrated Weapons List</h2>
+<p>This final list is different from the other three as it is a listing of the weapons/systems carried and the amount of ammunitions/uses each weapon/system has, in a comma delimited list. There are two types of entries for the weapons list depending on is a weapon/system has variable munition or not. The setup of the information is as follows.</p>
+<h3 id="system-with-single-ammo-allocation">System with Single Ammo Allocation</h3>
+<p>The format is the WEAPTAG code and then the “*” sign and a value for the amount of ammunition. The amount of ammunition is rounds for items that fire single shot (artillery guns, tank guns, PGMs, ATGMs, etc.) or in bursts for multi-round shooting weapons.</p>
+<p>The following is an example of an AH-64A Apache Attack Helicopter. In this case, with an autocannon with 58 bursts and 4 Hellfire mounts with 4 ATGMs on each mount: </p>
+<p>AUCN9*58, ATGM10*4, ATGM10*4, ATGM10*4, ATGM10*4</p>
+<h3 id="system-with-munitions">System with Munitions</h3>
+<p>The format is the WEAPTAG code and then the “:” sign followed by a semi-colon (;) separated listing of munitions with AmmoTypeID followed by the “*” sign and number of rounds carried of that type of munition. This gun system is separated by a common to other systems in the listing such as the machine guns in this example. </p>
+<p>The following is an example of a M551 Sheridan with multiple rounds for the tank gun. In this case, with a tank gun with three types of munitions for the gun (6 <abbr title="High Explosive">HE</abbr> rounds, 12 <abbr title="High Explosive Anti-Tank">HEAT</abbr> rounds, and 11 <abbr title="Anti-Tank Guided Missile">ATGM</abbr> rounds) for the TGN14M weapon system and two machine guns (AAA11 and VSW3) with single ammo allocations:</p>
+<p>TGN14M: TGN14M_<abbr title="High Explosive">HE</abbr>*6; TGN14M_<abbr title="High Explosive Anti-Tank">HEAT</abbr>*12; TGN14M_<abbr title="Anti-Tank Guided Missile">ATGM</abbr>*11, AAA11*90, VSW3*120</p>
+<h3 id="ammunition-allocation">Ammunition Allocation</h3>
+<h2 id="pf-protection-factor">PF (Protection Factor)</h2>
+<p>Depending on the type of unit, the Protection Factor (PF) represents the unit’s basic armor or toughness when hit with weapons fire. There are several Characteristics that augment the PF rating of certain units, and the determination of those Characteristics is covered in more detail in Section 19 below. </p>
+<h3 id="pf-for-soft-units">PF for Soft Units</h3>
+<p>If the unit is leg mobile (squads and teams), towed or crew served weapon (Field gun, anti-tank gun, etc.), static weapon system (SAMWS), or Decoy the PF rating for the unit is 0. These units gain protection based on the cover they are in and their orders state.</p>
+<h3 id="pf-for-air-units">PF for Air Units</h3>
+<p>All Air units have a PF generated by a secondary spreadsheet called Air Unit PF Ratings. You will need to know the Empty Weight in pounds, number of Exhaust Ports (engines or engines and VTOL exhaust ports), is the unit a Transport (they have larger size per pound since they carry cargo), and Engine Type (p-Prop, r-Rotor, j-Jet/Rocket). You can add more air units to the spreadsheet as needed. See Section 20 for more detailed instructions.</p>
+<h3 id="pf-for-ground-vehicle-units">PF for Ground Vehicle Units</h3>
+<p>The new game engine works on a 1 PF per 10mm of RHA equivalent kinetic armor protection. For most lightly armored vehicles this will be 1 to 5 (10 to 50mm protection). To calculate a PR rating for a more heavily armored AFV you will want to have data on the frontal thickness of hull and turret armor versus kinetic rounds in millimeters of RHA. Chemical/<abbr title="High Explosive Anti-Tank">HEAT</abbr> and <abbr title="Explosive and Non-Explosive Reactive Armor">ERA/NERA</abbr> type augmentations will be covered in Section 19 below of this document. You may need to make some estimation of the value if the data is more detailed by area information. With values for both turret and hull frontal in millimeters or just hull if no turret is present, divide by 10 to get the base PF ratings. If there is a turret, use the turret value for the base PF, else use the Hull PF value for the PF Rating. Hold on to the Hull PF value if a turret present as it will be used in Section 19 below calculations.</p></div>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 11, 2025 16:32:48 UTC">June 11, 2025</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Formations" class="md-footer__link md-footer__link--prev" href="formations.html">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                Formations
+              </div>
+</div>
+</a>
+<a aria-label="Next: Defining Armor Value and Specials" class="md-footer__link md-footer__link--next" href="defining-armor-value-and-specials.html">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                Defining Armor Value and Specials
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2025 On Target Simulations (OTS) Ltd. All Rights Reserved.
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+</body>
+</html>

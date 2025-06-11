@@ -1,0 +1,4449 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="the-top-menu.html" rel="prev"/>
+<link href="battle-plans.html" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.14" name="generator"/>
+<title>Creating a New Scenario - Flashpoint Campaigns Documentation</title>
+<link href="../../../assets/stylesheets/main.342714a4.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/iframe-worker/shim"></script>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/mil-symbols.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#creating-a-new-scenario">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-header__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Flashpoint Campaigns Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Creating a New Scenario
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="amber" data-md-color-media="" data-md-color-primary="green" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../index.html">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../01-faq.html">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../02-setup.html">
+        
+  
+  
+    
+  
+  Setup
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../03-releases.html">
+        
+  
+  
+    
+  
+  Releases
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../credits.html">
+        
+  
+  
+    
+  
+  Credits
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../hotkeys.html">
+        
+  
+  
+    
+  
+  Hotkeys
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../FieldManuals/index.html">
+          
+  
+  
+    
+  
+  Field Manuals
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Reference/timeline.html">
+          
+  
+  
+    
+  
+  Reference
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../index.html">
+          
+  
+  
+    
+  
+  Creator Guides
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../backend/backend.html">
+          
+  
+  
+    
+  
+  Backend
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Flashpoint Campaigns Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../../../index.html" title="Flashpoint Campaigns Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Flashpoint Campaigns Documentation
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../index.html">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01-faq.html">
+<span class="md-ellipsis">
+    FAQ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02-setup.html">
+<span class="md-ellipsis">
+    Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../03-releases.html">
+<span class="md-ellipsis">
+    Releases
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hotkeys.html">
+<span class="md-ellipsis">
+    Hotkeys
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/index.html">
+<span class="md-ellipsis">
+    Field Manuals
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            Field Manuals
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/index.html">
+<span class="md-ellipsis">
+    FM01 Game Operations
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_2">
+<span class="md-nav__icon md-icon"></span>
+            FM01 Game Operations
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/welcome-commander-screen.html">
+<span class="md-ellipsis">
+    Welcome Commander Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/user-preferences.html">
+<span class="md-ellipsis">
+    User Preferences
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-new-scenario.html">
+<span class="md-ellipsis">
+    Start a New Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-new-campaign.html">
+<span class="md-ellipsis">
+    Start a New Campaign
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/start-a-pbem-game.html">
+<span class="md-ellipsis">
+    Start a PBEM++ Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/starting-a-pbem-classic-game.html">
+<span class="md-ellipsis">
+    Starting a PBEM Classic Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/resuming-games.html">
+<span class="md-ellipsis">
+    Resuming Games
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/game-launch-and-user-interface.html">
+<span class="md-ellipsis">
+    Game Launch and User Interface
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/announcement-dialog.html">
+<span class="md-ellipsis">
+    Announcement Dialog
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/main-menu-bar.html">
+<span class="md-ellipsis">
+    Main Menu Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/status-bar.html">
+<span class="md-ellipsis">
+    Status Bar
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/core-game-panels.html">
+<span class="md-ellipsis">
+    Core Game Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/info-view-panels.html">
+<span class="md-ellipsis">
+    Info View Panels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/staff-dialogs.html">
+<span class="md-ellipsis">
+    Staff Dialogs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/the-game-map.html">
+<span class="md-ellipsis">
+    The Game Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/unit-counters.html">
+<span class="md-ellipsis">
+    Unit Counters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/specific-unit-roles.html">
+<span class="md-ellipsis">
+    Specific Unit Roles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/special-unit-types.html">
+<span class="md-ellipsis">
+    Special Unit Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/order-of-battle-oob-tree.html">
+<span class="md-ellipsis">
+    Order of Battle (OOB) Tree
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/issuing-orders.html">
+<span class="md-ellipsis">
+    Issuing Orders
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/plotting-movement-and-fires.html">
+<span class="md-ellipsis">
+    Plotting Movement and Fires
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/standard-operating-procedures-sop.html">
+<span class="md-ellipsis">
+    Standard Operating Procedures (SOP)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/spotting-and-line-of-sight-los.html">
+<span class="md-ellipsis">
+    Spotting and Line of Sight (LOS)
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/combat-operations.html">
+<span class="md-ellipsis">
+    Combat Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/combat-soft-factors.html">
+<span class="md-ellipsis">
+    Combat Soft Factors
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/supply-and-logistics.html">
+<span class="md-ellipsis">
+    Supply and Logistics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/time-of-day.html">
+<span class="md-ellipsis">
+    Time of Day
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/weather.html">
+<span class="md-ellipsis">
+    Weather
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/victory-conditions-and-end-game.html">
+<span class="md-ellipsis">
+    Victory Conditions and End Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/campaign-game-play-overview.html">
+<span class="md-ellipsis">
+    Campaign Game Play Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/game-operations/designer-notes.html">
+<span class="md-ellipsis">
+    Designer Notes
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/index.html">
+<span class="md-ellipsis">
+    FM02 Battlefield Primer
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_3">
+<span class="md-nav__icon md-icon"></span>
+            FM02 Battlefield Primer
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/surviving-modern-warfare.html">
+<span class="md-ellipsis">
+    Surviving Modern Warfare
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/tips-and-tricks-helpful-staff-tips.html">
+<span class="md-ellipsis">
+    Tips and Tricks – Helpful Staff Tips
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/types-of-units-in-the-game.html">
+<span class="md-ellipsis">
+    Types of Units in the Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/nato-symbols.html">
+<span class="md-ellipsis">
+    NATO Symbols
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/force-organization.html">
+<span class="md-ellipsis">
+    Force Organization
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/counter-layout-and-map-objects.html">
+<span class="md-ellipsis">
+    Counter Layout and Map Objects
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/battlefield-primer/table-of-common-abbreviations.html">
+<span class="md-ellipsis">
+    Table of Common Abbreviations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/index.html">
+<span class="md-ellipsis">
+    FM03 Tutorials
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_4">
+<span class="md-nav__icon md-icon"></span>
+            FM03 Tutorials
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/engineer-ops.html">
+<span class="md-ellipsis">
+    Engineer Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/artillery-ops.html">
+<span class="md-ellipsis">
+    Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/air-support-ops.html">
+<span class="md-ellipsis">
+    Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/air-assault-ops.html">
+<span class="md-ellipsis">
+    Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FieldManuals/Tutorials/convoy-ops.html">
+<span class="md-ellipsis">
+    Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Reference
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/timeline.html">
+<span class="md-ellipsis">
+    WW3 Timeline
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/maps.html">
+<span class="md-ellipsis">
+    Game Maps
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Campaigns/index.html">
+<span class="md-ellipsis">
+    Campaigns
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
+<span class="md-nav__icon md-icon"></span>
+            Campaigns
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN1%20Hold%20Them%20Here.html">
+<span class="md-ellipsis">
+    CA1 SN1 Hold Them Here
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN2%20Opportunity%20Knocks.html">
+<span class="md-ellipsis">
+    CA1 SN2 Opportunity Knocks
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN3%20A%20Little%20Farther.html">
+<span class="md-ellipsis">
+    CA1 SN3 A Little Farther
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CA1-SN4%20Anvil.html">
+<span class="md-ellipsis">
+    CA1 SN4 Anvil
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN1%20On%20Your%20Mark.html">
+<span class="md-ellipsis">
+    CZ1 SN1 On Your Mark
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN2%20Gaining%20Speed.html">
+<span class="md-ellipsis">
+    CZ1 SN2 Gaining Speed
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN3%20Change%20of%20Plans.html">
+<span class="md-ellipsis">
+    CZ1 SN3 Change of Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/CZ1-SN4%20Going%20for%20Gold.html">
+<span class="md-ellipsis">
+    CZ1 SN4 Going for Gold
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN1%20Liberation%20Begins.html">
+<span class="md-ellipsis">
+    EG1 SN1 Liberation Begins
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN2%20The%20Kitchen%20Sink.html">
+<span class="md-ellipsis">
+    EG1 SN2 The Kitchen Sink
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN3%20Joy%20Ride.html">
+<span class="md-ellipsis">
+    EG1 SN3 Joy Ride
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN4%20Valley%20of%20the%20Damned.html">
+<span class="md-ellipsis">
+    EG1 SN4 Valley of the Damned
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/EG1-SN5%20For%20the%20Fatherland.html">
+<span class="md-ellipsis">
+    EG1 SN5 For the Fatherland
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN1%20Bridges%20to%20Nowhere.html">
+<span class="md-ellipsis">
+    Bridges to Nowhere
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN2%20Go%20West.html">
+<span class="md-ellipsis">
+    Go West
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN3%20Tripwire.html">
+<span class="md-ellipsis">
+    Tripwire
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/FR1-SN4%20Epilogue.html">
+<span class="md-ellipsis">
+    Epilogue
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/nato-campaigns.html">
+<span class="md-ellipsis">
+    NATO Campaigns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN1%20Battle%20of%20Braunschweig.html">
+<span class="md-ellipsis">
+    UK1 SN1 Battle of Braunschweig
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN2%20Fancy%20Meeting%20You%20Here.html">
+<span class="md-ellipsis">
+    UK1 SN2 Fancy Meeting You Here
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN3%20The%20Ghost%20of%20Arminius.html">
+<span class="md-ellipsis">
+    UK1 SN3 The Ghost of Arminius
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/UK1-SN4%20Tea%20Time.html">
+<span class="md-ellipsis">
+    UK1 SN4 Tea Time
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN1%20Fog%20of%20War.html">
+<span class="md-ellipsis">
+    Scenario Briefing: A Fog of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN2%20Tall%20Order.html">
+<span class="md-ellipsis">
+    Scenario Briefing: A Tall Order
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN3%20Iron%20Rangers.html">
+<span class="md-ellipsis">
+    Scenario Briefing: The Iron Rangers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN4%20Percutio.html">
+<span class="md-ellipsis">
+    Scenario Briefing: Percutio
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US1-SN5%20Deathmatch.html">
+<span class="md-ellipsis">
+    Scenario Briefing: Deathmatch
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN1%20Stop%20Gap.html">
+<span class="md-ellipsis">
+    Stop Gap
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN2%20Holding%20the%20Line.html">
+<span class="md-ellipsis">
+    Holding the Line
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN3%20Push%20Back.html">
+<span class="md-ellipsis">
+    Push Back
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/US3-SN4%20Revisiting%20Schotten.html">
+<span class="md-ellipsis">
+    Revisiting Schotten
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN1%20Red%20Hammer.html">
+<span class="md-ellipsis">
+    Red Hammer
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN2%20Goddess%20of%20War.html">
+<span class="md-ellipsis">
+    Goddess Of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN3%20Valley%20of%20Death.html">
+<span class="md-ellipsis">
+    Valley of Death
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN4%20Hells%20Gate.html">
+<span class="md-ellipsis">
+    Hells Gate
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR1-SN5%20Gotterdammerung.html">
+<span class="md-ellipsis">
+    Gotterdammerung
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN1%20A%20Beautiful%20Morning.html">
+<span class="md-ellipsis">
+    A Beautiful Morning
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN2%20Sun%20in%20the%20Forecast.html">
+<span class="md-ellipsis">
+    Sun in the Forescast
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN3%20Traffic%20Stop.html">
+<span class="md-ellipsis">
+    Traffic Stop
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/USSR2-SN4%20All%20That%20Glitters.html">
+<span class="md-ellipsis">
+    All That Glitters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN1%20Leading%20the%20Way.html">
+<span class="md-ellipsis">
+    Leading the Way
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN2%20Uphill%20Struggle.html">
+<span class="md-ellipsis">
+    Uphill Struggle
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN3%20Night%20Knights.html">
+<span class="md-ellipsis">
+    Night Knights
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN4%20The%20Coburg%20Pocket.html">
+<span class="md-ellipsis">
+    Coburg Pocket
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN5%20Operation%20Entgleisen.html">
+<span class="md-ellipsis">
+    Operation Entgleisen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN6%20The%20Blood%20Trail.html">
+<span class="md-ellipsis">
+    Blood Trail
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/WG1-SN7%20One%20Last%20Catfight.html">
+<span class="md-ellipsis">
+    One Last Catfight
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Campaigns/wp-campaigns.html">
+<span class="md-ellipsis">
+    Warsaw Pact Campaigns
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Scenarios
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_4">
+<span class="md-nav__icon md-icon"></span>
+            Scenarios
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Brief%20Moment%20In%20Time.html">
+<span class="md-ellipsis">
+    A Brief Moment In Time
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Final%20Push.html">
+<span class="md-ellipsis">
+    A Final Push
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Second%20Dance.html">
+<span class="md-ellipsis">
+    A Second Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Time%20to%20Dance.html">
+<span class="md-ellipsis">
+    A Time To Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/A%20Tough%20Nut%20To%20Crack.html">
+<span class="md-ellipsis">
+    A tough nut to crack
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Air%20and%20Land.html">
+<span class="md-ellipsis">
+    Air and Land
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/An%20Autobahn%20Too%20Far.html">
+<span class="md-ellipsis">
+    An autobahn too far
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Armageddons%20Dawn.html">
+<span class="md-ellipsis">
+    Armageddon's Dawn
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Beaning%20the%20Beamers.html">
+<span class="md-ellipsis">
+    Beaning the Beamers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Breakaway.html">
+<span class="md-ellipsis">
+    BREAKAWAY
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Brothers%20in%20Arms.html">
+<span class="md-ellipsis">
+    Brothers in Arms
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Chance%20Encounter.html">
+<span class="md-ellipsis">
+    Chance Encounter
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Cross%20Checking.html">
+<span class="md-ellipsis">
+    CROSS CHECKING
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Crossing%20the%20Waldnaab.html">
+<span class="md-ellipsis">
+    Crossing the Waldnaab
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Desperation.html">
+<span class="md-ellipsis">
+    Desperation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Desperation_1.html">
+<span class="md-ellipsis">
+    Desperation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/End%20Of%20The%20Road.html">
+<span class="md-ellipsis">
+    End of the road
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Every%20Cat%20is%20Black%20at%20Night.html">
+<span class="md-ellipsis">
+    Every cat is black at night
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Eyes%20Ears%20and%20Teeth.html">
+<span class="md-ellipsis">
+    Eyes, Ears and Teeth
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Falling%20From%20The%20Sky.html">
+<span class="md-ellipsis">
+    Falling from the sky
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Finale.html">
+<span class="md-ellipsis">
+    Finale
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/First%20Clash.html">
+<span class="md-ellipsis">
+    First Clash
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Flying%20Scotsmen.html">
+<span class="md-ellipsis">
+    Flying Scotsmen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/For%20Queen%20And%20Country.html">
+<span class="md-ellipsis">
+    For Queen and Country
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/GM%20Giraud.html">
+<span class="md-ellipsis">
+    GM Giraud
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Go%20West%20Young%20Man.html">
+<span class="md-ellipsis">
+    Go West Young Man
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Hammer%20Falls.html">
+<span class="md-ellipsis">
+    Hammer Falls
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/High%20Sticking.html">
+<span class="md-ellipsis">
+    HIGH STICKING
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Huenfeld%20Bridges.html">
+<span class="md-ellipsis">
+    Hnfeld Bridges
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Hunting%20in%20the%20Woods.html">
+<span class="md-ellipsis">
+    Hunting in the Woods
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/It%20Begins.html">
+<span class="md-ellipsis">
+    It Begins
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Kampfgruppe%20Becker.html">
+<span class="md-ellipsis">
+    Kampfgruppe Becker
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Lesson%20of%20War.html">
+<span class="md-ellipsis">
+    Lesson of War
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Link%20Up.html">
+<span class="md-ellipsis">
+    Link Up
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Meeting%20in%20Arolsen.html">
+<span class="md-ellipsis">
+    Meeting in Arolsen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Once%20More%20Unto%20The%20Breach.html">
+<span class="md-ellipsis">
+    Once more unto the breach
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Overture.html">
+<span class="md-ellipsis">
+    Overture
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Panzers%20Forward.html">
+<span class="md-ellipsis">
+    Panzers Forward
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Pursuit.html">
+<span class="md-ellipsis">
+    Pursuit
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Quietly%20Flows%20the%20Donau.html">
+<span class="md-ellipsis">
+    Quietly flows the Donau
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Race%20to%20the%20Fulda.html">
+<span class="md-ellipsis">
+    Race to the Fulda
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Regulars%20Forward.html">
+<span class="md-ellipsis">
+    Regulars Forward
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Return%20to%20Fulda.html">
+<span class="md-ellipsis">
+    Return to Fulda
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Rude%20Awakening.html">
+<span class="md-ellipsis">
+    Rude Awakening
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Schlacht%20bei%20Diemelstadt.html">
+<span class="md-ellipsis">
+    Schlact bei Diemelstadt
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Seek-Fix-Destroy.html">
+<span class="md-ellipsis">
+    Seek, Fix, Destroy
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Soviet%20Main%20Attack%20Force.html">
+<span class="md-ellipsis">
+    Soviet Main Attack Force
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Steel%20Rain.html">
+<span class="md-ellipsis">
+    Steel Rain
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Armored%20Fist.html">
+<span class="md-ellipsis">
+    The Armored Fist
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Battle%20Of%20The%20Nations.html">
+<span class="md-ellipsis">
+    The Battle Of The Nations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Donau%20Gap.html">
+<span class="md-ellipsis">
+    The Donau Gap
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20First%20Dance.html">
+<span class="md-ellipsis">
+    The First Dance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Great%20Escape.html">
+<span class="md-ellipsis">
+    The Great Escape
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Heilbronn%20Gambit.html">
+<span class="md-ellipsis">
+    The Heilbronn Gambit
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Long%20Night.html">
+<span class="md-ellipsis">
+    The Long Night
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Moles%20of%20Minden.html">
+<span class="md-ellipsis">
+    The Moles of Minden
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Neckar%20Line.html">
+<span class="md-ellipsis">
+    The Neckar Line
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Ordeal%20of%20the%204th%20Lancers.html">
+<span class="md-ellipsis">
+    The ordeal of the 4th Lancers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Ride%20of%20the%2012th%20Cuirassier.html">
+<span class="md-ellipsis">
+    The Ride of the 12th Cuirassiers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Screen.html">
+<span class="md-ellipsis">
+    The Screen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Squeeze%20Play.html">
+<span class="md-ellipsis">
+    The Squeeze Play
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/The%20Three%20Sisters.html">
+<span class="md-ellipsis">
+    The Three Sisters
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2007%20-%20Engineer%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 07 Engineer Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2008%20-%20Artillery%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 08 Artillery Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2009%20-%20Air%20Support%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 09 Air Support Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2010%20-%20Air%20Assault%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 10 Air Assault Operations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/Scenarios/Tutorial%20%2011%20-%20Military%20Convoy%20Operations.html">
+<span class="md-ellipsis">
+    Tutorial 11 Military Convoy Operations
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Forces/NATO/index.html">
+<span class="md-ellipsis">
+    Forces
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_5">
+<span class="md-nav__icon md-icon"></span>
+            Forces
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_5_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../Reference/Forces/WP/index.html">
+<span class="md-ellipsis">
+    WP
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_5_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_8_5_2">
+<span class="md-nav__icon md-icon"></span>
+            WP
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Reference/sources.html">
+<span class="md-ellipsis">
+    Sources
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../index.html">
+<span class="md-ellipsis">
+    Creator Guides
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            Creator Guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_9_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="index.html">
+<span class="md-ellipsis">
+    Scenario Design
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_9_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_2">
+<span class="md-nav__icon md-icon"></span>
+            Scenario Design
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="the-top-menu.html">
+<span class="md-ellipsis">
+    The Top Menu
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Creating a New Scenario
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="creating-a-new-scenario.html">
+<span class="md-ellipsis">
+    Creating a New Scenario
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#map-and-weather-parameters">
+<span class="md-ellipsis">
+      Map and Weather Parameters
+    </span>
+</a>
+<nav aria-label="Map and Weather Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#selecting-a-map">
+<span class="md-ellipsis">
+      Selecting a Map
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-up-scenario-weather">
+<span class="md-ellipsis">
+      Setting up Scenario Weather
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-parameters">
+<span class="md-ellipsis">
+      Scenario Parameters
+    </span>
+</a>
+<nav aria-label="Scenario Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting">
+<span class="md-ellipsis">
+      Setting
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#purpose-of-a-scenario">
+<span class="md-ellipsis">
+      Purpose of a Scenario
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-description">
+<span class="md-ellipsis">
+      Scenario Description
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#map-markers">
+<span class="md-ellipsis">
+      Map Markers
+    </span>
+</a>
+<nav aria-label="Map Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-map-markers">
+<span class="md-ellipsis">
+      Placing Map Markers
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#victory-point-vp-markers">
+<span class="md-ellipsis">
+      Victory Point (VP) Markers
+    </span>
+</a>
+<nav aria-label="Victory Point (VP) Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-a-vp-marker">
+<span class="md-ellipsis">
+      Placing a VP Marker
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#editingdeleting-a-vp-marker">
+<span class="md-ellipsis">
+      Editing/Deleting a VP Marker
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bridge-markers">
+<span class="md-ellipsis">
+      Bridge Markers
+    </span>
+</a>
+<nav aria-label="Bridge Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-a-bridge">
+<span class="md-ellipsis">
+      Adding a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#destroying-a-bridge">
+<span class="md-ellipsis">
+      Destroying a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#constructing-a-bridge">
+<span class="md-ellipsis">
+      Constructing a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#locking-a-bridge">
+<span class="md-ellipsis">
+      Locking a Bridge
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#marker-removal-functions">
+<span class="md-ellipsis">
+      Marker Removal Functions
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#additional-scenario-parameters">
+<span class="md-ellipsis">
+      Additional Scenario Parameters
+    </span>
+</a>
+<nav aria-label="Additional Scenario Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-superiority-levels">
+<span class="md-ellipsis">
+      Air Superiority Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#electronic-warfare-intensity-levels">
+<span class="md-ellipsis">
+      Electronic Warfare Intensity Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-scenario-limits">
+<span class="md-ellipsis">
+      Other Scenario Limits
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-1-order-of-battle">
+<span class="md-ellipsis">
+      Player 1 Order of Battle
+    </span>
+</a>
+<nav aria-label="Player 1 Order of Battle" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-a-force">
+<span class="md-ellipsis">
+      Creating a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-default-unit-sop">
+<span class="md-ellipsis">
+      Set Default Unit SOP
+    </span>
+</a>
+<nav aria-label="Set Default Unit SOP" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scope">
+<span class="md-ellipsis">
+      Scope
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stance">
+<span class="md-ellipsis">
+      Stance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#combat">
+<span class="md-ellipsis">
+      Combat
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#movement">
+<span class="md-ellipsis">
+      Movement
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transports">
+<span class="md-ellipsis">
+      Transports
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recovery">
+<span class="md-ellipsis">
+      Recovery
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inspect-and-apply">
+<span class="md-ellipsis">
+      Inspect and Apply
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-to-an-existing-force">
+<span class="md-ellipsis">
+      Adding to an Existing Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-additional-forces">
+<span class="md-ellipsis">
+      Creating Additional Forces
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#saving-a-force">
+<span class="md-ellipsis">
+      Saving a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#loading-a-force">
+<span class="md-ellipsis">
+      Loading a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deleting-a-force">
+<span class="md-ellipsis">
+      Deleting a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#renaming-a-force">
+<span class="md-ellipsis">
+      Renaming a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reorder-forces">
+<span class="md-ellipsis">
+      Reorder Forces
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#show-consolidated-order-of-battle-oob">
+<span class="md-ellipsis">
+      Show Consolidated Order of Battle (OOB)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#show-force-roster">
+<span class="md-ellipsis">
+      Show Force Roster
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-forces-on-the-map">
+<span class="md-ellipsis">
+      Deploying Forces on the Map
+    </span>
+</a>
+<nav aria-label="Deploying Forces on the Map" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-units-on-the-map">
+<span class="md-ellipsis">
+      Placing Units on the Map
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-units-on-and-off-map">
+<span class="md-ellipsis">
+      Deploying Units on and off Map
+    </span>
+</a>
+<nav aria-label="Deploying Units on and off Map" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-off-map-artillery-support">
+<span class="md-ellipsis">
+      Deploying off-map Artillery Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-off-map-air-support">
+<span class="md-ellipsis">
+      Deploying off-map Air Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-on-map-air-support">
+<span class="md-ellipsis">
+      Deploying on-map Air Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-reinforcements">
+<span class="md-ellipsis">
+      Deploying Reinforcements
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition-loadout">
+<span class="md-ellipsis">
+      Ammunition Loadout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#default-deployment-zones">
+<span class="md-ellipsis">
+      Default Deployment Zones
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-2-order-of-battle">
+<span class="md-ellipsis">
+      Player 2 Order of Battle
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-briefings">
+<span class="md-ellipsis">
+      Player Briefings
+    </span>
+</a>
+<nav aria-label="Player Briefings" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-for-missionthreat-briefs">
+<span class="md-ellipsis">
+      Best Practices for Mission/Threat Briefs
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mission-graphics">
+<span class="md-ellipsis">
+      Mission Graphics
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-summary">
+<span class="md-ellipsis">
+      Scenario Summary
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-details-and-validation">
+<span class="md-ellipsis">
+      Scenario Details and Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="battle-plans.html">
+<span class="md-ellipsis">
+    Battle Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="altering-an-existing-scenario.html">
+<span class="md-ellipsis">
+    Altering an Existing Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="updating-scenario-data.html">
+<span class="md-ellipsis">
+    Updating Scenario Data
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="html-quick-reference.html">
+<span class="md-ellipsis">
+    HTML Quick Reference
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="some-scenario-design-dos-and-donts.html">
+<span class="md-ellipsis">
+    Some Scenario Design Do’s and Don’t’s
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../battle-planning/index.html">
+<span class="md-ellipsis">
+    Battle Planning
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_3">
+<span class="md-nav__icon md-icon"></span>
+            Battle Planning
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/creating-battle-plans.html">
+<span class="md-ellipsis">
+    Creating Battle Plans
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-plans-sops.html">
+<span class="md-ellipsis">
+    Battle Plans SOPs
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-plans-for-off-map-artillery-and-air-force.html">
+<span class="md-ellipsis">
+    Battle Plans for Off-map Artillery and Air Force
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../battle-planning/battle-planning-dos-and-dont.html">
+<span class="md-ellipsis">
+    Battle Planning Dos and Don’t
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../campaign-design/index.html">
+<span class="md-ellipsis">
+    Campaign Design
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_4">
+<span class="md-nav__icon md-icon"></span>
+            Campaign Design
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/creating-a-campaign-scenario.html">
+<span class="md-ellipsis">
+    Creating a Campaign Scenario
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/campaign-editor.html">
+<span class="md-ellipsis">
+    Campaign Editor
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../campaign-design/tips-tricks-and-best-practices.html">
+<span class="md-ellipsis">
+    Tips, Tricks, and Best Practices
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../map-construction/index.html">
+<span class="md-ellipsis">
+    Map Construction
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_5">
+<span class="md-nav__icon md-icon"></span>
+            Map Construction
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/map-making.html">
+<span class="md-ellipsis">
+    Map Making
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/example-map-area-and-example-qgis-project.html">
+<span class="md-ellipsis">
+    Example Map Area and Example QGis Project
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/defining-our-map.html">
+<span class="md-ellipsis">
+    Defining Our Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/exporting-our-elevation-only-map-for-map-values-scanning.html">
+<span class="md-ellipsis">
+    Exporting Our 'Elevation Only' Map for Map Values Scanning
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/intermezzo-the-terrain-per-ots-render-tool.html">
+<span class="md-ellipsis">
+    Intermezzo: The Terrain per OTS Render Tool
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-our-map-water-and-roads.html">
+<span class="md-ellipsis">
+    Drawing Our Map: Water and Roads
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-on-our-map-towns-minor-roads-and-railroads.html">
+<span class="md-ellipsis">
+    Drawing on Our Map: Towns, Minor Roads, and Railroads
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/drawing-on-our-map-minor-rivers-streams-forests-and-fields.html">
+<span class="md-ellipsis">
+    Drawing on Our Map: Minor Rivers, Streams, Forests and Fields
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/prettying-up-our-map-with-labels.html">
+<span class="md-ellipsis">
+    Prettying up Our Map with Labels
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/creating-our-second-map.html">
+<span class="md-ellipsis">
+    Creating Our Second Map
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-a-example-project.html">
+<span class="md-ellipsis">
+    Appendix A. Example Project
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-b-default-fcss-map-data-types.html">
+<span class="md-ellipsis">
+    Appendix B. Default FCSS Map Data Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-c-utm-zones.html">
+<span class="md-ellipsis">
+    Appendix C. UTM zones
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-d-representing-water-obstacles.html">
+<span class="md-ellipsis">
+    Appendix D. Representing Water Obstacles
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../map-construction/appendix-e-creating-a-new-elevation-correction-layer.html">
+<span class="md-ellipsis">
+    Appendix E. Creating a New Elevation Correction Layer
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../making-mods/index.html">
+<span class="md-ellipsis">
+    Making Mods
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_6">
+<span class="md-nav__icon md-icon"></span>
+            Making Mods
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/getting-started.html">
+<span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/replacing-national-art-assets.html">
+<span class="md-ellipsis">
+    Replacing National Art Assets
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/animations.html">
+<span class="md-ellipsis">
+    Animations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/counter-art-elements.html">
+<span class="md-ellipsis">
+    Counter Art Elements
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/map-markers.html">
+<span class="md-ellipsis">
+    Map Markers
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/art-restrictions.html">
+<span class="md-ellipsis">
+    Art Restrictions
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/replacing-sound-assets.html">
+<span class="md-ellipsis">
+    Replacing Sound Assets
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/editing-game-ini-files.html">
+<span class="md-ellipsis">
+    Editing Game INI Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/css-files.html">
+<span class="md-ellipsis">
+    CSS Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../making-mods/sil-making-101.html">
+<span class="md-ellipsis">
+    Sil Making 101
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_7" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../data-structures/index.html">
+<span class="md-ellipsis">
+    Data Structures &amp; Editing
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_7" id="__nav_9_7_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_7">
+<span class="md-nav__icon md-icon"></span>
+            Data Structures &amp; Editing
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/location-of-data-files.html">
+<span class="md-ellipsis">
+    Location of Data Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/data-file-structure-overview.html">
+<span class="md-ellipsis">
+    Data File Structure Overview
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/platform-types.html">
+<span class="md-ellipsis">
+    Platform Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/platform-characteristics.html">
+<span class="md-ellipsis">
+    Platform Characteristics
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/command.html">
+<span class="md-ellipsis">
+    Command
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/formations.html">
+<span class="md-ellipsis">
+    Formations
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/description-iunits.html">
+<span class="md-ellipsis">
+    Description (IUnits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/defining-armor-value-and-specials.html">
+<span class="md-ellipsis">
+    Defining Armor Value and Specials
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/air-unit-size-and-pf-rating-calculator.html">
+<span class="md-ellipsis">
+    Air Unit Size and PF Rating Calculator
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/systems.html">
+<span class="md-ellipsis">
+    Systems
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/weapon-munition-types.html">
+<span class="md-ellipsis">
+    Weapon Munition Types
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/surnames.html">
+<span class="md-ellipsis">
+    Surnames
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/credits.html">
+<span class="md-ellipsis">
+    Credits
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/notice.html">
+<span class="md-ellipsis">
+    Notice
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/data-folder-setup.html">
+<span class="md-ellipsis">
+    Data Folder Setup
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/using-the-data-validation-tool.html">
+<span class="md-ellipsis">
+    Using the Data Validation Tool
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/file-xls-importexport-editing.html">
+<span class="md-ellipsis">
+    File XLS Import/Export Editing
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-structures/future-updates.html">
+<span class="md-ellipsis">
+    Future Updates
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9_8" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../weather-setup/index.html">
+<span class="md-ellipsis">
+    Weather Setup
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_9_8" id="__nav_9_8_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_8_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_9_8">
+<span class="md-nav__icon md-icon"></span>
+            Weather Setup
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-system.html">
+<span class="md-ellipsis">
+    Weather System
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-in-the-game.html">
+<span class="md-ellipsis">
+    Weather in the Game
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/weather-data-files.html">
+<span class="md-ellipsis">
+    Weather Data Files
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../weather-setup/tips-for-creating-your-own-weather-data.html">
+<span class="md-ellipsis">
+    Tips for Creating Your Own Weather Data
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    Backend
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            Backend
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/backend.html">
+<span class="md-ellipsis">
+    Site Features
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/macros.html">
+<span class="md-ellipsis">
+    Macros
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../backend/symbols.html">
+<span class="md-ellipsis">
+    Military Symbol Test
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#map-and-weather-parameters">
+<span class="md-ellipsis">
+      Map and Weather Parameters
+    </span>
+</a>
+<nav aria-label="Map and Weather Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#selecting-a-map">
+<span class="md-ellipsis">
+      Selecting a Map
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting-up-scenario-weather">
+<span class="md-ellipsis">
+      Setting up Scenario Weather
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-parameters">
+<span class="md-ellipsis">
+      Scenario Parameters
+    </span>
+</a>
+<nav aria-label="Scenario Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#setting">
+<span class="md-ellipsis">
+      Setting
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#purpose-of-a-scenario">
+<span class="md-ellipsis">
+      Purpose of a Scenario
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-description">
+<span class="md-ellipsis">
+      Scenario Description
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#map-markers">
+<span class="md-ellipsis">
+      Map Markers
+    </span>
+</a>
+<nav aria-label="Map Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-map-markers">
+<span class="md-ellipsis">
+      Placing Map Markers
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#victory-point-vp-markers">
+<span class="md-ellipsis">
+      Victory Point (VP) Markers
+    </span>
+</a>
+<nav aria-label="Victory Point (VP) Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-a-vp-marker">
+<span class="md-ellipsis">
+      Placing a VP Marker
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#editingdeleting-a-vp-marker">
+<span class="md-ellipsis">
+      Editing/Deleting a VP Marker
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bridge-markers">
+<span class="md-ellipsis">
+      Bridge Markers
+    </span>
+</a>
+<nav aria-label="Bridge Markers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-a-bridge">
+<span class="md-ellipsis">
+      Adding a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#destroying-a-bridge">
+<span class="md-ellipsis">
+      Destroying a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#constructing-a-bridge">
+<span class="md-ellipsis">
+      Constructing a Bridge
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#locking-a-bridge">
+<span class="md-ellipsis">
+      Locking a Bridge
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#marker-removal-functions">
+<span class="md-ellipsis">
+      Marker Removal Functions
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#additional-scenario-parameters">
+<span class="md-ellipsis">
+      Additional Scenario Parameters
+    </span>
+</a>
+<nav aria-label="Additional Scenario Parameters" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-superiority-levels">
+<span class="md-ellipsis">
+      Air Superiority Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#electronic-warfare-intensity-levels">
+<span class="md-ellipsis">
+      Electronic Warfare Intensity Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-scenario-limits">
+<span class="md-ellipsis">
+      Other Scenario Limits
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-1-order-of-battle">
+<span class="md-ellipsis">
+      Player 1 Order of Battle
+    </span>
+</a>
+<nav aria-label="Player 1 Order of Battle" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-a-force">
+<span class="md-ellipsis">
+      Creating a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-default-unit-sop">
+<span class="md-ellipsis">
+      Set Default Unit SOP
+    </span>
+</a>
+<nav aria-label="Set Default Unit SOP" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scope">
+<span class="md-ellipsis">
+      Scope
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stance">
+<span class="md-ellipsis">
+      Stance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#combat">
+<span class="md-ellipsis">
+      Combat
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#movement">
+<span class="md-ellipsis">
+      Movement
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transports">
+<span class="md-ellipsis">
+      Transports
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recovery">
+<span class="md-ellipsis">
+      Recovery
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inspect-and-apply">
+<span class="md-ellipsis">
+      Inspect and Apply
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-to-an-existing-force">
+<span class="md-ellipsis">
+      Adding to an Existing Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-additional-forces">
+<span class="md-ellipsis">
+      Creating Additional Forces
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#saving-a-force">
+<span class="md-ellipsis">
+      Saving a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#loading-a-force">
+<span class="md-ellipsis">
+      Loading a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deleting-a-force">
+<span class="md-ellipsis">
+      Deleting a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#renaming-a-force">
+<span class="md-ellipsis">
+      Renaming a Force
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reorder-forces">
+<span class="md-ellipsis">
+      Reorder Forces
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#show-consolidated-order-of-battle-oob">
+<span class="md-ellipsis">
+      Show Consolidated Order of Battle (OOB)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#show-force-roster">
+<span class="md-ellipsis">
+      Show Force Roster
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-forces-on-the-map">
+<span class="md-ellipsis">
+      Deploying Forces on the Map
+    </span>
+</a>
+<nav aria-label="Deploying Forces on the Map" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#placing-units-on-the-map">
+<span class="md-ellipsis">
+      Placing Units on the Map
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-units-on-and-off-map">
+<span class="md-ellipsis">
+      Deploying Units on and off Map
+    </span>
+</a>
+<nav aria-label="Deploying Units on and off Map" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-off-map-artillery-support">
+<span class="md-ellipsis">
+      Deploying off-map Artillery Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-off-map-air-support">
+<span class="md-ellipsis">
+      Deploying off-map Air Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-on-map-air-support">
+<span class="md-ellipsis">
+      Deploying on-map Air Support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploying-reinforcements">
+<span class="md-ellipsis">
+      Deploying Reinforcements
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ammunition-loadout">
+<span class="md-ellipsis">
+      Ammunition Loadout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#default-deployment-zones">
+<span class="md-ellipsis">
+      Default Deployment Zones
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-2-order-of-battle">
+<span class="md-ellipsis">
+      Player 2 Order of Battle
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#player-briefings">
+<span class="md-ellipsis">
+      Player Briefings
+    </span>
+</a>
+<nav aria-label="Player Briefings" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-for-missionthreat-briefs">
+<span class="md-ellipsis">
+      Best Practices for Mission/Threat Briefs
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mission-graphics">
+<span class="md-ellipsis">
+      Mission Graphics
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-summary">
+<span class="md-ellipsis">
+      Scenario Summary
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scenario-details-and-validation">
+<span class="md-ellipsis">
+      Scenario Details and Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div><h1 id="creating-a-new-scenario">Creating a New Scenario</h1>
+<blockquote>
+<p><strong>Note</strong>: Images omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>In the following sections, we will go through a step-by-step process of setting up a simple scenario with all the various types of units added in and the game setting adjusted. </p>
+<p>We will also add a battle plan for each side, but that information can be found in <strong>FM05:</strong> <strong>Battle Planning</strong>. You will need to open that document when the time comes to see all the functionality of the Battle Planning process.</p>
+<h2 id="map-and-weather-parameters">Map and Weather Parameters</h2>
+<p>After clicking the "<strong>Next</strong>" button, the initial window that appears is the Map and Weather Parameters page. This page allows users to select both the map and the potential weather conditions for the scenario. The Map and Weather Parameters window is seen in Figure 4.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="selecting-a-map">Selecting a Map</h3>
+<p>Choose a map by clicking on the (<strong>1</strong>) “Name” dropdown menu as seen in Figure 4, which will display a list of all available maps in the selected game module as illustrated in Figure 5. Scroll through the list to view all the names of maps. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Upon selecting a map, a mini-map image of the area will appear, accompanied by detailed map information on the right, including the name, and size as illustrated in Figure 6.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>The top bar shows the name of the map and its dimensions in parentheses.</li>
+<li>The yellow outline shows what part of the map is currently visible on the screen based on the level of zoom currently selected and the location on the main map.</li>
+<li>This is the full Mini-Map in greyscale. Clicking anywhere on the map will recenter the visible map on the game screen.</li>
+<li>The “<strong>Map +</strong>” and the “<strong>Map –</strong>” buttons will increase or reduce the map size. Below the “<strong>Map +</strong>” button is a scale of the map when you adjust the size.</li>
+<li>The “<strong>Fit</strong>” button will make the map fit the full screen. 
+Once you find a suitable map, click on the (<strong>2</strong>) “<strong>Load This Map</strong>” button to load the selected map into the editor as seen in Figure 4.</li>
+</ol>
+<h3 id="setting-up-scenario-weather">Setting up Scenario Weather</h3>
+<p>One of the important aspects of scenario creation is establishing what the weather will be during the battle. </p>
+<p>The Weather Selection editor allows you to set up a range of possible historical weather patterns or you can tailor the weather to meet your needs. This information is then used to dynamically generate the weather for the scenario and is used to provide the weather forecast seen in the game so players can get an idea of how the weather will impact the fight.</p>
+<p>Click the (<strong>3</strong>) “<strong>Weather Selection</strong>” button to open the “Select Weather” dialog as seen in Figure 4. The noted area in the dialog is described below.</p>
+<p>In the User Preferences dialog, you may switch between Metric and Imperial units for the weather information.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li><strong>Select Weather Area</strong> – In this section of the weather settings, you can set the location for the weather information as illustrated in Figure 8. By default, the weather data for the map loaded will be set here. You can use another area or custom map data if you have created any. 
+See <strong>FM10: Weather Setup</strong> for details on making your weather setup files.</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>It would help if you highlighted the weather station and then select the “<strong>Load Station</strong> <strong>Weather</strong>” button. </p>
+<p><strong>2. Select Year(s) of Data</strong> – Based on the weather data file loaded, several years can be selected to increase the number of weather days in the date range and filter criteria. You can add all the years by selecting the “<strong>All</strong>” button which will highlight them all or you can use the “<strong>None</strong>” button which will deselect all the years. You can select each year you want by selecting the years individually.</p>
+<p><strong>3. Select Data (Range) for Weather</strong> – By default, this date matches the date set for the scenario. You can change the date and adjust the +/- number of days around that date to select weather from.</p>
+<p><strong>4. Set Weather Filter Criteria</strong> – You can set any, all, or none of these items to filter the weather for the date to more of the conditions you want for the scenario.</p>
+<p><strong>5. Select Weather Data</strong> – Once you have set all the parameters you want, click the “<strong>Select Weather Data</strong>” button to fill the Selected Weather Information table and see the results of your selections. If no selections are shown, you may need to change some of the filters, add more years, or increase the date range.</p>
+<p><strong>6. Selected Weather Information</strong> – This shows you the weather for the selected days up to a max of 30 possible weather patterns that may be used in the scenario. </p>
+<p>The more options shown in this table, the more possible weather patterns could appear in the game. Each cell of the table shows the Weather Type by icon, Temperature, Wind Speed and Direction, Maximum Visibility, Illumination Level, and Cloud Ceiling as illustrated in Figure 7.</p>
+<p>When you are good with the selected weather, click the “<strong>Proceed</strong>” button. Once you select the “<strong>Proceed</strong>” button it will take you back to the Map and Weather Parameters window, select the “<strong>Next</strong>” button to go to the next pop-up window which will be the “Scenario Parameters”.</p>
+<h2 id="scenario-parameters">Scenario Parameters</h2>
+<p>Creating a scenario involves defining various parameters to shape the narrative, setting, and context of the story or situation. Here we will create the (<strong>1.</strong>) Setting, (<strong>2</strong>.) Purpose of the Scenario, and (<strong>3</strong>.) Scenario Description as illustrated in Figure 9.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="setting">Setting</h3>
+<p>These set the date, time, and duration for the scenario. This is the starting point of making a new scenario standalone or for a campaign.</p>
+<ul>
+<li><strong>Start Date</strong> – Use the text field or the calendar button to set the Month, Day, and Year of the battle. This sets the possible equipment that can be used in the scenario. </li>
+<li><strong>NOTE:</strong> the game data is focused on 1980 to 1989. Setting dates outside of this range will result in not being able to fill formations with equipment, as available dates can be exceeded.</li>
+<li><strong>Start Time</strong> – This is the time of day for the start of the scenario. Based on the Map being used and the Start Date, the times for the start of Dawn and Dusk are noted so you can set the time to be day or night or in the transition between the two. <strong>NOTE:</strong> Night scenarios will favor the <abbr title="North Atlantic Treaty Organization">NATO</abbr> forces if they are equipped with thermal sights.</li>
+<li><strong>Length</strong> – This is the length of time in hours for the scenario to play out. The bigger the map or size of the battle, the more time you may wish to start with. In most cases, 4 to 8 hours is enough time for most types of battles.</li>
+</ul>
+<h3 id="purpose-of-a-scenario">Purpose of a Scenario</h3>
+<p>The Purpose of Scenario selection here is to establish the type of scenario being created.</p>
+<ul>
+<li>__Standalone Scenario – __Select this option if you are making a single scenario that can be played on either side.</li>
+<li><strong>First Scenario in Campaign </strong>– Select this option if you are making the first scenario of a campaign. Campaigns are single-sided battles where one side is always the player with a core force of units versus the AI (Battle Plans you will create for the AI side, see <strong>FM05: Battle Planning</strong>). Creating a Campaign is covered in <strong>FM06:  Campaign Design</strong>.</li>
+<li><strong>Second or Subsequent Scenario in Campaign </strong>– Select this option if you are working on any additional scenarios for an established campaign. Once selected, the Load Core Campaign Forces will be enabled, and you can click this to load the core forces for the campaign you are working on.</li>
+</ul>
+<h3 id="scenario-description">Scenario Description</h3>
+<p>At the bottom of the first panel is the “Scenario Description” text box. The scenario description is used to tell players the background information that sets up the battle, but not mission specifics for each side. That is done later in the editor.</p>
+<p>Clicking on the “<strong>Edit</strong>” button or double-clicking inside the text box will open the Create Scenario Description editor as shown in Figure 10.</p>
+<p>The Plain Text Editor allows you to write your text narrative for the scenario and use simple HTML5 tags to enhance the look of the Scenario Description. See “<strong>Section 8. HTML Quick Preference</strong>” for HMTL tags.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Clicking on the HTML Text Preview tab will display the formatted version of your Scenario Description. Once you are done with your scenario description and how it looks, you can click the “<strong>Proceed</strong>” button to save it as shown in Figure 10. Your Scenario Description will now show in the Scenario Description window.</p>
+<p>You can reopen this anytime to add or change information or formatting.</p>
+<p>Click the “__Nex__t” button to move to the next dialog page.</p>
+<h2 id="map-markers">Map Markers</h2>
+<p>When designing a scenario, you can add several map markers to the game map that have various functions as illustrated in Figure 11. </p>
+<p>These functions include map obstacles like mines, <abbr title="Nuclear, Biological, Chemical">NBC</abbr> contamination, fortifications, smoke, bridges, and Victory Point (VP) markers. The dialog shown below shows most of those markers. </p>
+<p>The markers in the three lists represent markers by the player side and a set of neutral markers in yellow that can affect all units on the map. Side-specific markers in Blue for side one or Red for side two only impact the other side when a marker is encountered.</p>
+<p>These markers on this dialog are optional and should be used to enhance your scenario where needed. Many of these markers have both full hex and hex edge trigger versions.</p>
+<p>Smoke and Gas (from non-persistent attacks) can be found in the Neutral Map Objects listing.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="placing-map-markers">Placing Map Markers</h3>
+<p>To add a map marker, click on it in the dialog and drag it to the hex you want on the map as illustrated in Figure 12. Most markers cannot be placed on each other. The exceptions are markers like smoke, gas, and <abbr title="Nuclear, Biological, Chemical">NBC</abbr> effects. These markers can be placed over hex and hex edge markers.</p>
+<p>Once you have all the markers on the map and you want to protect them from being accidentally moved when doing other actions like placing units, click on the Scenario Editor main menu bar and uncheck the Allow Marker Dragging option as shown in Figure 3. This will save on some possible frustration later when tweaking things.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Another trick that might help place markers is to select Options from the Menu and then go to Map Contrast Options and set it to Strongly Muted Map Terrain, so the map is less colorful, and the markers stand out more.</p>
+<h3 id="victory-point-vp-markers">Victory Point (VP) Markers</h3>
+<p>Victory Point Markers or VPs for short, are used to provide two important scenario design functions. </p>
+<p>First, VPs are used to place important objectives on the map that both the player and the AI will be attacking or defending as the main aspect of the scenario. As a scenario designer, you can use VPs as a means of giving the AI player a sense of influence as to where it should go. When coupled with Battle Plans, VPs become the endpoints where forces will go during the battle. </p>
+<p>The second function of VPs is to provide points to the side that controls the VP location at the end of the battle. </p>
+<p>The values of the VPs should be tailored to meet the mission objective and to balance out VP point scoring with the value of each side’s forces.</p>
+<h4 id="placing-a-vp-marker">Placing a VP Marker</h4>
+<ul>
+<li><strong>Placing VPs</strong> – To place a VP marker on the map, right-click in the target hex and select “Add/Edit/Remove VP Location” from the Popup Menu as illustrated in Figure 13.</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ul>
+<li><strong>VP Ownership </strong>– Each VP must have one of the three Ownership states as illustrated in Figure 14. The VP can be owned by Player 1. In this case, the AI will set up and defend the location if in the area and the enemy will move to take the location if in the area. The VP can be owned by Player Two with the same effect on the AI.</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Side One VP</p>
+<p>Side Two VP</p>
+<p>Unclaimed</p>
+<p>Figure </p>
+<p>A location can be Unclaimed or owned by neither side and both sides will attempt to take them if forces are nearby. You use these ownership states to craft the time of battle. Attack/Defend scenarios are set with one side owning markers and Meeting engagements can be made using Unclaimed markers. Mixing these with various Battle Plans keeps the game dynamic for the players.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ul>
+<li><strong>VP Value</strong> – A new feature in Southern Storm is the ability to have split value VPs to allow you to better shape the mission objectives by having a location have more value and AI weight for a side as illustrated in Figure 15. You can enter a value or use the value spinners to set each of the values.</li>
+</ul>
+<p>When you are happy with the ownership and values, click the “<strong>Create</strong>” button to place the marker in the selected hex as illustrated in Figure 16.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="editingdeleting-a-vp-marker">Editing/Deleting a VP Marker</h4>
+<p>If you need to tweak the value or ownership of a VP or remove it, select, and right-click the VP hex and the dialog will pop up as illustrated in Figure 17 with the selected VP’s information in the dialog box. </p>
+<p>You can edit the values and ownership and click the “<strong>Update</strong>” button or if you wish to remove the VP from the map, you can click the “<strong>Delete</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="bridge-markers">Bridge Markers</h3>
+<p>While the game engine will automatically add all required road and rail bridges to the map, you still can “blow up” bridges to show engineering actions before a battle or even add additional temporary bridges (again from pre-game engineering actions) to possible crossing areas on the map.</p>
+<p>Basic bridges are shown on the map as white rectangles with hard black long edges. Bridges owned by one side will be blue or red in place of the white color as illustrated in Figure 18.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you want an engineering unit to construct a bridge, the bridge will resemble what is illustrated in Figure 19. Once the bridge is completed, it will transform from the construction phase depicted as illustrated in Figure 18 to its finished state.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you destroy a bridge, a red cross will appear over the bridge. This bridge is no longer capable of allowing units to pass over it as illustrated in Figure 20.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="adding-a-bridge">Adding a Bridge</h4>
+<p>To add a bridge, you need to select a hex next to a water obstacle and then right-click to bring up the Popup Menu, and then select “Bridge Controller” as illustrated in Figure 21 to open the dialog.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The first thing to decide for the new bridge is Ownership. If it is a public bridge (existing before the battle or being used as a fording point) set it as Public. If the bridge is being used to represent a placed engineering bridge before the scenario starts, you can select the side by setting it as Player 1 or Player 2. These will show as blue or red respectively.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>On the right side of the dialog, is the editor portion of the bridge placement tool. The selected hex is shown in the middle and the surrounding six sides will show eligible locations to add a bridge. </p>
+<p>Here we only have three places to place a bridge as shown in Figure 22. Clicking the “<strong>Eligible</strong>” button will add a bridge at that location on the map and change the button to Bridged. Clicking the “<strong>Proceed</strong>” button will add the bridge to the map and close the dialog.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To remove a bridge, select the hex where the bridge is and open the Bridge Control dialog. Click the Bridge button twice to set it back to Eligible and then click the “<strong>Proceed</strong>” button to remove the bridge from the map.</p>
+<h4 id="destroying-a-bridge">Destroying a Bridge</h4>
+<p>Depending on the design of the scenario, you may want to have some of the bridges destroyed (before the scenario by engineers) to restrict travel during the battle.</p>
+<p>To destroy a specific bridge, select a hex with the bridge in question and right-click that hex to bring up the Bridge Control. </p>
+<p>As seen on the right, eligible bridges will be denoted with Bridged. Click on this button to switch it to Blown as illustrated in Figure 24.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you click the “<strong>Proceed</strong>” button, the bridge will be marked as destroyed on the map as illustrated in Figure 25. You can undestroyed a bridge by selecting it and clicking the button back to Bridged.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="constructing-a-bridge">Constructing a Bridge</h4>
+<p>Lay/Recover Bridge – Allows an Engineer Short-Span Bridging vehicle to place or retrieve a temporary bridge over a hex-side water obstacle.</p>
+<p>Engineering Bridging Unit must be next to a river hex, right click on an Engineer Bridging Unit which causes a popup screen to appear as shown in Figure 26, and select “Build Bridge.”</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you click on “Build Bridge” a screen will pop up as seen in Figure 27.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>There were three eligible locations, select the “<strong>Eligible</strong>” button where you want the bridge to be built and it will turn into a “<em>Building</em>” button as illustrated in Figure 27. The Bridge Controller will state where and how long it will take to finish the building. Click on the “Proceed” button to start the building of the bridge.</p>
+<p>There will be a Time Stamp in between the graphic symbol for constructing a bridge, which is 1700 hrs. when the bridge is completed as illustrated in Figure 28.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>You can tell an Engineer Bridging Unit to move to a location by a river where you want to build a bridge. When you plot your waypoints to the river a popup screen will display as shown in Figure 29. Select the “Build Bridge” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once the Engineer Bridging Unit gets to the location it will start to build the bridge with a time stamp indicating when it will be finished building as illustrated in Figure 30.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Figure 31 shows the bridge completed.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Now to recover the bridge, right-click on the bridging unit, and a popup display as shown in Figure 32. Select the “Remove Bridge”.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you select “Remove Bridge” another screen “Bridge Controller” will pop up as seen in Figure 33.</p>
+<p>To retrieve the bridge, the Engineer Short-Span Unit must not have a bridge. “<strong>This unit has no bridge equipped and can recover</strong> a <strong>bridge</strong>” will be shown in Figure 33. If the unit has a bridge already it would state “<strong>This unit can demolish/blow a bridge</strong>”. Select the “Bridge” tab which will change to “Recovering”. It will state the location and how long it will take to recover the bridge as shown in Figure 33. Select the “<strong>Proceed</strong>” button when ready to remove the bridge. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="locking-a-bridge">Locking a Bridge</h4>
+<p>In some scenarios, you may wish to lock bridges from being blown by the players if they have engineering assets in the battle. </p>
+<p>If you select the bridge on the map right-click to bring it up and select the Bridge Control dialog you get the dialog as seen in Figure 26. </p>
+<p>Right-click on the Bridged button and a pop-up menu will appear allowing you to lock the bridge from demolition by either side or both sides. You can go back later and unlock by bringing the dialog up, bringing the popup menu up, and selecting the unlocked option. Clicking the “<strong>Proceed</strong>” button will make the change on the map.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="marker-removal-functions">Marker Removal Functions</h3>
+<p>After you place markers on the map, you may need to remove some or even all those markers from the map when editing the scenario. To remove markers of different types across the entire map you need to right-click in a hex on the map and select the “Clear All Markers on Map of Type...” option on the pop-up menu as shown in Figure 35.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Doing that opens the dialog” Remove Map Markers” as seen in Figure 36. </p>
+<p>You can then check or uncheck any combination of markers that need removal. Once the selection(s) are complete, click the “<strong>Proceed</strong>” button to have them taken off the map. There is no undo for this, so be sure that you want to remove them. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ If you select All Bridges and remove them, you will need to either add them back in manually or reload the map and start over. In most cases, there is no need to remove all bridges in a scenario design.</p>
+</div>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you want to just remove non-bridge markers in a hex, right-click on the hex with the marker(s) to remove (should highlight) and select the “Clear All Non-Bridge Markers in this Hex” option from the pop-up menu as shown in Figure 37. The marker(s) in the hex will be removed and the menu closed. Like the other removal functions, there is no undo here, so be sure you want to remove them before clicking the menu item.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h2 id="additional-scenario-parameters">Additional Scenario Parameters</h2>
+<p>The next page in the Scenario Editor panel is the Additional Scenario Parameters page. This page allows you to set the (<strong>1</strong>.) Air Superiority Levels, (<strong>2</strong>.) Electronic Warfare Levels, and the (<strong>3</strong>.) Maximum Resupply Percentage. All these factors apply across the length of the scenario. The page appears as seen in Figure 38.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="air-superiority-levels">Air Superiority Levels</h3>
+<p>The top graph (<strong>1</strong>) represents the presence of fighter aircraft used to clear the skies of close air support and other enemy aircraft and helicopters over the battlefield. The greater the presence of a side’s Air Superiority, the greater the chance that enemy air strikes and even on-map helicopters run a risk of being engaged and shot down or in the case of air strikes runoff, so they do not attack. </p>
+<p>Even when the airspace is Contested, both sides run a small risk of getting engaged and losing forces. During the game, any Air Superiority actions will appear on the screen as a dialog message telling players what has happened.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To set the levels seen in Figure 38, click on the “<strong>Edit</strong>” button to open the panel as illustrated in Figure 39. </p>
+<p>Then set the Level of Air Superiority on the right (up for player one control or down for player two control) for each Hour of the scenario. Move the Hour control to each position to set the next Hour’s Level. </p>
+<p>As you make these changes the graph will change to reflect the settings. The blue color graph represents “<abbr title="North Atlantic Treaty Organization">NATO</abbr>” while the red color graph represents “Warsaw Pact”. This information is reflected in reports for both sides of the scenario when it is played. Once you set the levels click the “<strong>Proceed</strong>” button</p>
+<h3 id="electronic-warfare-intensity-levels">Electronic Warfare Intensity Levels</h3>
+<p>The bottom graph (<strong>2</strong>) shows the levels of Electronic Warfare both sides are projecting into the battlefield to jam and spoof communications making it harder to issue orders.</p>
+<p>To set the levels as seen in Figure 38 for each player click on the “<strong>Edit P1</strong>” or “<strong>Edit P2</strong>” buttons. Then set the Level of Electronic Warfare on the right (up for more interference or down for no interference) for each Hour of the scenario. Move the Hour control to each position to set the next Hour’s Level as illustrated in Figure 40. As you make these changes the graph will change to reflect the settings. This information is reflected in reports for both sides of the scenario when it is played. Once you set the levels click the “<strong>Proceed</strong>” button</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="other-scenario-limits">Other Scenario Limits</h3>
+<p>Now, The Other Scenario Limits (<strong>3</strong>) section of the dialog sets the maximum resupply level for the sides shown in Figure 41. This setting can be used to reflect limited resupply to a side during a battle. To set the value, either enter a value from 1 to 100 in the text box or use the spinners to set a value.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once these items have been set, click the “<strong>Proceed</strong>” button to move to the next dialog page.</p>
+<h2 id="player-1-order-of-battle">Player 1 Order of Battle</h2>
+<p>Now we get to the business end of the editor. This involves choosing and strategically positioning forces both on and off the map. Player One represents the “<abbr title="North Atlantic Treaty Organization">NATO</abbr>” side. In Section 4.9 Player 2 Order of Battle, you'll be able to incorporate forces for the “Warsaw Pact”. Let's walk through the steps together.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>Click on the “<strong>Create</strong>” button to open the following Commander Selection dialog as illustrated in Figure 42. <blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>Select the Commanding Nation by using the drop-down as shown in Figure 43. Other forces can be added from other countries, but there must be one Commanding Force selected for the scenario.</li>
+<li>In this case, the West Germans were selected. In this window, you can select a badge for the force. Some forces have many selections representing various historical formations and others like the West Germans have quite a few. After selecting a badge, the Force name will change to match the badge selected. Click on the “Confirmation” dialog to accept or reject the name change.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>In the Name of Command text box, you can also rename the Command by typing in a name up to 32 characters in length.</li>
+<li>You can select the Rank from the dropdown and change the randomly selected surname of the Commander. You can type in your name up to 24 characters or hit the “s” button to have one randomly selected from the Nation Datasheet Surnames listing. Click on the” <strong>Proceed</strong>” button when done with the Name and Rank selection.</li>
+<li>Upon closing the Commander Selection dialog, you will find three buttons positioned to the right of the Player 1 Order of Battle display as shown in Figure 45, enabling you to perform the following actions:<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ul>
+<li><strong>Edit</strong> – Clicking on the “<strong>Edit</strong>” button will reopen the Commander Selection screen Figure 43 and allow you to change any of the information including the National Era if you want to adjust the lead nation.</li>
+<li><strong>Load </strong>– Clicking the “<strong>Load</strong>” button will open the following dialog allowing you to select a Nation as seen in Figure 45.</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Click on the Leader you wish to load as shown in Figure 46, and then select the “<strong>Proceed</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ul>
+<li><strong>Save </strong>– Clicking on the “Save” button will open the following popup dialog to allow you to save the current Leader setup to a file for use as shown in Figure 47.</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>You can use the name as shown or enter your name for the file in the “Name” text box as shown in Figure 48. Click the “<strong>Proceed</strong>” button when you are ready to save the Leader information. As noted in the text, if you change an existing leader file, you will want to change the save name to avoid overwriting the original file.</p>
+<h3 id="creating-a-force">Creating a Force</h3>
+<p>In this section, we will guide you through the step-by-step procedure of constructing a force. This involves the incorporation of both “<abbr title="North Atlantic Treaty Organization">NATO</abbr>” and “Warsaw Pact” forces into a designated scenario.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you have a Nation and Leader selected, it is time to add forces to side 1. Click the “<strong>Create Force</strong>” button and a Change Force Name dialog window will pop up as illustrated in Figure 49.</p>
+<p>In the “New Name” field, name your force as illustrated in Figure 49, in this example, the name is “Force 1”. </p>
+<p>The name should reflect what the selected force will be or do in the scenario. In most cases, you will be adding several forces to this side so having good names will help you organize. </p>
+<p>Names must be unique and can be up to 24 characters in length. Once you have created a Name for the Force, click the “<strong>Proceed</strong>” button so that we can begin to add units.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>In the dropdown box, you can see and select any of the forces you have made for this side. This is useful if you need to edit forces after creating them.</p>
+<p>The TO&amp;E (Table of Organization and Equipment) tab is where you Add Units, load saved packages of units, save a package of units, Rename the current Force, or Delete the force from the scenario. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ Once you delete a force, there is no undoing it. Be sure you want to drop the entire force from the scenario.</p>
+</div>
+<p>After you click the “<strong>Add Units</strong>” button to open the Force Selection main dialog as illustrated in Figure 51.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Starting from left to right, the first section (<strong>1</strong>) “Task Force Type” holds an expandable “Order of Battle” for the nation selected. You can expand a section by clicking on the right-facing chevron. You can collapse a section by clicking on a downward-facing chevron. The Battalions section has been highlighted and opened for viewing and selection. </p>
+<p>When you click on an entry in this window, information is filled in in the other windows as shown above. In this case, a Tank Company has been selected.</p>
+<p>The next section is the (<strong>2</strong>) Formation Name. Enter a name for the formation. In this case “Alpha”. These names are based on the historical narrative of the scenario. </p>
+<p>Any name you enter in this text field will be updated through the formation when you click the Update button. If you do not enter a name and click the “<strong>Update</strong>” button, you will get a Confirm popup window as seen in Figure 52 asking “Are you sure” statement, if you click the “<strong>Yes</strong>” button it will have no name for the unit, if you click the “<strong>No</strong>” button you can then add the name of your choice.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The second function is to see the breakdown of the selected formation from the (<strong>3</strong>) <abbr title="Order of Battle">OOB</abbr> tree. </p>
+<p>This window allows for the selection of specific equipment based on the formation information seen in the window. All possible selections for the type of equipment are listed in the window. Select each type by checking the box for each type listed. In this case, the TANK the Leopard C2A4 is selected. The information is illustrated in Figure 53.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The fields in Figure 53 have the following meanings:</p>
+<ol>
+<li><strong>Type</strong> – These are the data types used to select units from the database seen in the formation descriptions in the window.</li>
+<li><strong>Name</strong> – This is the name of the unit type being selected.</li>
+<li><strong>VPs</strong> – This is the Victory Point cost (VPs) for the units. The higher the cost the more capable and expensive the platform is.</li>
+<li><strong>Code</strong> – The code is the alpha-numeric ID for the platform in the Units tab of the national database. The same ID can be seen in the upper right of the SUI window (<strong>4</strong>) as seen in Figure 54.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<p>Once the Name is updated from (<strong>2</strong>) and the unit types are selected in (<strong>3</strong>), the text description of the formation is updated in this window for review. If this is the package you want to add to the Force (in this case “Force 1”), click the “<strong>Add [formation name] to [force name] =&gt;</strong>” button. The results are shown in Figure 54.</p>
+<p>Next is the Subunit Inspector (<strong>4</strong>) which can be used to review any of the units in the four-tabbed panel that covers the <abbr title="Atomic Element of Capability">Platform</abbr>, Weapons, Sensors, and Systems that the selected sub-unit has. Select Equipment area (<strong>3</strong>) by clicking on any of the entries. In this case, the “Leopard C2A4” was selected. The layout and information shown in the Subunit Inspector (SUI) can be found in the “<strong>FM01: Game Operations, Section 14.3</strong>” document.</p>
+<p>In the final part of the window, <strong>(5</strong>) you will get a breakdown of all the elements in the noted force. In this case, Force 1 is shown in Figure 55.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>You also get a total for the lift available in the unit for passenger transport and then the total VP value of the force in its current layout. Once you’re done click on the “<strong>Done</strong>” button.</p>
+<h3 id="set-default-unit-sop">Set Default Unit SOP</h3>
+<p>Once we created a Force they are in the Force Roster as illustrated in Figure 57. We want to start to work on the SOP. </p>
+<p>SOPs (Standard Operating Procedures) are unit instructions on how to behave in certain situations on the battlefield. This menu item provides a means to adjust SOP characteristics for selected units or to set SOPs based on the type of unit and the selected SOP package for the selected units.</p>
+<p>This tool gives you the flexibility to adjust many different operational parameters of your units, per unit, per waypoint, and for new orders. Grayed-out parameters are not available for the selected unit. </p>
+<p>These SOPs can be applied to the selected unit or easily copied to other units in the formation or of a similar platform type.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To do that we will highlight the Panzer Headquarters and select the “<strong>menu</strong>” under the icon and a popup screen will appear select “<strong>SOP</strong> <strong>Manage__r” (Ctrl+k) as illustrated in Figure 57 or select the “__Set Default Unit SOP</strong>” button as shown in Figure 56.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>We will cover the “<strong>Set SOP</strong>” and “<strong>Adjust SOP</strong>” in more detail in the “<strong>FM05: Battle Planner.</strong>”</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="scope">Scope</h4>
+<p>The Scope sets which order (new, current singular order like Screen or Hold, or per waypoint of a move) the settings are applied to. </p>
+<p>Once all the settings are adjusted to the parameters you want for the unit(s) there are options on how to Apply them as noted in Subsection 4.5.2.7.</p>
+<p>Selecting the <strong>“? Scope</strong>” button will pop up the following message providing information on how the Scope is used as shown in Figure 58.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="stance">Stance</h4>
+<ul>
+<li><strong>Tactical Initiative</strong> – This is the likelihood of a unit deviating from its orders or pathing based on the current situation it is in (under fire, outnumbered, etc.). These settings are None, Slight, Moderate, or Generous.</li>
+<li><strong>Acceptable Losses</strong> – This is the unit(s) willingness to take losses before seeking a change in orders. This works with the Tactical Initiative above to set how a unit reacts. The settings for this item are Do or Die, Substantial, Moderate, or Minimal.</li>
+<li><strong>Preferred Standoff Range</strong> – The number of 500m hexes you wish the unit(s) to be distant from any detected enemy units.</li>
+</ul>
+<h4 id="combat">Combat</h4>
+<ul>
+<li><strong>Direct Fire Discipline</strong> – This sets the range or ability to shoot at enemy units in direct fire. The available settings are Refuse fire, Hold until fired on, Point blank (0 to 1 hex), Short Range (⅓ Max Range), Medium Range (⅔ Max Range), and Maximum Range.</li>
+<li><strong>Relocate When</strong> – This determines under what condition a unit will seek to scoot to a new location for better protection or to avoid enemy fire. The possible selections are After each fire mission, After all fire missions, While the enemy spotted, After receiving any fire, After receiving direct fire, After taking any losses, After taking direct fire losses, or Never. Some of these settings work better for certain types of units. The after-fire mission settings work better for artillery for instance.</li>
+<li><strong>Provide Direct Support to</strong> – This setting is for Indirect Fire Units only and allows you to set specific direct support operations for your artillery assets. The default setting is support for All Requesting Units. Other options that support specific units are Units in the same formation or lower, Specified <abbr title="Headquarters">HQ</abbr> or lower, or Refuse all requests (which stops the <abbr title="First Support Control Center">FSCC</abbr> from using this unit in any supporting call for fires).</li>
+</ul>
+<h4 id="movement">Movement</h4>
+<ul>
+<li>__Preference__s – When a unit moves from waypoint to waypoint there are a few options for how that travel can be done. The hasty move will prefer roads, and Deliberate or Assaulting move orders will mix roads with cross-country movement. You can set stricter movement preferences by checking the boxes for Concealment (more off-road and seeking better-covered terrain to move through, Roads (favor taking roads instead of cross country), and Avoid <abbr title="Nuclear, Biological, Chemical">NBC</abbr> (which will path units around <abbr title="Nuclear, Biological, Chemical">NBC</abbr>-contaminated locations on the map).</li>
+<li><strong>Minefield Contact</strong> – This is the unit(s) response to entering a minefield. The options here are Ignore and Run (do not delay and accept the potential for more subunit losses crossing the field), In Stride Breach (units slow down to follow a leader through the field hoping to avoid mines by traveling in the same tracks), or Stop and Reduce (units halt and either wait for engineers to remove enough mines to open a path through or do the work themselves at a slower rate).</li>
+</ul>
+<h4 id="transports">Transports</h4>
+<ul>
+<li><strong>Passengers Disembark at Range</strong> – There are two options for disembarking transported troops and teams from their carriers. The first option is setting a few hexes (500m) from the final waypoint. This is useful for assaults or recon efforts in hostile territory. The other option is setting a few hexes from a spotted enemy. This is useful if on the move and your troops encounter unexpected enemy contact.</li>
+<li><strong>Carriers when Empty</strong> – Once transporting APCs (Armored Personnel Carriers) or IFVs (Infantry Fighting Vehicles) disembark their troops or teams, this setting tells the transporting units what they should do. For APCs, the better choice is to Hide Nearby (seek cover and do not engage the enemy) as these vehicles are usually poorly armed and armored. The other option is to Support Passengers (seek good cover but engage enemy units with on-board weapon systems) to improve firepower against the enemy, but risks losing transports to enemy fire.</li>
+</ul>
+<h4 id="recovery">Recovery</h4>
+<ul>
+<li><strong>Resupply</strong> – This option lets you set a limit for the unit’s Ammo level. When it hits the trigger level or below, the unit will go into resupply until it either Recovers to the set percentage over time or recovers for a set amount of time which restores an amount of ammo based on the amount of time set.</li>
+<li><strong>Readiness</strong> – This option lets you set a limit for the unit’s Readiness level. When it hits the trigger level or below, the units will go into resupply until it either Recovers to the set percentage over time or recovers for a set amount of time which restores an amount of readiness based on the amount of time set.</li>
+</ul>
+<h4 id="inspect-and-apply">Inspect and Apply</h4>
+<p>There are six buttons on the left as shown in Figure 58.</p>
+<ol>
+<li><strong>Inspect Selected Unit</strong> – If you want to select and see the SOPs for another unit on the map, select a new unit on the map and then click the Inspect Selected Unit button to have the SOP Manager display its SOP values.</li>
+<li><strong>Apply to This Unit Only</strong> – This applies all the changes made only to the selected unit.</li>
+<li><strong>Cancel</strong> – Restores the original SOP values before any changes are made. Once You do an Apply, there is no way to revert changes via this option.</li>
+<li><strong>Apply to Self and All Subordinates</strong> – This setting is helpful if you want to set all the units in a formation (<abbr title="Headquarters">HQ</abbr> and subordinates). The higher the <abbr title="Headquarters">HQ</abbr>, the more units will be changed down the order of battle chain. When applied a dialog will pop up showing all the affected units.</li>
+<li><strong>Apply to All Units of the Same Type</strong> – This setting is useful if you want to set all the units of a selected type (like Tanks, APCs, HQs, etc.). When applied a dialog will pop up showing all the affected units.</li>
+<li><strong>Apply to This and Later Unit Orders</strong> – This option allows you to take the current SOP setting and apply it to all the orders in the Scope list.
+At the bottom of the dialog is a check box to Automatically Apply Current Settings on the Scope Change. If this is active, any changes that are applied to the indicated scope will apply if you select a new unit and click the Inspect Selected Unit button. With it active if you switch to a new order in the scope selection, any changes will be applied to the previous order scope. </li>
+</ol>
+<h3 id="adding-to-an-existing-force">Adding to an Existing Force</h3>
+<p>After clicking on the “<strong>Done</strong>” button you will return to the Player 1 Order of Battle, and you realize that you want to add an existing force to Force 1 so that they will be operating together on the battlefield. You should take care not to mix units of different functionalities in a Force. For example, add recon to a tank or mechanized Force. The game will not allow air and helicopter units to mix with ground units, nor can air and helicopter be mixed. The idea is to have different Forces based on mission-focused capability. You will need to split larger formations into discreet forces so the AI can utilize them correctly and Battle Plans can be constructed for those Forces properly.</p>
+<p>To add more units to the existing force we need to take the following steps.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>Make sure to select the correct force you wish to add more units to from the dropdown box, in this case, it will be “Force 1”.</li>
+<li>Click the “<strong>Add Units</strong>” button to open the Force Selection screen.</li>
+<li>Choose the formation, name, and subunit selections as noted above. In this case, we are selecting a Mechanized Platoon which we will label as” Bravo” to add to Force 1 as illustrated in Figure 61.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>After clicking the “<strong>Add Bravo to Force</strong> <strong>1</strong>” button, you should have the updated TO&amp;E summary in the window. This will note the VP cost total and the Lift for passengers in the force as shown in Figure 62.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<p>Click the “<strong>Done</strong>” button to return to the Scenario editor dialog and close the Force Selection screen.</p>
+<h3 id="creating-additional-forces">Creating Additional Forces</h3>
+<p>We are going to create additional forces to the forces to side 1. First, we Click the “<strong>Create</strong>” Force button and a Change Force Name dialog window will pop up as shown above.</p>
+<p>In the New Name field, name your force, in this example, the name is going to be “Force 2” as illustrated in Figure 63. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once we have labeled the additional Force Name, then click on the “<strong>Proceed</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Here you will see that there are two Forces, Force 1 and now Force 2. Force 2 is highlighted as illustrated in Figure 64, and we will start to add units to Force 2 as we did for Force 1 in “<strong>Section 4.5.1, Creating a Force</strong>”.</p>
+<h3 id="saving-a-force">Saving a Force</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To save a Force, make sure that the Force Name is selected for the Force that you want to save as illustrated in Figure 65. Click on the “<strong>Save</strong>” button and a popup window screen as shown in Figure 66. Make sure that this is the Force you want to save, for this example, we will save “Force 1”. Click on the “<strong>Proceed</strong>” button to save the file.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>It will be saved as a .pkg file in the FCSS\Modules\FCSS\ScnConstruct\West German folder.</p>
+<h3 id="loading-a-force">Loading a Force</h3>
+<p>To load a saved National Force, it must be from the same country that it was saved from. For example, if you saved the National Force Package from West Germany and you try to load it to a British scenario it won’t work. It will be blank as shown in Figure 67. So, to load a German saved force the National Era must be West German as shown in Figure 68, if you want to load a West German force onto a British-made Scenario.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>You must create a new Force Name, for this example, we will call it “Force 3”, you need to go to the “National Era” dropdown box and select “West German” by highlighting it as illustrated in Figure 68.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Select the “<strong>Load</strong>” button and you will get a pop-up “Load a National Force Package file” screen as illustrated in Figure 68.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Highlight the file you want to load; in this case, it will be “Force 1”. Select the “<strong>Proceed</strong>” button as shown in Figure 69.</p>
+<p>You must highlight the Force that you want to load as illustrated in Figure 69. If you do not highlight the force and click the “<strong>Proceed</strong>” button, you will get an error as shown in Figure 70. Click the “<strong>Okay</strong>” button and then highlight the force to load.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you highlight the force to load you will get another screen that will pop up “Secure Transmission Regarding PzBtl 23 as shown in Figure 71. Here we can give a unit a unique name if we choose to.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Here you can edit the name of a unit and any subordinate units. What we are going to do is replace the unit’s name from (<strong>1</strong>) “PzBtl 23” to (<strong>2</strong>) “PzBtl 30” as illustrated in Figure 72. The (<strong>3</strong>) “Before” section has the old unit’s name while the (<strong>4</strong>) “After” section has the new name of the unit, then select the “<strong>Proceed</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you do not want the subordinate units’ names to be changed, unselect the (<strong>5</strong>) “Apply changes to all subordinate units of this unit” as shown in Figure 72. Then when finished, click on the “<strong>Proceed</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you do not want to change any names to any unit select the “<strong>Cancel</strong>” button and the Force will load.</p>
+<p>Here you can see that the West German Force 3 is showing in the <abbr title="Order of Battle">OOB</abbr> Tree along with the British Force 2 even when the save Force file is labeled as Force 1 it will update the Force to what you labeled it when naming the Force Name as shown in Figure 74.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h3 id="deleting-a-force">Deleting a Force</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To delete a Force, make sure you have the correct Force name in the “Force Name” drop-down and click on the “<strong>Delete</strong>” button and every unit in that Force will be deleted as shown in Figure 75.  </p>
+<p>You must make sure that this is what you want to do because once you delete a force it is gone for good unless you saved the Force file before deleting it.</p>
+<h3 id="renaming-a-force">Renaming a Force</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To rename a Force Name and keep all the units associated with it you can click on the “<strong>Rename</strong>” button as shown in Figure 76, and a “Change Force Name” dialog window will pop up as seen in Figure 77.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Type what you want it to be in the New Name box which can be up to 24 characters max and then click on the “<strong>Proceed</strong>” button and the new Force Name will replace the old Force Name. </p>
+<h3 id="reorder-forces">Reorder Forces</h3>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To Reorder the forces in the <abbr title="Order of Battle">OOB</abbr> Tree click on the “<strong>Reorder</strong>” button as shown in Figure 78 and a “Reorder Forces” dialog window will pop up as in Figure 79.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To Reorder a Force unit in the <abbr title="Order of Battle">OOB</abbr> Tree, first, highlight the unit for example “Force 1” and then use the “<strong>Down</strong>” button to move it down or if you want Force 2 before Force 1 just highlight it and then click on the “<strong>Up</strong>” button. Once you are done then click the “<strong>Proceed</strong>” button as shown in Figure 79.</p>
+<p>There are two other ways to Reorder Forces. The first way of doing that is we need to have the <abbr title="Order of Battle">OOB</abbr> Tree in (<strong>1</strong>) Consolidated OB mode. When you switch to Consolidate mode the (<strong>2</strong>) “Drag and drop units to” Reorder or resubordinate units will appear as shown in Figure 80.  </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Let’s talk about the Resubordinate unit first, to move a unit for example, if we want to move (<strong>1</strong>) “3/Bravo” from his parent unit to another parent unit which is called “Attach” we must select the button (<strong>2</strong>) “<strong>Resubordinate</strong>”. To do that we must first highlight the unit “3/Bravo” left click on the unit and drag it up to the unit that is highlighted as illustrated in Figure 81, and it will be attached to the unit.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Now “3/Bravo” a Mech Plt” is attached to “Alpha Company” a Panzer Company as shown in Figure 82. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The next way to “Reorder” a unit is by selecting the (<strong>1</strong>) “<strong>Reorder</strong>” button. The “Reorder” unit is only for moving the unit within the parent company, for example, we want to move (<strong>2</strong>) “3/Bravo” to the top of the Bravo Company order as illustrated in Figure 83.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To do that we must highlight (<strong>1</strong>) “3/Bravo” and left click and drag to (<strong>2</strong>) “Bravo” company so that it will be on the top of the order as shown in Figure 84.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The principle is the same if you want to move Forces or just units.</p>
+<h2 id="show-consolidated-order-of-battle-oob">Show Consolidated Order of Battle (<abbr title="Order of Battle">OOB</abbr>)</h2>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The screenshot that is displayed in Figure 85 shows a (<strong>1</strong>) “Consolidated <abbr title="Order of Battle">OOB</abbr>” to show a (<strong>2</strong>) “Force Roster” select the link.</p>
+<h2 id="show-force-roster">Show Force Roster</h2>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The screenshot that is displayed in Figure 86 shows a (<strong>1</strong>) “Force Roster” to show a (<strong>2</strong>) “Consolidated <abbr title="Order of Battle">OOB</abbr>” select the link.</p>
+<h2 id="deploying-forces-on-the-map">Deploying Forces on the Map</h2>
+<p>After creating forces for both sides, we must place the units on the map. Each task force must have a designated setup area on the map where it will start the game. The first step will be setting up the deployment zones and then placing the units on the map.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ This would be a good time to set your unit’s SOPs, for a good example see __FM03: Tutorial Operations __and __FM05: Battle Planner.</p>
+</div>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Looking at Figure 87, we must select the “Setup” tab then we will start by Creating an Area on the map by selecting (<strong>1</strong>) “Right drag the mouse on the map to”: (<strong>2</strong>) Paint. You can create individual hexes by just right-clicking on the map or right-clicking, holding, and dragging the cursor to create a large area on the map. If you need to erase a setup zone, select the (<strong>3</strong>) “Erase setup hexes” and right-click on the hex.   </p>
+<p>If you need to paint a larger area on the map you can increase the size of the brush by using the (<strong>4</strong>) “Brush Size” up and down arrows. The size of the brush can be only 1 - 9. </p>
+<p>Another way of placing a unit on the map without going to the Setup Tab is by just left-clicking on the map and then left-clicking on the unit in the Tab Force Roster.</p>
+<p>The last way to create setup zones for your units is if you have a setup zone already created for a force(s), you can open the dialog and select them for a new unit or force. It saves time setting things up or shifting things around when making Battle Plans and to do that, open (<strong>5</strong>) “Use Existing Defined Area” and select them for a new unit or force. To do that click the “<strong>Select</strong>” button as shown in Figure 87 which will cause a popup window screen as shown in Figure 88. The list of the setups by the Forces you created will be displayed in the “Select an area to use” box as shown in Figure 88. Next, click on the “<strong>Save List</strong>” button as shown in Figure 88.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>A popup window “Save a Predefined Areas File”, Figure 89, to save a predefined zone is that the file is saved with the name you type in the “File Name” box. For this example, I saved them as the Force Name as illustrated in Figure 89.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The saved files will be in the map folder, for example, this will be in the “Aichelberg” folder as shown in Figure 90.</p>
+<p>. &gt; <strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+<p>Figure </p>
+<p>So, to put this in use, I want to add a Force 1 setup zone for another Force to use. I have created a new Force Name labeled “Force 3”. I added the units but did not place them on the map. To do that I must make sure that I have Force 3 in the “Force Name” drop-down box. Then bring up the “Predefined Area Selection” window. Highlight (<strong>1</strong>) Force 1 then select (<strong>2</strong>) the “Proceed” button as illustrated in Figure 91. Force 3 now has Force 1 setup zones. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once Force 3 has Force 1 set up zones on the map, to keep them for Force 3, you must then save it by clicking the “<strong>Save List</strong>” button and saving the file as shown in Figure 91. </p>
+<h3 id="placing-units-on-the-map">Placing Units on the Map</h3>
+<p>The units you place on the map will be the setup that the player’s aide forces will be shown when a player starts the scenario. To initiate the deployment of a unit, first, select the desired hex on the map by clicking on it. Subsequently, click on the corresponding unit in the Force Roster as seen in Figure 92. </p>
+<p>The selected hex will be incorporated into the Force setup zone, and the unit will be deployed in that location as shown in Figure 92. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you need to move the unit that you place left-click and drag the unit icon to a different location on the map.</p>
+<p>Once you place a unit on the map and you need to find the location of a unit you click on the (<strong>1</strong>) hex number and the hex will flash for a few seconds to show the location as shown in Figure 93.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>If you place units on the map and decide to remove them from the map, select the (<strong>1</strong>) Menu that is under the icon as shown in Figure 94 will cause a popup window as shown in Figure 95. Select the (<strong>1</strong>) Reset Location to “Not Deployed” as shown in Figure 95.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>It will place the unit back in the Force Roster as (<strong>2</strong>) “Not Deployed” as shown in Figure 94.</p>
+<h3 id="deploying-units-on-and-off-map">Deploying Units on and off Map</h3>
+<p>You are demonstrating the process of deploying artillery and air units on and off the map. We’re going to start with Artillery and Air units off the map and then show placing air units (helicopters) on the map. If you wish to deploy a unit off the map, there are two methods. The first involves placing a unit on the map and then deciding to deploy it off the map. To do this, right-click on the unit, and a popup screen will appear. </p>
+<p>The second method is to select the “Menu” below the unit as illustrated in Figure 94.</p>
+<p>Choose option (2) "Set Location to Off-map and Edit Distance Away," as illustrated in Figure 96.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you select “Set Location to 0ff-map and Edit Distance Away", a popup screen is shown in Figure 97.</p>
+<h4 id="deploying-off-map-artillery-support">Deploying off-map Artillery Support</h4>
+<p>If Artillery units are placed on the map, it might be visible to the enemy, making it vulnerable to counterattacks. On the other hand, keeping artillery off-map can provide the element of surprise, allowing for strategic positioning and minimizing the risk of immediate detection.</p>
+<p>Before beginning to set the unit distance from the center of the map, we want to show the range coverage that the unit selected can cover on the map. </p>
+<p>Select (<strong>1</strong>) “Show Range Coverage on Map” to display the range ring as shown in Figure 97. </p>
+<p>Top of Figure 97 is information (<strong>2</strong>) on the size of the map, unit name, and maximum range.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>When you have, for example, an Artillery Battalion and you want all the units to be included with the battalion headquarters to be in the same location you need to select (<strong>7)</strong> “Apply Same Values to Subordinates”.</p>
+<p>Figure 98 illustrates the range circle of the artillery unit on the map when you activate the (<strong>1</strong>) "Show Range Coverage on Map" option.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To move the center of the unit (<strong>3</strong>) North (-) or South (+) offset from Map Center use the up/down arrows (-26 … 26km)</p>
+<p>To move the center of the unit (<strong>4</strong>) East (+) or West (-) offset from Map Center use the up/down arrows (-29 … 29km)</p>
+<p>In this instance, I relocated the unit's center to the west by 3 kilometers from the nearest edge of the map. Refer to Figure 99 for an illustration of the unit's position on the map and its coverage.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The (<strong>5</strong>) % Cover in this Location indicates the amount of cover the unit has per terrain. Currently, it doesn't have any impact on off-map units, but it will be soon. It is suggested to leave it as is for now, which is 25 by default.</p>
+<p>As (<strong>6</strong>) Chance of Detection in this Location, represents the likelihood of an artillery unit being detected by counter-battery radar each time it fires a round. It is recommended a value of around 4%, which seems appropriate. However, it is advised against adjusting it to less than 3% or more than 5%. It is recommended that players refrain from changing the default values currently.</p>
+<p>When all is done the unit displayed in the <abbr title="Order of Battle">OOB</abbr> Tree will show how far the unit is from the edge of the map as illustrated in Figure 100.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="deploying-off-map-air-support">Deploying off-map Air Support</h4>
+<p>Off-Map Air Support comprises various types of propeller or jet-powered aircraft with diverse missions aimed at engaging targets on the battlefield. There are Strike, <abbr title="Suppression of Enemy Air Defenses">SEAD</abbr>, Recon, and Utility versions of aircraft. These aircraft remain off the map, specifically in designated loiter areas until they are directed by the player or <abbr title="First Support Control Center">FSCC</abbr> (Fire Support Coordination Center) for air strikes. Upon completing the air strike, surviving aircraft either return to base for rearming if out of ammunition or resume station if weapons are still available. Following rearming, they await future assignments by returning to the loiter area.  </p>
+<p>When deploying units off map they cannot be mixed, Aircraft and Helicopters in the same Force a popup screen as shown in Figure 191 will appear. Click the “<strong>OK</strong>” button.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Create a new force as shown in __Section 4.5.1 Creating a Force. __For this example, we will create a Force labeled “Air”.</p>
+<p>Add Units for which we will select “Air Support”, “Aircraft”, “Aircraft Section”, and “Strike Aircraft Section” as illustrated in Figure 102.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Aircraft cannot be placed straight onto the map, you must select “Menu” located underneath the icon. Select “<strong>Set Location to Off-map and Edit Distance Away</strong>”. A screen will pop up as shown in Figure 103. You can position up to 250km offset from the map edge. As seen in Figure 103 the default is set for <strong>(1</strong>) 90km from the nearest map edge. You adjust the (<strong>2</strong>) Offset from Map Center. You do not need to do anything to the (<strong>3</strong>) Cover or Chance. Nor (<strong>4</strong>) Show Range Coverage on the Map is not needed for Aircraft.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="deploying-on-map-air-support">Deploying on-map Air Support</h4>
+<p>On-Map Air Support comprises various types of helicopters that are included in the game. There are Attack, Scout, and Utility versions of Helicopters. Helicopters can carry a variety of weapons geared to anti-armor or anti-personnel missions, but they can also be assigned to perform reconnaissance tasks. On-map helicopter support is directed by the player. </p>
+<p>The Forward Arming and Refueling Point (<abbr title="Forward Arming and Refueling Point">FARP</abbr>) unit is used as the base for all helicopters. This unit acts as the high <abbr title="Headquarters">HQ</abbr> for helicopter operations and is the location to send your helicopters back for rearming and resting during a battle. If the <abbr title="Forward Arming and Refueling Point">FARP</abbr> is missing/destroyed, then the unit will go to the current highest <abbr title="Headquarters">HQ</abbr> on the map to resupply. </p>
+<p>Depending on movement orders, helicopters will fly Nap of the Earth (NOP) using terrain to screen and cover their movements when in Hunt Move or doing a Deliberate Move. They will fly at low altitude if executing a hasty move.</p>
+<p>Click on the “<strong>Add Units</strong>” button for which we will select “Air Support”, “Helicopters”, “Helicopters Section”, and “Attack Helicopters Section” as illustrated in Figure 104. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>For this example, we will select two Attack Helicopter Sections and resubordinate them to <abbr title="Forward Arming and Refueling Point">FARP</abbr> 1 as shown in Figure 105. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>Eagle 1 is set to arrive around twenty minutes. </li>
+<li>Eagle 2 will start on the map. </li>
+<li>If they need to resupply, they will move to <abbr title="Forward Arming and Refueling Point">FARP</abbr> 1.
+As illustrated in Figure 106.</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h4 id="deploying-reinforcements">Deploying Reinforcements</h4>
+<p>Deploying reinforcements adds a layer of complexity to war games, requiring players to make strategic decisions that can have a significant impact on the outcome of battles.</p>
+<p>Reinforcements are typically used to strengthen a position, counter an enemy threat, or support existing troops.</p>
+<p>We’re going to show how to place units on a map as reinforcements.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>For this example, we will place the West German Panzer company units on the west edge of the map as illustrated in Figure 107. Right-click on the unit and select “Unit Parameters Setup” a popup screen as shown in Figure 108.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>To set the time for the arrival of reinforcements by using the up/down arrows in minutes, for this example it is set for 30 minutes for the arrival of the units.</li>
+<li>By selecting “Apply to all subordinate units of this unit” will apply to all the Panzer units in the company as shown in Figure 105.</li>
+<li>The local Force is the Force Package you are currently working on.  Say you have 3 packages, each of a Leopard 2A4 tank company.  If you edit the tanks in one of the companies, you can have those same edits apply to the other two force packages of tanks or not using this checkbox.  The thought is that you will want to distinguish between them at times and this saves a lot of clicking later.</li>
+<li>By selecting the “Unit setup hex is locked” the units are locked in that hex and players cannot move the units to another hex.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<h3 id="ammunition-loadout">Ammunition Loadout</h3>
+<p>After creating your forces, you may need or want to make changes to the ammo loadout to your units. First, select “Menu” which is located under the unit icon. To do that you open the Unit Dashboard and select “<strong>Define Ammunitions Loadout</strong>” as shown in Figure 110. </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>When you select “Define Ammunition Loadouts” a popup screen is shown in Figure 111. For this example, we will look at a tank platoon, ½/PzBtl 244 as shown at the top of Figure 111.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<ol>
+<li>Type: List the type of equipment and/or personnel. Use the drop-down arrow to display a list of all the equipment for that platoon as shown in Figure 112.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>Weapon: List all the weapons that are in the Platoon as shown in Figure 113. Use the drop-down arrow to display a list of all the equipment for that platoon.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>Ammunition carrying capacity for this example is 42 total for the selected weapon as shown in Figure 114.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>Munition Type: This is a list of the type of ammo that this unit is carrying as shown in Figure 115. <blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>We know that the total amount of ammo for this Leopard 2A1 is 42. But I want to change the amount of ammo for, for example, I want to remove the High Explosive Anti-Tank rounds from 14 to 0. To do that you must highlight the type of ammo and then highlight the number of rounds in this case 14. Using the drop-down arrows, you can make the changes. I elected to reduce it to 0. When doing so the “Remaining available capacity will change from 0 to 14 as shown in Figure 116. Select the ammo on which you want to add and then select the number of rounds and up and down arrows which will add the amount of ammo and the remaining available capacity will change.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>“Reset List” button, select the button, if you decide to reset the ammo amount back to the default. When you select the button a popup screen to confirm. Select the “Yes” button and it will reset to default. If you select the “No” button there will be no update to default as shown in Figure 117. <blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>Apply is self-explanatory, how you want to apply the changes to this unit, the same type, or all units of this type.
+Once you have completed the changes select the “<strong>Apply</strong>” button and then the “Exit” button.</li>
+</ol>
+<h3 id="default-deployment-zones">Default Deployment Zones</h3>
+<p>After Section 4.8 Deploying Forces on the Map, you can set up default zones. Figure 118 shows a highlighted unit with just a single setup. If you try to move the unit to a different location on the map you will get a popup on the map as shown in Figure 119.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Figure 120 shows a highlight unit that has a larger size setup zone. You can then move that unit to a different location on the map.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h2 id="player-2-order-of-battle">Player 2 Order of Battle</h2>
+<p>After deploying all Side 1 units on the map or positioning them off the map, click the Next button at the bottom of the dialog to proceed to the units for the "Warsaw Pact" forces in the scenario. Follow the steps outlined in Sections 4.5 through 4.9. Once you've completed the forces for side two, click the "Next" button to move on to working on the Player Briefings, as illustrated in Figure 121.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<h2 id="player-briefings">Player Briefings</h2>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you click the “<strong>Next</strong>” button after setting both player sides a popup window “Player Briefings” is displayed as shown in Figure 122. </p>
+<ol>
+<li>This selection allows you to select which side Scenario Briefing is being displayed and worked on.</li>
+<li>This selection allows you to switch between the Mission Briefing or the Threat Assessment for the selected side.</li>
+<li>Click the “<strong>Edit</strong>” button to open the window on the right with the plain text editor. This editor can use simple HTML 5 tags in the text. See “<strong>Section 8 HTML Quick Preference</strong>” for HTML tags.</li>
+<li>This window shows the current generated Briefing or Assessment based on the selections.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<ol>
+<li>This tab window is the plain text editor for you to write the various Briefings and Assessments as shown in Figure 123. You can write your own or edit the Auto-Generated versions made by clicking the “<strong>Auto-Generated</strong>” button at the bottom (<strong>7</strong>).</li>
+<li>Switching to this tab will show the actual display version of the plain text window if HTML tags are used.</li>
+<li>Clicking this button will Auto-Generate either a Briefing or Threat report based on the selections for the selected side based on our provided template. You can add, edit, or remove anything from these templates to fit the narrative of your scenario.</li>
+<li>When you are done with your edits for the Briefing or Assessment click the “<strong>Proceed</strong>” button to save these edits or cancel to return to the Selection Dialog.
+Figure 124 shows the Auto-Generated Player Brief by clicking the “<strong>Auto-Generate</strong>” button. </li>
+</ol>
+<p>You can edit the content in the Plain Text Editor Window and look at the actual output in the HTML Text Preview as needed.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Figure 125 shows the auto-generated Threat Assessment from clicking the “<strong>Auto-Generate</strong>” button. You can edit the content in the Plain Text Editor Window and look at the actual output in the HTML Text Preview as needed.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ If you make changes to any of the forces in the scenario, you will need to adjust the numbers shown in the briefings or redo the briefings with the auto-update and add back in your details.</p>
+</div>
+<h3 id="best-practices-for-missionthreat-briefs">Best Practices for Mission/Threat Briefs</h3>
+<p>The following pointers are offered to help scenario designers with their briefings.</p>
+<ul>
+<li>Using the templates can help make sure you are giving the players all the essential information for their side of the scenario.</li>
+<li>Keep the information focused on the details and keep the items short in length.</li>
+<li>Focus on the key points of the mission that the player needs to know and accomplish.</li>
+<li>Threat assessments can be made either vague or detailed depending on how you see the pre-battle intelligence of the battle. Sometimes the intel folks are wrong or some of the details are misunderstood.</li>
+<li>The mission briefings should follow the scenario narrative that you wrote in the Scenario Description panel, but you do not need to repeat all that information. Focus on providing the side specifics details.</li>
+<li>Make this one of your last items to do after scenario testing, to avoid missing details in forces if you edit items in the scenario.</li>
+</ul>
+<h2 id="mission-graphics">Mission Graphics</h2>
+<p>Mission graphics are crucial in scenarios to improve the player's situational awareness, enhance immersion, and facilitate effective communication of mission-related information. These visual elements contribute to the overall gaming experience and play a key role in guiding players through complex scenarios and objectives.</p>
+<p>Open the Scenario Editor select Scenario and load the scenario. When the scenario is loaded go to the Counters tab and select “Hide unit Counters” as shown in Figure 126.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Next, go to the “Staff” tab and select “Copy Map to Clipboard for Mission Graphics” as shown in Figure 127</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Once you copy the map, open PowerPoint. Paste the map into a PowerPoint (or an equivalent) slide. Draw a box with no fill over the map. Add the mission graphics like the ones shown in Figure 128, and Figure 129.</p>
+<p>Delete the map after finishing adding the graphics, by grabbing the map with the left mouse button to one side so that you see the box that you made with no fill. Right-click on the map and select delete. You will have just the slide with the mission graphics on it.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Copy and paste onto a Paint program, for example, I use Paint.net. Use the magic wand select the white area on the slide and then select the “Delete” button on the keyboard. The white area will be transparent. Figure 130 shows an example of a finished Mission Graphic.</p>
+<p>Save the file as a .png file in the folder for that scenario. The four file names with side 0 as <abbr title="North Atlantic Treaty Organization">NATO</abbr> and side 1 as <abbr title="Warsaw Pact">WP</abbr> as shown:</p>
+<ul>
+<li>briefingoverlaymap~side0</li>
+<li>briefingoverlaymap~side1</li>
+<li>threatoverlaymap~side0</li>
+<li>threatoverlaymap~side1 </li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>The result from the example is shown on the map as illustrated in Figure 131.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>To create the unit symbols as shown in Figure 131. Select the link “How to Create Unit Symbols will take you to the website as shown in Figure 132. <a href="https://spatialillusions.com/unitgenerator/#30031000000000000000">How to Create Unit Symbols</a></p>
+<p>Once you have made the icon, save it as a .png file by clicking on the (<strong>1</strong>) PNG symbol as shown in Figure 132. </p>
+<p>Once you have saved it as a .png file, copy the .png and paste it on the overlay, and then adjust the size and move it around to the location where you want the placed place.</p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Figure 133 shows “Military Symbology – A Quick Guide to Friendly Elements” for reference when using the <abbr title="North Atlantic Treaty Organization">NATO</abbr> symbol generator. </p>
+<h2 id="scenario-summary">Scenario Summary</h2>
+<p>The dialog below outlines the Distribution of Units and the breakdown of Victory Point scoring for the scenario as designed. The breakdown of the dialog is as follows as shown in Figure 134:</p>
+<ol>
+<li>This window shows the “Distribution of Subunits” for both sides by type and number by graph. At the bottom of the window, there is a total of four subunits on both sides.</li>
+<li>This text area breaks down the “Victory Points” (VP) for each side and any owned locations on the map.</li>
+<li>The table in this window shows the breakdown by VP percentage to achieve the given result in the scenario. This ratio is based on the VPs on the map and the number of VPs for the units. 
+This ratio mechanic allows you to make “unbalanced” force scenarios and provide a balanced result for the battle.</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+<p>Figure </p>
+<p>Click the “<strong>Next</strong>” button as shown in Figure 134, to move to the next Dialog screen.</p>
+<h2 id="scenario-details-and-validation">Scenario Details and Validation</h2>
+<p>The last dialog in the Scenario Editor is the Details and Validate page as shown in Figure 135. </p>
+<p>You can do the following functions here:</p>
+<ol>
+<li>In the Author Details area, you can enter your Name (real name and forum handle), Contact information (an email address if you want folks to contact you or leave it blank), Date Started (you should populate with the date you start working on the scenario), Last Revision (date auto populates with today’s date), Notes (Any info about the scenario or changes made in the revision).</li>
+<li>The Scenario Validation area notes any issues that must be resolved before your scenario is playable in the game. Click on the “<strong>Update</strong>” button any time you make changes to see what items are still needed for a complete scenario.<blockquote>
+<p><strong>Note</strong>: Image omitted — refer to original DOCX for figures.</p>
+</blockquote>
+</li>
+</ol>
+<p>Figure </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>__ Even though you can save an unfinished scenario in the editor (after adding the minimal information as noted in the dialogs that pop up), they will not load in the game. A warning message will pop up notifying it cannot be run as currently designed.</p>
+</div></div>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 11, 2025 16:32:48 UTC">June 11, 2025</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: The Top Menu" class="md-footer__link md-footer__link--prev" href="the-top-menu.html">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                The Top Menu
+              </div>
+</div>
+</a>
+<a aria-label="Next: Battle Plans" class="md-footer__link md-footer__link--next" href="battle-plans.html">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                Battle Plans
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2025 On Target Simulations (OTS) Ltd. All Rights Reserved.
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+</body>
+</html>
