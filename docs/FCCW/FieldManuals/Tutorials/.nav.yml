@@ -1,1 +1,8 @@
 title: FM03 Tutorials
+nav:
+  - Section: index.md
+  - engineer-ops.md
+  - artillery-ops.md
+  - air-support-ops.md
+  - air-assault-ops.md
+  - convoy-ops.md

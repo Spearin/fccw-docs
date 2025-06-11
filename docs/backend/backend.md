@@ -2,6 +2,9 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+!!! example
+    This page will not be displayed to the public. Internal tracking use only!
+
 ## TO DO
 
 - [ ] Configure Site Settings

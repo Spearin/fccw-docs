@@ -21,8 +21,12 @@ theme:
   features:
     - content.tooltips
     - navigation.tabs
+    - navigation.tabs.sticky
 #    - navigation.expand
+    - navigation.instant
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
     - search.suggest
     - toc.follow
 #    - toc.integrate
@@ -48,10 +52,11 @@ plugins:
         - FCCW/FieldManuals/*.md
       exclude:
         - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
+        - FCCW/FieldManuals/field-manuals.md
       restart_increment_after:
-        - FCCW/FieldManuals/game-operations/01-gameops.md
-        - FCCW/FieldManuals/battlefield-operations/02-battlefield.md
-        - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
+        - FCCW/FieldManuals/game-operations/index.md
+        - FCCW/FieldManuals/battlefield-primer/index.md
+        - FCCW/FieldManuals/Tutorials/index.md
   - exporter:
       buttons:
         - title: Download as PDF
@@ -102,3 +107,4 @@ markdown_extensions:
 extra:
   generator: false
   test_macro: ==yabba== ^^dabba^^ **doo**
+copyright: Copyright &copy; 2025 On Target Simulations (OTS) Ltd. All Rights Reserved.
