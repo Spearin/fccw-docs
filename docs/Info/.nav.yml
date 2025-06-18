@@ -2,6 +2,10 @@ nav:
   - Section: index.md
   - faq.md
   - setup.md
+<<<<<<< HEAD
   - Releases/
+=======
+  - releases.md
+>>>>>>> f38cecd (Many changes to folder structure, new maps, scenarios, etc.)
   - credits.md
   - backend
