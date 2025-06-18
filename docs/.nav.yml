@@ -1,7 +1,5 @@
-title: Home
 nav:
-  - Home: index.md
-  - FCCW/*
-  - Reference: FCCW/Reference
-  - Content Manuals: FCCW/Guides
-  - Backend
+  - Game Info: Info/
+  - Gameplay Manuals: FieldManuals/
+  - Reference Guides: Reference/
+  - Content Manuals: Guides/

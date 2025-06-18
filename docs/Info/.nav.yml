@@ -1,0 +1,7 @@
+nav:
+  - Section: index.md
+  - faq.md
+  - setup.md
+  - releases.md
+  - credits.md
+  - backend

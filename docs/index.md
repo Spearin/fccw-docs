@@ -1,8 +1,8 @@
 ---
 title: Home
 hide:
-  - navigation
   - toc
+  - navigation
 ---
 # Welcome to _Flashpoint Campaigns: Cold War_
 

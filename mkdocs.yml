@@ -35,8 +35,10 @@ extra_css:
   - assets/stylesheets/mil-symbols.css
 plugins:
   - tags
+  - meta
   - offline
   - search
+  - categories
   - localsearch
   - git-revision-date-localized
 #  - mkdocs-literate-nav
@@ -79,7 +81,6 @@ plugins:
             output: FCCW-FM.pdf
             covers: book
 markdown_extensions:
-  - meta
   - abbr
   - tables
   - toc:
