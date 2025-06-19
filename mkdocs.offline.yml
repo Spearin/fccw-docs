@@ -1,5 +1,5 @@
 # mkdocs.offline.yml
-extends: mkdocs.yml
+INHERIT: mkdocs.yml
 
 extra:
   # relative *from each generated HTML page* up to your shipped Maps folder

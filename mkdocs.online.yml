@@ -1,5 +1,5 @@
 # mkdocs.online.yml
-extends: mkdocs.yml
+INHERIT: mkdocs.yml
 
 extra:
   # where your CI/CD serves up images

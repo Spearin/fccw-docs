@@ -82,14 +82,9 @@ def on_post_page_macros(env):
 
 # Macro for image paths in MkDocs offline/online versions
 def define_env(env):
-    """
-    Called by mkdocs-macros-plugin.
-    Exposes a single macro `img(name)` that returns:
-      <configured image_dir>/<name>
-    """
-    image_dir = env.config.extra.get('image_dir', '').rstrip('/')
+    # read the image_dir you set under `extra:` into env.variables
+    image_dir = env.variables.get('image_dir', '').rstrip('/')
 
     @env.macro
     def img(filename):
-        # strip any accidental leading slash on filename
         return f"{image_dir}/{filename.lstrip('/')}"
