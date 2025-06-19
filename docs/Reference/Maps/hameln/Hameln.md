@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Hameln Briefing Map](Hameln.briefing.jpg)
+    ![Hameln Briefing Map]({{ img('Hameln.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Hameln Gameplay Map](Hameln.jpg)
+    ![Hameln Gameplay Map]({{ img('Hameln.jpg') }})

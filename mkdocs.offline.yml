@@ -1,0 +1,13 @@
+# mkdocs.offline.yml
+extends: mkdocs.yml
+
+extra:
+  # relative *from each generated HTML page* up to your shipped Maps folder
+  # the HTML for Guides/Reference/Maps/marburg/Marburg.html lives at
+  # site/Reference/Maps/marburg/Marburg/index.html → ../../../Maps
+  image_dir: '../../../Maps'
+
+plugins:
+  - exclude:
+      glob:
+        - 'map-images'   

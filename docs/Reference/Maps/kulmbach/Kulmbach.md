@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Kulmbach Briefing Map](Kulmbach.briefing.jpg)
+    ![Kulmbach Briefing Map]({{ img('Kulmbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kulmbach Gameplay Map](Kulmbach.jpg)
+    ![Kulmbach Gameplay Map]({{ img('Kulmbach.jpg') }})

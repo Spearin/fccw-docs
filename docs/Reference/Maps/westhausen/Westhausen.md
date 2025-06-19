@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Westhausen Briefing Map](Westhausen.briefing.jpg)
+    ![Westhausen Briefing Map]({{ img('Westhausen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Westhausen Gameplay Map](Westhausen.jpg)
+    ![Westhausen Gameplay Map]({{ img('Westhausen.jpg') }})

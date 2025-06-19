@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Sarrebourg Briefing Map](Sarrebourg.briefing.jpg)
+    ![Sarrebourg Briefing Map]({{ img('Sarrebourg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Sarrebourg Gameplay Map](Sarrebourg.jpg)
+    ![Sarrebourg Gameplay Map]({{ img('Sarrebourg.jpg') }})

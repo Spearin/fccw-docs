@@ -1,0 +1,7 @@
+# mkdocs.online.yml
+extends: mkdocs.yml
+
+extra:
+  # where your CI/CD serves up images
+  image_dir: '../map-images'
+

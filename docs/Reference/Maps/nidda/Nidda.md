@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Nidda Briefing Map](Nidda.briefing.jpg)
+    ![Nidda Briefing Map]({{ img('Nidda.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nidda Gameplay Map](Nidda.jpg)
+    ![Nidda Gameplay Map]({{ img('Nidda.jpg') }})

@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Schotten Briefing Map](Schotten.briefing.jpg)
+    ![Schotten Briefing Map]({{ img('Schotten.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Schotten Gameplay Map](Schotten.jpg)
+    ![Schotten Gameplay Map]({{ img('Schotten.jpg') }})

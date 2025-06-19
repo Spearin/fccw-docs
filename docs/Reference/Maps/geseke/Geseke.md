@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Geseke Briefing Map](Geseke.briefing.jpg)
+    ![Geseke Briefing Map]({{ img('Geseke.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Geseke Gameplay Map](Geseke.jpg)
+    ![Geseke Gameplay Map]({{ img('Geseke.jpg') }})

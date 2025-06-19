@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Norderfurt Briefing Map](Norderfurt.briefing.jpg)
+    ![Norderfurt Briefing Map]({{ img('Norderfurt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Norderfurt Gameplay Map](Norderfurt.jpg)
+    ![Norderfurt Gameplay Map]({{ img('Norderfurt.jpg') }})

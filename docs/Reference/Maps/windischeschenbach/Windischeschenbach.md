@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Windischeschenbach Briefing Map](Windischeschenbach.briefing.jpg)
+    ![Windischeschenbach Briefing Map]({{ img('Windischeschenbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Windischeschenbach Gameplay Map](Windischeschenbach.jpg)
+    ![Windischeschenbach Gameplay Map]({{ img('Windischeschenbach.jpg') }})

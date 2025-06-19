@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Schesslitz Briefing Map](Schesslitz.briefing.jpg)
+    ![Schesslitz Briefing Map]({{ img('Schesslitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Schesslitz Gameplay Map](Schesslitz.jpg)
+    ![Schesslitz Gameplay Map]({{ img('Schesslitz.jpg') }})

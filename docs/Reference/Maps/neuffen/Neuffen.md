@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Neuffen Briefing Map](Neuffen.briefing.jpg)
+    ![Neuffen Briefing Map]({{ img('Neuffen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Neuffen Gameplay Map](Neuffen.jpg)
+    ![Neuffen Gameplay Map]({{ img('Neuffen.jpg') }})

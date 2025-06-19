@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Langquaid Briefing Map](Langquaid.briefing.jpg)
+    ![Langquaid Briefing Map]({{ img('Langquaid.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Langquaid Gameplay Map](Langquaid.jpg)
+    ![Langquaid Gameplay Map]({{ img('Langquaid.jpg') }})

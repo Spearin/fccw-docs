@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Herford Briefing Map](Herford.briefing.jpg)
+    ![Herford Briefing Map]({{ img('Herford.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Herford Gameplay Map](Herford.jpg)
+    ![Herford Gameplay Map]({{ img('Herford.jpg') }})

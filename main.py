@@ -79,3 +79,17 @@ def on_post_page_macros(env):
 
     # Re-join everything. Code spans (odd indices) remain untouched.
     env.markdown = "".join(segments)
+
+# Macro for image paths in MkDocs offline/online versions
+def define_env(env):
+    """
+    Called by mkdocs-macros-plugin.
+    Exposes a single macro `img(name)` that returns:
+      <configured image_dir>/<name>
+    """
+    image_dir = env.config.extra.get('image_dir', '').rstrip('/')
+
+    @env.macro
+    def img(filename):
+        # strip any accidental leading slash on filename
+        return f"{image_dir}/{filename.lstrip('/')}"

@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Salzgitter Briefing Map](Salzgitter.briefing.jpg)
+    ![Salzgitter Briefing Map]({{ img('Salzgitter.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Salzgitter Gameplay Map](Salzgitter.jpg)
+    ![Salzgitter Gameplay Map]({{ img('Salzgitter.jpg') }})

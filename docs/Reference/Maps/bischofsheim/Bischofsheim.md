@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Bischofsheim Briefing Map](Bischofsheim.briefing.jpg)
+    ![Bischofsheim Briefing Map]({{ img('Bischofsheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bischofsheim Gameplay Map](Bischofsheim.jpg)
+    ![Bischofsheim Gameplay Map]({{ img('Bischofsheim.jpg') }})

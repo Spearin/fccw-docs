@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Ebelsbach Briefing Map](Ebelsbach.briefing.jpg)
+    ![Ebelsbach Briefing Map]({{ img('Ebelsbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Ebelsbach Gameplay Map](Ebelsbach.jpg)
+    ![Ebelsbach Gameplay Map]({{ img('Ebelsbach.jpg') }})

@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Unna Briefing Map](Unna.briefing.jpg)
+    ![Unna Briefing Map]({{ img('Unna.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Unna Gameplay Map](Unna.jpg)
+    ![Unna Gameplay Map]({{ img('Unna.jpg') }})

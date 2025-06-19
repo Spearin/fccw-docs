@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Aichelberg Briefing Map](Aichelberg.briefing.jpg)
+    ![Aichelberg Briefing Map]({{ img('Aichelberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Aichelberg Gameplay Map](Aichelberg.jpg)
+    ![Aichelberg Gameplay Map]({{ img('Aichelberg.jpg') }})

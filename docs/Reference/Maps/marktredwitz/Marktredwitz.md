@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Marktredwitz Briefing Map](Marktredwitz.briefing.jpg)
+    ![Marktredwitz Briefing Map]({{ img('Marktredwitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Marktredwitz Gameplay Map](Marktredwitz.jpg)
+    ![Marktredwitz Gameplay Map]({{ img('Marktredwitz.jpg') }})

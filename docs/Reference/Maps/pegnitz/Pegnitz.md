@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Pegnitz Briefing Map](Pegnitz.briefing.jpg)
+    ![Pegnitz Briefing Map]({{ img('Pegnitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Pegnitz Gameplay Map](Pegnitz.jpg)
+    ![Pegnitz Gameplay Map]({{ img('Pegnitz.jpg') }})

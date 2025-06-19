@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Lichtenfels Briefing Map](Lichtenfels.briefing.jpg)
+    ![Lichtenfels Briefing Map]({{ img('Lichtenfels.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Lichtenfels Gameplay Map](Lichtenfels.jpg)
+    ![Lichtenfels Gameplay Map]({{ img('Lichtenfels.jpg') }})

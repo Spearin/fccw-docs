@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Braunschweig Briefing Map](Braunschweig.briefing.jpg)
+    ![Braunschweig Briefing Map]({{ img('Braunschweig.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Braunschweig Gameplay Map](Braunschweig.jpg)
+    ![Braunschweig Gameplay Map]({{ img('Braunschweig.jpg') }})

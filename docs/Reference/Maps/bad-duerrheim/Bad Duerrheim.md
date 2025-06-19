@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Bad Duerrheim Briefing Map](Bad Duerrheim.briefing.jpg)
+    ![Bad Duerrheim Briefing Map]({{ img('Bad Duerrheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bad Duerrheim Gameplay Map](Bad Duerrheim.jpg)
+    ![Bad Duerrheim Gameplay Map]({{ img('Bad Duerrheim.jpg') }})

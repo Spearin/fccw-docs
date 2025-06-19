@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Arracourt Briefing Map](Arracourt.briefing.jpg)
+    ![Arracourt Briefing Map]({{ img('Arracourt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Arracourt Gameplay Map](Arracourt.jpg)
+    ![Arracourt Gameplay Map]({{ img('Arracourt.jpg') }})

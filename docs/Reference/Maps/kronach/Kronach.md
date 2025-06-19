@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Kronach Briefing Map](Kronach.briefing.jpg)
+    ![Kronach Briefing Map]({{ img('Kronach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kronach Gameplay Map](Kronach.jpg)
+    ![Kronach Gameplay Map]({{ img('Kronach.jpg') }})

@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Rastatt Briefing Map](Rastatt.briefing.jpg)
+    ![Rastatt Briefing Map]({{ img('Rastatt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Rastatt Gameplay Map](Rastatt.jpg)
+    ![Rastatt Gameplay Map]({{ img('Rastatt.jpg') }})

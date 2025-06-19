@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Eiterfeld Briefing Map](Eiterfeld.briefing.jpg)
+    ![Eiterfeld Briefing Map]({{ img('Eiterfeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Eiterfeld Gameplay Map](Eiterfeld.jpg)
+    ![Eiterfeld Gameplay Map]({{ img('Eiterfeld.jpg') }})

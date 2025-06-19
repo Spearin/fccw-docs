@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Nordheim Briefing Map](Nordheim.briefing.jpg)
+    ![Nordheim Briefing Map]({{ img('Nordheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nordheim Gameplay Map](Nordheim.jpg)
+    ![Nordheim Gameplay Map]({{ img('Nordheim.jpg') }})

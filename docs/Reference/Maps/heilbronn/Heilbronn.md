@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Heilbronn Briefing Map](Heilbronn.briefing.jpg)
+    ![Heilbronn Briefing Map]({{ img('Heilbronn.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Heilbronn Gameplay Map](Heilbronn.jpg)
+    ![Heilbronn Gameplay Map]({{ img('Heilbronn.jpg') }})

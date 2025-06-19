@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Goeppingen Briefing Map](Goeppingen.briefing.jpg)
+    ![Goeppingen Briefing Map]({{ img('Goeppingen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Goeppingen Gameplay Map](Goeppingen.jpg)
+    ![Goeppingen Gameplay Map]({{ img('Goeppingen.jpg') }})

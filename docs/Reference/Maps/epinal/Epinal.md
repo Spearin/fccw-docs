@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Epinal Briefing Map](Epinal.briefing.jpg)
+    ![Epinal Briefing Map]({{ img('Epinal.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Epinal Gameplay Map](Epinal.jpg)
+    ![Epinal Gameplay Map]({{ img('Epinal.jpg') }})

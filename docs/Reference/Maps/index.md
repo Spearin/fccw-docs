@@ -4,11 +4,11 @@
 
 === "Briefing Map"
 
-    ![Aichelberg Briefing Map](aichelberg/Aichelberg.briefing.jpg)
+    ![Aichelberg Briefing Map]({{ img('Aichelberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Aichelberg Gameplay Map](aichelberg/Aichelberg.jpg)
+    ![Aichelberg Gameplay Map]({{ img('Aichelberg.jpg') }})
 
 ---
 
@@ -16,11 +16,11 @@
 
 === "Briefing Map"
 
-    ![Aiterhofen Briefing Map](aiterhofen/Aiterhofen.briefing.jpg)
+    ![Aiterhofen Briefing Map]({{ img('Aiterhofen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Aiterhofen Gameplay Map](aiterhofen/Aiterhofen.jpg)
+    ![Aiterhofen Gameplay Map]({{ img('Aiterhofen.jpg') }})
 
 ---
 
@@ -28,11 +28,11 @@
 
 === "Briefing Map"
 
-    ![Amberg Briefing Map](amberg/Amberg.briefing.jpg)
+    ![Amberg Briefing Map]({{ img('Amberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Amberg Gameplay Map](amberg/Amberg.jpg)
+    ![Amberg Gameplay Map]({{ img('Amberg.jpg') }})
 
 ---
 
@@ -40,11 +40,11 @@
 
 === "Briefing Map"
 
-    ![Arolsen Briefing Map](arolsen/Arolsen.briefing.jpg)
+    ![Arolsen Briefing Map]({{ img('Arolsen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Arolsen Gameplay Map](arolsen/Arolsen.jpg)
+    ![Arolsen Gameplay Map]({{ img('Arolsen.jpg') }})
 
 ---
 
@@ -52,11 +52,11 @@
 
 === "Briefing Map"
 
-    ![Arracourt Briefing Map](arracourt/Arracourt.briefing.jpg)
+    ![Arracourt Briefing Map]({{ img('Arracourt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Arracourt Gameplay Map](arracourt/Arracourt.jpg)
+    ![Arracourt Gameplay Map]({{ img('Arracourt.jpg') }})
 
 ---
 
@@ -64,11 +64,11 @@
 
 === "Briefing Map"
 
-    ![Bad Driburg Briefing Map](bad-driburg/Bad Driburg.briefing.jpg)
+    ![Bad Driburg Briefing Map]({{ img('Bad Driburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bad Driburg Gameplay Map](bad-driburg/Bad Driburg.jpg)
+    ![Bad Driburg Gameplay Map]({{ img('Bad Driburg.jpg') }})
 
 ---
 
@@ -76,11 +76,11 @@
 
 === "Briefing Map"
 
-    ![Bad Duerrheim Briefing Map](bad-duerrheim/Bad Duerrheim.briefing.jpg)
+    ![Bad Duerrheim Briefing Map]({{ img('Bad Duerrheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bad Duerrheim Gameplay Map](bad-duerrheim/Bad Duerrheim.jpg)
+    ![Bad Duerrheim Gameplay Map]({{ img('Bad Duerrheim.jpg') }})
 
 ---
 
@@ -88,11 +88,11 @@
 
 === "Briefing Map"
 
-    ![Bad Neustadt Briefing Map](bad-neustadt/Bad Neustadt.briefing.jpg)
+    ![Bad Neustadt Briefing Map]({{ img('Bad Neustadt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bad Neustadt Gameplay Map](bad-neustadt/Bad Neustadt.jpg)
+    ![Bad Neustadt Gameplay Map]({{ img('Bad Neustadt.jpg') }})
 
 ---
 
@@ -100,11 +100,11 @@
 
 === "Briefing Map"
 
-    ![Bad Windsheim Briefing Map](bad-windsheim/Bad Windsheim.briefing.jpg)
+    ![Bad Windsheim Briefing Map]({{ img('Bad Windsheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bad Windsheim Gameplay Map](bad-windsheim/Bad Windsheim.jpg)
+    ![Bad Windsheim Gameplay Map]({{ img('Bad Windsheim.jpg') }})
 
 ---
 
@@ -112,11 +112,11 @@
 
 === "Briefing Map"
 
-    ![Bamberg Briefing Map](bamberg/Bamberg.briefing.jpg)
+    ![Bamberg Briefing Map]({{ img('Bamberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bamberg Gameplay Map](bamberg/Bamberg.jpg)
+    ![Bamberg Gameplay Map]({{ img('Bamberg.jpg') }})
 
 ---
 
@@ -124,11 +124,11 @@
 
 === "Briefing Map"
 
-    ![Bielefeld Briefing Map](bielefeld/Bielefeld.briefing.jpg)
+    ![Bielefeld Briefing Map]({{ img('Bielefeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bielefeld Gameplay Map](bielefeld/Bielefeld.jpg)
+    ![Bielefeld Gameplay Map]({{ img('Bielefeld.jpg') }})
 
 ---
 
@@ -136,11 +136,11 @@
 
 === "Briefing Map"
 
-    ![Bischofsheim Briefing Map](bischofsheim/Bischofsheim.briefing.jpg)
+    ![Bischofsheim Briefing Map]({{ img('Bischofsheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Bischofsheim Gameplay Map](bischofsheim/Bischofsheim.jpg)
+    ![Bischofsheim Gameplay Map]({{ img('Bischofsheim.jpg') }})
 
 ---
 
@@ -148,11 +148,11 @@
 
 === "Briefing Map"
 
-    ![Braunschweig Briefing Map](braunschweig/Braunschweig.briefing.jpg)
+    ![Braunschweig Briefing Map]({{ img('Braunschweig.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Braunschweig Gameplay Map](braunschweig/Braunschweig.jpg)
+    ![Braunschweig Gameplay Map]({{ img('Braunschweig.jpg') }})
 
 ---
 
@@ -160,11 +160,11 @@
 
 === "Briefing Map"
 
-    ![Breitenbach am Herzberg Briefing Map](breitenbach-am-herzberg/Breitenbach am Herzberg.briefing.jpg)
+    ![Breitenbach am Herzberg Briefing Map]({{ img('Breitenbach am Herzberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Breitenbach am Herzberg Gameplay Map](breitenbach-am-herzberg/Breitenbach am Herzberg.jpg)
+    ![Breitenbach am Herzberg Gameplay Map]({{ img('Breitenbach am Herzberg.jpg') }})
 
 ---
 
@@ -172,11 +172,11 @@
 
 === "Briefing Map"
 
-    ![Buchholz Briefing Map](buchholz/Buchholz.briefing.jpg)
+    ![Buchholz Briefing Map]({{ img('Buchholz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Buchholz Gameplay Map](buchholz/Buchholz.jpg)
+    ![Buchholz Gameplay Map]({{ img('Buchholz.jpg') }})
 
 ---
 
@@ -184,11 +184,11 @@
 
 === "Briefing Map"
 
-    ![Coburg Briefing Map](coburg/Coburg.briefing.jpg)
+    ![Coburg Briefing Map]({{ img('Coburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Coburg Gameplay Map](coburg/Coburg.jpg)
+    ![Coburg Gameplay Map]({{ img('Coburg.jpg') }})
 
 ---
 
@@ -196,11 +196,11 @@
 
 === "Briefing Map"
 
-    ![Colmar Briefing Map](colmar/Colmar.briefing.jpg)
+    ![Colmar Briefing Map]({{ img('Colmar.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Colmar Gameplay Map](colmar/Colmar.jpg)
+    ![Colmar Gameplay Map]({{ img('Colmar.jpg') }})
 
 ---
 
@@ -208,11 +208,11 @@
 
 === "Briefing Map"
 
-    ![Dieburg Briefing Map](dieburg/Dieburg.briefing.jpg)
+    ![Dieburg Briefing Map]({{ img('Dieburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Dieburg Gameplay Map](dieburg/Dieburg.jpg)
+    ![Dieburg Gameplay Map]({{ img('Dieburg.jpg') }})
 
 ---
 
@@ -220,11 +220,11 @@
 
 === "Briefing Map"
 
-    ![Ebelsbach Briefing Map](ebelsbach/Ebelsbach.briefing.jpg)
+    ![Ebelsbach Briefing Map]({{ img('Ebelsbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Ebelsbach Gameplay Map](ebelsbach/Ebelsbach.jpg)
+    ![Ebelsbach Gameplay Map]({{ img('Ebelsbach.jpg') }})
 
 ---
 
@@ -232,11 +232,11 @@
 
 === "Briefing Map"
 
-    ![Eiterfeld Briefing Map](eiterfeld/Eiterfeld.briefing.jpg)
+    ![Eiterfeld Briefing Map]({{ img('Eiterfeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Eiterfeld Gameplay Map](eiterfeld/Eiterfeld.jpg)
+    ![Eiterfeld Gameplay Map]({{ img('Eiterfeld.jpg') }})
 
 ---
 
@@ -244,11 +244,11 @@
 
 === "Briefing Map"
 
-    ![Epinal Briefing Map](epinal/Epinal.briefing.jpg)
+    ![Epinal Briefing Map]({{ img('Epinal.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Epinal Gameplay Map](epinal/Epinal.jpg)
+    ![Epinal Gameplay Map]({{ img('Epinal.jpg') }})
 
 ---
 
@@ -256,11 +256,11 @@
 
 === "Briefing Map"
 
-    ![Erbendorf Briefing Map](erbendorf/Erbendorf.briefing.jpg)
+    ![Erbendorf Briefing Map]({{ img('Erbendorf.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Erbendorf Gameplay Map](erbendorf/Erbendorf.jpg)
+    ![Erbendorf Gameplay Map]({{ img('Erbendorf.jpg') }})
 
 ---
 
@@ -268,11 +268,11 @@
 
 === "Briefing Map"
 
-    ![Forchheim Briefing Map](forchheim/Forchheim.briefing.jpg)
+    ![Forchheim Briefing Map]({{ img('Forchheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Forchheim Gameplay Map](forchheim/Forchheim.jpg)
+    ![Forchheim Gameplay Map]({{ img('Forchheim.jpg') }})
 
 ---
 
@@ -280,11 +280,11 @@
 
 === "Briefing Map"
 
-    ![Freiburg Briefing Map](freiburg/Freiburg.briefing.jpg)
+    ![Freiburg Briefing Map]({{ img('Freiburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Freiburg Gameplay Map](freiburg/Freiburg.jpg)
+    ![Freiburg Gameplay Map]({{ img('Freiburg.jpg') }})
 
 ---
 
@@ -292,11 +292,11 @@
 
 === "Briefing Map"
 
-    ![Fulda Briefing Map](fulda/Fulda.briefing.jpg)
+    ![Fulda Briefing Map]({{ img('Fulda.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Fulda Gameplay Map](fulda/Fulda.jpg)
+    ![Fulda Gameplay Map]({{ img('Fulda.jpg') }})
 
 ---
 
@@ -304,11 +304,11 @@
 
 === "Briefing Map"
 
-    ![Germersheim Briefing Map](germersheim/Germersheim.briefing.jpg)
+    ![Germersheim Briefing Map]({{ img('Germersheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Germersheim Gameplay Map](germersheim/Germersheim.jpg)
+    ![Germersheim Gameplay Map]({{ img('Germersheim.jpg') }})
 
 ---
 
@@ -316,11 +316,11 @@
 
 === "Briefing Map"
 
-    ![Gersfeld Briefing Map](gersfeld/Gersfeld.briefing.jpg)
+    ![Gersfeld Briefing Map]({{ img('Gersfeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Gersfeld Gameplay Map](gersfeld/Gersfeld.jpg)
+    ![Gersfeld Gameplay Map]({{ img('Gersfeld.jpg') }})
 
 ---
 
@@ -328,11 +328,11 @@
 
 === "Briefing Map"
 
-    ![Geseke Briefing Map](geseke/Geseke.briefing.jpg)
+    ![Geseke Briefing Map]({{ img('Geseke.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Geseke Gameplay Map](geseke/Geseke.jpg)
+    ![Geseke Gameplay Map]({{ img('Geseke.jpg') }})
 
 ---
 
@@ -340,11 +340,11 @@
 
 === "Briefing Map"
 
-    ![Goeppingen Briefing Map](goeppingen/Goeppingen.briefing.jpg)
+    ![Goeppingen Briefing Map]({{ img('Goeppingen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Goeppingen Gameplay Map](goeppingen/Goeppingen.jpg)
+    ![Goeppingen Gameplay Map]({{ img('Goeppingen.jpg') }})
 
 ---
 
@@ -352,11 +352,11 @@
 
 === "Briefing Map"
 
-    ![Grafenwoehr Briefing Map](grafenwoehr/Grafenwoehr.briefing.jpg)
+    ![Grafenwoehr Briefing Map]({{ img('Grafenwoehr.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Grafenwoehr Gameplay Map](grafenwoehr/Grafenwoehr.jpg)
+    ![Grafenwoehr Gameplay Map]({{ img('Grafenwoehr.jpg') }})
 
 ---
 
@@ -364,11 +364,11 @@
 
 === "Briefing Map"
 
-    ![Haiger Briefing Map](haiger/Haiger.briefing.jpg)
+    ![Haiger Briefing Map]({{ img('Haiger.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Haiger Gameplay Map](haiger/Haiger.jpg)
+    ![Haiger Gameplay Map]({{ img('Haiger.jpg') }})
 
 ---
 
@@ -376,11 +376,11 @@
 
 === "Briefing Map"
 
-    ![Hameln Briefing Map](hameln/Hameln.briefing.jpg)
+    ![Hameln Briefing Map]({{ img('Hameln.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Hameln Gameplay Map](hameln/Hameln.jpg)
+    ![Hameln Gameplay Map]({{ img('Hameln.jpg') }})
 
 ---
 
@@ -388,11 +388,11 @@
 
 === "Briefing Map"
 
-    ![Hanau Briefing Map](hanau/Hanau.briefing.jpg)
+    ![Hanau Briefing Map]({{ img('Hanau.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Hanau Gameplay Map](hanau/Hanau.jpg)
+    ![Hanau Gameplay Map]({{ img('Hanau.jpg') }})
 
 ---
 
@@ -400,11 +400,11 @@
 
 === "Briefing Map"
 
-    ![Hannover-Doehren Briefing Map](hannover-doehren/Hannover-Doehren.briefing.jpg)
+    ![Hannover-Doehren Briefing Map]({{ img('Hannover-Doehren.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Hannover-Doehren Gameplay Map](hannover-doehren/Hannover-Doehren.jpg)
+    ![Hannover-Doehren Gameplay Map]({{ img('Hannover-Doehren.jpg') }})
 
 ---
 
@@ -412,11 +412,11 @@
 
 === "Briefing Map"
 
-    ![Heilbronn Briefing Map](heilbronn/Heilbronn.briefing.jpg)
+    ![Heilbronn Briefing Map]({{ img('Heilbronn.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Heilbronn Gameplay Map](heilbronn/Heilbronn.jpg)
+    ![Heilbronn Gameplay Map]({{ img('Heilbronn.jpg') }})
 
 ---
 
@@ -424,11 +424,11 @@
 
 === "Briefing Map"
 
-    ![Herford Briefing Map](herford/Herford.briefing.jpg)
+    ![Herford Briefing Map]({{ img('Herford.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Herford Gameplay Map](herford/Herford.jpg)
+    ![Herford Gameplay Map]({{ img('Herford.jpg') }})
 
 ---
 
@@ -436,11 +436,11 @@
 
 === "Briefing Map"
 
-    ![Holle Briefing Map](holle/Holle.briefing.jpg)
+    ![Holle Briefing Map]({{ img('Holle.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Holle Gameplay Map](holle/Holle.jpg)
+    ![Holle Gameplay Map]({{ img('Holle.jpg') }})
 
 ---
 
@@ -448,11 +448,11 @@
 
 === "Briefing Map"
 
-    ![Kahl am Main Briefing Map](kahl-am-main/Kahl am Main.briefing.jpg)
+    ![Kahl am Main Briefing Map]({{ img('Kahl am Main.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kahl am Main Gameplay Map](kahl-am-main/Kahl am Main.jpg)
+    ![Kahl am Main Gameplay Map]({{ img('Kahl am Main.jpg') }})
 
 ---
 
@@ -460,11 +460,11 @@
 
 === "Briefing Map"
 
-    ![Kemnath Briefing Map](kemnath/Kemnath.briefing.jpg)
+    ![Kemnath Briefing Map]({{ img('Kemnath.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kemnath Gameplay Map](kemnath/Kemnath.jpg)
+    ![Kemnath Gameplay Map]({{ img('Kemnath.jpg') }})
 
 ---
 
@@ -472,11 +472,11 @@
 
 === "Briefing Map"
 
-    ![Kinding Briefing Map](kinding/Kinding.briefing.jpg)
+    ![Kinding Briefing Map]({{ img('Kinding.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kinding Gameplay Map](kinding/Kinding.jpg)
+    ![Kinding Gameplay Map]({{ img('Kinding.jpg') }})
 
 ---
 
@@ -484,11 +484,11 @@
 
 === "Briefing Map"
 
-    ![Kirchheim u Teck Briefing Map](kirchheim-u-teck/Kirchheim u Teck.briefing.jpg)
+    ![Kirchheim u Teck Briefing Map]({{ img('Kirchheim u Teck.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kirchheim u Teck Gameplay Map](kirchheim-u-teck/Kirchheim u Teck.jpg)
+    ![Kirchheim u Teck Gameplay Map]({{ img('Kirchheim u Teck.jpg') }})
 
 ---
 
@@ -496,11 +496,11 @@
 
 === "Briefing Map"
 
-    ![Koenigsfeld Briefing Map](koenigsfeld/Koenigsfeld.briefing.jpg)
+    ![Koenigsfeld Briefing Map]({{ img('Koenigsfeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Koenigsfeld Gameplay Map](koenigsfeld/Koenigsfeld.jpg)
+    ![Koenigsfeld Gameplay Map]({{ img('Koenigsfeld.jpg') }})
 
 ---
 
@@ -508,11 +508,11 @@
 
 === "Briefing Map"
 
-    ![Kronach Briefing Map](kronach/Kronach.briefing.jpg)
+    ![Kronach Briefing Map]({{ img('Kronach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kronach Gameplay Map](kronach/Kronach.jpg)
+    ![Kronach Gameplay Map]({{ img('Kronach.jpg') }})
 
 ---
 
@@ -520,11 +520,11 @@
 
 === "Briefing Map"
 
-    ![Kulmbach Briefing Map](kulmbach/Kulmbach.briefing.jpg)
+    ![Kulmbach Briefing Map]({{ img('Kulmbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Kulmbach Gameplay Map](kulmbach/Kulmbach.jpg)
+    ![Kulmbach Gameplay Map]({{ img('Kulmbach.jpg') }})
 
 ---
 
@@ -532,11 +532,11 @@
 
 === "Briefing Map"
 
-    ![Landau ad Isar Briefing Map](landau-ad-isar/Landau ad Isar.briefing.jpg)
+    ![Landau ad Isar Briefing Map]({{ img('Landau ad Isar.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Landau ad Isar Gameplay Map](landau-ad-isar/Landau ad Isar.jpg)
+    ![Landau ad Isar Gameplay Map]({{ img('Landau ad Isar.jpg') }})
 
 ---
 
@@ -544,11 +544,11 @@
 
 === "Briefing Map"
 
-    ![Langquaid Briefing Map](langquaid/Langquaid.briefing.jpg)
+    ![Langquaid Briefing Map]({{ img('Langquaid.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Langquaid Gameplay Map](langquaid/Langquaid.jpg)
+    ![Langquaid Gameplay Map]({{ img('Langquaid.jpg') }})
 
 ---
 
@@ -556,11 +556,11 @@
 
 === "Briefing Map"
 
-    ![Lauterbach_Hessen Briefing Map](lauterbach_hessen/Lauterbach_Hessen.briefing.jpg)
+    ![Lauterbach_Hessen Briefing Map]({{ img('Lauterbach_Hessen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Lauterbach_Hessen Gameplay Map](lauterbach_hessen/Lauterbach_Hessen.jpg)
+    ![Lauterbach_Hessen Gameplay Map]({{ img('Lauterbach_Hessen.jpg') }})
 
 ---
 
@@ -568,11 +568,11 @@
 
 === "Briefing Map"
 
-    ![Lechfeld Briefing Map](lechfeld/Lechfeld.briefing.jpg)
+    ![Lechfeld Briefing Map]({{ img('Lechfeld.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Lechfeld Gameplay Map](lechfeld/Lechfeld.jpg)
+    ![Lechfeld Gameplay Map]({{ img('Lechfeld.jpg') }})
 
 ---
 
@@ -580,11 +580,11 @@
 
 === "Briefing Map"
 
-    ![Leupoldsgruen Briefing Map](leupoldsgruen/Leupoldsgruen.briefing.jpg)
+    ![Leupoldsgruen Briefing Map]({{ img('Leupoldsgruen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Leupoldsgruen Gameplay Map](leupoldsgruen/Leupoldsgruen.jpg)
+    ![Leupoldsgruen Gameplay Map]({{ img('Leupoldsgruen.jpg') }})
 
 ---
 
@@ -592,11 +592,11 @@
 
 === "Briefing Map"
 
-    ![Lichtenfels Briefing Map](lichtenfels/Lichtenfels.briefing.jpg)
+    ![Lichtenfels Briefing Map]({{ img('Lichtenfels.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Lichtenfels Gameplay Map](lichtenfels/Lichtenfels.jpg)
+    ![Lichtenfels Gameplay Map]({{ img('Lichtenfels.jpg') }})
 
 ---
 
@@ -604,11 +604,11 @@
 
 === "Briefing Map"
 
-    ![Marburg Briefing Map](marburg/Marburg.briefing.jpg)
+    ![Marburg Briefing Map]({{ img('Marburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Marburg Gameplay Map](marburg/Marburg.jpg)
+    ![Marburg Gameplay Map]({{ img('Marburg.jpg') }})
 
 ---
 
@@ -616,11 +616,11 @@
 
 === "Briefing Map"
 
-    ![Marktredwitz Briefing Map](marktredwitz/Marktredwitz.briefing.jpg)
+    ![Marktredwitz Briefing Map]({{ img('Marktredwitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Marktredwitz Gameplay Map](marktredwitz/Marktredwitz.jpg)
+    ![Marktredwitz Gameplay Map]({{ img('Marktredwitz.jpg') }})
 
 ---
 
@@ -628,11 +628,11 @@
 
 === "Briefing Map"
 
-    ![Melsungen Briefing Map](melsungen/Melsungen.briefing.jpg)
+    ![Melsungen Briefing Map]({{ img('Melsungen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Melsungen Gameplay Map](melsungen/Melsungen.jpg)
+    ![Melsungen Gameplay Map]({{ img('Melsungen.jpg') }})
 
 ---
 
@@ -640,11 +640,11 @@
 
 === "Briefing Map"
 
-    ![Minden Briefing Map](minden/Minden.briefing.jpg)
+    ![Minden Briefing Map]({{ img('Minden.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Minden Gameplay Map](minden/Minden.jpg)
+    ![Minden Gameplay Map]({{ img('Minden.jpg') }})
 
 ---
 
@@ -652,11 +652,11 @@
 
 === "Briefing Map"
 
-    ![Montabaur Briefing Map](montabaur/Montabaur.briefing.jpg)
+    ![Montabaur Briefing Map]({{ img('Montabaur.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Montabaur Gameplay Map](montabaur/Montabaur.jpg)
+    ![Montabaur Gameplay Map]({{ img('Montabaur.jpg') }})
 
 ---
 
@@ -664,11 +664,11 @@
 
 === "Briefing Map"
 
-    ![Nagold Briefing Map](nagold/Nagold.briefing.jpg)
+    ![Nagold Briefing Map]({{ img('Nagold.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nagold Gameplay Map](nagold/Nagold.jpg)
+    ![Nagold Gameplay Map]({{ img('Nagold.jpg') }})
 
 ---
 
@@ -676,11 +676,11 @@
 
 === "Briefing Map"
 
-    ![Neuffen Briefing Map](neuffen/Neuffen.briefing.jpg)
+    ![Neuffen Briefing Map]({{ img('Neuffen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Neuffen Gameplay Map](neuffen/Neuffen.jpg)
+    ![Neuffen Gameplay Map]({{ img('Neuffen.jpg') }})
 
 ---
 
@@ -688,11 +688,11 @@
 
 === "Briefing Map"
 
-    ![Neuwied Briefing Map](neuwied/Neuwied.briefing.jpg)
+    ![Neuwied Briefing Map]({{ img('Neuwied.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Neuwied Gameplay Map](neuwied/Neuwied.jpg)
+    ![Neuwied Gameplay Map]({{ img('Neuwied.jpg') }})
 
 ---
 
@@ -700,11 +700,11 @@
 
 === "Briefing Map"
 
-    ![Nidda Briefing Map](nidda/Nidda.briefing.jpg)
+    ![Nidda Briefing Map]({{ img('Nidda.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nidda Gameplay Map](nidda/Nidda.jpg)
+    ![Nidda Gameplay Map]({{ img('Nidda.jpg') }})
 
 ---
 
@@ -712,11 +712,11 @@
 
 === "Briefing Map"
 
-    ![Norderfurt Briefing Map](norderfurt/Norderfurt.briefing.jpg)
+    ![Norderfurt Briefing Map]({{ img('Norderfurt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Norderfurt Gameplay Map](norderfurt/Norderfurt.jpg)
+    ![Norderfurt Gameplay Map]({{ img('Norderfurt.jpg') }})
 
 ---
 
@@ -724,11 +724,11 @@
 
 === "Briefing Map"
 
-    ![Nordheim Briefing Map](nordheim/Nordheim.briefing.jpg)
+    ![Nordheim Briefing Map]({{ img('Nordheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nordheim Gameplay Map](nordheim/Nordheim.jpg)
+    ![Nordheim Gameplay Map]({{ img('Nordheim.jpg') }})
 
 ---
 
@@ -736,11 +736,11 @@
 
 === "Briefing Map"
 
-    ![Pegnitz Briefing Map](pegnitz/Pegnitz.briefing.jpg)
+    ![Pegnitz Briefing Map]({{ img('Pegnitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Pegnitz Gameplay Map](pegnitz/Pegnitz.jpg)
+    ![Pegnitz Gameplay Map]({{ img('Pegnitz.jpg') }})
 
 ---
 
@@ -748,11 +748,11 @@
 
 === "Briefing Map"
 
-    ![Pfoerring Briefing Map](pfoerring/Pfoerring.briefing.jpg)
+    ![Pfoerring Briefing Map]({{ img('Pfoerring.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Pfoerring Gameplay Map](pfoerring/Pfoerring.jpg)
+    ![Pfoerring Gameplay Map]({{ img('Pfoerring.jpg') }})
 
 ---
 
@@ -760,11 +760,11 @@
 
 === "Briefing Map"
 
-    ![Phalsbourg Briefing Map](phalsbourg/Phalsbourg.briefing.jpg)
+    ![Phalsbourg Briefing Map]({{ img('Phalsbourg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Phalsbourg Gameplay Map](phalsbourg/Phalsbourg.jpg)
+    ![Phalsbourg Gameplay Map]({{ img('Phalsbourg.jpg') }})
 
 ---
 
@@ -772,11 +772,11 @@
 
 === "Briefing Map"
 
-    ![Rastatt Briefing Map](rastatt/Rastatt.briefing.jpg)
+    ![Rastatt Briefing Map]({{ img('Rastatt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Rastatt Gameplay Map](rastatt/Rastatt.jpg)
+    ![Rastatt Gameplay Map]({{ img('Rastatt.jpg') }})
 
 ---
 
@@ -784,11 +784,11 @@
 
 === "Briefing Map"
 
-    ![Reichelsheim Briefing Map](reichelsheim/Reichelsheim.briefing.jpg)
+    ![Reichelsheim Briefing Map]({{ img('Reichelsheim.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Reichelsheim Gameplay Map](reichelsheim/Reichelsheim.jpg)
+    ![Reichelsheim Gameplay Map]({{ img('Reichelsheim.jpg') }})
 
 ---
 
@@ -796,11 +796,11 @@
 
 === "Briefing Map"
 
-    ![Rottenburg Briefing Map](rottenburg/Rottenburg.briefing.jpg)
+    ![Rottenburg Briefing Map]({{ img('Rottenburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Rottenburg Gameplay Map](rottenburg/Rottenburg.jpg)
+    ![Rottenburg Gameplay Map]({{ img('Rottenburg.jpg') }})
 
 ---
 
@@ -808,11 +808,11 @@
 
 === "Briefing Map"
 
-    ![Rottweil Briefing Map](rottweil/Rottweil.briefing.jpg)
+    ![Rottweil Briefing Map]({{ img('Rottweil.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Rottweil Gameplay Map](rottweil/Rottweil.jpg)
+    ![Rottweil Gameplay Map]({{ img('Rottweil.jpg') }})
 
 ---
 
@@ -820,11 +820,11 @@
 
 === "Briefing Map"
 
-    ![Salzgitter Briefing Map](salzgitter/Salzgitter.briefing.jpg)
+    ![Salzgitter Briefing Map]({{ img('Salzgitter.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Salzgitter Gameplay Map](salzgitter/Salzgitter.jpg)
+    ![Salzgitter Gameplay Map]({{ img('Salzgitter.jpg') }})
 
 ---
 
@@ -832,11 +832,11 @@
 
 === "Briefing Map"
 
-    ![Sarrebourg Briefing Map](sarrebourg/Sarrebourg.briefing.jpg)
+    ![Sarrebourg Briefing Map]({{ img('Sarrebourg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Sarrebourg Gameplay Map](sarrebourg/Sarrebourg.jpg)
+    ![Sarrebourg Gameplay Map]({{ img('Sarrebourg.jpg') }})
 
 ---
 
@@ -844,11 +844,11 @@
 
 === "Briefing Map"
 
-    ![Schesslitz Briefing Map](schesslitz/Schesslitz.briefing.jpg)
+    ![Schesslitz Briefing Map]({{ img('Schesslitz.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Schesslitz Gameplay Map](schesslitz/Schesslitz.jpg)
+    ![Schesslitz Gameplay Map]({{ img('Schesslitz.jpg') }})
 
 ---
 
@@ -856,11 +856,11 @@
 
 === "Briefing Map"
 
-    ![Schluechtern Briefing Map](schluechtern/Schluechtern.briefing.jpg)
+    ![Schluechtern Briefing Map]({{ img('Schluechtern.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Schluechtern Gameplay Map](schluechtern/Schluechtern.jpg)
+    ![Schluechtern Gameplay Map]({{ img('Schluechtern.jpg') }})
 
 ---
 
@@ -868,11 +868,11 @@
 
 === "Briefing Map"
 
-    ![Schotten Briefing Map](schotten/Schotten.briefing.jpg)
+    ![Schotten Briefing Map]({{ img('Schotten.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Schotten Gameplay Map](schotten/Schotten.jpg)
+    ![Schotten Gameplay Map]({{ img('Schotten.jpg') }})
 
 ---
 
@@ -880,11 +880,11 @@
 
 === "Briefing Map"
 
-    ![Seligenstadt Briefing Map](seligenstadt/Seligenstadt.briefing.jpg)
+    ![Seligenstadt Briefing Map]({{ img('Seligenstadt.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Seligenstadt Gameplay Map](seligenstadt/Seligenstadt.jpg)
+    ![Seligenstadt Gameplay Map]({{ img('Seligenstadt.jpg') }})
 
 ---
 
@@ -892,11 +892,11 @@
 
 === "Briefing Map"
 
-    ![Soest Briefing Map](soest/Soest.briefing.jpg)
+    ![Soest Briefing Map]({{ img('Soest.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Soest Gameplay Map](soest/Soest.jpg)
+    ![Soest Gameplay Map]({{ img('Soest.jpg') }})
 
 ---
 
@@ -904,11 +904,11 @@
 
 === "Briefing Map"
 
-    ![Tuebingen Briefing Map](tuebingen/Tuebingen.briefing.jpg)
+    ![Tuebingen Briefing Map]({{ img('Tuebingen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Tuebingen Gameplay Map](tuebingen/Tuebingen.jpg)
+    ![Tuebingen Gameplay Map]({{ img('Tuebingen.jpg') }})
 
 ---
 
@@ -916,11 +916,11 @@
 
 === "Briefing Map"
 
-    ![Unna Briefing Map](unna/Unna.briefing.jpg)
+    ![Unna Briefing Map]({{ img('Unna.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Unna Gameplay Map](unna/Unna.jpg)
+    ![Unna Gameplay Map]({{ img('Unna.jpg') }})
 
 ---
 
@@ -928,11 +928,11 @@
 
 === "Briefing Map"
 
-    ![Warburg Briefing Map](warburg/Warburg.briefing.jpg)
+    ![Warburg Briefing Map]({{ img('Warburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Warburg Gameplay Map](warburg/Warburg.jpg)
+    ![Warburg Gameplay Map]({{ img('Warburg.jpg') }})
 
 ---
 
@@ -940,11 +940,11 @@
 
 === "Briefing Map"
 
-    ![Wendlingen Briefing Map](wendlingen/Wendlingen.briefing.jpg)
+    ![Wendlingen Briefing Map]({{ img('Wendlingen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Wendlingen Gameplay Map](wendlingen/Wendlingen.jpg)
+    ![Wendlingen Gameplay Map]({{ img('Wendlingen.jpg') }})
 
 ---
 
@@ -952,11 +952,11 @@
 
 === "Briefing Map"
 
-    ![Westhausen Briefing Map](westhausen/Westhausen.briefing.jpg)
+    ![Westhausen Briefing Map]({{ img('Westhausen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Westhausen Gameplay Map](westhausen/Westhausen.jpg)
+    ![Westhausen Gameplay Map]({{ img('Westhausen.jpg') }})
 
 ---
 
@@ -964,11 +964,11 @@
 
 === "Briefing Map"
 
-    ![Wildberg Briefing Map](wildberg/Wildberg.briefing.jpg)
+    ![Wildberg Briefing Map]({{ img('Wildberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Wildberg Gameplay Map](wildberg/Wildberg.jpg)
+    ![Wildberg Gameplay Map]({{ img('Wildberg.jpg') }})
 
 ---
 
@@ -976,11 +976,10 @@
 
 === "Briefing Map"
 
-    ![Windischeschenbach Briefing Map](windischeschenbach/Windischeschenbach.briefing.jpg)
+    ![Windischeschenbach Briefing Map]({{ img('Windischeschenbach.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Windischeschenbach Gameplay Map](windischeschenbach/Windischeschenbach.jpg)
+    ![Windischeschenbach Gameplay Map]({{ img('Windischeschenbach.jpg') }})
 
 ---
-

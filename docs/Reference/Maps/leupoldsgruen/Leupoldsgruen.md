@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Leupoldsgruen Briefing Map](Leupoldsgruen.briefing.jpg)
+    ![Leupoldsgruen Briefing Map]({{ img('Leupoldsgruen.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Leupoldsgruen Gameplay Map](Leupoldsgruen.jpg)
+    ![Leupoldsgruen Gameplay Map]({{ img('Leupoldsgruen.jpg') }})

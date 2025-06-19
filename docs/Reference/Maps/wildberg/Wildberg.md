@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Wildberg Briefing Map](Wildberg.briefing.jpg)
+    ![Wildberg Briefing Map]({{ img('Wildberg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Wildberg Gameplay Map](Wildberg.jpg)
+    ![Wildberg Gameplay Map]({{ img('Wildberg.jpg') }})

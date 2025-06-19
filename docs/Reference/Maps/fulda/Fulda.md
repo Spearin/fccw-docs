@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Fulda Briefing Map](Fulda.briefing.jpg)
+    ![Fulda Briefing Map]({{ img('Fulda.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Fulda Gameplay Map](Fulda.jpg)
+    ![Fulda Gameplay Map]({{ img('Fulda.jpg') }})

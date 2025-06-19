@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Dieburg Briefing Map](Dieburg.briefing.jpg)
+    ![Dieburg Briefing Map]({{ img('Dieburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Dieburg Gameplay Map](Dieburg.jpg)
+    ![Dieburg Gameplay Map]({{ img('Dieburg.jpg') }})

@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Montabaur Briefing Map](Montabaur.briefing.jpg)
+    ![Montabaur Briefing Map]({{ img('Montabaur.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Montabaur Gameplay Map](Montabaur.jpg)
+    ![Montabaur Gameplay Map]({{ img('Montabaur.jpg') }})

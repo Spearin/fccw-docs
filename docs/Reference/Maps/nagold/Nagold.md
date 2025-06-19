@@ -2,8 +2,8 @@
 
 === "Briefing Map"
 
-    ![Nagold Briefing Map](Nagold.briefing.jpg)
+    ![Nagold Briefing Map]({{ img('Nagold.briefing.jpg') }})
 
 === "Gameplay Map"
 
-    ![Nagold Gameplay Map](Nagold.jpg)
+    ![Nagold Gameplay Map]({{ img('Nagold.jpg') }})
