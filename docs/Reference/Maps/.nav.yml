@@ -1,4 +1,5 @@
 flatten_single_child_sections: true
 nav:
   - Section: index.md
+  - all-maps
   - "*"

@@ -1,4 +1,4 @@
-# Lauterbach_Hessen
+# Lauterbach-Hessen
 
 === "Briefing Map"
 

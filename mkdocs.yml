@@ -23,7 +23,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 #    - navigation.expand
-    - navigation.instant
+#    - navigation.instant
     - navigation.top
     - navigation.indexes
     - navigation.footer
@@ -38,7 +38,7 @@ plugins:
   - meta
   - offline
   - search
-  - categories
+#  - categories
   - localsearch
   - git-revision-date-localized
 #  - mkdocs-literate-nav
