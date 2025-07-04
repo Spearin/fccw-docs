@@ -45,21 +45,26 @@ plugins:
   - mkdocs-video
   - mermaid2
 #  - live-edit
-  - awesome-nav  
   - macros
   - autolinks
   - autorefs
   - glightbox
   - enumerate-headings:
+      toc_depth: 1
+      strict: false
       include:
-        - FCCW/FieldManuals/*.md
+        - FieldManuals/*
+        - Guides/*
       exclude:
-        - FCCW/FieldManuals/Tutorials/00-tutorial-intro.md
-        - FCCW/FieldManuals/field-manuals.md
+        - FieldManuals/Tutorials/index.md
+        - FieldManuals/game-operations/index.md
+        - FieldManuals/battlefield-primer/index.md
+        - FieldManuals/index.md
       restart_increment_after:
-        - FCCW/FieldManuals/game-operations/index.md
-        - FCCW/FieldManuals/battlefield-primer/index.md
-        - FCCW/FieldManuals/Tutorials/index.md
+        - FieldManuals/game-operations/index.md
+        - FieldManuals/battlefield-primer/index.md
+        - FieldManuals/Tutorials/index.md
+  - awesome-nav  
   - exporter:
       buttons:
         - title: Download as PDF

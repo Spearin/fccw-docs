@@ -1,8 +1,5 @@
 ---
 title: Home
-hide:
-  - toc
-  - navigation
 ---
 !!! warning
     This documents website is a work in progress. There are many known issues, including:

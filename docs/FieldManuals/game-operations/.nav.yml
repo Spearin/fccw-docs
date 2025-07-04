@@ -1,5 +1,6 @@
 nav:
   - Section: index.md
+  - introduction.md
   - welcome-commander-screen.md
   - user-preferences.md
   - start-a-new-scenario.md
@@ -31,4 +32,3 @@ nav:
   - victory-conditions-and-end-game.md
   - campaign-game-play-overview.md
   - designer-notes.md
-
