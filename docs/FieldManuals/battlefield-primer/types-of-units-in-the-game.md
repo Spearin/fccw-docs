@@ -1,6 +1,5 @@
 # Types of Units in the Game
 
-
 This section will cover the basic types of units found in the game and describe what they can do. As we develop more DLCs there is the potential for new kinds of platforms to be introduced into the game.
 
 ## Air Platforms
@@ -15,9 +14,7 @@ Fighters are various single and multi-engine aircraft used in CAS and SEAD missi
 
 Unmanned aerial units operate much like helicopters, but typically fly at higher altitudes and have a smaller detection signature. They may be harder to see, but they don't use as much terrain masking to protect AD systems. Flight paths don't depend on the terrain.
 
-!!! note
-
-    We currently do not have any drones in the game, but we may add them later. Drone technology was in its infancy in the 80s, and there were not many systems suited to the battlefield at this time.
+**NOTE:** We currently do not have any drones in the game, but we may add them later. Drone technology was in its infancy in the 80s, and there were not many systems suited to the battlefield at this time.
 
 ### Helicopters
 
@@ -25,7 +22,7 @@ These are low-flying, crewed aircraft. They move much faster than ground units a
 
 #### Attack Helicopters (HELO-AT)
 
-They are usually armed with autocannons, rockets, and missiles (both anti-tank and anti-air). Usually unarmored, sometimes lightly armored. These are very lethal to all types of ground targets. They are vulnerable to anti-air (gun and SAM), autocannons (from IFVs &lt;2500m), and machine guns at close range (&lt;1500m). Think "eggshells armed with hammers" when employing them. Their Precision Guided Munitions (PGMs) will usually outrage the weapons of their targets (except AD systems).
+They are usually armed with autocannons, rockets, and missiles (both anti-tank and anti-air). Usually unarmored, sometimes lightly armored. These are very lethal to all types of ground targets. They are vulnerable to anti-air (gun and SAM), autocannons (from IFVs <2500m), and machine guns at close range (<1500m). Think "eggshells armed with hammers" when employing them. Their Precision Guided Munitions (PGMs) will usually outrage the weapons of their targets (except AD systems).
 
 #### Scout Helicopters (HELO-SC)
 
@@ -158,4 +155,3 @@ Often unarmored. These vehicles are sometimes armed with machine guns but rarely
 ### Logistical Locations
 
 These logistic platforms include FARP, ammunition, and fuel transfer points. Currently, we only model on-map FARPs for helicopter reaming and refueling capabilities.
-

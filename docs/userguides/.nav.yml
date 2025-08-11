@@ -1,0 +1,10 @@
+nav:
+  - Section: index.md
+  - scenario-design/
+  - battle-planning/
+  - campaign-design/
+  - map-construction/
+  - making-mods/
+  - data-structures/
+  - weather-setup/
+  - overlay-creation/

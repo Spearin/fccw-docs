@@ -1,7 +1,6 @@
 # Surviving Modern Warfare
 
-
-The battlefield in the late Cold War and beyond is a very unforgiving and lethal mistress. During WW II, it was not uncommon for a tank that was put out of action by enemy fire to be repaired and returned to service, with the effort and time being well short of a factory rebuild. Desert Storm and the Ukraine War show that those days are long past. Even the development and fielding of things like ACA, ERA, and APS only slightly mitigate the immense shift from combat damage to catastrophic kill.
+The battlefield in the late Cold War and beyond is a very unforgiving and lethal mistress. During WW II, it was not uncommon for a tank that was put out of action by enemy fire to be repaired and returned to service, with the effort and time being well short of a factory rebuild. Desert Storm and other larger wars shows that those days are long past. Even the development and fielding of things like Advanced Composite Armor (ACA), Explosive Reactive Armor (ERA), and Active Protection Systems (APS) only slightly mitigate the immense shift from combat damage to catastrophic kill.
 
 Overall, time is compressed compared to WW II. Armored formations can cover ground much quicker than in the 1940s, and radio communications are distributed at every command level. Commanders have a much clearer picture of the battlefield.
 
@@ -35,7 +34,7 @@ One can view this as a triad consisting of an Arm with very high mobility, anoth
 
 ### Artillery
 
-The US Army calls this the "King of Battle". That stems from the fact that artillery is the greatest producer of casualties, not just soldiers. It's armored vehicles, too, even in the Ukraine War. But that is not the main benefit of artillery. The large casualty production is the mechanism that affects one's enemy and the execution of the enemy's plan matters.
+The US Army calls this the "King of Battle". That stems from the fact that artillery is the greatest producer of casualties, not just soldiers. It's armored vehicles, too. But that is not the main benefit of artillery. The large casualty production is the mechanism that affects one's enemy and the execution of the enemy's plan matters.
 
 While it can require a relatively large expenditure of ammunition and take considerable time to annihilate a unit employing artillery, the large number of immediate casualties inflicted on a unit with the initial rounds can degrade the target unit's effectiveness. In some cases, take it entirely out of the fight for a period ranging from minutes to days (requiring replacements to be assigned).
 
@@ -157,9 +156,7 @@ Engineer units have bridging assets for wet gap (river) crossing. The WP realize
 
 NATO bridging requirements were much less and were more about deciding when to demolish east-west bridges after NATO was done using them to move westward. NATO recognized the need for crossing the Rhine by REFORGER reinforcements at non-highway points, so there were units dedicated to that mission (often ferry units of the Bundeswehr).
 
-!!! note
-
-    REFORGER is Exercise Campaign REFORGER (from REturn of FORces to [GERmany](https://en.wikipedia.org/wiki/Germany "Germany")) was an annual [exercise](https://en.wikipedia.org/wiki/Military_exercise "Military exercise") and campaign conducted by NATO during the [Cold War](https://en.wikipedia.org/wiki/Cold_War "Cold War"). The training was intended to ensure that NATO could quickly deploy forces to [West Germany](https://en.wikipedia.org/wiki/West_Germany "West Germany") in a conflict with the [Warsaw Pact](https://en.wikipedia.org/wiki/Warsaw_Pact "Warsaw Pact").
+**NOTE:** REFORGER is Exercise Campaign REFORGER (from REturn of FORces to [GERmany](https://en.wikipedia.org/wiki/Germany "Germany")) was an annual [exercise](https://en.wikipedia.org/wiki/Military_exercise "Military exercise") and campaign conducted by NATO during the [Cold War](https://en.wikipedia.org/wiki/Cold_War "Cold War"). The training was intended to ensure that NATO could quickly deploy forces to [West Germany](https://en.wikipedia.org/wiki/West_Germany "West Germany") in a conflict with the [Warsaw Pact](https://en.wikipedia.org/wiki/Warsaw_Pact "Warsaw Pact").
 
 #### Obstacles and Minefields
 
@@ -260,4 +257,3 @@ This is the most complex mission for several reasons. First, there are more unit
 - Select assault positions for ground elements that will seize objectives. These are close to the objective, but not within line of sight.
 
 - Use artillery preps to degrade defenders' effectiveness.
-

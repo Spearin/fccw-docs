@@ -1,6 +1,5 @@
 # Sensors
 
-
 The following section list a number of the more common sensors that can be found on the platforms in the game. Sensors use active (sending out signals) or passive (receiving signals) means to find or detect other platforms. This listing may be expanded in the future as new game features are added.
 
 ## Air Search Radar (ASR)
@@ -42,4 +41,3 @@ A passive sight that forms an image from the heat radiated by the scene. These s
 ## Weapon Locating Radar (WLR)
 
 Weapon Locating Radar systems are used to detect enemy artillery that shoots both on and off-map. The enemy also possesses these systems to find and your artillery systems and issue missions to engage them. These systems can detect the various types of indirect fire porjectiles like artillery shells, mortar shells, and ballistic rockets and in some cases missiles.
-

@@ -1,6 +1,5 @@
 # Issuing Orders
 
-
 You control your forces by giving orders to your units. Be aware that a certain period is needed by the staff to formulate and transmit your orders. The unit will need time to prepare for the new order which is a function of the type of order, the training, readiness, and the tactical situation of the unit to which it is issued.
 
 Orders take as long as they take to run to completion, and this may not coincide neatly with the Orders Phase intervals. Orders persist to the next turn if you do not issue new ones. If you keep interrupting orders with new orders, the delay time will increase as orders have to be rescinded and then new orders will be generated for the units.
@@ -15,11 +14,11 @@ In the image below, you can see the Orders Block of the Unit Popup Menu. The lis
 
 For more detailed information about plotting movement, see Section 22 below.
 
-![](images/image270.png)![](images/image271.png)
+![](images/image244.png)![](images/image245.png)
 
-![](images/image272.png)You can also open the Unit Popup Menu by clicking on the hyperlinked Menu option beneath the unit counter in some reports and displays. This is useful for Off-Map Assets like artillery and air units.
+![](images/image246.png)You can also open the Unit Popup Menu by clicking on the hyperlinked Menu option beneath the unit counter in some reports and displays. This is useful for Off-Map Assets like artillery and air units.
 
-![](images/image273.png)
+![](images/image247.png)
 
 ## Primary Unit Orders
 
@@ -119,9 +118,7 @@ Not all units always follow orders under all circumstances. Self-preservation wi
 
 - Units in a group move will halt movement to keep spacing and formation by role (recon front, main effort, and line, then overwatch, and support in the rear).
 
-!!! note
-
-    Units doing an automatic Scoot will show an “F” for the order type when moving. Units that trigger a Withdrawal via SOP settings, will show a “W” for their orders. As a player, you cannot set these order types, they are reactions to whatever is going on in the game with the unit in question.
+**NOTE:** Units doing an automatic Scoot will show an “F” for the order type when moving. Units that trigger a Withdrawal via SOP settings, will show a “W” for their orders. As a player, you cannot set these order types, they are reactions to whatever is going on in the game with the unit in question.
 
 ## Issuing Group Orders
 
@@ -133,13 +130,10 @@ It is possible to give orders to more than one unit at a time by the following m
 
 This will highlight all subordinate units in that group.
 
-![](images/image274.png)
+![](images/image248.png)
 
 To issue any orders to the selected group, right-click on any of the highlighted units to see the Unit Popup Menu and select an order. If you select a movement order, the AI will provide intelligent pathing to keep the units in a cohesive formation and then spread them out at the final waypoint in defensive locations (if possible) to avoid stacking. You can select each unit and alter the placement of the waypoints as you see fit.
 
-!!! note
-
-    Select the most used order for all waypoints that you want and then use each unit’s Dashboard to change the type of movement order at various waypoints. See Section 22.1.1 below
+**NOTE:** Select the most used order for all waypoints that you want and then use each unit’s Dashboard to change the type of movement order at various waypoints. See Section 22.1.1 below
 
 See more information in Section 22 below.
-

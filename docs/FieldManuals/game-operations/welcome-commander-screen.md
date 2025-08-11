@@ -1,17 +1,18 @@
 # Welcome Commander Screen
 
-
 After starting the game and seeing the splash screen, you will see the following dialog with many selections. There are welcome statements, the Main Menu area, and under that, some useful buttons and information that we will cover shortly.
 
-![](images/image007.png)
+![](images/image003.jpg)
 
 ## Main Menu
 
-![](images/image008.png)The Main Menu has all the buttons to Start New games, Resume a game in play, or jump into one of the Edit functions to create game content.
+![](images/image004.jpg)
+
+The Main Menu has all the buttons to Start New games, Resume a game in play, or jump into one of the Edit functions to create game content.  
 
 ### Start New Group
 
-![](images/image009.png)![](images/image010.png)
+![](images/image005.jpg)
 
 - **Scenario** - Clicking on the Scenario button will launch the Scenario selection screen, where the player can choose one of the single battles included in the game. Scenarios have a few options as to how they are played. You can play scenarios versus the Artificial Intelligence (AI) and choose which side you are, Launch the game in a two-player head-to-head mode, launch the game in AI versus AI mode, or choose a side and start a Standard Play by Email (PBEM) game. See Section 4 below for more details.
 
@@ -23,9 +24,7 @@ After starting the game and seeing the splash screen, you will see the following
 
 ### Resume Group
 
-![](images/image011.png)![](images/image012.png)
-
-This group of options allows you to browse the various save files you have for the different types of games you have played and Resume them. See Section 8 below for more details on Resuming Play for these types of games.
+![](images/image006.jpg)This group of options allows you to browse the various save files you have for the different types of games you have played and Resume them. See Section 8 below for more details on Resuming Play for these types of games.
 
 - **Saved Scenario** - Opens a dialog to review all the single battle games you have started and saved or autosaved.
 
@@ -39,25 +38,25 @@ Saved games can also be deleted in the dialog that pops up. See Section 8 below 
 
 ### Edit Group
 
-![](images/image013.png)![](images/image014.png)
+![](images/image007.jpg)
 
 Three buttons start in-game editors for Scenarios, Campaigns, and Map Values Scanner. Each of these editors is covered in detail in other field manuals (FMs), as noted in Section 1.3.1 above.
 
 ## Useful Buttons and Information
 
-![](images/image015.png)
+![](images/image008.jpg)
 
 ### User Preferences
 
-![](images/image016.png)Clicking on the “User Preferences...” button will open a dialog box with four tabs of settings information for various game functions, information display sound, and looks. See Section 3 for the details of all the Preference settings.
+![](images/image009.jpg) Clicking on the “User Preferences...” button will open a dialog box with four tabs of settings information for various game functions, information display sound, and looks. See Section 3 for the details of all the Preference settings.
 
 ### What’s New
 
-![](images/image017.png)Clicking on the “What’s New” button will bring up a PDF document that summarizes any new content, updates, bug fixes, or game engine tweaks we have made in the latest version of the game. More detailed information will be found in the noted and revised game field manuals (FMs).
+![](images/image010.jpg)Clicking on the “What’s New” button will bring up a PDF document that summarizes any new content, updates, bug fixes, or game engine tweaks we have made in the latest version of the game. More detailed information will be found in the noted and revised game field manuals (FMs).
 
 ### Exit Game
 
-![](images/image018.png)If, for some reason, you need to stop playing and return to your operating system, clicking the Exit Game button will fully close out the game and return you to your main computer screen.
+![](images/image011.jpg)If, for some reason, you need to stop playing and return to your operating system, clicking the Exit Game button will fully close out the game and return you to your main computer screen.
 
 ### License Information
 
@@ -69,15 +68,13 @@ Our glorious team logo is on display in the bottom middle of the panel.
 
 ### Game Engine Version
 
-![](images/image019.jpg)At the bottom of the screen, the game engine version is shown. Make sure you have the same version of the game as your opponent when you play multiplayer.
+![](images/image012.jpg) At the bottom of the screen, the game engine version is shown. Make sure you have the same version of the game as your opponent when you play multiplayer.
 
-!!! note
-
-    It is recommended to exit the game if you do work in the various editors and then restart the game to play a scenario. This helps to make sure new values are correctly initialized and avoids the possibility of odd gameplay issues from occurring.
+**NOTE:** It is recommended to exit the game if you do work in the various editors and then restart the game to play a scenario. This helps to make sure new values are correctly initialized and avoids the possibility of odd gameplay issues from occurring.
 
 ### Credits
 
-![](images/image020.png)Clicking on the Credits hyperlink will take you to a dialog that lists all those hard-working people who brought you this deep and detailed wargame.
+![](images/image013.png)Clicking on the Credits hyperlink will take you to a dialog that lists all those hard-working people who brought you this deep and detailed wargame.
 
 ## Common User Interface Buttons
 
@@ -85,21 +82,20 @@ Throughout the game, we have a few buttons that have the same essential function
 
 ### Apply
 
-![](images/image021.png)If you have made any setting changes that turn on or off functions or adjust the values of settings, then this button will commit and save those changes to the game while keeping the dialog open.
+![](images/image014.jpg) If you have made any setting changes that turn on or off functions or adjust the values of settings, then this button will commit and save those changes to the game while keeping the dialog open.
 
 ### Back
 
-![](images/image022.png)This button will move you back to a previous dialog or menu so you can change game parameters, and settings, or select other gameplay options.
+This button will move you back to a previous dialog or menu so you can change game parameters, and settings, or select other gameplay options.
 
 ### Cancel
 
-![](images/image023.png)If you have made any setting changes that turn on or off functions or adjusted values of settings and do not wish those to take effect, then this button will revert those changes in a dialog.
+![](images/image016.jpg)If you have made any setting changes that turn on or off functions or adjusted values of settings and do not wish those to take effect, then this button will revert those changes in a dialog.
 
 ### Proceed
 
-This button will move you forward to the following dialog or menu. If there is no Next dialog (as in User Preferences), this button will Apply, then close the dialog.
+![](images/image017.jpg) This button will move you forward to the following dialog or menu. If there is no Next dialog (as in User Preferences), this button will Apply, then close the dialog.
 
 ## Confirmation Dialogs
 
 There are several times in the game when changes made will require confirmation. Selecting “Yes” will accept any changes. Selecting “No” will decline any changes. Selecting “Cancel” will place you back into the dialog so additional changes can be made.
-

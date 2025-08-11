@@ -1,9 +1,8 @@
 # Types of Protection
 
-
 We model several types of protection systems in the game to keep hardware and troops safe from enemy fire.
 
-## Armor
+## Armor (PF – Protection Factor)
 
 Basic armor is a thickness of various metals like steel, aluminum, or depleted uranium designed to stop kinetic and chemical-based warheads from destroying a vehicle. Depending on vehicle type, the thickness can range from 10mm to 1000mm or more.
 
@@ -15,11 +14,11 @@ ERA has many types based on the continued improvement in its design. This armor 
 
 Non-Explosive Reactive Armor, also known as Non-Energetic reactive armor (NERA), is a type of vehicle armor used by modern main battle tanks (MBTs) and heavy infantry fighting vehicles (IFVs). NERA advantages over explosive reactive armor (ERA) are that they are inexpensive, completely passive, and thus easy to integrate into armored vehicles. This type of armor is effective against HEAT warheads.
 
-## Advanced Composite Armor
+## Advanced Composite Armor (ACA)
 
 Composite armor is a type of vehicle armor consisting of layers of different materials such as metals, plastics, ceramics, or air. Most composite armors are lighter than their all-metal equivalent, but occupy a larger volume for the same resistance to penetration. It is possible to design composite armor that is stronger, lighter, and less voluminous than traditional armor. Still, the cost is often prohibitively high, restricting its use to especially vulnerable vehicle parts. Its primary purpose is to help defeat high-explosive anti-tank (HEAT) projectiles. Some versions add layers of depleted uranium plates to enhance the armor’s ability to defeat armor-piercing rounds.
 
-## HEAT Resistant Armor
+## HEAT Resistant Armor (HRA)
 
 Similar to NERA and Composite armor, HEAT-resistant armor is specifically designed to be placed on lighter vehicles like armored personnel carriers and infantry fighting vehicles as it is lighter in weight due to its sandwiched materials.
 
@@ -33,7 +32,4 @@ These systems were designed in the late 70 and early 80s to provide hard and sof
 
 ## Stealth and Low Observable Technology
 
-These were US-based technologies from the late 70s and applied to the F-117 Nighthawk stealth fighter. Stealth (STP) and Low Observable (LOP) platforms have significantly reduced radar and thermal profiles, allowing them to fly into hostile and contested airspace.
-
-![](images/image009.png)
-
+These were US-based technologies from the late 70s and applied to the F-117 Nighthawk stealth fighter. Stealth (STP) and Low Observable (LOP) platforms have significantly reduced radar and thermal profiles, allowing them to fly into hostile and contested airspace virtualkly undetected and greatly reduced the chance of being targeted by enemy SAMs and other air defence systems..

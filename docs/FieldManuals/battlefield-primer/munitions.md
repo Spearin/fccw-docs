@@ -1,6 +1,5 @@
 # Munitions
 
-
 Several weapon systems in the game can fire different types of munitions from their barrel (like tank guns) or tubes (artillery weapons and rocket pods).
 
 ## Armor Piercing (AP)
@@ -86,4 +85,3 @@ These mines are munitions with AP/AT mine submunition payload that deploys the m
 ## Smoke – Normal
 
 These munitions dispences visual obscuring smoke to block the line of sight between your forces and the enemy. Thermal sights will see through this type of smoke.
-

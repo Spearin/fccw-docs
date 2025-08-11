@@ -1,13 +1,12 @@
 # Standard Operating Procedures (SOP)
 
-
 One of the more requested features from earlier games was the ability to set Standard Operation Procedures in more detail for your units. We have that now and it is a very powerful tool for you as the commander to wield. This tool gives you the flexibility to adjust many different operational parameters of your units, per unit, per waypoint, and for new orders. Grayed-out parameters are not available for the selected unit.
 
 These SOPs can be applied to the selected unit or easily copied to other units in the formation or of a similar platform type.
 
 To open the SOP Manager, you can right-click on a unit or select Menu hyperlink from a report and select it from the Unit Popup Menu, select a unit and hit Ctrl+k on the keyboard, click on the Edit Order SOP button on the Orders tab of the Dashboard for the selected unit or open the dialog from the SOP Main Menu option.
 
-![](images/image306.png)
+![](images/image280.png)
 
 ## Scope
 
@@ -15,7 +14,7 @@ The Scope sets which order (new, current singular order like Screen or Hold, or 
 
 Selecting the “? Scope” button will pop up the following message providing information on how the Scope is used.
 
-![](images/image307.png)
+![](images/image281.png)
 
 ## Stance
 
@@ -65,13 +64,13 @@ There are six buttons on the left of the dialog that are used to do the followin
 
 - **Apply to Self and All Subordinates** – This setting is helpful if you want to set all the units in a formation (HQ and subordinates). The higher the HQ, the more units will be changed down the order of battle chain. When applied a dialog will pop up showing all the affected units.
 
-![](images/image308.png)
+![](images/image282.png)
 
 - **Apply to All Units of the Same Type** – This setting is useful if you want to set all the units of a selected type (like Tanks, APCs, HQs, etc.).
 
 When applied a dialog will pop up showing all the affected units.
 
-![](images/image309.png)
+![](images/image283.png)
 
 - **Apply to This and Later Unit Orders** – This option allows you to take the current SOP setting and apply them to all the orders in the Scope list.
 
@@ -82,4 +81,3 @@ At the bottom of the dialog is a check box to Automatically Apply Current Settin
 There are a few more tricks with SOPs. Once you have an SOP loaded (and edited) in the SOP Manager, you can apply it to parts of the OOB Tree in the Spotlight Panel (toggle the view with F10 to see the OOB Tree as the Unit Details are showing). Select a unit to paste the current SOP setting in the SOP Manager and right-click. From the popup menu select the option you wish to “paste” to the selected unit.
 
 The trick with the SOP Manager is to keep it open, go out, and paste the SOP where you need it. Think of it as a clipboard more than an editor for a single unit's SOP. You can apply the setting to any number of units in the Spotlight.
-

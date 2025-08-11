@@ -1,13 +1,10 @@
 # User Preferences
 
-
-![](images/image026.png)Clicking on the “User Preferences...” button will open a dialog box with four tabs of settings information for various game functions. Once applied, these settings will be remembered from game to game. These settings can be changed at any time via this button on the Welcome Commander screen or in-game from the Main Menu Bar.
-
-![](images/image027.png)
+![](images/image019.jpg)Clicking on the “User Preferences...” button will open a dialog box with four tabs of settings information for various game functions. Once applied, these settings will be remembered from game to game. These settings can be changed at any time via this button on the Welcome Commander screen or in-game from the Main Menu Bar.
 
 ## General Tab
 
-The General Tab allows the player to Customize basic game engine performance parameters, set Weather Unit Preferences and set the Display Rank and Abbreviation languages.
+![](images/image020.jpg)The General Tab allows the player to Customize basic game engine performance parameters, set Weather Unit Preferences and set the Display Rank and Abbreviation languages.
 
 ### Customize
 
@@ -47,7 +44,7 @@ You can choose to see ranks in the American (US Army) rank names or in the Natio
 
 The player can alter different values regarding Map Scrolling Parameters and Sound Volumes on this customization tab.
 
-![](images/image028.png)
+![](images/image021.jpg)
 
 ### Map Scrolling Parameters
 
@@ -55,15 +52,11 @@ The player can alter different values regarding Map Scrolling Parameters and Sou
 
 - **Effective Border Areas** - Define the top, bottom, and sides of the sensitive area independently of each other. The value is the number of screen pixels of the sensitive zone for scrolling.
 
-- **Polling Interval**
-- This is the length of time between checks for a map scroll measured in
-thousandths of a second. The polling interval defines one ‘tick.’
+- **Polling Interval** - This is the length of time between checks for a map scroll measured in thousandths of a second. The polling interval defines one ‘tick.’
 
 - **Initial Delay Factor** - This is the number of ticks before a scrolling action is initiated. A certain delay may be desirable to prevent unwanted scrolling when moving through these zones to other areas of the screen.
 
-- **Scroll Increment**
-- is the number of pixels that are scrolled for each tick. Use a lower value
-for faster/smoother scrolling.
+- **Scroll Increment** - is the number of pixels that are scrolled for each tick. Use a lower value for faster/smoother scrolling.
 
 ### Sound Volumes
 
@@ -79,7 +72,7 @@ for faster/smoother scrolling.
 
 Here, you can tweak various settings that influence how the turn resolution is displayed (these are not rule changes). Should you wish to speed up the progress, you can disable some settings here.
 
-![](images/image029.png)
+![](images/image022.jpg)
 
 ### Combat Resolution
 
@@ -99,9 +92,7 @@ Here, you can tweak various settings that influence how the turn resolution is d
 
 ### Additional Settings
 
-- **Autosave game after each player orders phase
--** When checked, this will save the game immediately
-before turning resolution into the \Saved folder under the name of the scenario and with a percentage complete number. These are regular saved games and maybe reopened and resumed if desired.
+- **Autosave game after each player orders phase -** When checked, this will save the game immediately before turning resolution into the \Saved folder under the name of the scenario and with a percentage complete number. These are regular saved games and maybe reopened and resumed if desired.
 
 - **Show friendly movement paths during turn resolution** – When checked, all friendly units with plotted movement show those moves on the map with plot lines. Disable to speed up combat resolution a bit.
 
@@ -111,13 +102,10 @@ before turning resolution into the \Saved folder under the name of the scenario 
 
 ## Game Colors Tab
 
-A color selection dialog exists so that individual map overlays, fire lines, and other helpful color markers can be edited by the player and established as new game defaults. ![](images/image030.png)
+A color selection dialog exists so that individual map overlays, fire lines, and other helpful color markers can be edited by the player and established as new game defaults. ![](images/image023.jpg)
 
 The level of color transparency can also be changed. This will allow the player, for example, to create a distinctly different hue for each kind of overlay so that he can easily tell which is in effect at any given time. The effect of these changes can be seen in the terrain sample to the right of the selections.
 
 **Reset to Defaults -** Thisbutton will return all color options back to the game’s default settings for color size and transparency.
 
-!!! note
-
-    It is possible to create unsightly or even invisible colors. If you want to experiment with this, you might want to consider backing up the original “overlays.ini” file.
-
+**NOTE:** It is possible to create unsightly or even invisible colors. If you want to experiment with this, you might want to consider backing up the original “overlays.ini” file.

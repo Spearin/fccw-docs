@@ -1,15 +1,14 @@
 # Resuming Games
 
-
 On the Main Menu, there are four options for resuming gameplay. The following sections will detail how you resume one of your games.
 
-![](images/image077.png)![](images/image078.png)
+![](images/image051.jpg)
 
 ## Saved Scenario
 
 Selecting and clicking the Saved Scenario button will bring you to the dialog shown below.
 
-![](images/image079.png)
+![](images/image052.jpg)
 
 The top text box shows you the folder in which the saved scenarios are located. If you need to change this folder, you can click on the folders icon at the right of the text box and switch locations.
 
@@ -23,7 +22,7 @@ Click the Proceed button to start the saved scenario.
 
 Selecting and clicking the Saved Campaign button will bring you to the dialog shown below.
 
-![](images/image080.png)
+![](images/image053.jpg)
 
 The top text box shows you the folder in which the saved campaigns are located. If you need to change this folder, you can click on the folders icon at the right of the text box and switch locations.
 
@@ -51,5 +50,4 @@ Below the Detail panel is a panel that tells you the number of saved Classic PBE
 
 Click the Proceed button to start the saved Classic PBEM game turn.
 
-![](images/image081.png)
-
+![](images/image054.jpg)

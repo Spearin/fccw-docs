@@ -1,0 +1,14 @@
+nav:
+  - Section: index.md
+  - NATO:
+    - Canada: Canada 1.md
+    - France: France 1.md
+    - United Kingdom: United Kingdom 1.md
+    - United States [1]: United States 1.md
+    - United States [3]: United States 3.md
+    - West Germany: West Germany 1.md
+  - Warsaw Pact:
+    - Czechoslovakia: Czechoslovakia 1.md
+    - East Germany: East Germany 1.md
+    - Soviet Union [1]: Soviet Union 1.md
+    - Soviet Union [2]: Soviet Union 2.md

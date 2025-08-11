@@ -1,0 +1,54 @@
+/* Base */
+.md-typeset .admonition.formation,
+.md-typeset details.formation {
+  --admonition-bg: #fff; /* light manila */
+  --admonition-border: #e0d4b8;
+  --admonition-title-bg: #efe6cf;
+  background: var(--admonition-bg);
+  border-color: var(--admonition-border);
+}
+
+.md-typeset .admonition.equip,
+.md-typeset details.equip {
+  --admonition-bg: #fff;
+  --admonition-border: #e0d4b8;
+  --admonition-title-bg: #efe6cf;
+  background: var(--admonition-bg);
+  border-color: var(--admonition-border);
+}
+
+/* Title bars */
+.md-typeset .admonition.formation > .admonition-title,
+.md-typeset details.formation > summary {
+  background: var(--admonition-title-bg);
+  font-weight: 700;
+}
+
+.md-typeset .admonition.equip > .admonition-title,
+.md-typeset details.equip > summary {
+  background: var(--admonition-title-bg);
+  font-weight: 700;
+}
+
+/* White inner cards for nested admonitions */
+.md-typeset .admonition.formation .admonition,
+.md-typeset details.formation .admonition,
+.md-typeset .admonition.formation details,
+.md-typeset details.formation details {
+  background: #fff;
+  border-color: #e6e6e6;
+}
+
+.md-typeset .admonition.equip .admonition,
+.md-typeset details.equip .admonition,
+.md-typeset .admonition.equip details,
+.md-typeset details.equip details {
+  background: #fff;
+  border-color: #e6e6e6;
+}
+
+/* A bit of spacing so nested boxes breathe */
+.md-typeset .admonition.formation .admonition,
+.md-typeset .admonition.equip .admonition {
+  margin-top: .5rem;
+}

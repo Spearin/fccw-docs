@@ -1,6 +1,5 @@
 # Combat Operations
 
-
 Combat is the very focus of this game. Because of that, it is very detailed and may be confusing at first. In this section, everything that has to do with combat is explained. The different unit and ammunition types that are included in the game will make sure that a lot of different types of combat will occur during a scenario or a campaign. Even chemical (persistent and non-persistent) and nuclear weapons might be used.
 
 ## Unit Postures
@@ -121,9 +120,7 @@ One of the new orders in the game is the Hunting Order for helicopters. This ord
 
 These weapons are extremely powerful and not to be taken lightly. Weapons of mass destruction come in three types: Nuclear weapons, Persistent Chemical weapons, and Non-persistent Chemical weapons.
 
-!!! note
-
-    The game does not include biological weapons on the battlefield.
+**NOTE:** The game does not include biological weapons on the battlefield.
 
 **Nuclear weapons** - A nuclear strike (which has a very awesome animation) is resolved as a series of separate attacks against all units caught within the blast range. For game purposes, we assume a tactical nuclear capability of approximately a 10kt yield with a 2 km blast radius. Subunits will be eliminated based on distance from the blast center by their intrinsic protection rating, NBC rating, cover, and posture. Units also suffer massive losses in both readiness and morale even if they survive the blast and are automatically contaminated with radiation. Contamination can cause additional losses over time if not dealt with in a short time after the attack. All bridges, smoke clouds, minefields, and chemical contamination within the blast zone will be eliminated.
 
@@ -144,4 +141,3 @@ In a scenario, these levels are set by the scenario designer, and you can review
 Air Superiority is a rating of whose force controls the airspace over the battlefield. When your forces on the air, your air strike can get on the map with weak opposition from enemy fighters. If the enemy owns the skies, there is a greater risk of losing air strikes on the way to their mission targets and even on-map helicopters can fall victim to an air-to-air missile from a fighter. All these actions are abstracted with messages popping up on the screen when interdictions occur in the game.
 
 In a scenario, these levels are set by the Scenario designer, and you can review the current level in the Operations Report or note the level under the weather panel display on the Game Panel.
-

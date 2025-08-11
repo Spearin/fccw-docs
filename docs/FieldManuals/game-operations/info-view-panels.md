@@ -1,6 +1,5 @@
 # Info View Panels
 
-
 There are five additional information panels that you will use during the game for various functions. There are the Unit Popup Menu, Unit Dashboard, Sub-Unit Inspector, Command Log, and Off-Map Assets. The following sections will detail them all.
 
 ## The Unit Popup Menu
@@ -9,19 +8,15 @@ The Unit Popup Menu is the primary means of interfacing with the selected unit o
 
 ### General Menu Layout
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image171.png)
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image145.png)
 
-1.
-The first section provides a means to open the Unit Dashboard (See Section 14.2 below) or open the Subunit Inspector (See Section 14.3 below) for the unit right clicked on.
+1. The first section provides a means to open the Unit Dashboard (See Section 14.2 below) or open the Subunit Inspector (See Section 14.3 below) for the unit right clicked on.
 
-2.
-The second section of the menu has SOP-related commands. Set and Adjust SOP are covered in Section 11.5 above. The SOP Manager is covered in Section 23 below.
+2. The second section of the menu has SOP-related commands. Set and Adjust SOP are covered in Section 11.5 above. The SOP Manager is covered in Section 23 below.
 
-3.
-The third section of the menu shows all of the available orders for the selected unit. The selections will change based on the unit’s capabilities. See Section 21 below for details of the orders.
+3. The third section of the menu shows all of the available orders for the selected unit. The selections will change based on the unit’s capabilities. See Section 21 below for details of the orders.
 
-4.
-The fourth section of the menu contains functions related to unit Commands, Roles, and Overlays.
+4. The fourth section of the menu contains functions related to unit Commands, Roles, and Overlays.
 
 - **Flash HQ Location** – Flash the hex location of the unit’s immediate HQ unit.
 
@@ -39,86 +34,67 @@ The Unit Dashboard is the central interface for dealing with many important fact
 
 ### General Layout
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image172.png)
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image146.png)
 
-1.
-The top bar shows the name of the selected unit.
+1. The top bar shows the name of the selected unit.
 
-2.
-You can click the Lock to freeze the panel on the selected unit. The Expand/Collapse icon will collapse the tabbed section of the dialog to save space.
+2. You can click the Lock to freeze the panel on the selected unit. The Expand/Collapse icon will collapse the tabbed section of the dialog to save space.
 
-3.
-This area shows the counter of the currently selected unit. Below the counter is an indication of the current tactical posture of the unit.
+3. This area shows the counter of the currently selected unit. Below the counter is an indication of the current tactical posture of the unit.
 
-4.
-This area of text relays the current SitRep (Situation Report) of the unit. This is the composition of the unit, the hex the unit is in (hyperlinked can click to go there on the map), the unit’s commander rank and name, the experience level of the unit, and the unit’s role. Finally, an indication of the unit is under fire and the number of spotted enemy units. In cases of critical alerts, like low ammo, a line will show up in this area noting the problem.
+4. This area of text relays the current SitRep (Situation Report) of the unit. This is the composition of the unit, the hex the unit is in (hyperlinked can click to go there on the map), the unit’s commander rank and name, the experience level of the unit, and the unit’s role. Finally, an indication of the unit is under fire and the number of spotted enemy units. In cases of critical alerts, like low ammo, a line will show up in this area noting the problem.
 
-5.
-The information in this area covers the unit’s Critical Ammo level (primary weapons), Readiness, Morale, Range to HQ (local HQ for the unit), and any Orders Delay. The percentages from 100% high to 0% low and have status icons to the right. These icons are a green circle for good condition, a yellow upward triangle for marginal condition, a red downward triangle for critical condition, and finally, a black square for a combat ineffective condition.
+5. The information in this area covers the unit’s Critical Ammo level (primary weapons), Readiness, Morale, Range to HQ (local HQ for the unit), and any Orders Delay. The percentages from 100% high to 0% low and have status icons to the right. These icons are a green circle for good condition, a yellow upward triangle for marginal condition, a red downward triangle for critical condition, and finally, a black square for a combat ineffective condition.
 
-6.
-The tabbed area covers the unit’s Orders, Subunits, Staff, and Unit Log information, as detailed in the following sections.
+6. The tabbed area covers the unit’s Orders, Subunits, Staff, and Unit Log information, as detailed in the following sections.
 
-![](images/image173.png)
+![](images/image147.png)
 
 ### Orders Tab
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image174.png)
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image148.png)
 
-1.
-This window lists the unit’s orders noting the type of order, the hex location of the order, and the estimated start time of the order execution. As seen below, you can click to select any of the orders and then right-click to bring up a popup menu to change the selected order. The selection is context-sensitive based on the initial order.
+1. This window lists the unit’s orders noting the type of order, the hex location of the order, and the estimated start time of the order execution. As seen below, you can click to select any of the orders and then right-click to bring up a popup menu to change the selected order. The selection is context-sensitive based on the initial order.
 
-![](images/image175.png)
+![](images/image149.png)
 
-2.
-If you change an order(s), you can then hit Apply to make the changes or cancel to ignore changes.
+2. If you change an order(s), you can then hit Apply to make the changes or cancel to ignore changes.
 
-3.
-This is a text summary of the currently selected order with time and distance information.
+3. This is a text summary of the currently selected order with time and distance information.
 
-4.
-This option, when shown, allows you to add additional delay time BEFORE an order starts. This is useful if you are trying to synchronize units to get to locations at the same time.
+4. This option, when shown, allows you to add additional delay time BEFORE an order starts. This is useful if you are trying to synchronize units to get to locations at the same time.
 
-5.
-This window provided a summary of the unit’s current SOP (Standard Operating Procedures) for the highlighted order.
+5. This window provided a summary of the unit’s current SOP (Standard Operating Procedures) for the highlighted order.
 
-6.
-Click this button to edit the current unit’s SOP. See Section 23 below for details on how to set the SOP items.
+6. Click this button to edit the current unit’s SOP. See Section 23 below for details on how to set the SOP items.
 
 ### Subunits Tab
 
-![](images/image176.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image177.png)![](images/image178.png)
+![](images/image150.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image151.png)![](images/image152.png)
 
-1.
-In this window, you will see all the subunits within the selected unit on the map. If there are more units than can be seen in the dialog, a scroll bar will be shown to allow you to see all the items. You can click on any of the subunits in the first window to display information about that subunit in the second window. If units have fallen out or have been destroyed or died, icons will appear over the subunit art, and the information in the second window will note that state.
+1. In this window, you will see all the subunits within the selected unit on the map. If there are more units than can be seen in the dialog, a scroll bar will be shown to allow you to see all the items. You can click on any of the subunits in the first window to display information about that subunit in the second window. If units have fallen out or have been destroyed or died, icons will appear over the subunit art, and the information in the second window will note that state.
 
-2.
-This window shows a breakdown of the subunit's Weapons and current Ammunition levels, Emitters (radars) if they have them, or EW detectors (ESM or Radar detectors). The hyperlink at the top will open the Subunit Inspector (SUI) to see more details about the subunit.
+2. This window shows a breakdown of the subunit's Weapons and current Ammunition levels, Emitters (radars) if they have them, or EW detectors (ESM or Radar detectors). The hyperlink at the top will open the Subunit Inspector (SUI) to see more details about the subunit.
 
-3.
-You can move the splitter bar left or right to resize the windows.
+3. You can move the splitter bar left or right to resize the windows.
 
-4.
-You can resize the dialog by dragging the corner point. The dialog has a minimum size set by the game.
+4. You can resize the dialog by dragging the corner point. The dialog has a minimum size set by the game.
 
 ### Staff Tab
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image179.png)
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image153.png)
 
 The Staff tab of the Dashboard provides many valuable bits of information about the selected unit.
 
-1.
-Under Staff Alerts and Reminders, you will get information on weapons that are out of ammo, what artillery units can support this unit (if available), unique unit capabilities and any claims of enemy units destroyed.
+1. Under Staff Alerts and Reminders, you will get information on weapons that are out of ammo, what artillery units can support this unit (if available), unique unit capabilities and any claims of enemy units destroyed.
 
-2.
-Under Ammo Summary, shows the total ammo inventory for the unit in the Staff page of the Unit Dashboard to save clicking around to look it up manually.
+2. Under Ammo Summary, shows the total ammo inventory for the unit in the Staff page of the Unit Dashboard to save clicking around to look it up manually.
 
-3.
-Under Active Contacts, a list of detected enemy units is shown. Contact number, type of detection (visual, thermal, radar, etc.), number and type of units (if known), range of the contact, and a hyperlinked Hex location.
+3. Under Active Contacts, a list of detected enemy units is shown. Contact number, type of detection (visual, thermal, radar, etc.), number and type of units (if known), range of the contact, and a hyperlinked Hex location.
 
 ### Log Tab
 
-![](images/image180.png)![](images/image181.png)
+![](images/image154.png)![](images/image155.png)
 
 The Log tab lists messages that are recorded to the various unit logs, related to the actions of the selected unit. Both the game Time and Tag (type of message) are listed with the Message. On the face of it, Radio Logs/Unit Logs don’t look like much has changed. On closer inspection, you will see that all messages are not Tagged (instead of just some of them as before, unit names are highlights, and locations are given subtle highlights (just bold, no color).
 
@@ -142,7 +118,7 @@ The message Tag can be of the following types:
 
 Another obvious change is the little filter icon next to Tags. Also, you can right click on it, or anywhere on the log, will cause a pop-up filtering menu as shown below.
 
-![](images/image182.png)
+![](images/image156.png)
 
 For convenience, the Tags column can be set to show only the dominant primary tag for a log entry, or to show all the tags that are in the entry.
 
@@ -152,9 +128,7 @@ To see different set of things you want to be visible, then select Custom Filter
 
 To set up different colors to make your tags stand out using different colors. Select the “Highlight Settings” and a popup menu with a very large list of Tags. For example, let’s say I want to see messages with the Tag “Mines”, select “Mines” from the list and you then can set the color for that Tag.
 
-!!! note
-
-    Be Caution for you to not overdo it, it may be too hard to read the text.
+**NOTE:** Be Caution for you to not overdo it, it may be too hard to read the text.
 
 ## Sub-Unit Inspector (SUI)
 
@@ -162,35 +136,19 @@ The Sub-Unit Inspector is the primary tool for deep diving into all the informat
 
 ### General Layout
 
-1. You can click the lock to freeze this dialog or click the “X” to
-close.
+1. You can click the lock to freeze this dialog or click the “X” to close.
 
-1. Sub-unit name and then the type of sub-unit in parenthesis.
+1. Sub-unit name and then the type of sub-unit in parenthesis. 2. Unit Code of the sub-unit from the data file. 3. Sub-unit silhouette or image if available via mod. 4. National Flag or Emblem. 5. This listing notes the number of the selected sub-units that are Active, Fallen Out, or Destroyed in the current scenario.
 
-1. Unit Code of the sub-unit from the data file.
+1. The date unit is active in the game. 2. This is a five-tabbed panel that covers the Platform, Weapons, Sensors, Systems, and Transport that the selected sub-unit has. These tabs are detailed in the following sections.
 
-1. Sub-unit silhouette or image if available via mod.
+1. If there is more than one type of sub-unit available based on the Scope chosen, you can use the controls here to page through them.
 
-1. National Flag or Emblem.
+1. You can use the drop-down selections here to look at other national data files (Source) in the scenario and change the Scope from Selected Unit, Units in the Scenario, or all units in the data file.
 
-1. This listing notes the number of the selected sub-units that are
-Active, Fallen Out, or Destroyed in the current scenario.
+1. You can use this icon to drag the SUI larger or smaller.
 
-1. The date unit is active in the game.
-
-1. This is a five-tabbed panel that covers the Platform, Weapons,
-Sensors, Systems, and Transport that the selected sub-unit has. These tabs are detailed in the following sections.
-
-1. If there is more than one type of sub-unit available based on the
-Scope chosen, you can use the controls here to page through them.
-
-1. You
-can use the drop-down selections here to look at other national data files (Source) in the scenario and change the Scope from Selected Unit, Units in the Scenario, or all units in the data file.
-
-1. You
-can use this icon to drag the SUI larger or smaller.
-
-![](images/image183.png)![](images/image176.png)![](images/image183.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image184.png)
+![](images/image157.png)![](images/image150.png)![](images/image157.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image158.png)
 
 ### Platform Tab
 
@@ -202,7 +160,7 @@ Protection Ratings (Armor) for the Front, Flank (side), and Top/Rear of the sub-
 
 Next, under Particulars is a listing of platform-specific characteristics/traits that it has that can impact gameplay, if available.
 
-![](images/image185.png)
+![](images/image159.png)
 
 ### Weapons Tab
 
@@ -210,7 +168,7 @@ Every weapon system on a platform/sub-unit is listed on this tab with its variou
 
 Shown are the Weapon Name and Type. Then the number of rounds or bursts of ammo carried typically (those values can be different in scenarios based on supply and munitions loadouts). The damage rating for the weapon or munition is shown with its type. Lastly, the maximum range in meters is listed. If the weapon system has any unique characteristics used in the game, those are listed after the munition specifications.
 
-![](images/image186.png)
+![](images/image160.png)
 
 Basic Ammo comes in various types as noted below:
 
@@ -226,17 +184,17 @@ Basic Ammo comes in various types as noted below:
 
 The Sensors tab shows all the equipment on a platform that is used to detect, spot, or range enemy units on the map.  If a system has detection capability, it will list the ranges (under optimal conditions) that it can Detect an enemy unit, Classify the type of enemy unit, and identify the sub-units of an enemy unit. Other Sensor systems have an impact on combat calculations.
 
-![](images/image187.png)
+![](images/image161.png)
 
 ### Systems Tab
 
 Any other systems that provide a unique capability not already covered in the other tabs will be noted here.
 
-![](images/image188.png)
+![](images/image162.png)
 
 ### Transport Tab
 
-![](images/image189.png)
+![](images/image163.png)
 
 The Transport tab shows all the transport capability on a platform that is used to provide a unique capability not already covered in the other tabs will be noted here.
 
@@ -244,13 +202,15 @@ The Transport tab shows all the transport capability on a platform that is used 
 
 To get more details on these various Capabilities, you can check out the information in FM02: Battlefield Primer and in deeper detail in FM09: Data Structures and Editing.
 
+ 
+
 ## Command/Unit Log
 
 The Command/Unit Log is a dialog that shows all the latest Log messages for all units in your force. It will list the last 50 entries. You can dig deeper by looking at the Unit Log in the Dashboard for each unit. This dialog can be opened and closed on the screen with the F7 key. The dialog does allow for expanding and collapsing via the arrow’s icon in the upper right of the dialog.
 
 A complete listing of log entries can be found in the Operations Report on the Log tab.
 
-![](images/image190.png)
+![](images/image164.png)
 
 As the game unfolds, a series of messages are recorded to the unit logs with a time stamp, a “tag” or type of log entry, and then the text of the entry.
 
@@ -268,7 +228,9 @@ As the game unfolds, a series of messages are recorded to the unit logs with a t
 
 - Highlight colors may be specified by tag type so that specific tags can be emphasized or de-emphasized (see below)
 
-There is a new filter icon (a yellow funnel icon) next to the “Tags” column header. Right-click on it, or anywhere else on the log, to pop up the filtering menu.
+|  |  |  |  | | --- | --- | --- | --- | |  |  |  |  | |  |  |  |  |
+
+   There is a new filter icon (a yellow funnel icon) next to the “Tags” column header. Right-click on it, or anywhere else on the log, to pop up the filtering menu.
 
 For convenience, the Tags column can be set to show only the dominant primary tag for a log entry, or to show all tags.
 
@@ -280,27 +242,20 @@ This new system is used everywhere we show the unit logs – this log, the unit 
 
 If this dialog has the Windows focus, then it can be closed by tapping the Escape key.
 
-## Off-Map Assets
+## Off-MapAssets
 
 The Off-Map Assets dialog provides you with a listing of any of your forces that exist off-map for the scenario. This is currently an aircraft or artillery asset in a scenario that you can order to support your on-map forces. As you can see in the dialog below, this shows the headquarters and an artillery battery located 2km off the West edge of the game map.
 
-1.
-Name of the overall force being supported by the off-map assets.
+1. Name of the overall force being supported by the off-map assets.
 
-2.
-Name the smaller off-map asset formations available to use.
+2. Name the smaller off-map asset formations available to use.
 
-3.
-The counter of each supporting off-map unit, name, type, size, training level, and off-map location of the unit
+3. The counter of each supporting off-map unit, name, type, size, training level, and off-map location of the unit
 
-4.
-Menu hyperlink that will open the Unit Popup Menu so you can issue orders to these off-map assets.
+4. Menu hyperlink that will open the Unit Popup Menu so you can issue orders to these off-map assets.
 
-5.
-This text block tells for each unit what its Current Orders are, Readiness, Morale, Ammo levels, and current Delay for orders to process.
+5. This text block tells for each unit what its Current Orders are, Readiness, Morale, Ammo levels, and current Delay for orders to process.
 
-6.
-This second text block shows the unit’s composition by platform and type and then a breakdown of the ammo carried by the unit.
+6. This second text block shows the unit’s composition by platform and type and then a breakdown of the ammo carried by the unit.
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image193.png)
-
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image167.png)

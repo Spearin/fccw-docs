@@ -1,0 +1,7 @@
+# Task Force Type Filters
+
+A new addition to the Formation Table is a column named Mission Filters. These filters are codes used to group like formation functions when in the scenario editor to aid the user in finding certain types quicker.
+
+|  |  |  | | --- | --- | --- | | **Task Type** | **Task Type Description** | **Notes** | | **MAIR** | Off-Map Manned Air Assets | Any type of aircraft unit that operates from off-map | | **MAMB** | Air Mobile/ Air Assault Forces | Forces moved a distance by vertical lift systems (Helos/VTOLs) | | **MDCY** | Decoy Forces | Forces set up as decoys static of moving | | **MDRN** | On or Off-Map Drone Assets | These are the larger drones shown on-map in the game | | **MENG** | Engineering Assets | Units tasked with engineering support functions | | **MGND** | Ground Maneuver Forces | Default Mission - Does not need to be added at this time | | **MHLO** | Helicopter Forces | Used for helicopters, mainly scout, attack, and HQ units | | **MPAT** | Parachute Assault | Forces that are dropped into an area via parachute/pallet(?) | | **MSOF** | Special Operations Forces | Used for independently operating commandos | | **MSUP** | General Support Assets | These are larger general support assets of Recon, Arty, AD, AT, etc. | | **MWMD** | NBC Assets | Any platform that can deliver an NCB strike on the map |
+
+**NOTE:** The filters above are currently not operational in the scenario editor. We are evaluating the need for this level of operation.

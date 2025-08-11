@@ -1,14 +1,16 @@
-site_name: Flashpoint Campaigns Documentation
+site_name: "Flashpoint Campaigns: Cold War Guides"
 watch:
   - includes
 theme:
   name: material
+  icon: 
+    logo: material/compass-rose
+  custom_dir: overrides
   palette:
     - scheme: flashpoint
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     - scheme: slate
       primary: green
       accent: amber
@@ -27,12 +29,15 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.footer
+    - navigation.tracking
     - search.suggest
     - toc.follow
 #    - toc.integrate
 extra_css:
+  - assets/stylesheets/neoteroi-mkdocs.css
   - assets/stylesheets/extra.css
   - assets/stylesheets/mil-symbols.css
+  - assets/stylesheets/force.css
 plugins:
   - tags
   - meta
@@ -40,7 +45,8 @@ plugins:
   - search
 #  - categories
   - localsearch
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      fallback_to_build_date: true
 #  - mkdocs-literate-nav
   - mkdocs-video
   - mermaid2
@@ -48,7 +54,7 @@ plugins:
   - macros
   - autolinks
   - autorefs
-  - glightbox
+ # - glightbox
   - enumerate-headings:
       toc_depth: 1
       strict: false
@@ -60,10 +66,11 @@ plugins:
         - FieldManuals/game-operations/index.md
         - FieldManuals/battlefield-primer/index.md
         - FieldManuals/index.md
+        - FieldManuals/hotkeys.md
       restart_increment_after:
-        - FieldManuals/game-operations/index.md
-        - FieldManuals/battlefield-primer/index.md
-        - FieldManuals/Tutorials/index.md
+        - FieldManuals/game-operations/welcome-commander-screen.md
+        - FieldManuals/battlefield-primer/surviving-modern-warfare.md
+        - FieldManuals/Tutorials/engineer-ops.md
   - awesome-nav  
   - exporter:
       buttons:
@@ -108,11 +115,16 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.blocks.caption
+  - pymdownx.blocks.tab
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - neoteroi.timeline
 extra:
   generator: false
   test_macro: ==yabba== ^^dabba^^ **doo**

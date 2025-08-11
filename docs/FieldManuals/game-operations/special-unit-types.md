@@ -1,6 +1,5 @@
 # Special Unit Types
 
-
 The game has a couple of special units that need to be explained as to how they are used.
 
 ## Weapons of Mass Destruction (WMDs)
@@ -42,4 +41,3 @@ In future expansions, we may look to include additional logistical units for sup
 ## Unmanned Aerial Vehicles (UAVs)
 
 UAVs or drones were a new item in the 80s and very few of them were in operation. While we don’t have any in the current batch of scenarios, it is possible to add them, and UAVs may be seen in the future. When these platforms are on-map, they are treated like helicopters and the player can plot their moves in the same fashion. When they are off-map assets, they fly in and conduct strikes just like the human-crewed aircraft noted in Section 18.4 above.
-

@@ -1,7 +1,6 @@
 # Unit Counters
 
-
-![](images/image264.png)![](images/image265.png)Units are the individual playing pieces in the game. Units are composed of one or more subunits, such as vehicles, aircraft, artillery pieces, or squads of men.
+![](images/image238.png)![](images/image239.png)Units are the individual playing pieces in the game. Units are composed of one or more subunits, such as vehicles, aircraft, artillery pieces, or squads of men.
 
 For example, a tank brigade HQ unit composed of 3 subunits might contain a T-80 command tank, a BMP-2 armored personnel carrier, and a BTR-60 command vehicle. The details of the counter are noted below. Units can also be a mix of unit types that are used together for operation needs. One of the most common mixed units are Mechanized units with both Infantry Fighting Vehicles (IFVs) or Armored Personnel Carriers (APCs), Infantry squads, and weapon teams. Aircraft units like helicopters or Close Air Support (CAS) assets are always of the same type in a unit but could have different roles like attack and recon.
 
@@ -13,13 +12,11 @@ The image below shows all the various bits of information contained on most of t
 
 Understanding these items and their meaning is an essential part of the game.
 
-![](images/image266.png)
+![](images/image240.png)
 
 - **Unit Silhouette (Sil)** - The primary constitution of the unit is shown by the central graphic. In this case, a tank is shown, so you may assume that the unit is predominantly composed of those types. Vehicles of all types, artillery, and aircraft are shown with vehicle graphics. Non-vehicular units use NATO symbolic graphics. Suppose the unit is composed of carrier vehicles and dismountable passengers. In that case, the vehicle Sil will be shown while the unit is moving, and the dominant passenger NATO Symbol will be shown. In contrast, the unit is stationary to indicate that the passengers have dismounted.
 
-- **Unit Designation**
-- Immediately below the unit graphic will be an identifying unit designation.
-These tags allow the player to more quickly identify where the unit belongs in the general organization of his forces. This information is shown only to the owning player and long tags are truncated to fit.
+- **Unit Designation** - Immediately below the unit graphic will be an identifying unit designation. These tags allow the player to more quickly identify where the unit belongs in the general organization of his forces. This information is shown only to the owning player and long tags are truncated to fit.
 
 - **Unit Status** - To quickly show the combat effectiveness of a unit there is a symbol just below the unit’s designation.
 
@@ -41,11 +38,11 @@ These tags allow the player to more quickly identify where the unit belongs in t
 
 - **Unit Order** - The white letter (“M”) in the lower right of the counter indicates the unit’s current Order. Valid orders are the following: “A” = Assault, “M” = Move - Deliberate, “2” = Move - Hasty, “S” = Screen, “H” = Hold, “B” = Barrage, “G” for Gas Attack, “C” = Counter-Battery, “E” = Engineering Action, “R” = Resupply, “O” = On the call, “F” for Fallback (Scooting), “W” for Withdrawing, and “Z” for helicopters that are in Hunt mode. This information is shown only to the owning player. These orders will be explained in more detail in Section 21 below.
 
-- **Spotted Indicator**
-- If the unit has been sighted by the enemy, then a tiny white dot will be
-drawn at the bottom of the counter to the left of the unit order. This is based on being lazed, shot at, or a reasonable estimation of “we see them so I bet they can see us” for your units and spotting the enemy. **NOTE:** This indicator will only show if the option to Show Enemy Units is turned on.
+- **Spotted Indicator** - If the unit has been sighted by the enemy, then a tiny white dot will be drawn at the bottom of the counter to the left of the unit order. This is based on being lazed, shot at, or a reasonable estimation of “we see them so I bet they can see us” for your units and spotting the enemy. **NOTE:** This indicator will only show if the option to Show Enemy Units is turned on.
 
 - **Movement Direction and Type** - If a unit is currently in motion, then a small triangle will be shown pointing in the direction that will be moved in next. If the triangle is black, the unit is utilizing road movement via a hasty move order and is going for speed over combat readiness. A blue triangle indicates a Deliberate Move order, and the unit is moving slower and will use both road and off-road movements to the objective while being ready for combat. A red triangle indicates a unit moving in an Assault order and is combat-ready. Assault movement is a bit faster than a deliberate trading cover for speed to close on an objective.
+
+ 
 
 - **Number of Active Runners** - The large number in the bottom left corner is the number of subunits mission-capable (“10” in this example). A subunit is mission-capable (also known as a “runner”) if it is physically and psychologically able to carry out its orders. The other possible states are destroyed and fallen out. A tank that has thrown a track, a truck with a conked-out engine, or an infantry squad so shattered that it cannot rise from the bottom of its trench are examples of subunits that have fallen out. Fallen-out subunits count equally with destroyed subunits for victory purposes but can be recovered between scenarios in a campaign game.
 
@@ -53,5 +50,6 @@ drawn at the bottom of the counter to the left of the unit order. This is based 
 
 !!! note
 
-    : See Section 22.1.3 below for details on the Lost Transport Indicator.
+    See
 
+Section 22.1.3 below for details on the Lost Transport Indicator.

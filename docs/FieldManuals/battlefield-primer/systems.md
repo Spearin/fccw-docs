@@ -1,6 +1,5 @@
 # Systems
 
-
 The following section list a number of the more common systems that can be found on the platforms in the game. This listing may be expanded in the future as new game features are added.
 
 ## Fire Control/Range Finding System (FC/RF)
@@ -44,4 +43,3 @@ These include flares (hot source to mimic engine exhaust) used to decoy Infra-Re
 ## Smoke Dischargers
 
 Many ground platforms (tanks and infantry fighting vehicles) are equipped with a smoke discharging system used to blind then sensors and weapons. During the Cold War, they are visual obscurants. They have a limited number of uses in combat.
-

@@ -1,15 +1,14 @@
 # Main Menu Bar
 
-
 At the top of the screen is the Main Menu Bar for the game. The following sections will go over each menu and function in detail. Hotkeys are shown in brackets (**[*hotkey*]**) for each item that can be used.
 
-![](images/image087.png)
+![](images/image060.jpg)
 
 ## Game Menu Items
 
 The Game Menu covers those functions that relate to the overall playing of the scenario.
 
-![](images/image088.png)
+![](images/image061.jpg)
 
 - **Start/Pause/Resume Turn Resolution [*F9*]** – This menu item will start turn resolution after you issue orders or pause the turn resolution if it is running and then resume resolution when you are done looking at information.
 
@@ -33,7 +32,7 @@ Finally, selecting Cancel will abort the action and return to the game.
 
 The menu items in this tab relate to actions to better see specific units or to show/hide counters and markers on the map.
 
-![](images/image089.png)
+![](images/image062.jpg)
 
 - **Bring to Top** – For all your units in the stack, selecting a particular unit type will bring the unit type to the top of the stack to make them visible.
 
@@ -51,9 +50,9 @@ The menu items in this tab relate to actions to better see specific units or to 
 
 The menu items in this tab open or close several helpful dialogs, toggle the Spotlight Panel look, or change the look of the Core Panels.
 
-![](images/image090.png)
+![](images/image063.jpg)
 
-- **Unit Dashboard [*F4*]** – Selecting this action brings up the Unit Dashboard for the currently selected unit on the map. See Section 14.1 below for the details of this dialog. You can have more than one of these open at a time on different units.
+- **Unit Dashboard *[F4]*** – Selecting this action brings up the Unit Dashboard for the currently selected unit on the map. See Section 14.1 below for the details of this dialog. You can have more than one of these open at a time on different units.
 
 - **Core Floating Panels [*F5*]** – These are the four primary panels you see on the left side of the screen (default locations). These are Game Control, Commander, Spotlight, and Mini-Map panels. This is on by default. These are covered in detail in Section 13 below.
 
@@ -79,7 +78,7 @@ This is a critical menu for all Commanders to utilize during the game. The dialo
 
 Other essential functions found in this menu are the items relating to overlay graphics. These are graphics that are placed over the map and are created by an external art program.
 
-![](images/image091.png)
+![](images/image064.jpg)
 
 - **Scenario Information** – Selecting this action brings up the Scenario Information dialog. This covers the Scenario Description, Victory Conditions, and VP Distribution Details. See Section 15.1 below for the details of this dialog.
 
@@ -109,11 +108,11 @@ For the NATO side, the graphic must be named Overlay0.png, and for the Warsaw Pa
 
 - **Save Mission Graphics to File** – Selecting this action will save the currently shown mission graphics to the Custom folder of the scenario folder with the name Overlay0.png for NATO and Overlay1.png for Warsaw Pact. It will only save a single image currently.
 
-## SOP Items
+## SOPItems
 
 SOPs (Standard Operating Procedures) are unit instructions on how to behave in certain situations on the battlefield. This menu item provides a means to adjust SOP characteristics for selected units or to set SOPs based on the type of unit and the selected SOP package for the selected units.
 
-![](images/image092.png)
+![](images/image065.jpg)
 
 - **Set SOP** – Selecting this option will display the Set SOP options sub-menu. See Section 11.5.1 below for details on the various color options.
 
@@ -127,15 +126,15 @@ The Set SOP menu item brings up an additional menu dialog with a list of unit ty
 
 The Set SOP submenu is shown below.
 
-![](images/image093.png)
+![](images/image066.jpg)
 
 The Custom Unit Type selections are seen in the additional flyout submenu below.
 
-![](images/image094.png)
+![](images/image067.jpg)
 
 Once a Set SOP is selected, the following confirmation dialog is shown that explains the SOP settings used for the Set SOP selection. Under each counter is a checkbox that allows you to select which of a group of units the Set SOP applies to. At the bottom, there are options to apply the new Set SOP preset to the current default order, all movement orders, and all non-movement orders. The recycle button allows you to quickly invert the selected unit checkboxes in the dialog. When you are ready to apply hit the Done button. If you change your mind and do not want to do a Set SOP setup, click the cancel button.
 
-![](images/image095.png)
+![](images/image068.jpg)
 
 For more information on SOPs, see Section 23 below.
 
@@ -143,7 +142,7 @@ For more information on SOPs, see Section 23 below.
 
 This sub-menu has the following SOP items set out as individual items. These are the same items as found in the SOP Manager dialog. For any selected unit or units (Alt, Ctrl, or Shift selected), the setting will be applied to those units shown as checked in the setting dialog that pops up after choosing a setting.
 
-![](images/image096.png)
+![](images/image069.jpg)
 
 - **Acceptable Losses...** – This is the unit(s) willingness to take losses before seeking a change in orders. This works with the Tactical Initiative above to set how a unit reacts. The settings for this item are Do or Die, Substantial, Moderate, or Minimal.
 
@@ -167,7 +166,7 @@ The possible selections are After each fire mission, After all fire missions, Wh
 
 Once an SOP Adjustment is selected, the following confirmation dialog is shown that states the SOP settings adjusted for the selected units. Under each counter is a checkbox that allows you to select which of a group of units the SOP Adjustments apply to. At the bottom, there are options to apply the new SOP Adjustment to the current default order, all movement orders, and all non-movement orders. The recycle button allows you to quickly invert the selected unit checkboxes in the dialog. When you are ready to apply hit the Done button. If you change your mind and do not want to do any SOP Adjustment, click the cancel button.
 
-![](images/image097.png)
+![](images/image070.jpg)
 
 For more information on SOPs, see Section 23 below.
 
@@ -175,181 +174,171 @@ For more information on SOPs, see Section 23 below.
 
 Overlays are helpful on-map graphics that show various information for the selected unit to help show lines of sight, the range for weapons and spotting, Electronic Emissions, if any, and a range ruler. Some of these can be used in combination on the map.
 
-![](images/image098.png)
+![](images/image071.jpg)
 
 - **Line of Sight [*Ctrl+L*]** – Selecting this action brings up the Line of Sight (LOS) overlay and the basic Detection, Classification, and Identification rings for the selected unit. Hexes are in various shades of green based on how good the visibility is to that hex. The brighter the green, the better the visibility to the hex.
 
 Also included are the visual capability values for each hex. Higher numbers mean a better chance to spot enemy units in those hexes. Hexes inside the hard outline are in weapons range. See Section 24 below for more details on LOS and the Spotting of units.
 
-![](images/image099.png)
+![](images/image072.jpg)
 
 The range ring for Detection notes the maximum range under perfect conditions that an enemy unit of some type can be detected. Once inside the Classification range, the Detected target’s type can be determined (is it a tank or infantry unit). Once inside the Identification range, the exact type of enemy units can be determined (the tank is a T-80BV, for example).
 
-!!! note
+**NOTE:** You can see the line of sight from any hex by doing a Shift + left mouse clicks on the hex you want to check.
 
-    You can see the line of sight from any hex by doing a Shift + left mouse clicks on the hex you want to check.
-
-![](images/image100.png)
+![](images/image073.jpg)
 
 - **Range Rings [*Ctrl+D*]** – Selecting this action brings up the range rings overlay on the map for the selected unit. Rings include weapons ranges (in your combat preferences color), visible spottable range (Thermal and radar distances will be more prominent in most cases), and the max spotting range based on the environmental conditions.
 
-![](images/image101.png)
+![](images/image074.jpg)
 
 - **SOP Ranges [*Ctrl+P*]** – Selecting this action brings up the SOP-related range rings for the selected unit. This includes the unit’s standoff range and selected weapon engagement range. The filled hexes show the line of sight, with green being out to the maximum spotting range. Yellow hexes are the line of sight within the standoff range, and ones with red numbers are in the selected weapon’s range.
 
-![](images/image102.png)
+- ![](images/image075.jpg)
 
 - **Spottable From [*Ctrl+O*]** – Selecting this action brings up the Spottable From overlay for the selected unit. This shows the various ranges and types of systems (Visual, Thermal, and Radar) that the unit is possibly visible to and the hexes where line of sight exists. The size, movement, firing, and other factors impact the ranges.
 
-!!! note
+**NOTE:** You can check the selected unit’s Spottable From in any hex by doing a Shift + left mouse clicks on the hex you want to review. The information will change based on the type of terrain in that hex.
 
-    You can check the selected unit’s Spottable From in any hex by doing a Shift + left mouse clicks on the hex you want to review. The information will change based on the type of terrain in that hex.
-
-![](images/image103.png)
+![](images/image076.jpg)
 
 - **Emissions** – Selecting this action brings up the Emissions overlay. This shows the electronic line of sight of an emitting unit. These would be units with some form of radar (air search or ground search), and that system turned on (See Orders, Section 21 below).
 
-![](images/image104.png)
+![](images/image077.jpg)
 
 - **Ruler** – Selecting this action brings up the Ruler overlay. This shows range rings in 1000-meter circles with lighter rings for 500 meters up to 5000 meters.
 
-![](images/image105.png)
+![](images/image078.jpg)
 
-!!! note
-
-    You can check the from any hex by doing a Shift + left mouse clicks on the hex you want to review.
+**NOTE:** You can check the from any hex by doing a Shift + left mouse clicks on the hex you want to review.
 
 ## Multi-Unit Overlay Menu Items
 
 Multi-Unit Overlays are helpful on-map graphics that show various information for all units to help show lines of sight, ranges for weapons and spotting, Electronic Emissions if any, and Starting Deployment Areas. There are also functions to show Chain of Command, Air Defense coverages, Fire Support coverage, and Direct Support assets. Some of these can be used in combination on the map.
 
-!!! note
+**NOTE:** Many of the following functions will also show the currently selected units overlay as it would appear in other hexes by Shift + Left Mouse Click in the hex of interest. This can be very useful when planning locations for things like air defense or looking at variations in line of sight at different map locations.
 
-    Many of the following functions will also show the currently selected units overlay as it would appear in other hexes by Shift + Left Mouse Click in the hex of interest. This can be very useful when planning locations for things like air defense or looking at variations in line of sight at different map locations.
-
-![](images/image106.png)
+![](images/image079.jpg)
 
 - **All Paths [*Ctrl+A*]** – Selecting this action brings up all the active paths for all your units. The currently selected unit will have a darker path line.
 
-![](images/image107.png)
+![](images/image080.jpg)
 
 - **All LOS** – Selecting this action brings up the Line of Sight (LOS) overlay for all your on-map units. As you select units, you will see the LOS of that unit shown with the thick hex outline on the map.
 
-![](images/image108.png)
+![](images/image081.jpg)
 
 - **All Spottable From** – Selecting this action brings up the Spottable From overlay on the map for all your units on the map. The selected unit’s spottable hexes will be shown with a thick hex outline.
 
-![](images/image109.png)
+![](images/image082.jpg)
 
 - **All Emissions** – Selecting this action brings up the All-Emissions map overlay. This shows the coverage for all emitting units on the map. The selected unit will have its hexes outlined, and the unit will have a wavey circle around it.
 
-![](images/image110.png)
+![](images/image083.jpg)
 
-![](images/image111.png)In cases where a unit has an emitter(s), but they are turned off, the unit will have a gray wavey circle drawn around it as it shows to the left. See Section 21 below on how to issue orders to turn emitters on and off.
+![](images/image084.png)[[KC2]](#_msocom_2) In cases where a unit has an emitter(s), but they are turned off, the unit will have a gray wavey circle drawn around it as it shows to the left. See Section 21 below on how to issue orders to turn emitters on and off.
 
 - **Deployment Areas** – This menu action toggles the setup zones for each side off and on. These are the colored hex areas that show up for your units at the start of the scenario. The selected unit can be dragged and dropped into any colored hex. The colors for each side and the level of transparency are set in the game options (see Section 3.4 above).
 
-![](images/image112.png)
+![](images/image085.png)[[KC3]](#_msocom_3)
 
-![](images/image113.png)
+![](images/image086.jpg)
 
 - **Chain of Command [*Ctrl+X*]** – Selecting this action brings up the Chain of Command overlay. This shows the chain of command for units. The chain of command is how orders are given and received by units and headquarters. As shown below, the highest headquarters, when selected, will show lines of command to the next lower-level headquarters. Solid lines are in range. Dashed lines indicate a subordinate HQ or unit that is out of command range. The HQ’s command range is drawn as a large circle. Units outside of the command range face additional delays in orders and reduced resupply. Some units, like Recon units, can operate at full capacity at any range.
 
-![](images/image114.png)
+![](images/image087.jpg)
 
 As seen above, dark-colored lines extend from the selected HQ to its next-level subordinate units. In this case, the subordinates are lower-level HQs.
 
-![](images/image115.png)
+![](images/image088.png)
 
 In the picture above, one of the subordinate HQs has been selected. Dark lines extend to the HQ's subordinate units, and a dark circle shows the extent of the HQ’s command radius. A light-colored line goes from the selected HQ up to the next higher HQ if it exists, and the command range of the next higher HQ is drawn on the map.
 
-![](images/image116.png)
+![](images/image089.png)[[KC4]](#_msocom_4)
 
 In the picture above, one of the subordinate units has been selected. Light lines extend to that subordinate unit’s HQ, and a light circle shows the extent of the HQ’s command radius for that subordinate. Selecting other subordinate units will show the relationship to their local HQ.
 
 - **Air-Defense against Helicopters** – Selecting this action brings up the Air-Defense overlay for on-map Helicopters or Drones (assumed to be flying very low and defensively) for all air-defense capable units in your force. Depending on the type of unit you select, there are three types of overlay effects shown on the map. When you select a unit with an Air-Defense Surface to Air Missile system (SAM), the hexes are shown as filled, and the range of the selected unit is seen in the solid hex side outline, as seen in the image below.
 
-![](images/image117.png)
+![](images/image090.png)
 
 When you select a unit with an Air-Defense Gun system (Flak), the hexes are shown as horizontal hatched lines, and the range of the selected unit is seen in the solid hex side outline as seen in the image below on the left.
 
-![](images/image118.png)![](images/image119.png)
+![](images/image091.png)![](images/image092.png)
 
 When you select a unit with a Limited Air-Defense system (like an anti-air machine gun or autocannon), the hexes are shown as vertical hatched lines, and the range of the selected unit is seen in the solid hex side outline as seen in the image above on the right. These are limited capability systems. These weapons will engage at a reduced range and only engage air threats approaching them (within a 30-degree arc).
 
 - **Air-Defense against Planes** – Selecting this action brings up the Air-Defense overlay for off-map Aircraft (assumed to be flying low) for all air defense capable units in your force. Depending on the type of unit you select, there are two types of overlay effects shown on the map. When you select a unit with an Air-Defense Surface to Air Missile system (SAM), the hexes are shown as filled, and the range of the selected unit is seen in the solid hex side outline, as seen in the image below.
 
-![](images/image120.png)
+![](images/image093.jpg)
 
 When you select a unit with an Air-Defense Gun system (Flak), the hexes are shown as horizontal hatched lines, and the range of the selected unit is seen in the solid hex side outline, as seen in the image below.
 
-![](images/image121.png)
+![](images/image094.jpg)
 
 - **Fire-Support Coverage** – Selecting this action brings up the Fire-Support Coverage overlay. This shows the firing range for all on-map and off-map indirect fire artillery units (mortars, field guns, rockets). Selecting a unit will show darkened range rings and map coverage hexes.
 
-![](images/image122.png)
-
-![](images/image123.png)
+![](images/image095.jpg)
 
 - **Fire-Support Missions** – Selecting this action brings up the Fire-Support Missions overlay. This shows All of the currently plotted fire missions. A line is drawn from each firing unit to the target hex(es). The target hex(es) will state the type of mission (HE = High Explosive, Smoke, ICM = Improved Conventional Munitions, or Chemical, for example), the number of rounds to be fired, and the time the mission starts. Lines will be drawn for off-map assets based on their off-map locations and target hexes.
 
-![](images/image124.png)
+![](images/image096.jpg)
 
 - **Direct Support** – Selecting this action brings up the Direct Support overlay. The direct support overlay indicates, given the selected unit, which assets are in direct support and which units are directly supported. DS assets either have a line to the selected unit supporting that unit), or six short lines in all directions when they are set to support all units. The ranges of DS assets are also shown on the map. If a DS asset is selected, the hexes in the line of sight of all supported units are indicated as hexes with a hard outline.
 
-![](images/image125.png)
+![](images/image097.jpg)
 
 ## Terrain Overlay Menu Items
 
 The Terrain Overlay Menu has several useful overlays covering various factors of the map and the terrain. The most important from a planning aspect is the MCOO [Pronounced Ma Coo] or the Modified Combined Obstacle Overlay. The others have been used, and most are found in the Status Bar (See Section 12.2 below) for the hex the mouse is in.
 
-![](images/image126.png)
+![](images/image098.jpg)
 
 - **Modified Combined Obstacle Overlay (MCOO)** – Selecting this action will bring up the MCOO. The map will be overlayed with various colors, hatching, and edges that represent various levels of useful terrain information. A Legend also pops up to explain all the impact of the various information shown. Use this information to quickly note poor mobility areas, clear lanes of fire, impassible terrain, and good locations to hide recon units. See Section 16.12 below for details on what the various markings mean.
 
-![](images/image127.png)
+![](images/image099.jpg)
 
 - **Elevation Values** – Selecting this option will show the elevation value for every hex on the map. Elevations run from 1 to 10 and denote changes of 25 to 50 meters of the ground level. Elevation changes impact the line of sight, and elevation changes also impact the speed of unit travel.
 
-![](images/image128.png)
+![](images/image100.jpg)
 
 - **% Cover** – Selecting this option will show the Cover Percentage for every hex on the map. The cover runs from 1 to 99 and denotes the ability of the terrain to provide cover from direct/indirect fire, with 1 being no protection and 99 being a maximum.
 
-![](images/image129.png)
+![](images/image101.jpg)
 
 - **% Concealment** – Selecting this option shows the Concealment rating for each hex on the map. Concealment impacts the spotting and line of sight abilities of units. One being no impact to line of sight/spotting, and 99 being extreme degrading of the line of sight and spotting.
 
-![](images/image130.png)
+![](images/image102.jpg)
 
 - **%Mobility** – Selecting this option shows the Mobility rating for each hex on the map. The Mobility rating shown reflects off-road movement for units. The higher the number, the faster units can travel off-road. Units using Hasty (road) movement will move faster where there are roads and ignore the mobility rating in favor of the type of road.
 
-![](images/image131.png)
+![](images/image103.jpg)
 
 - **Altitude Values** – Selecting this option will display the Altitude value for every hex on the map. The Altitude value is the height above sea level in meters for the area represented on the map. The information is for display only and does not factor into gameplay.
 
-![](images/image132.png)
+![](images/image104.jpg)
 
 - **Feature Height** – Selecting this option will display the Feature Height for each hex on the map. Feature height is a primary measure of how tall the objects are in the terrain. This value impacts spotting and line of sight during the game.
 
-![](images/image133.png)
+![](images/image105.jpg)
 
 - **Defense Rating** – Selecting this option will display the Defense Rating for every hex on the map. This is a relative rating for how defendable a location is based on the terrain type. One would be very poor defensible terrain, and 99 would be outstanding terrain to defend in.
 
-![](images/image134.png)
+![](images/image106.jpg)
 
 ## Options Menu Items
 
 The Options Menu is used to access the User Preference dialog, change up the counter art style and colors, and vary the map contrast to suit your taste to see the counters and markers.
 
-![](images/image135.png)
+![](images/image108.jpg)
 
 - **User Preferences** – Selecting this option will open the User Preferences dialog that has many of the game settings. See Section 3 above for details on what settings are there and what they do.
 
-- ![](images/image136.png)![](images/image137.png)**Show NATO Unit Counters** – Selecting this option will display NATO markers in place of the vehicle silhouettes on all counters. Default silhouette counters left, and NATO counters right. For a rundown of NATO symbols and their meaning, refer to the Battlefield Primer FM FCCW-02.
+- ![](images/image109.jpg)**Show NATO Unit Counters** – Selecting this option will display NATO markers in place of the vehicle silhouettes on all counters. Default silhouette counters left, and NATO counters right. For a rundown of NATO symbols and their meaning, refer to the Battlefield Primer FM FCCW-02.
 
-- ![](images/image137.png)![](images/image138.png)**Show Large Simple Unit Counters** – Selecting this option will display Large NATO Symbols on all the counters to make the unit type more visible at extreme map zoom-out levels. Default silhouette counters left and Large Simple counters right.
+- ![](images/image110.jpg)![](images/image107.jpg)![](images/image111.png)**Show Large Simple Unit Counters** – Selecting this option will display Large NATO Symbols on all the counters to make the unit type more visible at extreme map zoom-out levels. Default silhouette counters left and Large Simple counters right.
 
-- ![](images/image137.png)![](images/image139.png)**Show Unit Counter Halo** – Selecting this option will display a color halo around all silhouettes. Default silhouette counters left, and Halo enabled counters right.
+- ![](images/image107.jpg)![](images/image112.jpg)![](images/image113.png)**Show Unit Counter Halo** – Selecting this option will display a color halo around all silhouettes. Default silhouette counters left, and Halo enabled counters right.
 
 - **Unit Counter Color Schemes** – Selecting this option will display the Unit Counter Color Scheme options. See Section 11.9.1 below for details on the various color options.
 
@@ -361,7 +350,7 @@ The Options Menu is used to access the User Preference dialog, change up the cou
 
 - **Map Show Hex Grid** – Selecting this option will draw a light-colored hex grid over the current map to better show the map hexes. This can be toggled on and off via the menu item.
 
-![](images/image140.png)
+![](images/image114.jpg)
 
 - **Mission Graphics Transparency Options** - Selecting this option will display the Mission Graphics Transparency Options. See Section  11.9.4 below for details on the various transparency options in the game.
 
@@ -369,69 +358,68 @@ The Options Menu is used to access the User Preference dialog, change up the cou
 
 Along with being able to change the basic look of the counter art between Silhouettes and NATO standard markings, these additional counter options allow you to change the colors for better identification or contrast depending on your style or need. These settings can be changed at any time the menu is active in the game.
 
-![](images/image141.png)
+![](images/image115.jpg)
 
 - **Black on White (Default)** – Simple black art or black NATO symbol on a white field.
 
-![](images/image142.png)
+![](images/image116.jpg)
 
 - **White on Black** – Simple white art or white NATO symbol on a black field.
 
-![](images/image143.png)
+![](images/image117.jpg)
 
 - **Automatic Dark Color Fill (best for silhouettes)** – Based on formations, each unit will get a contrasting dark color fill for the silhouettes and halo or the NATO backgrounds. This makes it easier to see what units belong to what formations and HQs.
 
-![](images/image144.png)
+![](images/image118.jpg)[[KC5]](#_msocom_5)
 
 - **Automatic Light Color Fill (best for NATO)** – Based on formations, each unit will get a contrasting light color fill for the silhouettes or the NATO backgrounds and contrasting color lines for the NATO symbols. This makes it easier to see what units belong to what formations and HQs.
 
-![](images/image145.png)
+![](images/image119.png)
 
 - **Automatic Light Color Fill with Black Accents (best for NATO)** – Each unit, based on its formation, will get a contrasting light color fill for the silhouettes or the NATO backgrounds with black line art for the NATO symbols. This makes it easier to see what units belong to what formations and HQs.
 
-![](images/image146.png)
+![](images/image120.png)
 
 ### Map Contrast Options
 
 These options allow the user to change the level of contrast/saturation (color vibrancy) of the map to make the counters and map markers more visible in some cases. The option goes from full color down to a basic grey scale look. This setting can be changed at any time when the menu is active.
 
-![](images/image147.png)
+![](images/image121.png)
 
 - **Full-Color Map Terrain** – This selection shows the map in its default color as made.
 
-![](images/image148.png)
+![](images/image122.png)
 
 - **Lightly Muted Map Terrain** – This selection shows the map with a slight change to contrast and saturation.
 
-![](images/image149.png)
+![](images/image123.png)
 
 - **Moderately Muted Map Terrain** – This selection shows the map with a moderate change to contrast and saturation.
 
-![](images/image150.png)
+![](images/image124.png)
 
 - **Strongly Muted Map Terrain** – This selection shows the map with a strong change to contrast and saturation.
 
-![](images/image151.png)
+![](images/image125.png)
 
 - **Fully Muted Map Terrain** – This selection shows the map with an entirely muted contrast and saturation. Turning the map into a scale.
 
-![](images/image152.png)
+![](images/image126.png)
 
 ### Map Zoom Options
 
 The Zoom Options menu item provides the user with the ability to zoom the map from 30% up to 200%. This wide range allows layers on very high-resolution screens to zoom in and still see and read counters and the map. The Fit option automatically scales the entire map to fit on the screen. There are hotkeys for the basic ranges between 50% and 130%.
 
-![](images/image153.png)
+![](images/image127.png)
 
 ### Mission Graphics Transparency Options
 
 The in-game Mission Graphics Transparency is 50% and can be set to a less transparent level on the map by selecting 25% or 10% Transparency via this option. The lower the value, the brighter the mission graphics will appear over the map.
 
-![](images/image154.png)
+![](images/image128.png)
 
 ## Help Menu Items
 
 The Help Menu contains several items to allow you to access various game documentation folders to access the PDFs for the What’s New, Field Manuals and Operational Area Guides, the in-game Hotkeys listing, About the game info, and the all-important Credits (check it out at least once to see all those responsible for this great game).
 
-![](images/image155.png)
-
+![](images/image129.png)

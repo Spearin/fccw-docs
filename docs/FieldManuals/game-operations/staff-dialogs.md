@@ -1,13 +1,12 @@
 # Staff Dialogs
 
-
 One of the areas in the game that has had a massive increase in information for the player is Staff Reports.
 
 These reports cover all aspects of your virtual Command Staff and should be used to help formulate your battle plan and to keep tabs on various aspects of your force, and the battle as the scenario unfolds.
 
 These reports can be accessed from the Staff Main Menu item at the top of the screen (see Section 11 above) or from the speed buttons on the floating Commander Panel (see Section 13.2 above).
 
-At the bottom of most of the dialogs are buttons for Print and Close.
+At the bottom of most of the dialogs are buttons for Print and Close. 
 
 Print will open a Printer Dialog box and allow you to print out what is on the tab to your printer or other printout options if available. The Close button will close the entire Staff Report.
 
@@ -19,31 +18,25 @@ The Scenario Information (SI) dialog provided information on the Scenario Descri
 
 The Scenario Description tab provides a detailed narrative of the scenario to be played. This provides some background on the events of the battle and an idea of the forces involved in the fighting.
 
-![](images/image194.png)
+![](images/image168.png)
 
 ### Victory Status & Conditions
 
 The Victory Status and Conditions tab contains sections of information that detail or estimate if the game is in progress and how the current scenario is going.
 
-![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image159.png)![](images/image195.png)
+![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image133.png)![](images/image169.png)
 
-1.
-A graphical representation of the currently estimated victory level and a brief explanation below it.
+1. A graphical representation of the currently estimated victory level and a brief explanation below it.
 
-2.
-A table breakdown of victory point (VP) allocations by type for each side of the battle. VP percentages are shown in the last line.
+2. A table breakdown of victory point (VP) allocations by type for each side of the battle. VP percentages are shown in the last line.
 
-3.
-This bar shows the Victory Conditions level based on the percentage of VPs in the scenario.
+3. This bar shows the Victory Conditions level based on the percentage of VPs in the scenario.
 
-4.
-This table shows the Catastrophic Force Loss Threshold for your force strength.
+4. This table shows the Catastrophic Force Loss Threshold for your force strength.
 
-5.
-This table lists the ownership and value of all on-map VP locations.
+5. This table lists the ownership and value of all on-map VP locations.
 
-6.
-This area has the Print and Close buttons for the report dialog.
+6. This area has the Print and Close buttons for the report dialog.
 
 ## Operations
 
@@ -53,20 +46,17 @@ The Operations Reports (Ops) provide a wealth of information about your forces a
 
 The Mission Briefing tab provides all the information for the current scenario.
 
-![](images/image196.png)
+![](images/image170.png)
 
-1.
-The Situation for the mission is stated in this section. The Mission objective(s) are noted in this section.
+1. The Situation for the mission is stated in this section. The Mission objective(s) are noted in this section.
 
-2.
-This section notes any additional forces added to your core forces to support the mission.
+2. This section notes any additional forces added to your core forces to support the mission.
 
-3.
-This section lists any Aviation, Fire Support (on and off-map artillery), and engineering assets for the mission.
+3. This section lists any Aviation, Fire Support (on and off-map artillery), and engineering assets for the mission.
 
 As seen below, the map and the location of known Victory locations are shown.
 
-![](images/image197.png)
+![](images/image171.png)
 
 ### Map Overlay
 
@@ -74,9 +64,9 @@ The Map Overlay tab shows the location of your forces and any spotted enemy forc
 
 Below the map is a listing of all your on and off-map headquarters (HQs), their number of subunits, and the location of the HQs.
 
-![](images/image198.png)
+![](images/image172.png)
 
-![](images/image199.png)
+![](images/image173.png)
 
 ### SITREP
 
@@ -84,7 +74,7 @@ The SITREP (SITuation REPort) tab has a graphical representation of your command
 
 Section B lists the number and types of subunits in your force, followed by a detailed breakdown of your forces by unit. This breakdown includes the counter, unit name, local leader name, type, and training level of the unit and the hex it is in. Also noted are the unit’s readiness, morale, and ammo levels. Lastly, a breakdown is shown by platform and unit type.
 
-![](images/image200.png)
+![](images/image174.png)
 
 ### Transport
 
@@ -92,15 +82,15 @@ The Transport tab provides information about any transport assets you have in yo
 
 Section A, Air Transport Operations
 
-![](images/image201.png)
+![](images/image175.png)
 
 Section B, Ground Transport Operations
 
-![](images/image202.png)
+![](images/image176.png)
 
 Section C, Naval Transport Operations (**NOTE:** Not in the game currently)
 
-![](images/image203.png)
+![](images/image177.png)
 
 ### Engineering
 
@@ -112,7 +102,7 @@ Section B lists out the dedicated Bridging, Mine Clearing/Laying, and General en
 
 Section C shows any planned or ongoing engineering activities on the map.
 
-![](images/image204.png)
+![](images/image178.png)
 
 ### Air Support
 
@@ -124,13 +114,13 @@ Section B lists all Air Assets you have at your disposal (if available in the sc
 
 Section C provides an hour-by-hour breakdown of the Airspace Control and weather (type of weather, visibility, cloud ceiling, and illumination level). If there is a weather-related item that poses a problem for aircraft use, the cell will be filled in red.
 
-![](images/image205.png)
+![](images/image179.png)
 
 ### Emitters
 
 The Emitters tab provides a detailed breakdown of any units with electromagnetic emitter equipment like radars. Of note, the status of the emitter is shown in a hyperlink that you can toggle on and off from this report. The type of emitter is described on the far right of the detailed information.
 
-![](images/image206.png)
+![](images/image180.png)
 
 ### Unit Logs
 
@@ -138,7 +128,7 @@ The Unit Log tab of the Staff Reports lists all the information entries from the
 
 Under the OOB window is an option to Show Combined Diaries. Selecting this will show all unit entries in chronological order in the right-side window. The total number of entries is also noted in both modes.
 
-![](images/image207.png)
+![](images/image181.png)
 
 ### Mission Capability Subunits
 
@@ -146,15 +136,15 @@ The Mission Capability Subunits tab provides information on the number of subuni
 
 Section A is a graphical representation of the number of units of each type under your command. The dark bar portion represents those units still active out of the total number in the light bar. The totals and types are in the column on the right.
 
-![](images/image208.png)
+![](images/image182.png)
 
 Section B is a tabled representation of your forces by type. The table notes each Type, the number of units that Started the scenario, those still Running, any units Withdrawn, any units that have Fallen Out (damaged/wounded and no longer combat effective), and those Destroyed (brewed up or killed).
 
-![](images/image209.png)
+![](images/image183.png)
 
 Section C is a similar table to Section B, but by each platform by name and description.
 
-![](images/image210.png)
+![](images/image184.png)
 
 ## Intelligence
 
@@ -164,7 +154,7 @@ The Intelligence Reports (Int) provide information about your enemy’s forces a
 
 The Threat Assessment provides you with your Intel section assessment of the enemy forces you will be facing during the battle. Along with the Threat Brief, you are given the map with graphics with the best estimation of what the enemy’s plan may be. This should help with your planning for what you will do with your forces to complete your mission.
 
-![](images/image211.png)
+![](images/image185.png)
 
 ### Enemy SITREP
 
@@ -174,11 +164,11 @@ Section A provides an estimate of the enemy’s Command Cycle for the past, pres
 
 Section B shows the game map and the estimated locations of known enemy forces. The circles show a rough idea of the dispersion of those specific enemy units. This map is updated in real time as more information is gained during the fight.
 
-![](images/image212.png)
+![](images/image186.png)
 
 Below Section B is the listing and breakdown of the spotted enemy units. The size of the unit and a hyperlinked hex location are also shown, and the numbers in the left-hand column match those shown on the map. If an off-map unit has been detected, it is also noted on the list but shown as an Off-Map with a distance and direction.
 
-![](images/image213.png)
+![](images/image187.png)
 
 Section C provides a range of numbers and types of enemy units that you may face in the scenario. This gives you a starting point for being able to track enemy losses and an idea of the number and type of threats you will be facing.
 
@@ -196,7 +186,7 @@ The remaining Unit Type columns represent the enemy’s forces and the number of
 
 At the very bottom of the table is a line with the grand totals for the A/F/D and enemy types columns.
 
-![](images/image214.png)
+![](images/image188.png)
 
 ### Weather Forecast
 
@@ -208,7 +198,7 @@ Section B notes the Time of Day for Dawn and Dusk, and the phase of the moon for
 
 Section C provides information on the impact on specific systems (Artillery, Air Defense, and NBC Operations) based on the weather at different times of the scenario.
 
-![](images/image215.png)
+![](images/image189.png)
 
 ### EW Report
 
@@ -220,7 +210,7 @@ Section A details both your EW level versus the enemy and the effects of the ene
 
 Section B graphs out the level of EW for both sides (yours in blue) hour-by-hour for the scenario.
 
-![](images/image216.png)
+![](images/image190.png)
 
 ### Enemy Off-Map Assets
 
@@ -230,7 +220,7 @@ Currently, those off-map assets are long-range artillery units. More types may b
 
 If you have long-range artillery or airpower, you can target these enemy units.
 
-![](images/image217.png)
+![](images/image191.png)
 
 ## Personnel and Logistics
 
@@ -248,7 +238,7 @@ This includes the following problems:
 
 - **Insufficient Transport** – Leg units no longer have carriers to move them quickly across the battlefield.
 
-![](images/image218.png)
+ ![](images/image192.png)
 
 ### Detailed Unit Status
 
@@ -256,7 +246,7 @@ The Detailed Unit Status tab provides an order of battle (OOB) listing in the le
 
 Below that, you will get the breakdown of subunits by name and type, plus the current number of Active Runners, Fallen Out, and Lost units. Next, there is a silhouette of the unit and its VP cost. Next is the type of mobility and top speed of the unit. Then a listing of basic protection values (for more detail, see the armor values in the Subunit Inspector (SUI-F6 key). The number of Crew and the Date of use is also listed. To the right of the information is a listing of the subunit’s armaments and special capabilities. At the very bottom, there is a listing of units claimed as destroyed.
 
-![](images/image219.png)
+![](images/image193.png)
 
 ### Reinforcements and Withdrawals
 
@@ -264,7 +254,7 @@ The Reinforcement and Withdrawals tab provides an order of battle (OOB) listing 
 
 Of importance in the right window is the time of arrival or withdrawal and the hex the unit will enter the map. Clicking the hyperlink for the location will flash the hex location on the map.
 
-![](images/image220.png)
+![](images/image194.png)
 
 ### Ammunition
 
@@ -276,11 +266,11 @@ The table shows the weapon system and description, the basic starting loadout of
 
 Information in yellow is from units and subunits that have fired and expended ammunition. The values in white are units that have not engaged the enemy. Currently, there may be duplicated entries from different subunit types with the same weapon system (the 125mm D-81TM below being a case).
 
-![](images/image221.png)
+![](images/image195.png)
 
 Section B Shows each unit and the ammunition for each significant weapon system (no small arms weapons listed). Each entry contains the unit’s name, unit composition, counter, and then the table showing each weapon system’s ammunition in the same format detailed in Section A above.
 
-![](images/image222.png)
+![](images/image196.png)
 
 ## Fire Support
 
@@ -300,13 +290,13 @@ The last block notes the details of any Fire Mission currently in progress.
 
 At the bottom is information on what units this fire support unit can provide fires for and the possible delay time for the call to be processed in the command chain.
 
-![](images/image223.png)
+![](images/image197.png)
 
 ### Fire Missions
 
 The Fire Missions tab shows a listing of all fire missions for your forces. The information shown in each entry is the Start and Finish time of the fire mission in-game time, the Status of the mission Active or Planned, the Contact number of the enemy if known/spotted, the Target, and its location if known/spotted, Type of Fire Mission ammunition being used, Rounds shows the total number of rounds to be fired at the target, Duration states the amount of time of the fire mission, Asset shows the counter-image of the firing unit, and Asset Status shows the average ammo percentage and unit readiness level.
 
-![](images/image224.png)
+![](images/image198.png)
 
 ### Fire Support Control Center (FSCC)
 
@@ -314,5 +304,4 @@ The Fire Support Control Center tab provides a listing of all requested fires on
 
 You can also use this listing to find targets for manually entered fires from your artillery by noting the hex locations and target types.
 
-![](images/image225.png)
-
+![](images/image199.png)

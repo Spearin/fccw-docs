@@ -2,7 +2,6 @@ title: Gameplay Manuals
 nav:
   - Section: index.md
   - FM01 Game Operations: game-operations/
-  - TEST FM01 Game Operations: game-ops-test/
   - FM02 Battlefield Primer: battlefield-primer/
   - FM03 Tutorials: Tutorials/
   - hotkeys.md

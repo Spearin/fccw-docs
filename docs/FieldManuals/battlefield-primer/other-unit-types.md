@@ -1,6 +1,5 @@
 # Other Unit Types
 
-
 There are some additional off-map unit types that we have not added to the game. These may become active in later updates as new features are released.
 
 ## Sea (Ships and Submarines)
@@ -10,4 +9,3 @@ These platform types would support ships and submarines that could provide firep
 ## Space (Stations and Satellites)
 
 These platform types would provide additional intelligence-gathering assets to provide recon before and during a battle or campaign.
-

@@ -1,33 +1,30 @@
 # Campaign Game Play Overview
 
-
-![](images/image336.png)On the Main Menu screen select Start New: Campaign. ![](images/image337.png)
+![](images/image310.png)On the Main Menu screen select Start New: Campaign.   ![](images/image311.png)
 
 The available campaigns are listed with a campaign description positioned beneath. Select one and hit Proceed to continue.
 
-![](images/image338.png)![](images/image339.png)
+![](images/image312.png)![](images/image313.png)
 
-Set the gameplay options for the Fog of War as usual.
+Set the gameplay options for the Fog of War as usual. 
 
-!!! note
-
-    You cannot pick which side you will play or what your opponent will be.  You will play the side the campaign author has specified, and it will be against the AI.
+**NOTE:** You cannot pick which side you will play or what your opponent will be.  You will play the side the campaign author has specified, and it will be against the AI.
 
 Next, you can choose the Battle Plan for the campaign scenario if there is more than one or select it to be picked at random.
 
-![](images/image340.png)![](images/image341.png)
+![](images/image314.png)![](images/image315.png)
 
-Clicking Proceed will load the scenario, and you can begin to play. The program title bar tells you the name of the campaign and which scenario you are currently playing.
+Clicking Proceed will load the scenario, and you can begin to play.  The program title bar tells you the name of the campaign and which scenario you are currently playing.
 
-![](images/image342.png)
+![](images/image316.png)
 
 Play the scenario to a conclusion or end it early (if more than 2/3s has been played) via the top menu Game / End Game Now selection.  After the standard Battle Over dialog, you will be asked to save the campaign in progress as a “. CAV” file.  Select a file name and click on the Save button.
 
-![](images/image340.png)![](images/image343.png)
+![](images/image314.png)![](images/image317.png)
 
 You will then see the following message:
 
-![](images/image340.png)![](images/image344.png)
+![](images/image314.png)![](images/image318.png)
 
 Clicking on Proceed will take you to the Staff Summary of the TOC Scenario Information dialog for the usual post-mortem debrief.  Note that there is a new tab in this dialog called “Campaign Chronology”.  This report will show you the accumulated campaign information to date.  It contains:
 
@@ -47,21 +44,20 @@ When the player has finished the scenario post-mortem, use the Game / Start Next
 
 The new scenario will load, and the player’s core forces will be imported and placed in the appropriate setup areas.
 
-![](images/image345.png)![](images/image346.png)The Force Recovery dialog will be shown to detail how much rest, recovery, and replacements your core force has received.
+![](images/image319.png)![](images/image320.png)The Force Recovery dialog will be shown to detail how much rest, recovery, and replacements your core force has received.
 
 This report summarizes a lot of meaningful detail!
 
-![](images/image347.png)
+![](images/image321.png)
 
 The player will now receive the mission briefing for the scenario and play can start.  When this scenario is complete, the same process will be used to start the third and final scenario.
 
 When this final scenario concludes, a campaign summation screen will be shown:
 
-![](images/image348.png)
+![](images/image322.png)
 
 The game end-state can then be browsed in the usual way.  The TOC Scenario Info Campaign Chronology will now be complete.
 
-![](images/image349.png)
+![](images/image323.png)
 
 From here you can select the close button return to the Main Menu and start another battle or campaign.
-

@@ -1,5 +1,6 @@
 nav:
-  - Game Info: Info/
-  - Gameplay Manuals: FieldManuals/
-  - Reference Guides: Reference/
-  - Content Manuals: Guides/
+  - Home: index.md
+  - Game Info: info/
+  - Gameplay Manuals: fieldmanuals/
+  - Operational Guides: reference/
+  - User Content Guides: userguides/

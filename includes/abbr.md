@@ -25,6 +25,7 @@
 *[APC]: Armored Personnel Carrier
 *[APS]: Active Protection System
 *[ARMs]: Anti-Radiation Missiles
+*[ARR]: Anti-Radiation
 *[AT]: Anti-Tank
 *[ATGM]: Anti-Tank Guided Missile
 *[BDA]: Battle Damage Assessment
@@ -35,6 +36,7 @@
 *[CP]: Command Post
 *[ERA/NERA]: Explosive and Non-Explosive Reactive Armor
 *[EW]: Electronic Warfare
+*[FAE]: Fuel Air Explosive
 *[FARP]: Forward Arming and Refueling Point
 *[FEBA]: Forward Edge of Battle Area
 *[FASCAM]: Family of Scatterable Mines
@@ -53,9 +55,12 @@
 *[MG]: Machine Gun
 *[MRL]: Multiple Rocket Launcher
 *[NBC]: Nuclear, Biological, Chemical
+*[NCHEM]: Non-Persistent Chemical
 *[NOE]: Nap of the Earth
 *[PGM]: Precision Guided Munition
 *[Platform]: Atomic Element of Capability
+*[PMD]: Precision Munition - Designated
+*[PMG]: Precision Munition - Guided
 *[Prep]: Preparatory Fires
 *[Recce]: Reconnaissance
 *[RPG]: Rocket Propelled Grenade
@@ -63,6 +68,7 @@
 *[SAM]: Surface-to-Air Missile
 *[SAMs]: Surface-to-Air Missiles
 *[SEAD]: Suppression of Enemy Air Defenses
+*[SOP]: Standard Operating Procedure
 *[TIS]: Thermal Imager Sight
 *[TIV]: Thermal Imager Sight for Spotting
 *[UCAS]: Unmanned Combat Aerial System

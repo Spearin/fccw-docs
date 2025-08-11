@@ -1,6 +1,5 @@
 # Supply and Logistics
 
-
 Supply is the Achilles heel of all modern armies. It is burned at a ferocious pace during operations and commanding officers are constantly mindful of ‘topping off’ their units. Given the basic scale and duration of the game, ammunition is likely to be far more of a limiting factor than fuel, rations, or other forms of supply.
 
 The lesson of the 1973 Arab-Israeli war was that ammo gets used up far faster than expected; rates of 5 times greater than expected were not unheard of. It is an integral part of the command dilemma to be able to ration it out effectively.
@@ -23,11 +22,11 @@ For indirect fire units, the Fire Support Report Assets tab also notes the total
 
 More information is shown in the Ammunition report, it shows the number of rounds expended up to that current time in the battle.
 
-![](images/image311.png)
+![](images/image285.png)
 
-![](images/image312.png)
+![](images/image286.png)
 
-![](images/image313.png)
+![](images/image287.png)
 
 ## Resupply
 
@@ -40,4 +39,3 @@ If this is selected in Game Options, then any unit that runs out of ammunition i
 ## Why No Fuel Tracking?
 
 Given the short time and relatively short distances covered in the game, we assume there is enough fuel for the operation on the map to take place. When units perform a resupply for ammunition and to recover readiness and morale, we assume fuel tanks are topped off as well. In the future, we may take a more detailed approach to fuel tracking, but for now, it sits beyond trackable concern compared to the other factors we do cover.
-

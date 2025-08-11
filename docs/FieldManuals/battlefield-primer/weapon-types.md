@@ -1,6 +1,5 @@
 # Weapon Types
 
-
 The following sections cover the numerous types of weapon systems that are included in the game. This list may expand in the future if new features require new types to be defined for use.
 
 ## Aircraft Guns and Cannons
@@ -50,4 +49,3 @@ A large caliber cannon. Effective up to 3000 meters but can reach about twice th
 ## Surface to Air Missiles
 
 These are labeled as "SAM" and can be long and short-range. Infantry-based AA missiles are always short-range, i.e., effective up to 5km. Short-range AA missiles may struggle against aircraft with countermeasures. The most powerful SAMs are vehicle mounted and may have air search radars associated with them (which broadcast a signature) or be passive IR or thermal systems. These are more dangerous to aerial units as they can strike without warning.
-

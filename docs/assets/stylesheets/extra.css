@@ -9,7 +9,7 @@
     --md-primary-fg-color--dark: #3c0000;
     /* --md-text-font: "Tahoma"; */
 
-    .md-content h1, h2, h3 {
+    .md-header__title, .md-content h1, h2, h3 {
     font-family: 'ITC Eras Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
     }
@@ -33,4 +33,52 @@
 
 .md-sidebar__scrollwrap {
     border-left: 1px dotted #AAA;
+}
+
+.nt-timeline .nt-timeline-content {
+    font-size: 15px;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 1rem;
+}
+
+.nt-timeline.vertical.left .nt-timeline-items {
+    background: radial-gradient(circle, rgb(6, 14, 54) 0%, rgb(228, 50, 50) 100%) no-repeat 30px/2px 100%
+}
+.nt-timeline.vertical.left {
+    padding-left: 50px;
+}
+.nt-timeline.vertical.left .nt-timeline-sub-title {
+    left: -50px;
+}
+.nt-timeline-dot .icon {
+    margin-top: 4px;
+}
+
+h1 .twemoji, .nt-timeline-content .twemoji {
+    --md-icon-size: 2em;
+    display: inline;
+}
+
+.nt-timeline-content .twemoji svg {
+    box-shadow: rgba(0,0,0,0.33) -1px 3px 5px;
+}
+
+.md-nav__link svg {
+    filter: grayscale(0.8);
+    transition: all 1s ease-in-out;
+}
+.md-nav__link:hover svg, .md-nav__item .md-nav__link--active svg {
+    filter: grayscale(0);
+}
+.md-typeset .twemoji .em.em-nato { 
+    height: calc(3 * var(--md-icon-size)); 
+    width: calc(3 * var(--md-icon-size));
+    max-height: none;
+    margin-top: -30%
+}
+.md-typeset .twemoji .em.em-unit { 
+    height: calc(4 * var(--md-icon-size)); 
+    width: calc(4 * var(--md-icon-size));
+    max-height: none;
+    margin-top: -46%;
 }

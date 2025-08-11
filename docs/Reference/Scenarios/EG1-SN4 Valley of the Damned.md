@@ -1,0 +1,10 @@
+# EG1-SN4 Valley of the Damned
+_D+1 | 21 Jul 1989, 0600hrs - 1200hrs [:smflag-us:](./Forces/United States.html) vs [:smflag-eg:](./Forces/East Germany.html) @ [Bamberg](../Maps/Bamberg/Bamberg.html)_
+
+As the second day of the war begins, the 7th Panzer Division has reached Bamberg. The division commander visited in the predawn hours to deliver the regiment's last push for at least a day or two. Once Bamberg was clear, the army's second echelon would take the lead allowing the tired panzers a breather.
+
+Much to the relief of the assembled staff, the news they would not be the division's main effort was welcomed. That was until briefed on the mission. The regiment would attack with two battalions, down a close, narrow valley defended by battle tested American soldiers of the 1st Armored Division. 
+
+The division is limiting the axis of advance from the high ground that is the current front, down the valley, advancing west following State Road 2281 to the regiment's three objectives. The plan calls for a slow steady advance, pounding the Americans with artillery and air support, pinning the force in the valley, while the rest of division conduct the main assault to capture Bamberg.
+
+**_Scenario by David Whitt | Map by William van der Sterren_**

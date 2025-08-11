@@ -1,9 +1,8 @@
 # Status Bar
 
-
 At the bottom of the game screen is the Status Bar. This bar has two areas with different functions and information.
 
-![](images/image156.png)
+![](images/image130.png)
 
 In the blank area between the two status zones, information about the selected unit and overlay(s) in use is displayed.
 
@@ -11,7 +10,7 @@ In the blank area between the two status zones, information about the selected u
 
 The left side of the Status Bar has several Speed Buttons that perform various game functions.
 
-![](images/image157.png)
+![](images/image131.png)
 
 - **Map + and Map - -** These speed buttons are used to zoom the map in or out, and the percentage of zoom is shown between these speed buttons.
 
@@ -31,7 +30,7 @@ The left side of the Status Bar has several Speed Buttons that perform various g
 
 The right side of the Status Bar has five symbols and numeric information for the hex the mouse cursor is in.
 
-![](images/image158.png)
+![](images/image132.png)
 
 - **Hex Icon** – this is the ID number of the selected hex.
 
@@ -42,4 +41,3 @@ The right side of the Status Bar has five symbols and numeric information for th
 - **No Eye Icon** – This is the concealment capability of the hex selected. Higher numbers make it harder to be spotted.
 
 - **Truck Icon** – This is the mobility rating for the selected hex. The higher the number, the quicker units can move through the hex.
-

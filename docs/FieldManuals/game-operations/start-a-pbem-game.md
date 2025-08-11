@@ -1,13 +1,12 @@
 # Start a PBEM++ Game
 
-
 PBEM++ is a more advanced and user-friendly way to do the standard PBEM game. In this case, the games are sent back and forth via servers at Slitherine Games automatically as you finish turns and send them. The game file resides on the Slitherine server, so you can technically log in to your account from any computer and pick up and play your games with your friends.
 
-![](images/image045.png)![](images/image046.png)
+![](images/image033.jpg)
 
 ## Login to an Existing PBEM++ Account
 
-![](images/image047.png)![](images/image048.png)![](images/image049.png)
+![](images/image034.png)![](images/image035.jpg)
 
 On the Login tab, if you have an established Matrix/Slitherine account, you can log in using your UserID and Password.
 
@@ -19,7 +18,7 @@ If you wish to help with game data analytics, you can click the Share anonymized
 
 Clicking the login button will display the message below as the game contacts the servers.
 
-![](images/image050.png)
+![](images/image036.jpg)
 
 ## Register New PBEM++ Account
 
@@ -29,15 +28,11 @@ If you want the game to remember your PBEM++ password the next time you load the
 
 When all that is complete, you can click on the Register button. It may take a few moments to send the information to the servers. If everything works out, you will be presented with the PBEM++ Game Lobby. If there is an error, a dialog box will pop up with information that you can use to contact Matrix support to see if they can resolve the problem.
 
-![](images/image051.png)![](images/image052.png)![](images/image053.png)
+![](images/image037.jpg)
 
-!!! note
+**NOTE:** If you already have a Matrix/Slitherine account, please use that as your login.
 
-    If you already have a Matrix/Slitherine account, please use that as your login.
-
-!!! note
-
-    If you want a new account for PBEM, you must have an unregistered email to make a new account.
+**NOTE:** If you want a new account for PBEM, you must have an unregistered email to make a new account.
 
 ## The PBEM++ Game Lobby
 
@@ -51,7 +46,7 @@ The top window shows all the games you are currently playing with others. This i
 
 The bottom window will show any messages for the currently selected PBEM++ game in the top window.
 
-![](images/image054.png)
+![](images/image038.png)
 
 You can also see completed games by checking the Show Completed Games box.
 
@@ -63,7 +58,7 @@ The Refresh button will update all games from the server if needed.
 
 This tab shows you all the games ready to be played with another player.
 
-![](images/image055.png)
+![](images/image039.png)
 
 The top window will show all available challenges. The information displayed includes the Scenario name, the Side you will play in the game, the Type of game, which the Challenger is, and the date the challenge was issued.
 
@@ -71,13 +66,13 @@ The type can be one of two choices. The first is Public. Anyone can accept a pub
 
 Once you select a challenge and click on the Accept button, you are given a chance to send a message to your opponent before the action starts.
 
-![](images/image056.png)![](images/image057.png)
+![](images/image040.png)![](images/image041.png)
 
 After sending a message or not, you will get the following message stating you have accepted the challenge.
 
 Hit Play to start the game and set up for the first turn.
 
-![](images/image058.png)![](images/image059.png)
+![](images/image040.png)![](images/image042.png)
 
 ### Creating a Challenge
 
@@ -99,5 +94,4 @@ To start a new challenge for someone to play against you, you need to select the
 
 - Finally, click the Upload the Challenge button to pass the information on to the PBEM++ server, where it will show up in the Challenges tab.
 
-![](images/image060.png)![](images/image061.png)
-
+![](images/image043.jpg)

@@ -1,17 +1,16 @@
 # Start a New Campaign
 
-
 A campaign is a sequence of scenarios from one nation’s perspective where the result of one scenario may influence the subsequent scenario. The player will be able to carry over core forces from scenario to scenario. This means that campaign scenarios might play out very differently from single scenarios because it is of vital importance to preserve your force as you try to win your part of the war.
 
 To start a new Campaign, click on the Campaign button in the Main Menu.
 
-![](images/image041.png)![](images/image042.png)
+![](images/image030.jpg)
 
 ## Campaign Selection Dialog
 
 This will launch the Campaign Selection dialog, as seen below. In the list, you can review all the campaigns that are available in the module. Selecting a campaign by clicking on it will also show an overview of the campaign in the bottom text box so you can get an idea of the overall mission and historical context of the campaign.
 
-![](images/image044.png)
+![](images/image031.jpg)
 
 ## Difficulty Settings
 
@@ -23,3 +22,4 @@ Selecting Proceed will then finish the loading of the selected campaign, and you
 
 For more details on Playing a Campaign, see Section 31 below.
 
+![](images/image032.jpg)

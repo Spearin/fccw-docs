@@ -1,6 +1,5 @@
 # Victory Conditions and End Game
 
-
 The victory conditions for each player are specified in detail in the mission briefings. The most important way to ensure victory is to find and secure the victory point (VP) locations that have been placed on the map by the scenario designer. Blue locations are secured by Player 1, red locations by Player 2, and yellow locations have not been secured yet by either. An unsecured location becomes “secured” if a friendly ground unit passes through it. Air units like helicopters can fly over this location and engage or spot enemy units, but they cannot “take” an objective. The values of the different locations are shown in the map marker and the Scenario Information Staff Report.
 
 Players also get victory points for knocking out or destroying enemy subunits. The value of each subunit is shown in the Subunit Inspector. The exact number of VP points is awarded whether the subunit is destroyed or just minimally damaged – either way, it is a mission kill and that is what is being measured.
@@ -15,13 +14,13 @@ A representative of the General Staff Inspectorate provides a quick review of yo
 
 Click the Proceed button to continue to the Scenario Information Report to see the Post-Mortem results.
 
-![](images/image328.png)
+![](images/image302.png)
 
 ## Final Report
 
 The Final Report (see below) is a repeat of the Battle Over screen and allows you to see that information again as well as note which Battle Plans each side used if it was under AI control.
 
-![](images/image329.png)
+![](images/image303.png)
 
 ## Butcher’s Bill
 
@@ -29,7 +28,7 @@ The Butcher Bill is a tally of all the units lost (Destroyed or Fallen Out) duri
 
 Section A of the Butcher’s Bill has a graph showing the breakdown of subunits for both sides with the long faint bar showing the number of starting units of that type and the short darker bar showing units remaining of the type. Starting and ending numbers are also listed with each row.
 
-![](images/image330.png)
+![](images/image304.png)
 
 Sections B and C show the state of your forces by Unit Type and by Platform respectively in a tabled format.
 
@@ -37,11 +36,11 @@ Section B looks at each general Type of subunit, how many Started the scenario, 
 
 Section C looks at each type of Platform in the battle, a Description of that platform, how many Started the scenario, how many are still Running at the end of the scenario, any platforms that have Withdrawn, the number of platforms Fallen Out (Damaged/Wounded), and finally the number of platforms Destroyed (Destroyed/Killed in Action). The final Totals for each column are shown at the bottom of the table.
 
-![](images/image331.png)
+![](images/image305.png)
 
 Sections D and E show the state of the Enemy forces by Unit Type and by Platform respectively. The information is in the same format as noted above for Sections B and C.
 
-![](images/image332.png)
+![](images/image306.png)
 
 ## Victory Status and Conditions
 
@@ -53,15 +52,15 @@ Next is a table showing the breakdown of starting forces and VPs awarded for bot
 
 Section A.1 shows the colored bar and the distributed VP values that match up to the various victory conditions for your force. These percentages are based on the starting VP conditions for the scenario and allow for unbalanced forces in a scenario but provide real victory conditions based on these ratios. Lastly, the Catastrophic Force Loss Threshold triggers Sudden Death.
 
-![](images/image333.png)
+![](images/image307.png)
 
 Section B provides a table of VP location ownership by side and contested and neutral (not owned) locations.
 
-![](images/image334.png)
+![](images/image308.png)
 
 Section C provides details on how ownership of the VP location was determined based on local units and time remaining in the game.
 
-![](images/image335.png)
+![](images/image309.png)
 
 ## Sudden Death
 
@@ -71,5 +70,6 @@ There is the option to continue playing until the end of the scenario time or un
 
 !!! note
 
-    : It is infrequent to improve on the Sudden Death evaluation as your forces are combat ineffective and usually will suffer more losses if the Sudden Death point is ignored.
+    It is infrequent
 
+to improve on the Sudden Death evaluation as your forces are combat ineffective and usually will suffer more losses if the Sudden Death point is ignored.

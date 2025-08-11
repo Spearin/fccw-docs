@@ -1,6 +1,5 @@
 # Combat Soft Factors
 
-
 One of the key factors that impact combat operations is those things known as Combat Soft factors. These are the soft data items that represent the human elements found on the battlefield. The three key elements used in the game are Readiness, Morale, and Training.
 
 ## Readiness
@@ -14,4 +13,3 @@ Morale is a number from 1 to 99 (best) representing the mental state of the unit
 ## Training
 
 An identifier representing the average amount of prewar training received. These training levels range between Untrained, Green, Average, Veteran, and Elite. The higher the unit’s level of training, the more likely it is to perform better on the battlefield, suffer less readiness and morale reduction from events, and recover faster from those losses. This training level is noted before the primary type of unit in many detailed information displays like the Spotlight Panel.
-

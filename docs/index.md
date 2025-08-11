@@ -26,4 +26,4 @@ As a toolkit, you can create your own scenarios and campaigns\. You can also div
 
 We understand that users of all genders will play our simulation\. We try to keep language in the game and manuals gender\-neutral, when possible, but sometimes use the pronoun “he” to refer to the user\. This is merely to streamline the writing, not to exclude anyone or note a specific gender\.
 
-The On Target Simulations team supports the inclusion of all people in the field of wargaming\
+The On Target Simulations team supports the inclusion of all people in the field of wargaming.

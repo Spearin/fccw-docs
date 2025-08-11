@@ -1,15 +1,14 @@
 # Start a New Scenario
 
-
 To start a new Scenario, click on the Scenario button in the Main Menu.
 
-![](images/image031.png)![](images/image032.png)
+![](images/image024.jpg)
 
 ## Scenario Selection Dialog
 
 This will launch the Scenario Selection dialog, as seen below. In the list, you can review all the scenarios that are available in the module. Selecting a scenario by clicking on it will also show a description of the scenario’s meta-data details. The details state the map and forces used (nation and the number of units) in the selected scenario. Lastly, you can read the Scenario Summary to get an idea of the mission and historical context of the battle.
 
-![](images/image033.png)
+![](images/image025.jpg)
 
 ### Selection Criteria
 
@@ -29,7 +28,7 @@ Hit Proceed to start the scenario selected and move on to the Play Mode and Batt
 
 When you start a new scenario, the next thing to do is to decide how the game will be played and what side, if any, you will play as the player.
 
-![](images/image034.png)![](images/image035.png)
+![](images/image026.jpg)
 
 ### Style of Play
 
@@ -59,13 +58,13 @@ Additional Battleplans can be added to scenarios to increase the replayability o
 
 Hit the Proceed button to move on to the Difficulty Settings dialog.
 
-![](images/image036.png)![](images/image037.png)
+![](images/image027.jpg)
 
 ## Difficulty Settings
 
 While most games have difficulty settings that make the game easier to win by raising and lowering various values, our game does not do that. There are a few adjustments you can make to make things easier to learn the game, and in that way, the game is “easier” to play, but not necessarily easier to win. No gameplay values are modified, so if tank A shoots and can kill tank B, this will always be the case regardless of these settings.
 
-![](images/image038.png)
+![](images/image028.jpg)
 
 ### Presets
 
@@ -103,7 +102,4 @@ Hit Proceed to load the selected scenario.
 
 ## Scenario Load and Announcements
 
-![](images/image039.png)![](images/image040.png)
-
-At this point, the selected scenario will load, and you will get the Announcement Screen (click on it to disable the timer countdown) that gives you the mission overview. Head to Section 9 below to see information on what all the User Interface (UI) elements are on the screen in detail.
-
+![](images/image029.jpg)At this point, the selected scenario will load, and you will get the Announcement Screen (click on it to disable the timer countdown) that gives you the mission overview. Head to Section 9 below to see information on what all the User Interface (UI) elements are on the screen in detail.

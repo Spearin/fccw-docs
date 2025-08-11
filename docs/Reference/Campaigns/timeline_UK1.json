@@ -1,0 +1,26 @@
+[
+  {
+    "title": "SN1 The Battle for Braunschweig",
+    "content": "1000 - 1500 | [:smflag-gb:](../Forces/United_Kingdom Forces.html) vs [:smflag-su:](../Forces/Soviet_Union Forces.html) | [@ Braunschweig](Maps/Braunschweig/Braunschweig.md)<br>\n\nThe Third World War has begun, and Warsaw Pact armies are pouring across the Inner German Border. Elements of the famed 7th Armoured Brigade, along with recce troops from the British I Corps Screening Force, are tasked with slowing down the lead tanks of the Soviet 7th Guards Tank Division. The brigade has assigned a battlegroup based around the 2nd Royal Tank Regiment with the task of delaying any Soviet attack south of Braunschweig.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "20 Jul"
+  },
+  {
+    "title": "SN2 Fancy Meeting You Here",
+    "content": "1900 - 0100 | [:smflag-gb:](../Forces/United_Kingdom Forces.html) [:smflag-de:](../Forces/West_Germany Forces.html) vs [:smflag-su:](../Forces/Soviet_Union Forces.html) | [@ Holle](Maps/Holle/Holle.md)<br>\n\nWhile the 2nd Royal Tank Regiment is delaying around Wolfenbuttel, the remainder of the brigade is hastily ordered to the Holle area. 12 Armoured Bde normally assigned that sector have not arrived. It is feared elements of the Soviet 10th Guards Tank Division are racing to secure the vital road junction.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "20 Jul"
+  },
+  {
+    "title": "SN3 The Ghost of Arminius",
+    "content": "0300 - 1100 | [:smflag-gb:](../Forces/United_Kingdom Forces.html) [:smflag-de:](../Forces/West_Germany Forces.html) [:smflag-be:](../Forces/Belgium Forces.html) vs [:smflag-pl:](../Forces/Poland Forces.html) [:smflag-su:](../Forces/Soviet_Union Forces.html) | [@ Bielefeld](Maps/Bielefeld/Bielefeld.md)<br>\n\nThe Warsaw Pact forces have pushed west from their Wesser River crossing sites \\- their main axis running from Bad Oyenhausen towards Munster. A supporting axis of the attack pushed southwest following the A2 autobahn and highway B61 into the Bielefeld, Teutorburg Wald area. The Polish division is now engaged with a mix of NATO forces desperately trying to stem their advance. There has been little action east of Belefeld, seeing an opportunity NORTHAG orders the division to conduct a limited counter-attack across the imposing Teutorburg Wald into the eastern outskirts of Belefeld.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "23 Jul"
+  },
+  {
+    "title": "SN4 Tea Time",
+    "content": "0230 - 1030 | [:smflag-gb:](../Forces/United_Kingdom Forces.html) vs [:smflag-su:](../Forces/Soviet_Union Forces.html) | [@ Unna](Maps/Unna/Unna.md)<br>\n\nThe Warsaw Pact drive crossed the Teutoburg Wald at its western boundary, and rapidly advanced south towards the Ruhr. NATO commanders are throwing all available reserves into trying to shore up the front lines. As part of that effort, the brigade is ordered to attack the vital road network around the city of Unna. Despite the grumblings of the troops promised their afternoon tea, the attack would commence on schedule.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "25 Jul"
+  }
+]

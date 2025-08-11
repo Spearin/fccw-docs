@@ -1,6 +1,5 @@
 # Spotting and Line of Sight (LOS)
 
-
 The ability to detect, that is distinguish between a military platform and its surroundings is heavily impacted by illumination, especially when not equipped with excellent Thermal Imaging or Night Vision equipment.
 
 So, the gameplay panel gives you weather conditions and weather/meteorological visibility. The rings indicate this unit's ability to detect military units.
@@ -43,7 +42,7 @@ Due to a combination of elevation and terrain considerations the potential exist
 
 A view from one hex to another is considered blocked if there is an intervening elevation or if the accumulated visual clutter due to cover, wrecks, and smoke along the LOS drops the visibility below 10% for most units.
 
-![](images/image310.png)
+![](images/image284.png)
 
 LOS is checked in two steps:
 
@@ -62,4 +61,3 @@ On a clear night, you can see as far as the moon allows, and you might see dista
 Illumination at night is low (between 0% with no moon to 40% at full moon) vs 100% during the day and an in-between value during the dawn and dusk transitions. Even though the visual range may be several thousand meters at night, the visual spotting range is a function of the night illumination level. Without thermal or other means of illumination, optical spotting at 0% illumination is not possible.
 
 For more information on Time of Day see Section 28 below. For more details about the types of Weather in the game, see Section 29 below.
-

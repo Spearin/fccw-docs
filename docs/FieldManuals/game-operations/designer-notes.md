@@ -1,6 +1,5 @@
 # Designer Notes
 
-
 The following section contains some designer notes and thoughts on various topics covered in the game. These items pair well with the information in the Battlefield Primer (FM02) and add more background to the various features and capabilities of the game engine.
 
 ## Infantry
@@ -56,4 +55,3 @@ In the age of ultra-lethal weapons, dispersion is the key to survival. Historica
 ## Line of Sight and Line of Fire
 
 Typical combat ranges may be a lot shorter than expected. Most improvements to direct-fire weapons have been to extend the range past three km, but in most cases, the line of fire will not be nearly that long. At one point the Soviets calculated that 50% of all combat would occur at 500 m or less. This puts a premium on delivering the first round fast and accurately rather than at an extended range. Tactical situational awareness leading to consistently getting the first shot in may well determine who lives and who dies. The best shot might not be the longest shot, or the one with the most sweeping field of view, but rather the most unexpected shot.
-

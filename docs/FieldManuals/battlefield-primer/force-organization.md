@@ -1,6 +1,5 @@
 # Force Organization
 
-
 Forces are usually organized into tiers of three or four or the lower tier of core type, with HQs units and mechanized infantry units being the exceptions. For example, a tank company consists of three or four tank platoons. The echelons are:
 
 - Team (●) – 2-4 Troops, usually using a specific heavy weapon.
@@ -16,4 +15,3 @@ Forces are usually organized into tiers of three or four or the lower tier of co
 - Battalion (**||**) – 3 to 4 Companies, an HQ Section, and possibly some specialty platoons or 500-800 troops.
 
 - Brigade (**X**) / Regiment (**|||**) – 3 or 4 Battalions, an HQ Platoon, possibly specialty Companies or Platoons, maybe an Artillery Battery or 1000-3000 troops.
-

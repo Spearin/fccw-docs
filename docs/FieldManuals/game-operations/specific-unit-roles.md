@@ -1,13 +1,12 @@
 # Specific Unit Roles
 
-
 ***Flashpoint Campaigns: Cold War***has a vast array of unit types covering the major platforms (vehicles, aircraft, helicopters, field guns, etc.) and squads of the Cold War. The primary unit types are described below.
 
 How these units are used in battle, and more information about their systems and sensors can be found in Battlefield Primer FM FCCW-02.
 
-!!! note
+**NOTE:** Roles can be changed in the game and impact how the AI tries to use the units. Recce units will try to be out front locating the enemy. Following that are the Main Effort (mainly armor) and Line (mainly mechanized/infantry units. Just behind those or mixed with are Overwatch units (Defense and dedicated Anti-tank units). Finally, units in a Support role (mainly Headquarters and Artillery units) should stay at the rear of the force.
 
-    Roles can be changed in the game and impact how the AI tries to use the units. Recce units will try to be out front locating the enemy. Following that are the Main Effort (mainly armor) and Line (mainly mechanized/infantry units. Just behind those or mixed with are Overwatch units (Defense and dedicated Anti-tank units). Finally, units in a Support role (mainly Headquarters and Artillery units) should stay at the rear of the force.
+ 
 
 ## Recce Role
 
@@ -94,4 +93,3 @@ Currently supported in the game are dedicated short-span bridging units and engi
 - SEAD (Suppression of Enemy Air Defenses) aircraft are equipped with special anti-radiation missiles (ARMs) that seek out and destroy air search radars rendering Surface to Air systems (SAMs) useless. They do not affect optical and infrared (IR) systems.
 
 - Most scenarios will have a limited number of air strikes (if any) and those assets will be available for a limited amount of time.
-
