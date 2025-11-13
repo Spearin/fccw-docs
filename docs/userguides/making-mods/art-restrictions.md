@@ -6,4 +6,5 @@ The above art elements may be modified or replaced freely. What is prohibited fr
 
 The game’s starting or Logo-based animations, including the opening credits, may not be altered in any way, nor should they be removed. The game’s use of these items is hard coded, and unexpected results could arise if files are missing, mislabeled, or altered in format.
 
-**NOTE:** Based on the Game Engine Version, these Introduction animations may not be included.
+!!! note
+    Based on the Game Engine Version, the Introduction animations may not be included.

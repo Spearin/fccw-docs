@@ -89,4 +89,3 @@ __Code:__
 \- Fix the pathfinding problem where amphibious unit wouldn't choose to cross a wet hex side\. \(Will, r9489\)
 
 \- The Battleplan Validator function was reporting if a BP had a Force, which in turn had no Missions at all\.  This is not necessarily an error but is useful to know at this stage\.  There is now an internal global flag compiled in that will suppress this message if False, and it is now set to False to reduce clutter in the reports\.  It can be re\-enabled at any time on request to Rob\.
-

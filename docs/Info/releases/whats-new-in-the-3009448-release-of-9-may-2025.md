@@ -26,4 +26,3 @@ __Code:__
 \- FPSS\-6049: fix double On Call for CAS unit aborting airstrike\. \(William, r9440\)
 
 \- Fixed an issue where units wouldn't engage with small arms if they had no key ammo \(Will, r9441\)
-

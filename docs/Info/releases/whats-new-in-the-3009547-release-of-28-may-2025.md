@@ -82,4 +82,3 @@ __Documents:__
 \- The docx version of FM03 Tutorial Operations has been added to the \\\\Documents\\FMs\\ folder so that everyone can follow along with the 5 tutorials\.
 
 \- \\\\Documents\\\_Beta Testers\\ now contains a write\-up of what the key Unit orders are supposed to represent\.  There has been a lot of confusion recently and it isn’t helping that we are changing what Assault means quite a bit in response to your feedback\.  The document will explain current ideas in detail and will be put into the main game docs at a suitable time\.
-

@@ -2,15 +2,15 @@
 
 To create the map, we are going to need the following tools and assets (in addition to the Flashpoint Campaigns game):
 
-§ QGis, version 2.x, x64 for Windows (*not the version 3.x series*). 2.18 is the latest 2.x version.
+- QGis, version 2.x, x64 for Windows (*not the version 3.x series*). 2.18 is the latest 2.x version.
 
-§ QGis style presets files for elevation, map elements and print composition; they preset match the colors, thickness and resolution expected by the Flashpoint Map Values Scanner.
+- QGis style presets files for elevation, map elements and print composition; they preset match the colors, thickness and resolution expected by the Flashpoint Map Values Scanner.
 
 When using a computer connected to the Internet, it is recommended to download QGis and download and install the plug-ins the ‘normal way’. See sections 3.1 and 3.2.
 
 When using a computer that is not connected to the Internet, please install QGis and the plug-ins from the installer files made available. See sections
 
-## Online: Downloading and Installing QGis
+## Online: Downloading and InstallingQGis
 
 The QGis 2.18 downloads are available from the QGis download folders:   <https://download.qgis.org/downloads/>
 
@@ -18,7 +18,7 @@ Pick the installer most suitable for your system. Typically, this will be Window
 
 After downloading, install QGis. After installing QGis, launch the QGis Desktop app.
 
-## Online: Installing in QGis
+## Online: Installing inQGis
 
 Our next step is to install, from within QGis, three plug-ins which will help us create maps:
 
@@ -38,7 +38,7 @@ Next, enter "openlayers" in the search box, select the "OpenLayers Plugin" from 
 
 Close the "Manage and Install Plugins" dialog.
 
-*![](images/image007.png)*
+*![](images/image012.png)*
 
 *Figure 6. QGis Manage and Install Plugins dialog with MMQGis and OpenLayers plug-ins installed*
 
@@ -50,11 +50,11 @@ For this project, I’ve created a “Minden area” folder somewhere under my D
 
 From the example project, copy the three subfolders ‘\_qgis\_elevation\_styles’, ‘\_qgis\_print\_composer\_templates’ and ‘\_qgis\_vector\_styles’:
 
-![](images/image008.png)
+![](images/image014.png)
 
 Figure 5      Our new map project folder ‘Minden area’ with the qgis\_fcrs\_styles\_and\_templates.zip extracted there
 
-## Setting Up Our QGis Project and Coordinate System
+## Setting Up OurQGis Project and Coordinate System
 
 Let's set up our first QGis project. It might be a bit of work, but the good news we can (re)use the project for multiple maps.
 
@@ -64,13 +64,14 @@ Use "Project" Menu, New to create a new project.
 
 Use "Project" Menu, Project Properties to open the Properties dialog.
 
-![](images/image009.png)
+![](images/image016.png)
 
 Figure 6      Enter project title in project properties
 
 Enter a project title, then change to the CRS tab.
 
-**WARNING:**In the CRS tab, setting the right coordinate reference system for the project is essential to achieve the correct map scale; (I have had to redo over 20 maps after getting it wrong here).
+!!! warning 
+    In the CRS tab, setting the right coordinate reference system for the project is essential to achieve the correct map scale; (I have had to redo over 20 maps after getting it wrong here).
 
 We need the CRS associated with the right UTM zone (out of 60 UTM zones) for the location at hand.
 
@@ -78,7 +79,7 @@ See the Appendix C for which UTM zone to use. For this map, in former West-Germa
 
 In the Filter box, enter WGS UTM followed by the UTM column, and select the corresponding WGS84/ UTM zone. For this map, it will be WGS 84/ UTM zone 32N. Select it and press OK.
 
-![](images/image010.png)
+![](images/image018.png)
 
 Figure 7      Selecting UTM 32N (for West-Germany maps), and enable 'on-the-fly' CRS transformation
 
@@ -86,7 +87,7 @@ Enable automatic 'on the fly' CRS conversion. This is necessary for QGis to adap
 
 Now it is time to save our project. Make sure to save the project in the folder we already created.
 
-![](images/image011.png)
+![](images/image020.png)
 
 Figure 8      Saving the project in a dedicated folder
 
@@ -102,29 +103,30 @@ The elevation data is available via:
 
 Pan and zoom towards the area in which the map is situated. Next, add a geometry layer (called ‘geometry’) with a single rectangle using the drawing tools. Make the rectangle large enough (I’ve covered most of West-Germany and East-Germany).
 
-![](images/image012.png)
+![](images/image022.png)
 
 Figure 9
 
 In the scripts panel, add code to read and export SRTM elevation data for the rectangular area we’ve drawn, as shown below.
 
-![](images/image013.png)
+![](images/image024.png)
 
 Figure 10
 
-Script:   ![](images/image014.png)
+Script:   ![](images/image026.png)
 
 Figure 11
 
+``` javascript
 // Add a geometry object by drawing a rectangle in the right area on the map, and call it geometry
 
 // Load SRTM data for the rectangle
 
-var dataset = ee.Image('CGIAR/SRTM90\_V4');                  // Load SRTM90
+var dataset = ee.Image('CGIAR/SRTM90\_V4');                  // Load SRTM90
 
 var elevation = dataset.select('elevation').clip(geometry); // Get the elevation for the rectangle
 
-Map.centerObject(geometry)                                  // Pan and zoom the Earth Engine to the rectangle
+Map.centerObject(geometry)                                  // Pan and zoom the Earth Engine to the rectangle
 
 Map.addLayer(elevation, {min: 0, max: 1000}, 'elevation');  // Display elevation, clipping at 1000m above sea level for visualization
 
@@ -133,12 +135,13 @@ Map.addLayer(elevation, {min: 0, max: 1000}, 'elevation');  // Display elevatio
 Export.image.toDrive(elevation, 'elevation');
 
 // Next, in the Tasks panel, run the task to perform the export
+```
 
 Figure 12    The script as copy-able text
 
 Next, run the script, which will result in a task in the Tasks tab on the right side of Earth Explorer. Select and Run the task to export the elevation data to your Google Drive. Make sure to select the GEO\_TIFF format and a Scale (resolution) of 128m per pixel.
 
-![](images/image015.png)
+![](images/image028.png)
 
 Figure 13
 
@@ -148,13 +151,13 @@ Then switch to QGis and our project.
 
 In QGis, we'll add a new raster layer to our project. Choose the "Layer" menu, Add Layer, "Add Raster Layer", and select the .tif file:
 
-![](images/image016.png)
+![](images/image030.png)
 
 Figure 14    Adding a Raster Layer containing the SRTM  elevation data
 
 After adding the layer, we'll see the layer displayed in our project in gray scale:
 
-![](images/image017.png)
+![](images/image032.png)
 
 Figure 15    Our project with the DEM raster layer
 
@@ -168,10 +171,10 @@ To find Minden’s location, we first look it up on the web outside QGis, and, u
 
 (Yes, QGis 2.x used to have a working GeoSearch plug-in, but that plug-in is no longer functional).
 
-![](images/image018.png)
+![](images/image034.png)
 
 Figure 16    Looking up Minden on the web.
 
-![](images/image019.png)
+![](images/image036.png)
 
 Figure 17    And having found the same area, using an OpenStreetMap layer in QGis

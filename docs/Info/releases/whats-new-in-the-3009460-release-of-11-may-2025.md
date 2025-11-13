@@ -32,4 +32,3 @@ Also fix effective steps calculations in all AttackX routines, likely yielding i
 \- Fix corner case where a weapon locating radar \("WLR"\) would detect projectiles from an off\-map battery at an on\-map location\.
 
 \- FPSS\-6068: fix bad newline in dialog and upgrade the dialog to an illustrated message while we're at it\. \(William, r9459\)
-

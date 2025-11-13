@@ -36,4 +36,6 @@ These are the specific movements recognized by the game engine to perform unit m
 
 - \*ORBITAL (I) – used for hyper-sonic glide or reentry vehicles
 
-**\* NOTE:** This mobility type is not currently active in the game engine and there are more that will be added to cover other land, sea, and air/space types as features are added or expanded during development of the product.
+!!! note
+    \* This mobility type is not currently active in the game engine and there are more that will be added to cover other land, sea, and air/space types as features are added or expanded during development of the product.
+    

@@ -1,5 +1,5 @@
 # Go West Young Man
-_D+0 | 20 July 1989, 0400hrs - 1000hrs [:smflag-us:](./Forces/United States.html) vs [:smflag-eg:](./Forces/East Germany.html) @ [Bad Neustadt](../Maps/Bad Neustadt/Bad Neustadt.html)_
+_D+0 | 20 July 1989, 10:00hrs - 16:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Bad Neustadt](../../Maps/Bad-Neustadt/Bad Neustadt)_
 
 For the first seven months of 1988, tension between the US and the Soviet Union has increased dramatically.  The US continues to push for sanctions against the Soviet Union, which are causing significant issues for the Soviet economy.  In July, 1988, the Warsaw Pact conducted major exercises in the Ukraine region of the Soviet Union.  Following the exercises, units supposedly return to their normal bases.  However, due to historically poor weather, the Soviets were able to move many units westward into East Germany and Czechoslovakia.
 

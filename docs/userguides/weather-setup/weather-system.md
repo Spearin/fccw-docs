@@ -1,6 +1,6 @@
 # Weather System
 
-![](images/image002.png)   Figure 1: Weather data (filtered for 'precipitation', as shown in Flashpoint Campaigns’ Scenario Editor)
+Figure 1: Weather data (filtered for 'precipitation', as shown in Flashpoint Campaigns’ Scenario Editor)
 
 For the Flashpoint Campaigns game engine, we have introduced a data driven weather system, which presents the commander/player with higher fidelity weather influencing the battle, and with weather forecasts to feed into tactical considerations.
 
@@ -14,15 +14,11 @@ Being data driven, the Flashpoint Campaigns weather system enables the user to a
 
 The following weather elements are supported:
 
-![](images/image003.png)
-
 Most of these elements are input to the game’s mechanics.
 
 Many of these weather elements have analogue values (temperature, wind speed, cloud ceiling, visibility, illumination, precipitation amount). The elements with discrete values are listed below:
 
-![](images/image004.png)
-
-For more details on the exact data input format, see Section **Error! Reference source not found.**.
+For more details on the exact data input format, see Section 4 below.
 
 ## Weather Elements Not Supported
 
@@ -30,7 +26,7 @@ As of this version, the following weather elements are not supported:
 
 - Dust storms (reducing visibility)
 
-- Icy surfaces, frozen rivers and snow heights    (these can be accounted for in the map’s, by setting mobility values for hex locations, and between hex locations, and by removing water obstacles)
+- Icy surfaces, frozen rivers, and snow heights    (these can be accounted for in the map’s, by setting mobility values for hex locations, and between hex locations, and by removing water obstacles)
 
 - Hail, sleet (can be approximated by liquid precipitation)
 

@@ -1,105 +1,105 @@
 # Start a New Scenario
 
-To start a new Scenario, click on the Scenario button in the Main Menu.
+To start a new scenario, click on the New Scenario button in the Main Menu to access the list of options available.
 
 ![](images/image024.jpg)
 
 ## Scenario Selection Dialog
 
-This will launch the Scenario Selection dialog, as seen below. In the list, you can review all the scenarios that are available in the module. Selecting a scenario by clicking on it will also show a description of the scenario’s meta-data details. The details state the map and forces used (nation and the number of units) in the selected scenario. Lastly, you can read the Scenario Summary to get an idea of the mission and historical context of the battle.
-
-![](images/image025.jpg)
-
-### Selection Criteria
-
-To the right of the Scenario Selection List is a Selection Criteria panel where you can search for a scenario by entering names or other scenario details in the text box.
-
-Below the Text box for Criteria Search are flags of all the nations in the current module. Clicking on one will filter the scenario list to include only that nation.
-
-There is also the option to filter the scenario selection list by the size of the scenario based on total units. You can check any or all boxes to set the list (filtered or otherwise) to show only scenarios of the given size(s).
-
-### Select a Scenario
-
-Click on a scenario name to show the information and select it to play.
-
-Hit Proceed to start the scenario selected and move on to the Play Mode and Battle Plan Options.
-
-## Play Mode Selections
-
-When you start a new scenario, the next thing to do is to decide how the game will be played and what side, if any, you will play as the player.
+Selecting New Scenario launches the Scenario Selection dialog pictured below. Here you can review all the scenarios that are available in the module. Selecting a scenario by clicking on it also shows a description of the scenario’s meta-data details, including the map, forces, and overall size of the selected scenario. Lastly, you can read the Scenario Summary to get an idea of the mission and historical context of the battle.
 
 ![](images/image026.jpg)
 
-### Style of Play
+Underneath the scenario selection list is a Selection Criteria panel where you can search for a scenario by entering names or other scenario details in the text box.
 
-Currently, the game system offers four styles of play for you to choose from.
+Below the search box are flags of all the nations in the current module. Clicking on them filters the scenario list to include only the selected nations.
 
-- **Computer Opponent -** Play against our AI using either a random or set Battle Plan (See Section 4.3 below).
+There is also the option to filter the list by the size of the scenario based on total units. Check any or all boxes to set the list (filtered or otherwise) to your preferences.
 
-- **Head-to-Head Play (Hot Seat) -** Play against another human on the same computer in hot seat mode, taking turns issuing orders and then watching the resolution phase together.
+Click Play to load the scenario setup options.
 
-- **Start a Play by Email Game (Classic PBEM)** – Load up a scenario to play against another human using the classic Play by Email (PBEM) system, where you send the game file to your opponent via email or, these days, a cloud service. See Section 7 below for more details.
+## Play Mode Selections
 
-- **Computer Plays Both Sides** – The computer AI plays both sides and uses a Battle Plan, if set, to fight out the scenario.
-
-### Which Commander will you be
-
-This selection will determine which side you will command in a human-played game mode.
-
-- **Player 1: NATO Commander –** You will play, for example, as an American, Canadian, French, or West German commander.
-
-- **Player 2: Warsaw Pact Commander –** You will play, for example, as a Czechoslovakian, East-German, or Soviet commander.
-
-## Battle Planning Options
-
-At the bottom of the Start, a Scenario Screen is the option to set the AI Battle Plan or have it randomly determined to add to the unknown nature of the enemy’s locations and routes of travel at the start of the scenario. Some scenarios may not have a Battle Plan, and the selection box will be greyed out.
-
-Additional Battleplans can be added to scenarios to increase the replayability of a given scenario further.
-
-Hit the Proceed button to move on to the Difficulty Settings dialog.
-
-![](images/image027.jpg)
-
-## Difficulty Settings
-
-While most games have difficulty settings that make the game easier to win by raising and lowering various values, our game does not do that. There are a few adjustments you can make to make things easier to learn the game, and in that way, the game is “easier” to play, but not necessarily easier to win. No gameplay values are modified, so if tank A shoots and can kill tank B, this will always be the case regardless of these settings.
+The next step for starting a new scenario is deciding how the game will be played and what side, if any, you will play as the player.
 
 ![](images/image028.jpg)
 
+### Play Style
+
+Currently, the game system offers four styles of play to choose from:
+
+- **Computer Opponent –** Play against our AI using either a random or set Battle Plan (See Section 4.4 below).
+
+- **Head-to-Head Play (Hot Seat) –** Play against another human on the same computer in hot seat mode, taking turns issuing orders and then watching the resolution phase together.
+
+- **Start a Play by Email Game (Classic PBEM)** –Play against another human using the Classic Play by Email system (PBEM Classic) where you send the game file to your opponent via email or, these days, a cloud service. See Section 7 below for more details.
+
+- **Computer Plays Both Sides** – The computer AI plays both sides and uses a Battle Plan, if set, to fight out the scenario.
+
+### Which Commander Will You Be
+
+The second selection will determine which side you will command in a human-played game style.
+
+- **Player 1: NATO Commander –** Play as an American, Canadian, French, or West German commander.
+
+- **Player 2: Warsaw Pact Commander –** Play as a Czechoslovakian, East-German, or Soviet Commander.
+
+## Difficulty Settings
+
+While most games have difficulty settings that make the game easier to win by raising and lowering various values, this game does not do that. There are a few adjustments to make things easier to learn the game and in that way the game is “easier” to play, but is not necessarily easier to win. No gameplay values are modified so if tank A shoots and can kill tank B, this will always be the case regardless of these settings.
+
+![](images/image030.jpg)
+
+Winning the scenario requires having more Victory Points (VPs) for your forces than your enemy has for theirs at the end of battle (see Section 15.1.2 below for victory information). VPs are fixed values in that subunits, VP locations, and bonuses are all worth specific numbers of VPs and there are no settings to change these.
+
+What can be changed, however, is how much information you have available to you to make strategic decisions, and whether certain helpful actions are automated. Allowing more data about enemy forces to be visible reduces the difficulty of winning by facilitating more informed decision-making about preserving and gaining VPs. Reducing the amount of data that is visible increases the difficulty of winning by relying more on your analyzing, predicting, and problem-solving skills to preserve and gain VPs instead which can also be very gratifying.
+
+New players may wish to review Section 32 below for designers’ notes and thoughts on strategizing for the Cold War.
+
 ### Presets
 
-There are three presets to set the various difficulty options. The Custom option will be set if you make your settings. These are saved and active on reloading.
+There are three presets to select different groups of pre-set difficulty options. The Custom option will be selected automatically if you change any settings. These are saved and active on reloading.
 
-- **Recruit** - Set this if you are new to the game system to turn on all the options to make learning the game easier.
+- **Recruit** – Set this if you are new to the game system to turn on all options to make learning the game easier.
 
-- **Veteran** - Set this if you are familiar with our game system and want more of a challenge.
+- **Veteran** – Set this if you are familiar with our game system and want more of a challenge.
 
-- **Grognard** - The ultimate in realism. No options are set. Good hunting!
+- **Grognard** – The ultimate in realism. No options are set. Good hunting!
 
-- **Custom** - You can set your options to play the game the way you want.
+- **Custom** – Set your options to play the game the way you want.
 
-### Game Options for the Players
+### Game Options for Players
 
-There are three settings that you can adjust for each side of the game. These will change how you see various information in the game. Checked options will make gameplay easier for the player.
+There are three settings that you can adjust for each side of the game. These change how you see various forms of information in the game. Checked options make gameplay easier for the player without altering how Victory Points are won. For information on Spotting enemy units, See Section 24.1 below.
 
-- **Enemy Units are Always Visible** – When checked, this is the most potent option, as you will always see all the enemies on the map. Combat still requires the units to “see” the enemy, but you do not need to locate hidden enemies by recon or fire. When unchecked, units will have to use their sensors to spot enemy units and take time to identify them before they will be displayed on the game map. **NOTE:** If checked units that are spotted will have a white spotting dot on the lower right of the counter. These dots will not be shown if unchecked.
+- **Enemy Units are Always Visible** – When checked, this is a potent option as you will always see all enemies on the map. Combat still requires the units to “see” the enemy, but you do not need to locate hidden enemies by recon or fire. When unchecked, units must use their sensors to Spot enemy units and take time to identify them before they will be displayed on the game map.
 
-- **Emergency Resupply is Automatic** – When checked, this setting allows units with low ammo to resupply an amount of ammo to keep fighting automatically. When unchecked, you, as the commander, must order units to resupply or set resupply parameters.
+**NOTE:** If checked, units that are Spotted have a tiny white spotting dot on the bottom edge of the counter towards the right. These dots will not be shown if unchecked.
 
-- **Allow Gathering of Full Information of Visible Enemy Units** – When checked, the player can get more detailed information on a unit by double-clicking and seeing a Read-Only version of the enemy unit’s Dashboard. It is also possible to right-click and see several of the overlays from the Show menu item. **NOTE:** Experienced players should unselect this option for the enemy as it gives away too much information on the enemy and its units.
+- **Emergency Resupply is Automatic** – When checked, this setting allows units with low Ammo to resupply an amount of ammunition even if it is moving or fighting at the time. Unit orders do not affect or prevent emergency resupply. This option may help new players to relieve some of the strategic difficulty of the game without altering how Victory Points are won. When unchecked, you as the commander must monitor levels and order units to Rest and Resupply, and set Resupply parameters (see Section 21.2 below for issuing orders and Section 23 below the SOP settings) in order for resupply to take place.
+
+- **Allow Gathering of Full Information of Visible Enemy Units** – When checked, the player gets detailed information on a unit by right-clicking and seeing a read-only version of the enemy unit’s Subunit Inspector (see Section 14.3 below). It is also possible to right-click and see some unit overlays from the Show menu item (see Section 11.6 below for unit overlays).
+
+**NOTE:** Experienced players should unselect this option as it gives away too much information on the enemy and its units.
 
 ### Fog of War for Map Markers
 
-- **See “Unspotted” Victory Point (VP) Objectives Accurately** – When checked, this setting provides perfect information on the markers. So, if a hostile unit seizes a VP, that information appears immediately on the map. When unchecked, the map won't reveal hostile triggered VP ownership changes until your units have line-of-sight to them. Friendly triggered changes are visible.
+- **See “Unspotted” Victory Point (VP) Objectives Accurately** – When checked, this setting provides perfect information on the markers. This means that if a hostile unit seizes a VP location, that information appears immediately on the map. When unchecked, the map won't reveal hostile-triggered VP ownership changes until your units have Line of Sight to them (see Section 11.6.1 below for Line of Sight information). Friendly-triggered changes are visible.
 
-- **See “Unspotted” Terrain Markers Accurately** - When checked, this setting provides perfect information on the markers.
+- **See “Unspotted” Bridges and Terrain Markers Accurately** – When checked, this setting provides perfect information on the markers. Details about a bridge built by a hostile unit appear immediately on the map. When unchecked, the map won't reveal hostile-triggered marker changes (like bridges or obstacles) until your units have Line of Sight to them (see Section 11.6.1 below for details). Friendly-triggered changes are visible.
 
-So, if a hostile unit builds a bridge, that information appears immediately on the map. When unchecked, the map won't reveal hostile triggered marker changes (like bridges or obstacles) until your units have line-of-sight to them. Friendly triggered changes are visible.
+## Battle Planning
 
-### Proceed to Scenario
+In the final section, set the AI Battle Plan or have it randomly determined to add to the unknown nature of the enemy’s locations and travel routes at the start of the scenario. Some scenarios may not have a Battle Plan, and the selection box will be grayed out.
 
-Hit Proceed to load the selected scenario.
+![](images/image032.jpg)
+
+Additional Battle Plans can be added to scenarios to increase the replayability of a given scenario further.
+
+Hit Play to load the selected scenario.
 
 ## Scenario Load and Announcements
 
-![](images/image029.jpg)At this point, the selected scenario will load, and you will get the Announcement Screen (click on it to disable the timer countdown) that gives you the mission overview. Head to Section 9 below to see information on what all the User Interface (UI) elements are on the screen in detail.
+At this point the selected scenario loads and the Announcement Screen provides the Mission Overview (click anywhere in the dialog to disable the timer countdown if using this option). Head to Section 9 below to see information on all the User Interface (UI) elements in detail.
+
+![](images/image034.jpg)

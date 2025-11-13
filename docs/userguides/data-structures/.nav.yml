@@ -1,21 +1,29 @@
 title: Data Structures & Editing
 nav:
-  - Section: index.md
+  - introduction.md
   - location-of-data-files.md
   - data-file-structure-overview.md
   - platform-types.md
   - platform-characteristics.md
+  - weaponsystem-types.md
+  - munition-types.md
+  - weapon-list-codes-new-provisional.md
+  - task-force-type-filters.md
+  - formation-roles.md
+  - battle-planner-template-bpt-codes.md
+  - mobility-types.md
+  - getting-started-with-data-editing.md
+  - editing-the-data.md
+  - national-defaults.md
   - command.md
   - formations.md
-  - description-iunits.md
-  - defining-armor-value-and-specials.md
-  - air-unit-size-and-pf-rating-calculator.md
+  - units.md
   - systems.md
-  - weapon-munition-types.md
+  - munition-types.md
   - surnames.md
   - credits.md
   - notice.md
   - data-folder-setup.md
-  - using-the-data-validation-tool.md
+  - data-validation-tool.md
   - file-xls-importexport-editing.md
   - future-updates.md

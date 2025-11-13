@@ -20,4 +20,3 @@ __Code:__
 \- FPSS\-5995: Separate FCCW PBEM\+\+ server ID from FCSS server\.  The game will now not be mixed in with SS games\.
 
 \- FPSS\-5983, 5999\.  The exception report header info has been purged to not disclose usernames and email addresses\.  Times have changed\!
-

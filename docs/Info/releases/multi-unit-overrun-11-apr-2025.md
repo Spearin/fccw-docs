@@ -38,4 +38,3 @@ When a unit is overrun, the following occurs:
 - These claims are shown in the attacker’s radio log\.
 - The losses are shown in the defender’s radio log\.
 - A hint is shown on the map for both players in the location where the overrun occurred\. 
-

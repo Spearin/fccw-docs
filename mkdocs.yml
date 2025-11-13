@@ -1,4 +1,8 @@
 site_name: "Flashpoint Campaigns: Cold War Guides"
+site_url: https://www.ontargetsimulations.com/guides/coldwar/
+validation:
+  links: 
+    absolute_links: relative_to_docs
 watch:
   - includes
 theme:
@@ -21,6 +25,7 @@ theme:
     text: IBM Plex Mono
     code: Roboto Mono
   features:
+    - content.code.copy
     - content.tooltips
     - navigation.tabs
     - navigation.tabs.sticky
@@ -41,7 +46,8 @@ extra_css:
 plugins:
   - tags
   - meta
-  - offline
+# - optimize
+# - offline
   - search
 #  - categories
   - localsearch
@@ -70,7 +76,8 @@ plugins:
       restart_increment_after:
         - FieldManuals/game-operations/welcome-commander-screen.md
         - FieldManuals/battlefield-primer/surviving-modern-warfare.md
-        - FieldManuals/Tutorials/engineer-ops.md
+        - FieldManuals/intermediate-tutorials/index.md
+        - FieldManuals/advanced-tutorials/index.md
   - awesome-nav  
   - exporter:
       buttons:
@@ -97,7 +104,6 @@ markdown_extensions:
   - tables
   - toc:
       toc_depth: 4
-  - attr_list
   - def_list
   - md_in_html
   - admonition
@@ -125,6 +131,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - neoteroi.timeline
+  - attr_list
 extra:
   generator: false
   test_macro: ==yabba== ^^dabba^^ **doo**

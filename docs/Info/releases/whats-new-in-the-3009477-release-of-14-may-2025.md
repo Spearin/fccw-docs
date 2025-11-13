@@ -45,4 +45,3 @@ __Documents:__
 \- \\Documents\\WhatsNew\\WhatsNew\.pdf is now being updated with these commit notes so that there is a single reference available for all of them\.
 
 \- \\Documents\\\_Beta Users\\FC SOP Explained v4\.pdf has been updated with the contents of an overview written by Kevin\.
-

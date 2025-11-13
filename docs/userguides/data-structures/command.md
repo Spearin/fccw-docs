@@ -2,8 +2,6 @@
 
 These values represent certain size, naming, or command and control parameters specific to a given country in the game. Changes made to values on this spreadsheet tab will impact the overall command cycle of units from this country.
 
-![](images/image015.png)
-
 ## HQ Level
 
 Size of the formation with respect to the HQ used to control it. The simulation covers Sections (smallest) up to Corp level HQ formations.
@@ -16,7 +14,7 @@ This is the type of NATO standard size symbol related to the size of the formati
 
 This is the Nation’s most common rank for the person in charge of the HQ at the specific level/size.
 
-## Rank Abr
+## RankAbr
 
 This is the abbreviation of the rank for this size of HQ and is used in the game with the Commander’s name (randomly generated from the Surnames Table).
 
@@ -32,7 +30,7 @@ This is the basic order delay time from local HQ to units in minutes. The furthe
 
 Added a column for the US Rank Name equivalent. This can be toggled on/off in the game options to choose between the native language rank name and US rank name. Not shown in the picture.
 
-## US Rank Abr
+## US RankAbr
 
 Added a column for the US Rank Abbreviation equivalent. This can be toggled on/off in the game options to choose between the native language rank name and US rank name. Not shown in the picture.
 

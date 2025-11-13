@@ -1,131 +1,139 @@
 # Plotting Movement and Fires
 
-One of the primary functions of a Commander is to direct your forces across the map to take or hold objectives. You will need to know how to order your forces and how to utilize artillery assets and airpower to achieve your mission goals and preserve your forces the best you can. The following information will show you how to move your units, issue orders, adjust and change movement types along the path, and issue artillery and air strikes on target locations.
+One of the primary functions of a commander is to direct your forces across the map to take or hold objectives. You need to know how to order your forces and how to utilize artillery assets and air power to achieve your mission goals and preserve your forces the best you can. The goal of the game is to maneuver your forces to have the most Victory Points at the end of battle (see 15.1.2 above for details on this) which is done with strategic movements and firing.
+
+The following information explains how to move your units, issue orders, adjust and change Movement types along the path, and issue artillery and air strikes on target locations.
 
 ## Movement
 
-To order a unit or group of units (See Section 21.9 above) Right click on them to bring up the Unit Popup Menu. From there select a movement order. In this case, a Deliberate Move. Next, select up to six waypoints to path the unit to the location you want it to end up in.
+To order a unit or group of units (see Section 21.9 above), right-click on a selected unit to bring up the Unit Popup Menu. Select a Movement order, for example, a Deliberate Move as shown below. Next, select up to six waypoints to path the unit to the location it should end up in as directed by the Plot Path dialog.
 
-The AI is smart and will intelligently path the units based on the terrain and your SOP selections (See Section 23 below). Once you have selected the path you can click on the Commit button in the Plotting Mode dialog that popped up when you started placing waypoints. If you wish to stop and cancel the order, you can click the Cancel button.
+![](images/image474.jpg)
 
-![](images/image249.png)![](images/image250.png)
+The AI intelligently paths the units based on the terrain, SOP selections (See Section 23 below), and the designated waypoints. After selecting a route, click the Commit button in the Plot Path dialog as shown below. If you wish to stop and not use this Movement order, click the Cancel button to revert the unit(s) to having no new orders.
 
-![](images/image251.png)
+![](images/image476.jpg)
 
-After pushing the Commit button, an Orders on Arrival dialog will pop up and you can set the final order state of the unit. The options for this box vary to match the type of unit and any special orders it has access to.
+After clicking the Commit button, an Orders on Arrival dialog pops up to set the final order state of the unit(s), as shown below. The options for this box vary to match the type of unit and any special orders it has access to.
 
-![](images/image252.png)
+![](images/image478.jpg)
 
-In this case, we will select a Screen order. Now the final path is shown for the unit.
+In this case, we will select a Screen order. Now the final path is shown below for the unit.
 
-![](images/image253.png)
+![](images/image480.jpg)
 
-At this point, if you need to adjust the path, you can click and drag the Waypoint Marker to a new hex location. In this example, we will move Waypoint #2 to the south to the road junction. To make this a better move we also need to move Waypoint #1 one hex to the south to make the path choose the road heading south-east.
+To adjust the path, left-click and drag the closest waypoint marker to a new hex location. In this example, we will move waypoint #2 south to take a different road. This move can be further smoothed out by dragging waypoint #1 one hex south to help the path choose the new road heading south-east before swinging through the city.
 
-![](images/image254.png)![](images/image255.png)![](images/image256.png)
+![](images/image482.jpg)
 
-At this point, you also have the option to Right-click on any waypoint and pop up a Waypoint Editor menu.
+There is also an option to right-click on any waypoint to pop up a Waypoint Editor menu:
 
-![](images/image257.png)
+![](images/image484.jpg)
 
-Selecting the Edit Waypoint menu option will open the Unit’s Dashboard on the Orders tab to allow you to make several changes to the order as detailed in the following sections. You can remove the waypoint by selecting the Delete Waypoint menu option. This will also delete any SOP setting for that waypoint. At the bottom is an estimated arrival time of the unit to that waypoint and the type of move to that waypoint.
+Selecting the Edit Waypoint option opens the unit’s Dashboard on the Orders tab to facilitate several changes to the order as detailed in the following sections. Remove the waypoint by selecting the Delete Waypoint menu option. This also deletes any SOP setting for that waypoint. Set priorities for Roads, Concealment, Avoiding Contamination, or taking a Direct Path with the next group of menu items. Selecting any of these will re-path the route according to the new parameter(s). The item at the bottom shows the unit’s estimated time of arrival (ETA) to that waypoint and the type of Move order being used to get there.
 
-Hovering over a Waypoint with the mouse will bring up a hint showing the Unit Name, Waypoint Number and Movement Order, and the start and arrival time of the unit to that waypoint.
+Hover over a waypoint with the mouse to bring up a hint showing the unit name, waypoint number, Movement order, and the start and arrival times of the unit to that waypoint.
 
-![](images/image258.png)
+![](images/image486.jpg)
 
-### Chaining Different Movement Orders
+### Changing Movement Orders
 
-After plotting a set of waypoint movements, you have the option to go into the Dashboard for any unit (must be done per unit even if a formation or group move is issued) and change the standing order. Below is the initial plotted set of move orders for our unit.
+Orders can be changed after plotting a set of waypoints. Go into the Dashboard [***F4***] for any unit to change the standing order. This must be done per unit even if a formation or group order is issued. Below is the plotted set of Move orders for our unit from before.
 
-![](images/image259.png)
+![](images/image488.jpg)
 
-To view and change an order, select the waypoint order you want to change and right-click on it to bring up a menu of optional orders. In this case, let’s select a Move Hasty order so the unit moves the first part of this move quickly.
+To view and change an order in the Dashboard, select the desired waypoint in the Orders list on the left-hand side and right-click on it to bring up a menu of alternative orders. In the image below, we’ll select a Move Hasty order so the unit moves the first part of this path quickly (see Section 21.2 above for information on primary orders).
 
-![](images/image260.png)![](images/image261.png)
+**NOTE:** Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed at once, and also as many times as desired. Hitting Apply commits all orders as they are indicated in the list at the time of clicking to Apply. These can be modified right up until the turn resolution begins.
 
-After changing the order, the waypoint order shown changes, the arrival times change for all waypoints as the first time is shorter, and the counter changes from a Deliberate Move marker (blue triangle) to a Hasty Move marker (Black Triangle).
+![](images/image490.jpg)
 
-![](images/image262.png)![](images/image263.png)![](images/image264.png)
+Selecting the new order updates that waypoint’s Move Order in the list, all waypoint times in the Orders list, and the counter’s appearance. The counter changes from a Deliberate Move marker (blue triangle as seen above, in the bottom right corner as this is the direction of movement) to a Hasty Move marker (black triangle) as shown below.
 
-For some attacks, you may want to have the opening waypoints that are in friendly territory to be hasty and then move to Deliberate Moves when enemy contact is possible and then shift to Assault if you are taking a contested objective. You can also change the terminal (final) order at this point as well.
+![](images/image492.jpg)
+
+For some attacks it may be desirable to have the opening waypoints within friendly territory set to Hasty, change to Deliberate Moves when enemy contact is possible, and then shift to Assault if taking a contested objective. Modify the terminal (final) order at any point as well in the same way as changing waypoint orders.
 
 ### Altering Waypoint Timing
 
-In some cases, you as the commander may want several units to arrive in an area at the same time or close to it as events can alter that timing. To change the final time of arrival in the last waypoint, you have the option to set a delay time for each selected order in the Dashboard.  As you alter the times with a delay you can set your point of timing. From there you can alter other units to have the exact arrival time by adjusting arrival at your scheduled time.
+It may be strategic at times to have several units arrive in an area at the same time (or close to it, as unexpected events can alter that timing such as encountering obstacles, etc.). To change the final time of arrival for the last waypoint, set a Delay time for any or all selected order(s) in the Dashboard as highlighted below. Alter other necessary units to have the same arrival time by adjusting this Extra Delay time as needed for their orders.
 
-![](images/image265.png)![](images/image266.png)
+Find the setting for Extra Delay Before Initiating This Order under the Order and SOP information window and increase or decrease the number of minutes. This Delay can be set for any leg of the movement in the Orders list.
 
-In the case above adding 7 minutes of delay to the start of the first order shifts the time to start the Screen in the destination from 06:33 to 06:40.
+![](images/image494.jpg)
+
+In the case above, adding 7 minutes of Delay to the start of the first order shifts the time each subsequent order starts by 7 minutes, including the final Screen order in the destination. Hit Apply to commit any changes. Click Cancel to revert back to the orders last saved.
+
+**NOTE:** Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed as many times as desired. Hitting Apply commits all orders as they are indicated in the list. These can be modified right up until the turn resolution begins.
 
 ### Lost Transport Indicator
 
-Another quality-of-life addition to the unit counter is the Lost Transport Indicator. When a unit (mechanized or motorized – vehicles and squads/teams) can no longer move its troops due to losses of the transport subunits, the Leg movement indicator (L) turns orange to note this condition. This helps to show the difference between a dismounted unit that shows the “L” indicator when troops are out of the transports in a non-movement order.
+Another quality-of-life addition to the unit counters is the Lost Transport Indicator. When a unit can no longer move its troops due to losses of the transport subunits, whether mechanized (vehicles) or motorized (squads/teams), the Leg symbol “L” in the Movement Class indicator turns orange to note this condition (see Section 17.1 above for counter information). The orange “L” for Lost helps to show the difference between that state and a dismounted unit that has the “L” Leg indicator in white when troops are out of the transports in a non-movement order. See image below for the orange Lost indicator.
 
-![](images/image267.png)
+![](images/image496.jpg)
 
 ## Fires
 
-The other aspect of plotting orders is setting up fire missions. This covers both on and off-map indirect fire units like mortars, guns, and rockets if any of these assets are available in the scenario.
+The other aspect of plotting orders is setting up fire missions. This covers both on- and off-map indirect fire units like mortars, guns, and rockets if any of these assets are available in the scenario.
 
-To issue a bombardment order, open the Unit Popup Menu by either right-clicking on an on-map artillery unit or opening the Fire Support report and clicking on the Menu hyperlink. Once open, click on the Bombardment option in the menu to open the mission menu with the attack options.
+To issue a Barrage order, open the Unit Popup Menu by either right-clicking on an on-map artillery unit or open the Fire Support Staff Report and right-clicking from there, as shown below. Then click on the Barrage option in the menu to open the mission submenu with fire options.
 
-![](images/image268.png)![](images/image269.png)
+![](images/image498.jpg)
 
 !!! note
 
-    The
+    The choice of mission types is
 
-choices of mission types are based on the ammunition allocated to the firing unit by the scenario designer.
+based on the ammunition allocated to the firing unit by the scenario designer.
 
-Once you have selected the type of fire mission, the Plotting Mode dialog will pop up and tell you that you can place up to six Target Reference Points (TRPs) on the map and within range of the unit (inside its indicated Maximum Range (shown on the map) and beyond any Minimum Range indicated for the unit. These locations are where the munitions will drop.
+Select the type of fire mission. The Plot Targets dialog then pops up to prompt placing up to six target hexes on the map. These must be within range of the unit beyond any Minimum Range indicated and inside its Maximum Range (shown on the map; see Section 11.6.2 above). These locations are where the munitions will drop.
 
-The only other possible coverage of a strike is with rockets that can do a Saturation Strike that is centered on the selected hex but also hits the ring of hexes around the TRP.
+The other coverage possible, when equipped, is a Saturation Strike with rockets that centers on the selected hex and also hits the ring of six hexes around the targeted one (not shown).
 
-![](images/image270.png)
+![](images/image500.jpg)
 
-After hitting the Commit button, the hexes being attacked will be highlighted and fire lines from the firing battery will be shown on the map. The Dashboard will also pop up automatically (you can turn this off in the game options) so you can set various parameters of the fire missions and even change the type of fire mission.
+Click Commit. The hexes being attacked are highlighted with orange hatches and fire lines from the firing battery are drawn on the map. The Dashboard also pops up automatically to set various parameters of the fire missions and even change the type of fire mission, as seen below (turn this off in the General tab of User Preferences, [***F2***]).
 
-![](images/image271.png)
+![](images/image502.jpg)
 
-On the Orders Panel for a Fire Mission, you have the following options to adjust or change for the selected TRP:
+The Orders tab during a fire mission shows the following options which can be adjusted or changed for the selected target hex:
 
-- **Mission Preset** – This dropdown allows you to change the type of bombardment mission from the type set initially with the setting of the TRPs. If the mission is changed from the original via the Ammunition dropdown, then the Preset will be called Custom.
+- **Mission Preset** – Change the type of bombardment mission from the type set initially from the Unit Pop Menu (see Section 14.1 above) for the targeted hexes. If the mission is modified from the original via the Ammunition dropdown below, then the Preset will be called Custom.
 
-- **Ammunition** – There is the option here to select different types of ammunition. This is helpful in cases like HE rounds where a few different types may be available.
+- **Ammunition** – Select different types of ammunition with this dropdown. This is helpful in cases like high explosive (HE) rounds where a few different types may be available.
 
-- **Rounds** – You can set the number of rounds to shoot on the mission. The total number of available is noted after the slash (/). You cannot shoot more rounds than you have.
+- **Rounds** – Set the number of rounds to shoot on the mission. The total number available is noted after the slash (/). You cannot shoot more rounds than you have.
 
-- **Start Time** – You can set the time to ASAP which will fire as soon as the delay of the order is done (for opening salvos during the first turn set up, planned missions will start to fall immediately). There is the option to delay the mission several minutes if timing is vital to your plan.
+- **Time of Impact** – Set the time to ASAP to fire as soon as the Delay of the order is done (for opening salvos, this Delay occurs during the first turn’s setup phase and will start to fall immediately, see Section 21.7 above). There is the option to Delay the mission several minutes if timing is vital to your plan.
 
-- **Duration** – This sets how long the mission will last and sets the number of rounds per minute that get fired. In the example below that would be 2 rounds per gun in the unit per minute over 10 minutes. With eight tubes in this unit that is 16 rounds impacting every minute.
+- **Duration** – Set how long the mission lasts (in minutes) and the number of rounds per minute that get fired.
 
-- **Area Fire** – If the artillery unit is a rocket launcher, The Area Fire option will be active and if checked, will fire a saturation strike (target hex and the surrounding ring of six hexes). This strike fires all rockets on the launching platforms.
+- **Area Fire** – If the artillery unit is a rocket launcher, the Area Fire toggle will be active (not grayed out) and if checked, will fire a saturation strike  that hits the target hex and the surrounding ring of six hexes. This strike fires all rockets on the launching platforms.
 
-![](images/image272.png)
+## Calling in Air Strikes
 
-## Calling in Airstrikes
+To call in an air strike, there must be available aircraft in the scenario. There are two ways to check and then call in an air strike. The first option is to open the Fire Support Staff Report and look at the Fire Support Assets tab like the first image below (see Section 15.4.1 above). Section B of this report shows available Close Air Support (CAS) available to call in. The second way is to open the Off-Map Asset (OMA) dialog (see Section 14.5 above) like the second image below.
 
-To call in an Airstrike, you need to have available aircraft in the scenario. There are two ways to check and then call in an airstrike. The first option is to open the Fire Support Report and look at the Fire Support Assets tab. In this case, Section B shows available Close Air Support (CAS) that you can call in. The second way is to open the Off Map Asset (OMA) dialog and look for what aircraft you have.
+Aircraft may not be available until they arrive as reinforcement to provide support and that will be noted in the dialogs. Most aircraft will also have a hard withdrawal time when they return to base and can no longer be used. Weather and Time of Day can also impact air operations (see Sections 28 and 29 below). Some aircraft are not capable of night or all-weather operations over the battlefield. Aircraft have one other threat that you as the commander need to consider and that is the current Air Superiority Level over the battlefield (see Section 25.10 below). Your air strike has a much better chance of getting to the target and delivering ordnance on targets if your side owns control of the air. If the airspace is contested or owned by the enemy, your air strikes run the risk of being run off or worse, shot down.
 
-Aircraft may not be available until they arrive as a reinforcement to provide support and that will be noted in the dialogs. Most aircraft will also have a hard withdrawal time when they return to base and can no longer be used. Weather and time of day can also impact air operations. Some aircraft are not capable of night or all-weather operations over the battlefield. Aircraft have one other threat that you as the commander need to consider and that is the current Air Superiority level over the battlefield. If control of the air is owned by your side, your air strike has a much better chance of getting to the target and delivering ordnance on targets. If the airspace is contested or owned by the enemy, your air strikes run the risk of being run off or worse, shot down.
+![](images/image504.jpg)
 
-![](images/image273.png)![](images/image274.png)
+![](images/image506.jpg)
 
-![](images/image275.png)
+Right-clicking the counter brings up the Unit Popup Menu to order an Air Strike as a primary order as seen below.
 
-Selecting the hyperlinked Menu option will bring up the Unit Popup Menu and you need to go down to the Strike section that looks as seen below and select the Airstrike option.
+![](images/image508.jpg)
 
-If you want to order in-air units instead of the FSCC doing it when targets of value show up, you should click the Is Under FSCC (Staff) Control and turn the checkmark off. Selecting On Call will cancel any strikes and return the aircraft to its on-station location where it awaits a call to strike.
+There are two settings to toggle player control over air strikes: the menu item labelled Is Under FSCC (Staff) Control in the Unit Popup Dialog as shown directly above, and the check box for Under FSCC Control underneath the unit counter in the Fire Support Assets dialog three images above. Uncheck this option in either location to assume player control. When checked, these units receive orders from the AI Fire Support Control Center when targets of value show up (see Section 25.4.1 below for more on the FSCC).
 
-There is also the option on the menu (not shown) to Rest and Resupply, this will return the aircraft to the base to rearm and refuel and then return on-station for future use.
+Selecting an order of On Call from the Unit Popup Menu cancels any strike ordered and returns the aircraft to its on station location where it will await a call.
 
-![](images/image276.png)![](images/image277.png)
+There is also the option in the Unit Popup Menu’s primary orders to Rest and Resupply (see Section 14.1 above). This returns the aircraft to base to rearm and refuel and then return on station for future use.
 
-After selecting an Airstrike, the Plotting Mode dialog pops up and you can select a single hex to be the target of the airstrike.
+After selecting Air Strike, the Plot Targets dialog pops up to prompt selecting a single hex to be the target of the strike.
 
-![](images/image278.png)![](images/image279.png)
+![](images/image510.jpg)
 
-Select a target hex and click the Commit button to issue the order. Pressing Cancel will stop the order and return you to the game with the aircraft On Call.
+Select a target hex and click the Commit button to issue the order. Pressing Cancel stops the order and places the aircraft back On Call.
 
-Once the aircraft is ready to attack it will appear on the map near the target location and will attack the best target it sees in the area. The discretionary radius of target selection is set in the Nation Data and cannot be altered.
+Once the aircraft is ready to attack, it appears on the map near the target location and attacks the best target it sees in the area. The discretionary radius of target selection is set in the scenario’s nation data and cannot be altered.

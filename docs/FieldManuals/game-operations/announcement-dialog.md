@@ -1,33 +1,33 @@
 # Announcement Dialog
 
-When a scenario first starts, there is a dialog that pops up in the center of the screen with basic information about the scenario. It gives you the Commander’s name, the side played, and then a few links to Staff Reports that you can bring up and review (see Section 15 below for details on those reports).
+A dialog pops up in the center of the screen with basic information about that scenario when it opens for the first time. It shows the commander’s name, side played, and a few links to Staff Reports to open and review continuously (see Section 15 below for details on those reports; they can be opened from the Commander Panel as well as the Staff menu bar item).
 
-The dialog also tells you that you can set up your forces on the map and tells you a general breakdown of those forces. As noted in the dialog, I wish you the best of luck with the upcoming battle.
+This dialog also states your overall game objective, an overview of your forces, and your ability to drag and drop units within your Deployment Area zone (see Section 11.7.5 below). We wish you good luck!
 
-![](images/image059.jpg)
+![](images/image090.jpg)
 
 ## In-Game Announcements
 
-In-game announcements bring you information in the form of small dialogues that pop up when specific events happen. Information that may be received includes:
+In-game announcements bring information in the form of small Secure Transmission dialogs that pop up when specific events happen. Information that may be received this way includes:
 
-- Weather Updates and changes in visibility
+- Weather updates (see Section 29 below) and changes in Visibility (see Section 24.3 below)
 
-- Changes in time of day and lighting conditions
+- Changes in time of day and lighting conditions (see Section 28 below)
 
-- Reinforcements and withdrawals of specific units
+- Reinforcements and withdrawals of specific units (see Section 15.5.3 below)
 
 - Leader killed
 
 - HQ intercepts
 
-- Electronic Warfare level changes
+- Electronic warfare level changes (see Section 25.9 below)
 
-- Off-map Events like strike aircraft intercepts
+- Off-map events like strike aircraft intercepts
 
-- Detection of on and off-map enemy artillery assets
+- Detection of on- and off-map enemy artillery assets
 
 - Losses of friendly off-map artillery assets
 
-- Scenario or Campaign Game has ended
+- Scenario or campaign conclusion
 
 Other messages may also be displayed. You can dismiss them by clicking the Proceed button.

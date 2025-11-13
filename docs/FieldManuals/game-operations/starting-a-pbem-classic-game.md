@@ -1,65 +1,45 @@
 # Starting a PBEM Classic Game
 
-This is the classic play-by-email mode. Players will play through a scenario by playing turns and submitting them via email or a file-sharing service like Dropbox to each other.
+This is the classic play-by-email mode. Players play through a scenario by playing turns and submitting them via email or a file-sharing or cloud service to each other.
 
 ## Getting Started
 
-At the Main Menu, select Start New: Scenario. Then select a scenario that you wish to play with your opponent and click Proceed. In the following dialog (below), select the Start a Play by Email Game (Classic PBEM). Next, choose which side you will command in the scenario and click the Proceed button.
+At the Main Menu, select New Scenario. Then select the scenario you wish to play with your opponent and click Play (see Section 4.1 above for details on the selection process). In the following dialog, as seen below, select the Start a Play by Email Game (Classic PBEM) option under Style of Play. Next, choose which side you will command in the scenario. Select the Difficulty Settings (refer to Section 4.3 above) to be used for the scenario and click the Play button.
 
-![](images/image044.jpg)
-
-## Difficulty Settings
-
-In the next screen, select the Difficulty Settings (refer to Section 4.4 above) to be used for the scenario and click the Proceed button.
+![](images/image064.jpg)
 
 ## Set the Initial Orders
 
-The scenario will load, and you will see the game interface (Refer to Section 8 below for details on the interface). Next, issue initial orders for your forces and click the Start button. You will get the following dialog alerting you that your opponent needs to do initial orders.
+The scenario will load, and then you are ready to set up your turn. Issue initial orders for your forces and click Start in the Game Control Panel (refer to Section 13.1 below). You will then get the following dialog alerting you that your opponent needs to do their initial orders. Click Proceed to get a new dialog to enter information for the PBEM Classic file.
 
-![](images/image045.jpg)
-
-Click Proceed, and you will get the following dialog to enter information for the Classic PBEM file.
+![](images/image066.jpg)
 
 ## Play by Email Parameters
 
-The following items are displayed, and some require inputs:
+After setting up your first orders, select Start to begin the turn resolution and initiate an Outbound PBEM Dispatch as seen below. Some fields require input to create the PBEM Classic file.
 
-- **Game Name**: This is the scenario name. You can edit this name, and it will automatically change the File Name.
+![](images/image068.jpg)
 
-- **Password**: You can add a password to the file for extra security. Please make sure your opponent knows it to open the supplied game file.
+- **Game Name** – This is the scenario name. Editing this name automatically changes the file name.
 
-- **Increment File**: Check this box to add a “00X” number to the filename to keep a better track of game turns.
+- **Password –** Add a password to the file for extra security if you wish. Please make sure your opponent knows it to open the supplied game file.
 
-- **File Name**: This is automatically generated from the Game Name and increment (if selected).
+- **Increment File** – Check this box to add a “00X” number to the file name to keep better track of game turns.
 
-- **PBEM File Destination Directory**: This is the folder on your computer where the generated Play By Email (\*.PBM) files will be placed. You can change the folder location by clicking on the Folder icon on the right of the panel.
+- **File Name** – This is automatically generated from the Game Name and Increment fields (if selected).
 
-- **Game Text Message**: You can write a short message for your opponent in the bottom window that will be displayed to them at the start of their game turn.
+- **PBEM File Destination Directory** – This is the folder on your computer where generated Play By Email (\*.PBM) files are placed. You can change the location by clicking on the folder icon on the right of the text box.
 
-![](images/image046.jpg)
+- **Text** – Write a short message for your opponent in the bottom field to have displayed to them at the start of their game turn.
 
-Click the send button to save the game file.
+Click the Send button to save the game file.
 
-## Upload Notice and Exit
+## Save Notice and Exit
 
-Next, you will see the following notice. Click Proceed when you are done reading it.
+Next, the following notice points to the location of the saved .PBM file to manually retrieve and send directly to your opponent via email or file-sharing service. Click Proceed.
 
-![](images/image047.jpg)
+![](images/image070.jpg)
 
-Next, you will see the following message, and you can Exit the game or go back to the Main Menu and start another game from the game’s Main Menu. Clicking Proceed will close the dialog.
+The next message reads that the game will be inactive until your opponent responds. Click Proceed to close the dialog, after which you can start a new game from the Main Menu or Exit the game entirely.
 
-![](images/image048.jpg)
-
-## Recovering a Dropped PBEM++ Game
-
-If there is a dropped connection to the PBEM++ servers, the game engine will create a save file that allows you to retry a load back to the server later when the servers are online.
-
-The following dialog will show if the connection drops when trying to upload your game turn. It notes the name of the file created and where it is located.
-
-![](images/image049.jpg)[[KC1]](#_msocom_1)
-
-If there was a loss of connection to the server, once you Resume a PBEM++ game, the following dialog will be shown, offering you the chance to recover a failed upload.
-
-Select the file you want to resend to the server and click Upload.
-
-![](images/image050.jpg)
+![](images/image072.jpg)

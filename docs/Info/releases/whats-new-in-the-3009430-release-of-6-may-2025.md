@@ -24,4 +24,3 @@ __Content:__
 __Code:__
 
 \- The rarely used "Template\.xlsx" has been relocated from "\\Modules\\Common\\Graphics\\" to '\\Modules\\Common\\Data\\" by Rob\. \(r9428\)
-

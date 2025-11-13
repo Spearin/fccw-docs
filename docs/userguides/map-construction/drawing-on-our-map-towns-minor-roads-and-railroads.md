@@ -14,11 +14,12 @@ When in doubt where to position the built-up hex (amidst terrain all partially c
 
 We draw the built-up areas in the same way we’ve drawn the major river, by copying, pasting, and moving a hex shape polygon. Select the manual\_river\_major layer, select a hex shape on that layer, and copy (Ctrl+C). Next, select the manual\_urban\_layer, enable it for editing, and paste the hex shape. It will show up in urban style (not as a major river).
 
-**NOTE:** In QGis you can easily copy (or cut) shapes from one layer into another layer. This way, you can quickly change the hex contents from urban to high rise, or a road from highway to primary road.
+!!! note
+    In QGis you can easily copy (or cut) shapes from one layer into another layer. This way, you can quickly change the hex contents from urban to high rise, or a road from highway to primary road.
 
 Below, you can see the result, with urban, high-rise (red) and (hard to see) industrial zones (dark greyish).
 
-![](images/image069.png)
+![](images/image136.png)
 
 Figure 66    Minden covered with manually placed full-hex built-up area annotations
 
@@ -28,7 +29,7 @@ Perhaps a pet peeve of mine, but I do like to have rail roads drawn on the map. 
 
 Railroads are a lot easier to spot on the Bing roads “underlay”, so disable the Bing satellite map and activate the Bing roads “underlay”. Draw the railroads in the same way as the highways and primary roads have been drawn. Personally, I like to recreate the original alignment (left or right of the road) when drawing railroads in the same hex as roads.
 
-![](images/image070.png)
+![](images/image138.png)
 
 Figure 67    Railroads drawn on the map, using the Bing Roads "underlay"
 
@@ -36,13 +37,13 @@ Figure 67    Railroads drawn on the map, using the Bing Roads "underlay"
 
 Next, draw the secondary roads on the map. Use the color coding and road size on the Bing map to identify the secondary roads. Germany makes identifying its secondary roads a bit easier, by issuing road designations to significant secondary roads: the “L” roads are Landesstraße, provincial roads, and the “K” roads are Kreisstraße, maintained by the county. There are a few exceptions to this rule:
 
-§ Bayern/Bavaria not using the “K” designation for its Kreisstraße, but using a two or three letter county abbreviation instead; and
+- Bayern/Bavaria not using the “K” designation for its Kreisstraße, but using a two or three letter county abbreviation instead; and
 
-§ Saarland, Hamburg, Bremen and Berlin not having Kreisstraße
+- Saarland, Hamburg, Bremen and Berlin not having Kreisstraße
 
 One thing to keep in mind is that built-up terrain is given high mobility values, almost as high as road hexes, so there is no need to draw a dense road network in built-up areas.
 
-![](images/image071.png)
+![](images/image140.png)
 
 Figure 68    Secondary roads added to the Minden map
 
@@ -52,11 +53,11 @@ In the above map, some details do not make much sense. In two river hexes, we ca
 
 With a layer selected for editing, use Edit menu, “Node Tool” to move around individual nodes of a polyline.
 
-![](images/image072.png)
+![](images/image142.png)
 
 Figure 69    Two unrealistic (rail) road junctions inside a major river hex
 
-![](images/image073.png)
+![](images/image144.png)
 
 Figure 70    Roads and rail-roads trajectories reworked to avoid junctions in full river hexes
 
@@ -64,6 +65,6 @@ Figure 70    Roads and rail-roads trajectories reworked to avoid junctions in
 
 After another trip to OTS HQ, we receive the following render of our works-in-progress map in return.
 
-![](images/image074.png)
+![](images/image146.png)
 
 Figure 71    OTS render of our works-in-progress

@@ -4,16 +4,16 @@ nav:
   - user-preferences.md
   - start-a-new-scenario.md
   - start-a-new-campaign.md
-  - start-a-pbem-game.md
+  - start-a-multiplayer-game.md
   - starting-a-pbem-classic-game.md
   - resuming-games.md
   - game-launch-and-user-interface.md
   - announcement-dialog.md
-  - main-menu-bar.md
+  - menu-bar.md
   - status-bar.md
   - core-game-panels.md
   - info-view-panels.md
-  - staff-dialogs.md
+  - staff-report-dialogs.md
   - the-game-map.md
   - unit-counters.md
   - specific-unit-roles.md

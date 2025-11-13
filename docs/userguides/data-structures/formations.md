@@ -2,13 +2,9 @@
 
 This is where the whole process comes together. The Formations Tab is where you assemble the units and formations used in the scenario editor to build your orders of battle.
 
-![](images/image016.png)
-
 ## Description (Format Use)
 
-|  | | --- | |  | |  |  |
-
-   This field has several uses for providing OOB formation names, names for formation elements, cues for node indenture, visible separators between main and subgroups of formations and elements, and identifiers or names for major groups in the formation spreadsheet table. 
+This field has several uses for providing OOB formation names, names for formation elements, cues for node indenture, visible separators between main and subgroups of formations and elements, and identifiers or names for major groups in the formation spreadsheet table.
 
 All these elements are used to provide the layout of selectable formations and elements of formation in the game’s scenario editor. These primary types are as follows:
 
@@ -16,13 +12,15 @@ All these elements are used to provide the layout of selectable formations and e
 
 Found in the chevron brackets” < >” These are major formation group names that form major OOB elements like “<Division 86 Formation>” or “<OMG/Brigade (86+)>” or "<Brigade Assets>" and “<1” in the Code field (see Section 17.3 below). They have no other information in the row apart from Mission Filters. If the major formation has a date of use, you can add it in brackets as the “(86+)” above to help players choose the correct formations based on the scenario date.
 
-**NOTE:** The scenario date selected does not cause the formations list to filter in any way. The user must remember and use the correct formations if there are date-based options.
+!!! note
+    The scenario date selected does not cause the formations list to filter in any way. The user must remember and use the correct formations if there are date-based options.
 
 ### End Major Group Fields
 
 This is a string of equal signs “==============” in the Description field and “<1” in the Code field (see Section 17.3 below) that shows up in the scenario editor to separate major groups of formations. The “<1” code will place this marker at the top node level. There is no [+] for expansion on this separator. This Description code is what closes the major section in the Scenario Editor and creates an expandable note in the formation selection tree.
 
-**WARNING:**If this End field is missing, following sections of formation data may not show or show correctly in the Scenario Editor.
+!!! warning
+    If this End field is missing, following sections of formation data may not show or show correctly in the Scenario Editor.
 
 ### Type Formation Identifiers
 
@@ -38,7 +36,7 @@ A fully empty row can be used for the readability of the Formation Table. Option
 
 ## Description (Information Use)
 
-![](images/image018.png)To put together an OOB, the names and use of the node indent symbols “>”, “>>”, and “>>>” allow the Scenario Editor to generate an indented list based on the indents and the names. The above Motor Rifle Battalion is comprised of a “>”Battalion HQ, “>”Motor Rifle Company, “>”Mortar Battery, “>”Anti-Tank Platton, “>”AA Section, and “>” Attached Tank Company. The Anti-Tank Platoon has a third level breakdown with the “>>” noted platoon element entries.
+To put together an OOB, the names and use of the node indent symbols “>”, “>>”, and “>>>” allow the Scenario Editor to generate an indented list based on the indents and the names. The above Motor Rifle Battalion is comprised of a “>”Battalion HQ, “>”Motor Rifle Company, “>”Mortar Battery, “>”Anti-Tank Platton, “>”AA Section, and “>” Attached Tank Company. The Anti-Tank Platoon has a third level breakdown with the “>>” noted platoon element entries.
 
 ## Code
 
@@ -52,11 +50,7 @@ The ability to control the level of indenture of the collapsible nodes in the OO
 
 In the example below, the indent codes of “<1”, “<2”, and “<3” are placed to create the indented open/close node points for the various formations. In this case, the Air Support formations. The Indent Codes are circled in red.
 
-![](images/image019.png)![](images/image019.png)![](images/image019.png)![](images/image020.png)![](images/image019.png)![](images/image019.png)![](images/image019.png)![](images/image019.png)![](images/image019.png)![](images/image021.png)![](images/image022.png)
-
 Next is an image of how that structure appears in the game’s Scenario Editor.
-
-![](images/image023.png)
 
 ## Tag
 
@@ -76,9 +70,8 @@ To build a Unit Composition, you will need to use the CompID of a particular uni
 
 To build a Formation Composition, you will need to use the Code in column two of a particular formation element and then a “\*” symbol with the count of those formation elements (if there is only a single Code, the “\*1” can be omitted).
 
-**WARNING:**You cannot mix CompIDs and Codes in the same line or it will crash the game. Data Validation will catch most of these errors when used.
-
-![](images/image024.png)![](images/image025.png)
+!!! warning
+    You cannot mix CompIDs and Codes in the same line or it will crash the game. Data Validation will catch most of these errors when used.
 
 ## Role
 
@@ -88,7 +81,8 @@ The Role identifier is a set value that describes the overall use of the particu
 
 This is the NATO size symbol corresponding to the size of the formation element in the row, not the overall size of the whole formation. These symbols will show up on the counters in-game.
 
-**NOTE:** For a Platoon, it is three periods and not an ellipse. Excel is extremely helpful in turning three periods into an ellipse for you. This will not work in the game and will get flagged in the Validation Program. To change this behavior, go into Excel’s Options, Proofing, click AutoCorrect Options, scroll the Replace Text as you type window and find the three periods replaced with the ellipse and Delete that entry. You are good to go now.
+!!! note
+    For a Platoon, it is three periods and not an ellipse. Excel is extremely helpful in turning three periods into an ellipse for you. This will not work in the game and will get flagged in the Validation Program. To change this behavior, go into Excel’s Options, Proofing, click AutoCorrect Options, scroll the Replace Text as you type window and find the three periods replaced with the ellipse and Delete that entry. You are good to go now.
 
 ## Is HQ Of
 
@@ -98,7 +92,8 @@ If your formation row entry is an HQ structure, you will then need to assign a N
 
 These codes are used by the game engine to set various AI parameters and behaviors based on the composition of the formation this code is used on. A list of valid codes can be found in Section 11 above.
 
-**NOTE:** This feature is currently under implementation and the full effect may not be present in game code, but the Data Validation Program has the current list of codes and can detect bad or unneeded codes in the formation table.
+!!! note
+    This feature is currently under implementation and the full effect may not be present in game code, but the Data Validation Program has the current list of codes and can detect bad or unneeded codes in the formation table.
 
 ## Task Force Type
 
@@ -106,6 +101,21 @@ These codes are used by the Scenario Editor to filter out certain mission types 
 
 You can assign more than one filter to a row if they are comma- delimited. This allows for certain formations to appear in multiple Task Force Types. Check the supplied data files to see examples of Task Force Type use.
 
-**NOTE:** This feature is not currently active in the game, and we may at some point remove it.
+!!! note
+    This feature is not currently active in the game, and we may at some point remove it.
 
 ## Formation Format Best Practices
+
+Here are a few best practice guidelines to help with building formations for the game to use. If you follow the formatting for codes and place the correct references as noted above in this section, you have freedom to set up forces as you see fit. Here are some things to remember:
+
+1. Start forces of a major group in the <NAME> Description and <1 Code and end the entire group of formations with the “================” Description and <1 Code and a blank row below it to have clean structures.
+
+2. Separate indented structures, those entries with Codes of <2, <3, etc., with a blank row in front of them for better readability.
+
+3. Separate sub formations of major formations with a “------------------” description and a “-” Code.
+
+4. When in doubt, review one of the existing data sheets to see how they are formatted.
+
+5. Use bold on the rows that have other formation code references (not CompIDs or direct unit SUTags) for better readability of the information and to help see mistakes like mixed compositions
+
+6. Remember to test your new formations with the Data Validation Program to find errors.

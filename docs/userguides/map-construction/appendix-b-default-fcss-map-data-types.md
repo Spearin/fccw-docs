@@ -1,6 +1,6 @@
 # Appendix B. Default FCSS Map Data Types
 
-![](images/image092.png)
+![](images/image182.png)
 
 Figure 89    Default Map Data Types for FCSS (MapDataTypes\_FCSS.xls)
 
@@ -10,15 +10,15 @@ The map data types file is an ordinary spreadsheet that can be edited with Micro
 
 The map data types file consists of five sections:
 
-§ Elevations (column ‘B’ has type ‘elevation’)
+- Elevations (column ‘B’ has type ‘elevation’)
 
-§ Hex visibility / cover / mobility (column ‘B’ has type ‘hex’)
+- Hex visibility / cover / mobility (column ‘B’ has type ‘hex’)
 
-§ Road connections (column ‘B’ has type ‘road’)
+- Road connections (column ‘B’ has type ‘road’)
 
-§ Steep slope height (column ‘B’ has type ‘slope’, typically 1 entry only)
+- Steep slope height (column ‘B’ has type ‘slope’, typically 1 entry only)
 
-§ Hex edges (column ‘B’ has type ‘edge’)
+- Hex edges (column ‘B’ has type ‘edge’)
 
 ## Elevation
 
@@ -28,7 +28,7 @@ The fifteen elevation colors list corresponds to the ‘fcss\_elevation\_data\_s
 
 For a more mountainous region (think Golan Heights, from the Jordan river valley up to the Mt. Hermon foothills), we would need 20+ steps of 50m. We can define these colors as gray values, in the 83 - 180 range as follows:
 
-![](images/image093.png)
+![](images/image184.png)
 
 Figure 90    Elevation color definitions for up to 50 elevation steps
 
@@ -56,7 +56,7 @@ This section defines edge properties for hex sides. Mobility '0' edges cannot be
 
 For example, to represent green house filled areas, we can define a new ‘hex’ entry that reflects moderate to poor visibility (hard to see through greenhouses), moderate mobility (entry can be forced), and poor cover:
 
-![](images/image094.png)
+![](images/image186.png)
 
 Figure 91    Defining an additional type of terrain: green house covered hexes
 

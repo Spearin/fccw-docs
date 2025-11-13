@@ -6,7 +6,7 @@ With the elevation in place, let’s organize our project so we can draw water (
 
 Please create the following layers, as explained below the table, and arrange them in this order in the “Manual Annotations” group:
 
-![](images/image057.png)
+![](images/image112.png)
 
 Table 1 Layers to add to QGis to capture our manual drawing
 
@@ -16,7 +16,7 @@ When prompted to the “Save Layer as...” save the layer in our project folder
 
 Repeat this for all the line layers in the table.
 
-![](images/image058.png)
+![](images/image114.png)
 
 Figure 55    Creating a new "Line" ShapeFile layer
 
@@ -24,7 +24,7 @@ To create a polygon type layer, such as ‘manual\_lake\_major’, use the Layer
 
 The final polygon layer (manual\_elevation\_corrections) is special in that it needs an additional field (to capture the elevation). Fill the “New Field” name with “elevation”, type “Whole number”, and press “Add to fields list”. Next, press OK and save the layer.
 
-![](images/image059.png)
+![](images/image116.png)
 
 Figure 56    An additional "elevation" field defined for the manual\_elevation\_corrections\_layer
 
@@ -32,7 +32,7 @@ Repeat this for all polygon layers in the table.
 
 When all layers have been created, and arranged, the Layers Panel should look like this:
 
-![](images/image060.png)
+![](images/image118.png)
 
 Figure 57    All line and polygon layers defined and ordered, in Flashpoint Campaign styles
 
@@ -44,13 +44,13 @@ For quick creation of water and urban hexes, I prefer to draw a hexagon shape sl
 
 QGis comes standard with keyboard short-cuts for copy and paste, but not for “Select Feature” and “Move Feature”. Use the “Settings” menu, Configure Shortcuts. In the dialog box, scroll to “Move Feature(s)”, press “Change”, and assign it with a key combination, for example, Ctrl+G.
 
-![](images/image061.png)
+![](images/image120.png)
 
 Figure 58    Assign a short-cut to Move Feature(s)
 
 Next, scroll to “Select Feature(s)”, press “Change”, and assign it a key combination, for example, Ctrl+T.
 
-![](images/image062.png)
+![](images/image122.png)
 
 Figure 59    Assign a short-cut to Select Feature(s)
 
@@ -62,7 +62,7 @@ In the Layers Panel, click (but don’t tick) the OCM Landscape layer, then use 
 
 Zoom the map in to scale 1:25,000, which is a good scale to draw our first polygon.
 
-![](images/image063.png)
+![](images/image124.png)
 
 Figure 60    Finally time to draw our first polygon
 
@@ -74,7 +74,7 @@ See Appendix D for guidelines on how to represent water obstacles.
 
 To draw our first river hex, select the manual\_river\_major layer. Next, toggle the layer to enable editing (right mouse button, Toggle Editing). Select the Edit menu, “Add Feature”. Draw a hex shape inside one the hexes through which the Weser River runs, keeping a good amount of margin between the hex shape and the hex grid. That margin makes it easier for us to position copies of the hex shape in other positions in the hex grid, without accidentally running over a hex grid boundary and “leaking” into an adjacent hex.
 
-![](images/image064.png)
+![](images/image126.png)
 
 Figure 61    A first major river hex shape drawn on the major\_river layer
 
@@ -86,7 +86,7 @@ Do make sure you place hex shapes also just outside the borders of the area box,
 
 Save your layer edits using the Layers menu, Current Edits, Save for Selected Layer(s).
 
-![](images/image065.png)
+![](images/image128.png)
 
 Figure 62    The Minden area with the Weser river and Mittellandkanal defined
 
@@ -94,13 +94,14 @@ Next, we draw the highways (Autobahn A2 (E30), and Autobahn A30 (E34)). Select t
 
 Start by Edit menu, “Add Feature”, click a series of points, and end by using the right mouse button, OK; there is no need to enter an “id”. When drawing, the Backspace key allows you to undo the last point drawn. While drawing, you can switch to the Pan Map mode (in the View menu), pan the map left or right, then press right mouse button and continue with drawing a road.
 
-**NOTE:** If you have a Wacom Tablet and Pen (“digitizer”), QGis has excellent support for it. Using a pen works great for me, and feels faster than using a mouse for drawing lines and polygons.
+!!! note 
+    If you have a Wacom Tablet and Pen (“digitizer”),QGis has excellent support for it. Using a pen works great for me, and feels faster than using a mouse for drawing lines and polygons.
 
 Keep in mind that the A30 highway is incomplete here, transitioning to a Bundesstrasse B61 major road for several kilometers. (This was the case already in 1989).
 
 Don’t forget to save your layer edits.
 
-![](images/image066.png)
+![](images/image130.png)
 
 Figure 63    Minden, with the A2 highway and the tail of the A30 highway added
 
@@ -112,7 +113,7 @@ Also add the airfield (Flugplatz Porta Westfalica, former British occupation for
 
 And save your edits.
 
-![](images/image067.png)
+![](images/image132.png)
 
 Figure 64    Minden with primary roads and air strips added, using Bing Roads as backdrop
 
@@ -120,6 +121,6 @@ Figure 64    Minden with primary roads and air strips added, using Bing Roads
 
 If we were hide the Bing layers, change coordinate system back to WGS 84 UTM, export the bitmap, parse the bitmap anew and save it as an .fp10 map file, and send the results to OTS’s secret lab, they might return an intermediate result as shown below. We’re doing great!
 
-![](images/image068.png)
+![](images/image134.png)
 
 Figure 65    Our works-in-progress Minden rendered at OTS HQ

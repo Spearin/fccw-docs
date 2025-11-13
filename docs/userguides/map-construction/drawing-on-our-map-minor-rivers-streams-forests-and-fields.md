@@ -4,7 +4,7 @@
 
 The hardest part of drawing minor rivers and streams is identifying the ones that represent real water obstacles, and ignoring the ones which are too small to represent much of an obstacle. Sadly, map data such as OpenStreetMap often is not reliable in displaying minor rivers and streams: sometimes the blue lines on the map represent 10m wide streams (true obstacles), other times the blue lines represent narrow ditches (no obstacle), and worst of all, sometimes true streams are not drawn on the map.
 
-![](images/image075.png)
+![](images/image148.png)
 
 Figure 72    OpenStreetMap view and a zoomed-in satellite view of the (bridge across) water obstacle
 
@@ -20,11 +20,11 @@ For the minor rivers and streams, and for the forest and field polygons, we can 
 
 To snap to the hex grid when drawing, use “Settings” menu, Snapping Options. Change Snapping mode to “Advanced”. Then scroll down to our grid\_500\_minden. Tick the checkbox, and change the tolerance to 25, units to “pixels”. Next, press “Apply” and “OK”.
 
-![](images/image076.png)
+![](images/image150.png)
 
 Figure 73    Enabling/disabling snapping to our hex grid
 
-![](images/image077.png)
+![](images/image152.png)
 
 Figure 74    Streams (light blue hex side lines) and minor rivers (medium blue hex side lines) added to the map
 
@@ -32,7 +32,7 @@ In contrast to the earlier game (Flashpoint Campaigns: Red Storm), there is no l
 
 The next render from OTS HQ shows the minor rivers and streams on the map.
 
-![](images/image078.png)
+![](images/image154.png)
 
 Figure 75    OTS render of our works-in-progress with minor rivers / streams added
 
@@ -44,7 +44,7 @@ Personally, I approximate the forest shape using one or more (out of six) pizza 
 
 Before drawing the forests, make sure snapping to the hex grid is enabled. Choose a satellite map to draw on top of. Since the default style (dark green triangles) is hard so see on top of the satellite map, change the style of the manual\_forest layer to editing\_style\_forests. This will display the forest polygons in easy to see, semi-transparent solid red.
 
-![](images/image079.png)   **NOTE:** the process of going over all the satellite map, spotting and drawing the forests is also a great opportunity to spot other missed features. In my case, I spotted and added a minor river, several “full hex” lakes, some “hex side” minor lakes, a missed secondary road, etc.
+![](images/image156.png)   **NOTE:** the process of going over all the satellite map, spotting and drawing the forests is also a great opportunity to spot other missed features. In my case, I spotted and added a minor river, several “full hex” lakes, some “hex side” minor lakes, a missed secondary road, etc.
 
 Figure 76    Drawing forest polygon (using a temporary high-contrast "editing" style)
 
@@ -54,11 +54,11 @@ Drawing fields is next. Draw any flat area, without too many buildings or trees,
 
 Drawing fields into partial forests goes easier when we are also snapping to the forest layer. So, use “Settings” menu, “Snapping Options”, and enable snapping to manual\_forests, with tolerance set to 25 pixels (as units), and Mode set ‘to vertex’.
 
-![](images/image080.png)
+![](images/image158.png)
 
 Figure 77    Snapping to the hex grid and the manual\_forests layer
 
-![](images/image081.png)
+![](images/image160.png)
 
 Figure 78    Fields drawn on the map, using the editing\_style\_fields for better visibility
 
@@ -68,13 +68,13 @@ For Flashpoint Campaigns, riverbanks and major lake banks need to be drawn expli
 
 Instead, we’ll just use the manual\_lake\_major and manual\_river\_major polygons to snap to and deselect snapping to any other layers.
 
-![](images/image082.png)
+![](images/image162.png)
 
 Figure 79    Snapping only to layers manual\_lake\_major and manual\_river\_major
 
 With snapping set-up correctly, enable layer manual\_bank for editing, and draw lines along the river and lake shapes near hex sides with land hexes, as illustrated below:
 
-![](images/image083.png)
+![](images/image164.png)
 
 Figure 80    Banks drawn along the sides of major rivers and major lakes
 
@@ -84,11 +84,11 @@ We are done doing the bulk drawing. This is a good time to take a critical look 
 
 The things to look for are:
 
-§ Hill shapes which aren’t correctly represented in the hex elevation values, for example because a narrow hill shape is split across two hexes, and doesn’t have a back impact on elevation of these hexes
+- Hill shapes which aren’t correctly represented in the hex elevation values, for example because a narrow hill shape is split across two hexes, and doesn’t have a back impact on elevation of these hexes
 
-§ Awkward or unrealistic roads running uphill or downhill for no good reason
+- Awkward or unrealistic roads running uphill or downhill for no good reason
 
-![](images/image084.png)
+![](images/image166.png)
 
 Figure 81    Two ridges (red markings) not interpreted as higher elevations along their full lengths
 
@@ -96,10 +96,10 @@ Our map has a few locations where the elevation values do not correctly reflect 
 
 Enable manual\_elevation\_corrections layer for editing. Select a hex shape on the manual\_urban layer, copy it, switch to the manual\_elevation\_corrections layer, and paste it at the location where you want to correct the elevation. Next, with the shape still selected, use the Layer menu, Open Attribute Table. For the newly created shape, enter in the “elevation” column the intended elevation, then press the Save Edits button.
 
-![](images/image085.png)
+![](images/image168.png)
 
 Figure 82    Setting the elevation for a shape in the elevation\_corrections\_layer
 
-![](images/image086.png)
+![](images/image170.png)
 
 Figure 83    Three corrections, shown in the table and on the map

@@ -1,15 +1,16 @@
 ---
 icon: smflag/ca
 ---
+
 # :smflag-ca: Canada — TO&E
 
 ## Formations
 
 ### Brigades
 
-??? formation ":nato-infme: 4th Mechanized Brigade"
+??? formation-ca ":nato-infme: 4th Mechanized Brigade"
     
-    ??? formation ":nato-hq: Brigade HQ"
+    ??? formation-ca ":nato-hq: Brigade HQ"
         
         
         - **M577A2 C2V** — [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351)
@@ -27,9 +28,9 @@ icon: smflag/ca
         - **7.62mm C6 GPMG** — [:unit-CN220:](#unit-CN220) [:unit-CN220:](#unit-CN220)
         
         
-    ??? formation ":nato-tank: Armoured Regiment"
+    ??? formation-ca ":nato-tank: Armoured Regiment"
         
-        ??? formation ":nato-hq: Regiment HQ"
+        ??? formation-ca ":nato-hq: Regiment HQ"
             
             
             - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
@@ -47,7 +48,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
             
             
-        ??? formation ":nato-tank: :nato-tank: :nato-tank: :nato-tank: Armoured Squadron ×4"
+        ??? formation-ca ":nato-tank: :nato-tank: :nato-tank: :nato-tank: Armoured Squadron ×4"
             
             
             - :nato-hq: Squadron HQ
@@ -61,7 +62,7 @@ icon: smflag/ca
                 - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
             
             
-        ??? formation ":nato-recce: Recce Squadron"
+        ??? formation-ca ":nato-recce: Recce Squadron"
             
             
             - :nato-hq: Squadron HQ
@@ -78,9 +79,9 @@ icon: smflag/ca
             
             
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Battalion ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Battalion ×3"
         
-        ??? formation ":nato-hq: Battalion HQ"
+        ??? formation-ca ":nato-hq: Battalion HQ"
             
             
             - **M113A2** — [:unit-CN63:](#unit-CN63) [:unit-CN63:](#unit-CN63)
@@ -95,7 +96,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
             
             
-        ??? formation ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Company ×4"
+        ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Company ×4"
             
             
             - :nato-hq: Company HQ
@@ -117,7 +118,7 @@ icon: smflag/ca
                 - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
             
             
-        ??? formation ":nato-infme: Support Company"
+        ??? formation-ca ":nato-infme: Support Company"
             
             
             - :nato-hq: Company HQ
@@ -128,7 +129,7 @@ icon: smflag/ca
             
             - :nato-tank: :nato-tank: Anti-Tank Platoon ×2
             
-                - :nato-generic: Platoon Ldr
+                - :nato-hq: Platoon Ldr
                     - **M113A2** — [:unit-CN63:](#unit-CN63)
                     - **Mechanized Headquarters** — [:unit-CN210M:](#unit-CN210M)
             
@@ -162,9 +163,9 @@ icon: smflag/ca
         
         
         
-    ??? formation ":nato-arty: SP Artillery Regiment-155mm"
+    ??? formation-ca ":nato-arty: SP Artillery Regiment-155mm"
         
-        ??? formation ":nato-arty: Regiment HQ"
+        ??? formation-ca ":nato-arty: Regiment HQ"
             
             
             - **M577A2 C2V** — [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351)
@@ -179,7 +180,7 @@ icon: smflag/ca
             - **Javelin SAM Team** — [:unit-CN264:](#unit-CN264) [:unit-CN264:](#unit-CN264) [:unit-CN264:](#unit-CN264)
             
             
-        ??? formation ":nato-arty: :nato-arty: :nato-arty: :nato-arty: Field Artillery Battery ×4"
+        ??? formation-ca ":nato-arty: :nato-arty: :nato-arty: :nato-arty: Field Artillery Battery ×4"
             
             
             - **M109A4B+** — [:unit-CN283:](#unit-CN283) [:unit-CN283:](#unit-CN283) [:unit-CN283:](#unit-CN283) [:unit-CN283:](#unit-CN283) [:unit-CN283:](#unit-CN283) [:unit-CN283:](#unit-CN283)
@@ -196,9 +197,9 @@ icon: smflag/ca
             
         
     
-??? formation ":nato-infme: Brigade Group"
+??? formation-ca ":nato-infme: Brigade Group"
     
-    ??? formation ":nato-hq: Brigade HQ"
+    ??? formation-ca ":nato-hq: Brigade HQ"
         
         
         - **M577A2 C2V** — [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351)
@@ -216,9 +217,9 @@ icon: smflag/ca
         - **7.62mm C6 GPMG** — [:unit-CN220:](#unit-CN220) [:unit-CN220:](#unit-CN220)
         
         
-    ??? formation ":nato-recce: Light Armoured Regiment"
+    ??? formation-ca ":nato-recce: Light Armoured Regiment"
         
-        ??? formation ":nato-hq: Regiment HQ"
+        ??? formation-ca ":nato-hq: Regiment HQ"
             
             
             - **Lynx** — [:unit-CN278:](#unit-CN278) [:unit-CN278:](#unit-CN278)
@@ -230,7 +231,7 @@ icon: smflag/ca
             - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
             
             
-        ??? formation ":nato-recce: :nato-recce: Light Armoured Squadron ×2"
+        ??? formation-ca ":nato-recce: :nato-recce: Light Armoured Squadron ×2"
             
             
             - :nato-hq: Squadron HQ
@@ -255,7 +256,7 @@ icon: smflag/ca
                 - **81mm C3 Mortar** — [:unit-CN241:](#unit-CN241)
             
             
-        ??? formation ":nato-recce: Recce Squadron"
+        ??? formation-ca ":nato-recce: Recce Squadron"
             
             
             - :nato-hq: Squadron HQ
@@ -277,9 +278,9 @@ icon: smflag/ca
             - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Light Mechanized Battalion ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Light Mechanized Battalion ×3"
         
-        ??? formation ":nato-hq: Battalion HQ"
+        ??? formation-ca ":nato-hq: Battalion HQ"
             
             
             - **Grizzly AVGP** — [:unit-CN69:](#unit-CN69) [:unit-CN69:](#unit-CN69)
@@ -294,7 +295,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
             
             
-        ??? formation ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Light Mechanized Company ×4"
+        ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Light Mechanized Company ×4"
             
             
             - :nato-hq: Company HQ
@@ -348,9 +349,9 @@ icon: smflag/ca
         
         
     
-??? formation ":nato-infme: Brigade Group"
+??? formation-ca ":nato-infme: Brigade Group"
     
-    ??? formation ":nato-hq: Brigade HQ"
+    ??? formation-ca ":nato-hq: Brigade HQ"
         
         
         - **M577A2 C2V** — [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351) [:unit-CN351:](#unit-CN351)
@@ -368,9 +369,9 @@ icon: smflag/ca
         - **7.62mm C6 GPMG** — [:unit-CN220:](#unit-CN220) [:unit-CN220:](#unit-CN220)
         
         
-    ??? formation ":nato-recce: Wheeled Armoured Regiment"
+    ??? formation-ca ":nato-recce: Wheeled Armoured Regiment"
         
-        ??? formation ":nato-hq: Regiment HQ"
+        ??? formation-ca ":nato-hq: Regiment HQ"
             
             
             - **Lynx** — [:unit-CN278:](#unit-CN278) [:unit-CN278:](#unit-CN278)
@@ -388,7 +389,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
             
             
-        ??? formation ":nato-recce: :nato-recce: :nato-recce: Light Armoured Squadron ×3"
+        ??? formation-ca ":nato-recce: :nato-recce: :nato-recce: Light Armoured Squadron ×3"
             
             
             - :nato-hq: Squadron HQ
@@ -408,7 +409,7 @@ icon: smflag/ca
                 - **Mech Infantry Section** — [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157)
             
             
-        ??? formation ":nato-recce: Recce Squadron"
+        ??? formation-ca ":nato-recce: Recce Squadron"
             
             
             - :nato-hq: Squadron HQ
@@ -425,9 +426,9 @@ icon: smflag/ca
             
             
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Battalion ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Battalion ×3"
         
-        ??? formation ":nato-hq: Battalion HQ"
+        ??? formation-ca ":nato-hq: Battalion HQ"
             
             
             - **Grizzly AVGP** — [:unit-CN69:](#unit-CN69) [:unit-CN69:](#unit-CN69)
@@ -442,7 +443,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
             
             
-        ??? formation ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
+        ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
             
             
             - :nato-hq: Company HQ
@@ -464,7 +465,7 @@ icon: smflag/ca
                 - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
             
             
-        ??? formation ":nato-infme: Mechanized Infantry Company"
+        ??? formation-ca ":nato-infme: Mechanized Infantry Company"
             
             
             - :nato-hq: Company HQ
@@ -486,7 +487,7 @@ icon: smflag/ca
                 - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
             
             
-        ??? formation ":nato-infme: Support Company"
+        ??? formation-ca ":nato-infme: Support Company"
             
             
             - :nato-hq: Company HQ
@@ -531,9 +532,9 @@ icon: smflag/ca
 
 #### Infantry
 
-??? formation ":nato-infme: Mechanized Infantry Battalion"
+??? formation-ca ":nato-infme: Mechanized Infantry Battalion"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **M113A2** — [:unit-CN63:](#unit-CN63) [:unit-CN63:](#unit-CN63)
@@ -548,7 +549,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Company ×4"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Mechanized Infantry Company ×4"
         
         
         - :nato-hq: Company HQ
@@ -570,7 +571,7 @@ icon: smflag/ca
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-infme: Support Company"
+    ??? formation-ca ":nato-infme: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -581,7 +582,7 @@ icon: smflag/ca
         
         - :nato-tank: :nato-tank: Anti-Tank Platoon ×2
         
-            - :nato-generic: Platoon Ldr
+            - :nato-hq: Platoon Ldr
                 - **M113A2** — [:unit-CN63:](#unit-CN63)
                 - **Mechanized Headquarters** — [:unit-CN210M:](#unit-CN210M)
         
@@ -615,9 +616,9 @@ icon: smflag/ca
     
     
     
-??? formation ":nato-infme: Wheeled Mechanized Battalion"
+??? formation-ca ":nato-infme: Wheeled Mechanized Battalion"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **Grizzly AVGP** — [:unit-CN69:](#unit-CN69) [:unit-CN69:](#unit-CN69)
@@ -632,7 +633,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
         
         
         - :nato-hq: Company HQ
@@ -654,7 +655,7 @@ icon: smflag/ca
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-infme: Mechanized Infantry Company"
+    ??? formation-ca ":nato-infme: Mechanized Infantry Company"
         
         
         - :nato-hq: Company HQ
@@ -676,7 +677,7 @@ icon: smflag/ca
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-infme: Support Company"
+    ??? formation-ca ":nato-infme: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -716,9 +717,9 @@ icon: smflag/ca
     
     
     
-??? formation ":nato-infme: Light Mechanized Battalion"
+??? formation-ca ":nato-infme: Light Mechanized Battalion"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **Grizzly AVGP** — [:unit-CN69:](#unit-CN69) [:unit-CN69:](#unit-CN69)
@@ -733,7 +734,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Light Mechanized Company ×4"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: :nato-infme: Light Mechanized Company ×4"
         
         
         - :nato-hq: Company HQ
@@ -786,9 +787,9 @@ icon: smflag/ca
         - **M113A2 TUA** — [:unit-CN291:](#unit-CN291) [:unit-CN291:](#unit-CN291) [:unit-CN291:](#unit-CN291) [:unit-CN291:](#unit-CN291)
     
     
-??? formation ":nato-inflg: Infantry Battalion [Militia]"
+??? formation-ca ":nato-inflg: Infantry Battalion [Militia]"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
@@ -806,7 +807,7 @@ icon: smflag/ca
         - **M809 5 Ton Truck** — [:unit-CN326:](#unit-CN326) [:unit-CN326:](#unit-CN326) [:unit-CN326:](#unit-CN326) [:unit-CN326:](#unit-CN326)
         
         
-    ??? formation ":nato-inflg: :nato-inflg: :nato-inflg: Infantry Company ×3"
+    ??? formation-ca ":nato-inflg: :nato-inflg: :nato-inflg: Infantry Company ×3"
         
         
         - :nato-hq: Company HQ
@@ -830,7 +831,7 @@ icon: smflag/ca
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-inflg: Support Company"
+    ??? formation-ca ":nato-inflg: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -877,9 +878,9 @@ icon: smflag/ca
     
     
     
-??? formation ":nato-infme: Wheeled Motorized Battalion"
+??? formation-ca ":nato-infme: Wheeled Motorized Battalion"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **Grizzly AVGP** — [:unit-CN69:](#unit-CN69) [:unit-CN69:](#unit-CN69)
@@ -894,7 +895,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Wheeled Mechanized Company ×3"
         
         
         - :nato-hq: Company HQ
@@ -916,7 +917,7 @@ icon: smflag/ca
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-recce: Wheeled Armoured Squadron"
+    ??? formation-ca ":nato-recce: Wheeled Armoured Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -930,7 +931,7 @@ icon: smflag/ca
             - **Cougar AVGP[T]** — [:unit-CN147:](#unit-CN147) [:unit-CN147:](#unit-CN147) [:unit-CN147:](#unit-CN147) [:unit-CN147:](#unit-CN147)
         
         
-    ??? formation ":nato-infme: Support Company"
+    ??? formation-ca ":nato-infme: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -977,9 +978,9 @@ icon: smflag/ca
     
     
     
-??? formation ":nato-infme: Arctic Infantry Battalion [BV206]"
+??? formation-ca ":nato-infme: Artic Infantry Battalion [BV206]"
     
-    ??? formation ":nato-hq: Battalion HQ"
+    ??? formation-ca ":nato-hq: Battalion HQ"
         
         
         - **Bandvagn 206** — [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324)
@@ -994,7 +995,7 @@ icon: smflag/ca
         - **.50 M2 HMG** — [:unit-CN214:](#unit-CN214) [:unit-CN214:](#unit-CN214) [:unit-CN214:](#unit-CN214) [:unit-CN214:](#unit-CN214)
         
         
-    ??? formation ":nato-infme: :nato-infme: :nato-infme: Arctic Infantry Company ×3"
+    ??? formation-ca ":nato-infme: :nato-infme: :nato-infme: Artic Infantry Company ×3"
         
         
         - :nato-hq: Company HQ
@@ -1004,23 +1005,23 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-        - :nato-infme: :nato-infme: :nato-infme: Arctic Infantry Platoon ×3
+        - :nato-infme: :nato-infme: :nato-infme: Artic Infantry Platoon ×3
         
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324)
             - **Mech Infantry Section** — [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157)
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-        - :nato-arty: Arctic Light Mortar Section
+        - :nato-arty: Artic Light Mortar Section
         
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324)
             - **60mm M19 Mortar** — [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233) [:unit-CN233:](#unit-CN233)
         
         
-    ??? formation ":nato-infme: Arctic Support Company"
+    ??? formation-ca ":nato-infme: Artic Support Company"
         
         
-        - :nato-hq: Arctic Company HQ
+        - :nato-hq: Artic Company HQ
         
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324)
             - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
@@ -1033,20 +1034,20 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-        - :nato-arty: Arctic Mortar Platoon
+        - :nato-arty: Artic Mortar Platoon
         
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324) [:unit-CN324:](#unit-CN324)
             - **81mm C3 Mortar** — [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241) [:unit-CN241:](#unit-CN241)
         
         
     
-    - :nato-arty: Arctic Mortar Forward Observer
+    - :nato-arty: Artic Mortar Forward Observer
     
         - **Bandvagn 206** — [:unit-CN324:](#unit-CN324)
         - **FOO Team** — [:unit-CN207:](#unit-CN207)
     
     
-    - :nato-recce: Arctic Recce Troop
+    - :nato-recce: Artic Recce Troop
     
         - :nato-hq: HQ Section
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324)
@@ -1054,7 +1055,7 @@ icon: smflag/ca
             - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194)
             - **7.62mm C6 GPMG** — [:unit-CN220:](#unit-CN220)
     
-        - :nato-recce: :nato-recce: :nato-recce: Arctic Recce Section ×3
+        - :nato-recce: :nato-recce: :nato-recce: Artic Recce Section ×3
             - **Bandvagn 206** — [:unit-CN324:](#unit-CN324)
             - **Scout Team** — [:unit-CN257:](#unit-CN257) [:unit-CN257:](#unit-CN257)
     
@@ -1062,9 +1063,9 @@ icon: smflag/ca
     
 #### Armoured
 
-??? formation ":nato-tank: Armoured Regiment"
+??? formation-ca ":nato-tank: Armoured Regiment"
     
-    ??? formation ":nato-hq: Regiment HQ"
+    ??? formation-ca ":nato-hq: Regiment HQ"
         
         
         - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
@@ -1082,7 +1083,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-tank: :nato-tank: :nato-tank: :nato-tank: Armoured Squadron ×4"
+    ??? formation-ca ":nato-tank: :nato-tank: :nato-tank: :nato-tank: Armoured Squadron ×4"
         
         
         - :nato-hq: Squadron HQ
@@ -1096,7 +1097,7 @@ icon: smflag/ca
             - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
         
         
-    ??? formation ":nato-recce: Recce Squadron"
+    ??? formation-ca ":nato-recce: Recce Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -1115,7 +1116,7 @@ icon: smflag/ca
     
 #### Engineer
 
-??? formation ":nato-engr: Combat Engineer Regiment"
+??? formation-ca ":nato-engr: Combat Engineer Regiment"
     
     
     - :nato-hq: Regiment HQ
@@ -1125,7 +1126,7 @@ icon: smflag/ca
         - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
     
-    ??? formation ":nato-engr: Combat Engineer Squadron"
+    ??? formation-ca ":nato-engr: Combat Engineer Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -1141,7 +1142,7 @@ icon: smflag/ca
             - **Engineer Section** — [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100)
         
         
-    ??? formation ":nato-inflg: Support Company"
+    ??? formation-ca ":nato-inflg: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -1172,7 +1173,7 @@ icon: smflag/ca
         
         
     
-??? formation ":nato-engr: Combat Engineer Regiment"
+??? formation-ca ":nato-engr: Combat Engineer Regiment"
     
     
     - :nato-hq: Regiment HQ
@@ -1182,7 +1183,7 @@ icon: smflag/ca
         - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
     
-    ??? formation ":nato-engr: Combat Engineer Squadron"
+    ??? formation-ca ":nato-engr: Combat Engineer Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -1198,7 +1199,7 @@ icon: smflag/ca
             - **Engineer Section** — [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100) [:unit-CN100:](#unit-CN100)
         
         
-    ??? formation ":nato-inflg: Support Company"
+    ??? formation-ca ":nato-inflg: Support Company"
         
         
         - :nato-hq: Company HQ
@@ -1231,9 +1232,9 @@ icon: smflag/ca
     
 #### Reconnaissance
 
-??? formation ":nato-recce: Light Armoured Regiment"
+??? formation-ca ":nato-recce: Light Armoured Regiment"
     
-    ??? formation ":nato-hq: Regiment HQ"
+    ??? formation-ca ":nato-hq: Regiment HQ"
         
         
         - **Lynx** — [:unit-CN278:](#unit-CN278) [:unit-CN278:](#unit-CN278)
@@ -1245,7 +1246,7 @@ icon: smflag/ca
         - **Headquarters** — [:unit-CN210:](#unit-CN210) [:unit-CN210:](#unit-CN210)
         
         
-    ??? formation ":nato-recce: :nato-recce: Light Armoured Squadron ×2"
+    ??? formation-ca ":nato-recce: :nato-recce: Light Armoured Squadron ×2"
         
         
         - :nato-hq: Squadron HQ
@@ -1270,7 +1271,7 @@ icon: smflag/ca
             - **81mm C3 Mortar** — [:unit-CN241:](#unit-CN241)
         
         
-    ??? formation ":nato-recce: Recce Squadron"
+    ??? formation-ca ":nato-recce: Recce Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -1292,9 +1293,9 @@ icon: smflag/ca
         - **Leopard C1** — [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315) [:unit-CN315:](#unit-CN315)
     
     
-??? formation ":nato-recce: Wheeled Armoured Regiment"
+??? formation-ca ":nato-recce: Wheeled Armoured Regiment"
     
-    ??? formation ":nato-hq: Regiment HQ"
+    ??? formation-ca ":nato-hq: Regiment HQ"
         
         
         - **Lynx** — [:unit-CN278:](#unit-CN278) [:unit-CN278:](#unit-CN278)
@@ -1312,7 +1313,7 @@ icon: smflag/ca
         - **Carl Gustav Team** — [:unit-CN194:](#unit-CN194) [:unit-CN194:](#unit-CN194)
         
         
-    ??? formation ":nato-recce: :nato-recce: :nato-recce: Light Armoured Squadron ×3"
+    ??? formation-ca ":nato-recce: :nato-recce: :nato-recce: Light Armoured Squadron ×3"
         
         
         - :nato-hq: Squadron HQ
@@ -1332,7 +1333,7 @@ icon: smflag/ca
             - **Mech Infantry Section** — [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157) [:unit-CN157:](#unit-CN157)
         
         
-    ??? formation ":nato-recce: Recce Squadron"
+    ??? formation-ca ":nato-recce: Recce Squadron"
         
         
         - :nato-hq: Squadron HQ
@@ -1352,12 +1353,12 @@ icon: smflag/ca
 
 ### :nato-flak: Air Defence
 
-??? equip "<a id='unit-CN124'></a>:unit-CN124: **40/L60 AA Radar** [1960–1980] (CN124)"
+??? equip-ca "<a id='unit-CN124'></a>:unit-CN124: **40/L60 AA Radar** [1960–1980] (CN124)"
 
     Towed Flak Gun
 
     - **Crew:** 7
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Air Search Radar - Common
@@ -1374,12 +1375,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x7] |
 
-??? equip "<a id='unit-CN123'></a>:unit-CN123: **35mm AAA** [1980–1986] (CN123)"
+??? equip-ca "<a id='unit-CN123'></a>:unit-CN123: **35mm AAA** [1980–1986] (CN123)"
 
     Towed Flak Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Air Search Radar - Limited
@@ -1396,12 +1397,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN123A'></a>:unit-CN123A: **35mm AAA** [1985–2000] (CN123A)"
+??? equip-ca "<a id='unit-CN123A'></a>:unit-CN123A: **35mm AAA** [1985–2000] (CN123A)"
 
     Towed Flak Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Air Search Radar - Limited
@@ -1420,7 +1421,7 @@ icon: smflag/ca
 
 ### :nato-airat: Aircraft
 
-??? equip "<a id='unit-CN3'></a>:unit-CN3: **CF-100 Canuck** [1953–1981] (CN3)"
+??? equip-ca "<a id='unit-CN3'></a>:unit-CN3: **CF-100 Canuck** [1953–1981] (CN3)"
 
     CAS Aircraft-Gun/IB
 
@@ -1436,7 +1437,7 @@ icon: smflag/ca
     | **Mk-81 Snakeye** | [x1] |
     | **Mk-81 Snakeye** | [x1] |
 
-??? equip "<a id='unit-CN4'></a>:unit-CN4: **CF-100 Mk4 Canuck** [1954–1981] (CN4)"
+??? equip-ca "<a id='unit-CN4'></a>:unit-CN4: **CF-100 Mk4 Canuck** [1954–1981] (CN4)"
 
     CAS Aircraft-Gun/Rkt
 
@@ -1452,7 +1453,7 @@ icon: smflag/ca
     | **Generic** | 2.75in FFAR HE [x28] |
     | **Generic** | 2.75in FFAR HE [x28] |
 
-??? equip "<a id='unit-CN6'></a>:unit-CN6: **CF-104 Starfighter** [1961–1986] (CN6)"
+??? equip-ca "<a id='unit-CN6'></a>:unit-CN6: **CF-104 Starfighter** [1961–1986] (CN6)"
 
     CAS Aircraft-Can/Rkt
 
@@ -1470,7 +1471,7 @@ icon: smflag/ca
     | **Matra Type-155** | 70mm CVR-7 HE [x36] |
     | **Matra Type-155** | 70mm CVR-7 HE [x36] |
 
-??? equip "<a id='unit-CN7'></a>:unit-CN7: **CF-104 Starfighter** [1961–1986] (CN7)"
+??? equip-ca "<a id='unit-CN7'></a>:unit-CN7: **CF-104 Starfighter** [1961–1986] (CN7)"
 
     CAS Aircraft-Can/IB
 
@@ -1487,7 +1488,7 @@ icon: smflag/ca
     | **20mm M61A1** | [x8] |
     | **Mk-83 Snakeye** | [x2] |
 
-??? equip "<a id='unit-CN18'></a>:unit-CN18: **CF-5A Freedom Fighter** [1968–1995] (CN18)"
+??? equip-ca "<a id='unit-CN18'></a>:unit-CN18: **CF-5A Freedom Fighter** [1968–1995] (CN18)"
 
     CAS Aircraft-Can/IB
 
@@ -1503,7 +1504,7 @@ icon: smflag/ca
     | **Mk-82 Snakeye** | [x1] |
     | **Mk-82 Snakeye** | [x1] |
 
-??? equip "<a id='unit-CN19'></a>:unit-CN19: **CF-5A Freedom Fighter** [1968–1995] (CN19)"
+??? equip-ca "<a id='unit-CN19'></a>:unit-CN19: **CF-5A Freedom Fighter** [1968–1995] (CN19)"
 
     CAS Aircraft-Can/Rkt
 
@@ -1519,7 +1520,7 @@ icon: smflag/ca
     | **Matra Type-155** | 70mm CVR-7 HE [x36] |
     | **Matra Type-155** | 70mm CVR-7 HE [x36] |
 
-??? equip "<a id='unit-CN5'></a>:unit-CN5: **CF-104 Starfighter** [1980–1986] (CN5)"
+??? equip-ca "<a id='unit-CN5'></a>:unit-CN5: **CF-104 Starfighter** [1980–1986] (CN5)"
 
     CAS Aircraft-Can/CBU
 
@@ -1536,7 +1537,7 @@ icon: smflag/ca
     | **20mm M61A1** | [x8] |
     | **Rockeye Mk20 (AP)** | [x2] |
 
-??? equip "<a id='unit-CN13'></a>:unit-CN13: **CF-18 Hornet** [1983–2001] (CN13)"
+??? equip-ca "<a id='unit-CN13'></a>:unit-CN13: **CF-18 Hornet** [1983–2001] (CN13)"
 
     CAS Aircraft-Can/CBU
 
@@ -1554,7 +1555,7 @@ icon: smflag/ca
     | **Rockeye Mk20 (AP)** | [x2] |
     | **Rockeye Mk20 (AP)** | [x2] |
 
-??? equip "<a id='unit-CN14'></a>:unit-CN14: **CF-18 Hornet** [1983–2001] (CN14)"
+??? equip-ca "<a id='unit-CN14'></a>:unit-CN14: **CF-18 Hornet** [1983–2001] (CN14)"
 
     CAS Aircraft-Can/Rkt/IB
 
@@ -1573,7 +1574,7 @@ icon: smflag/ca
     | **Matra Type-155** | 70mm CVR-7 HE [x36] |
     | **Mk-83 Snakeye** | [x2] |
 
-??? equip "<a id='unit-CN15'></a>:unit-CN15: **CF-18 Hornet** [1983–2001] (CN15)"
+??? equip-ca "<a id='unit-CN15'></a>:unit-CN15: **CF-18 Hornet** [1983–2001] (CN15)"
 
     CAS Aircraft-Can/PGM
 
@@ -1590,7 +1591,7 @@ icon: smflag/ca
     | **20mm M61A1** | [x6] |
     | **GBU-16 Paveway** | [x2] |
 
-??? equip "<a id='unit-CN12'></a>:unit-CN12: **CF-18 Hornet** [1989–2001] (CN12)"
+??? equip-ca "<a id='unit-CN12'></a>:unit-CN12: **CF-18 Hornet** [1989–2001] (CN12)"
 
     CAS Aircraft-Can/PGM/CBU
 
@@ -1611,7 +1612,7 @@ icon: smflag/ca
 
 ### :nato-airlb: Aircraft (Level Bomber)
 
-??? equip "<a id='unit-CN33'></a>:unit-CN33: **CF-104 Starfighter** [1961–1986] (CN33)"
+??? equip-ca "<a id='unit-CN33'></a>:unit-CN33: **CF-104 Starfighter** [1961–1986] (CN33)"
 
     Level Bomber-IB
 
@@ -1625,7 +1626,7 @@ icon: smflag/ca
     |---|---|
     | **Mk-83 Snakeye** | [x2] |
 
-??? equip "<a id='unit-CN36'></a>:unit-CN36: **CF-18 Hornet** [1983–2001] (CN36)"
+??? equip-ca "<a id='unit-CN36'></a>:unit-CN36: **CF-18 Hornet** [1983–2001] (CN36)"
 
     Level Bomber-IB
 
@@ -1640,7 +1641,7 @@ icon: smflag/ca
     | **Mk-82 Snakeye** | [x4] |
     | **Mk-82 Snakeye** | [x4] |
 
-??? equip "<a id='unit-CN37'></a>:unit-CN37: **CF-18 Hornet** [1983–2001] (CN37)"
+??? equip-ca "<a id='unit-CN37'></a>:unit-CN37: **CF-18 Hornet** [1983–2001] (CN37)"
 
     Level Bomber-CBU
 
@@ -1656,7 +1657,7 @@ icon: smflag/ca
 
 ### :nato-airsc: Aircraft (Reconnaissance)
 
-??? equip "<a id='unit-CN44'></a>:unit-CN44: **CSR-123 Otter** [1953–1982] (CN44)"
+??? equip-ca "<a id='unit-CN44'></a>:unit-CN44: **CSR-123 Otter** [1953–1982] (CN44)"
 
     Recon Aircraft
 
@@ -1667,7 +1668,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN41'></a>:unit-CN41: **CO-119 Cessna 182** [1965–1980] (CN41)"
+??? equip-ca "<a id='unit-CN41'></a>:unit-CN41: **CO-119 Cessna 182** [1965–1980] (CN41)"
 
     Recon Aircraft
 
@@ -1680,7 +1681,7 @@ icon: smflag/ca
 
 ### :nato-airsd: Aircraft (SEAD)
 
-??? equip "<a id='unit-CN50'></a>:unit-CN50: **CF-18 Hornet** [1983–2001] (CN50)"
+??? equip-ca "<a id='unit-CN50'></a>:unit-CN50: **CF-18 Hornet** [1983–2001] (CN50)"
 
     SEAD Aircraft-Can/ARM/CBU
 
@@ -1701,7 +1702,7 @@ icon: smflag/ca
 
 ### :nato-airut: Aircraft (Utility)
 
-??? equip "<a id='unit-CN52'></a>:unit-CN52: **CC-129 Dakota** [1946–1988] (CN52)"
+??? equip-ca "<a id='unit-CN52'></a>:unit-CN52: **CC-129 Dakota** [1946–1988] (CN52)"
 
     Transport Aircraft
 
@@ -1712,7 +1713,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN53'></a>:unit-CN53: **CSR-123 Otter** [1953–1982] (CN53)"
+??? equip-ca "<a id='unit-CN53'></a>:unit-CN53: **CSR-123 Otter** [1953–1982] (CN53)"
 
     Transport Aircraft
 
@@ -1723,7 +1724,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN58'></a>:unit-CN58: **CC-130 Hercules** [1960–2020] (CN58)"
+??? equip-ca "<a id='unit-CN58'></a>:unit-CN58: **CC-130 Hercules** [1960–2020] (CN58)"
 
     Transport Aircraft
 
@@ -1734,7 +1735,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN55'></a>:unit-CN55: **CC-115 Buffalo** [1967–2020] (CN55)"
+??? equip-ca "<a id='unit-CN55'></a>:unit-CN55: **CC-115 Buffalo** [1967–2020] (CN55)"
 
     Transport Aircraft
 
@@ -1745,7 +1746,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN56'></a>:unit-CN56: **CC-138 TwinOtter** [1971–2020] (CN56)"
+??? equip-ca "<a id='unit-CN56'></a>:unit-CN56: **CC-138 TwinOtter** [1971–2020] (CN56)"
 
     Transport Aircraft
 
@@ -1758,7 +1759,7 @@ icon: smflag/ca
 
 ### :nato-atws: Anti-Tank (Wheeled)
 
-??? equip "<a id='unit-CN96'></a>:unit-CN96: **106mm RCL** [1960–1980] (CN96)"
+??? equip-ca "<a id='unit-CN96'></a>:unit-CN96: **106mm RCL** [1960–1980] (CN96)"
 
     Towed Anti-Tank Gun
 
@@ -1779,7 +1780,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN96A'></a>:unit-CN96A: **106mm RCL** [1960–1980] (CN96A)"
+??? equip-ca "<a id='unit-CN96A'></a>:unit-CN96A: **106mm RCL** [1960–1980] (CN96A)"
 
     Towed Anti-Tank Gun
 
@@ -1802,7 +1803,7 @@ icon: smflag/ca
 
 ### :nato-apct: Armored Personnel Carriers (Tracked)
 
-??? equip "<a id='unit-CN62'></a>:unit-CN62: **M113A1** [1964–2000] (CN62)"
+??? equip-ca "<a id='unit-CN62'></a>:unit-CN62: **M113A1** [1964–2000] (CN62)"
 
     Tracked APC
 
@@ -1819,7 +1820,7 @@ icon: smflag/ca
     |---|---|
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN63'></a>:unit-CN63: **M113A2** [1980–2020] (CN63)"
+??? equip-ca "<a id='unit-CN63'></a>:unit-CN63: **M113A2** [1980–2020] (CN63)"
 
     Tracked APC
 
@@ -1838,7 +1839,7 @@ icon: smflag/ca
 
 ### :nato-apcw: Armored Personnel Carriers (Wheeled)
 
-??? equip "<a id='unit-CN69'></a>:unit-CN69: **Grizzly AVGP** [1976–2005] (CN69)"
+??? equip-ca "<a id='unit-CN69'></a>:unit-CN69: **Grizzly AVGP** [1976–2005] (CN69)"
 
     Wheeled APC
 
@@ -1861,12 +1862,12 @@ icon: smflag/ca
 
 ### :nato-arty: Artillery
 
-??? equip "<a id='unit-CN81'></a>:unit-CN81: **105mm C1 Howitzer** [1960–1980] (CN81)"
+??? equip-ca "<a id='unit-CN81'></a>:unit-CN81: **105mm C1 Howitzer** [1960–1980] (CN81)"
 
     Towed Artillery Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1881,12 +1882,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN92'></a>:unit-CN92: **155mm M114  Howitzer** [1966–1980] (CN92)"
+??? equip-ca "<a id='unit-CN92'></a>:unit-CN92: **155mm M114  Howitzer** [1966–1980] (CN92)"
 
     Towed Artillery Gun
 
     - **Crew:** 10
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -3
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1901,12 +1902,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x10] |
 
-??? equip "<a id='unit-CN80A'></a>:unit-CN80A: **105mm C3 Howitzer** [1980–1986] (CN80A)"
+??? equip-ca "<a id='unit-CN80A'></a>:unit-CN80A: **105mm C3 Howitzer** [1980–1986] (CN80A)"
 
     Towed Artillery Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1921,12 +1922,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN80AAB'></a>:unit-CN80AAB: **105mm C3 Howitzer** [1980–1986] (CN80AAB)"
+??? equip-ca "<a id='unit-CN80AAB'></a>:unit-CN80AAB: **105mm C3 Howitzer** [1980–1986] (CN80AAB)"
 
     Towed Artillery Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1941,12 +1942,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN80'></a>:unit-CN80: **105mm C3 Howitzer** [1985–1997] (CN80)"
+??? equip-ca "<a id='unit-CN80'></a>:unit-CN80: **105mm C3 Howitzer** [1985–1997] (CN80)"
 
     Towed Artillery Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1961,12 +1962,12 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN80AB'></a>:unit-CN80AB: **105mm C3 Howitzer** [1985–1997] (CN80AB)"
+??? equip-ca "<a id='unit-CN80AB'></a>:unit-CN80AB: **105mm C3 Howitzer** [1985–1997] (CN80AB)"
 
     Towed Artillery Gun
 
     - **Crew:** 6
-    - **Mobility / Speed:** None / 0
+    - **Mobility / Speed:** — / 0
     - **Transport:** -2
     - **Equipment:**
         - Optical Sight with Zoom
@@ -1983,7 +1984,7 @@ icon: smflag/ca
 
 ### :nato-comv: Command Vehicles
 
-??? equip "<a id='unit-CN350'></a>:unit-CN350: **Grizzly C2V** [1976–2000] (CN350)"
+??? equip-ca "<a id='unit-CN350'></a>:unit-CN350: **Grizzly C2V** [1976–2000] (CN350)"
 
     Command Vehicle
 
@@ -1994,7 +1995,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN351'></a>:unit-CN351: **M577A2 C2V** [1980–2020] (CN351)"
+??? equip-ca "<a id='unit-CN351'></a>:unit-CN351: **M577A2 C2V** [1980–2020] (CN351)"
 
     Command Vehicle
 
@@ -2007,7 +2008,7 @@ icon: smflag/ca
 
 ### :nato-evbs: Engineer Vehicles
 
-??? equip "<a id='unit-ENGV2'></a>:unit-ENGV2: **Bridge-Short Span** [1946–2020] (ENGV2)"
+??? equip-ca "<a id='unit-ENGV2'></a>:unit-ENGV2: **Bridge-Short Span** [1946–2020] (ENGV2)"
 
     Engineering Vehicle
 
@@ -2018,7 +2019,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-ENGV3'></a>:unit-ENGV3: **General Purpose** [1946–2020] (ENGV3)"
+??? equip-ca "<a id='unit-ENGV3'></a>:unit-ENGV3: **General Purpose** [1946–2020] (ENGV3)"
 
     Engineering Vehicle
 
@@ -2031,7 +2032,7 @@ icon: smflag/ca
 
 ### :nato-engr: Engineers
 
-??? equip "<a id='unit-CN102'></a>:unit-CN102: **Engineer Section** [1958–1986] (CN102)"
+??? equip-ca "<a id='unit-CN102'></a>:unit-CN102: **Engineer Section** [1958–1986] (CN102)"
 
     Engineering Unit
 
@@ -2050,7 +2051,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x16] |
     | **Claymore Mine** | [x4] |
 
-??? equip "<a id='unit-CN102A'></a>:unit-CN102A: **Engineer Section** [1958–1986] (CN102A)"
+??? equip-ca "<a id='unit-CN102A'></a>:unit-CN102A: **Engineer Section** [1958–1986] (CN102A)"
 
     Engineering Unit
 
@@ -2071,7 +2072,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x16] |
     | **Claymore Mine** | [x4] |
 
-??? equip "<a id='unit-CN103'></a>:unit-CN103: **Engineer Section** [1958–1986] (CN103)"
+??? equip-ca "<a id='unit-CN103'></a>:unit-CN103: **Engineer Section** [1958–1986] (CN103)"
 
     Engineering Unit
 
@@ -2091,7 +2092,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN103A'></a>:unit-CN103A: **Engineer Section** [1958–1986] (CN103A)"
+??? equip-ca "<a id='unit-CN103A'></a>:unit-CN103A: **Engineer Section** [1958–1986] (CN103A)"
 
     Engineering Unit
 
@@ -2111,7 +2112,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN108'></a>:unit-CN108: **Engineer Section** [1979–1986] (CN108)"
+??? equip-ca "<a id='unit-CN108'></a>:unit-CN108: **Engineer Section** [1979–1986] (CN108)"
 
     Engineering Unit
 
@@ -2132,7 +2133,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN108A'></a>:unit-CN108A: **Engineer Section** [1979–1986] (CN108A)"
+??? equip-ca "<a id='unit-CN108A'></a>:unit-CN108A: **Engineer Section** [1979–1986] (CN108A)"
 
     Engineering Unit
 
@@ -2155,7 +2156,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN100'></a>:unit-CN100: **Engineer Section** [1985–2020] (CN100)"
+??? equip-ca "<a id='unit-CN100'></a>:unit-CN100: **Engineer Section** [1985–2020] (CN100)"
 
     Engineering Unit
 
@@ -2174,7 +2175,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x16] |
     | **Claymore Mine** | [x4] |
 
-??? equip "<a id='unit-CN100A'></a>:unit-CN100A: **Engineer Section** [1985–2020] (CN100A)"
+??? equip-ca "<a id='unit-CN100A'></a>:unit-CN100A: **Engineer Section** [1985–2020] (CN100A)"
 
     Engineering Unit
 
@@ -2195,7 +2196,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x16] |
     | **Claymore Mine** | [x4] |
 
-??? equip "<a id='unit-CN101'></a>:unit-CN101: **Engineer Section** [1985–2020] (CN101)"
+??? equip-ca "<a id='unit-CN101'></a>:unit-CN101: **Engineer Section** [1985–2020] (CN101)"
 
     Engineering Unit
 
@@ -2216,7 +2217,7 @@ icon: smflag/ca
     | **Claymore Mine** | [x4] |
     | **M2 Carl Gustav** | [x6] |
 
-??? equip "<a id='unit-CN101A'></a>:unit-CN101A: **Engineer Section** [1985–2020] (CN101A)"
+??? equip-ca "<a id='unit-CN101A'></a>:unit-CN101A: **Engineer Section** [1985–2020] (CN101A)"
 
     Engineering Unit
 
@@ -2238,7 +2239,7 @@ icon: smflag/ca
     | **Claymore Mine** | [x4] |
     | **M2 Carl Gustav** | [x6] |
 
-??? equip "<a id='unit-CN106'></a>:unit-CN106: **Engineer Section** [1985–2020] (CN106)"
+??? equip-ca "<a id='unit-CN106'></a>:unit-CN106: **Engineer Section** [1985–2020] (CN106)"
 
     Engineering Unit
 
@@ -2260,7 +2261,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN106A'></a>:unit-CN106A: **Engineer Section** [1985–2020] (CN106A)"
+??? equip-ca "<a id='unit-CN106A'></a>:unit-CN106A: **Engineer Section** [1985–2020] (CN106A)"
 
     Engineering Unit
 
@@ -2284,7 +2285,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN107'></a>:unit-CN107: **Engineer Section** [1985–2020] (CN107)"
+??? equip-ca "<a id='unit-CN107'></a>:unit-CN107: **Engineer Section** [1985–2020] (CN107)"
 
     Engineering Unit
 
@@ -2307,7 +2308,7 @@ icon: smflag/ca
 
 ### :nato-farp: Forward Arming and Refueling Points
 
-??? equip "<a id='unit-LG1'></a>:unit-LG1: **FARP (Static)** [1946–2020] (LG1)"
+??? equip-ca "<a id='unit-LG1'></a>:unit-LG1: **FARP (Static)** [1946–2020] (LG1)"
 
     Static FARP for Helos
 
@@ -2320,7 +2321,7 @@ icon: smflag/ca
 
 ### :nato-inffo: Forward Observer
 
-??? equip "<a id='unit-CN208'></a>:unit-CN208: **FOO Team** [1950–1986] (CN208)"
+??? equip-ca "<a id='unit-CN208'></a>:unit-CN208: **FOO Team** [1950–1986] (CN208)"
 
     Forward Observer Unit
 
@@ -2338,7 +2339,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN815'></a>:unit-CN815: **Airborne FO Team** [1985–2020] (CN815)"
+??? equip-ca "<a id='unit-CN815'></a>:unit-CN815: **Airborne FO Team** [1985–2020] (CN815)"
 
     Forward Observer Unit
 
@@ -2358,7 +2359,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN207'></a>:unit-CN207: **FOO Team** [1985–2020] (CN207)"
+??? equip-ca "<a id='unit-CN207'></a>:unit-CN207: **FOO Team** [1985–2020] (CN207)"
 
     Forward Observer Unit
 
@@ -2380,7 +2381,7 @@ icon: smflag/ca
 
 ### :nato-obsv: Forward Observer Vehicles
 
-??? equip "<a id='unit-CN266'></a>:unit-CN266: **Jeep OP** [1946–2005] (CN266)"
+??? equip-ca "<a id='unit-CN266'></a>:unit-CN266: **Jeep OP** [1946–2005] (CN266)"
 
     Forward Observer Unit
 
@@ -2391,7 +2392,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN271'></a>:unit-CN271: **M113A1 OP[m]** [1964–2000] (CN271)"
+??? equip-ca "<a id='unit-CN271'></a>:unit-CN271: **M113A1 OP[m]** [1964–2000] (CN271)"
 
     Forward Observer Unit
 
@@ -2411,7 +2412,7 @@ icon: smflag/ca
     |---|---|
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN147'></a>:unit-CN147: **Cougar AVGP[T]** [1978–1990] (CN147)"
+??? equip-ca "<a id='unit-CN147'></a>:unit-CN147: **Cougar AVGP[T]** [1978–1990] (CN147)"
 
     Wheeled IFV
 
@@ -2434,7 +2435,7 @@ icon: smflag/ca
 
 ### :nato-helosc: Helicopters (Reconnaissance)
 
-??? equip "<a id='unit-CN129'></a>:unit-CN129: **CH-112 Nomad** [1960–1980] (CN129)"
+??? equip-ca "<a id='unit-CN129'></a>:unit-CN129: **CH-112 Nomad** [1960–1980] (CN129)"
 
     Scout Helicopter
 
@@ -2445,7 +2446,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN127'></a>:unit-CN127: **CH-136 Kiowa** [1970–1996] (CN127)"
+??? equip-ca "<a id='unit-CN127'></a>:unit-CN127: **CH-136 Kiowa** [1970–1996] (CN127)"
 
     Scout Helicopter
 
@@ -2459,7 +2460,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN130'></a>:unit-CN130: **CH-136 Kiowa[m]** [1970–1996] (CN130)"
+??? equip-ca "<a id='unit-CN130'></a>:unit-CN130: **CH-136 Kiowa[m]** [1970–1996] (CN130)"
 
     Scout Helicopter-Gun
 
@@ -2478,7 +2479,7 @@ icon: smflag/ca
 
 ### :nato-helout: Helicopters (Utility)
 
-??? equip "<a id='unit-CN132'></a>:unit-CN132: **CH-113A Voyageur[m]** [1964–1984] (CN132)"
+??? equip-ca "<a id='unit-CN132'></a>:unit-CN132: **CH-113A Voyageur[m]** [1964–1984] (CN132)"
 
     Utility Helicopter-Gun
 
@@ -2493,7 +2494,7 @@ icon: smflag/ca
     | **7.62mm** | [x20] |
     | **7.62mm** | [x20] |
 
-??? equip "<a id='unit-CN135'></a>:unit-CN135: **CH-135 Twin Huey** [1971–1984] (CN135)"
+??? equip-ca "<a id='unit-CN135'></a>:unit-CN135: **CH-135 Twin Huey** [1971–1984] (CN135)"
 
     Utility Helicopter
 
@@ -2504,7 +2505,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN140'></a>:unit-CN140: **CH-147 Chinook** [1980–1994] (CN140)"
+??? equip-ca "<a id='unit-CN140'></a>:unit-CN140: **CH-147 Chinook** [1980–1994] (CN140)"
 
     Utility Helicopter
 
@@ -2515,7 +2516,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN134'></a>:unit-CN134: **CH-135 Twin Huey** [1985–1995] (CN134)"
+??? equip-ca "<a id='unit-CN134'></a>:unit-CN134: **CH-135 Twin Huey** [1985–1995] (CN134)"
 
     Utility Helicopter
 
@@ -2526,7 +2527,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN133'></a>:unit-CN133: **CH-135 Twin Huey[m]** [1987–1995] (CN133)"
+??? equip-ca "<a id='unit-CN133'></a>:unit-CN133: **CH-135 Twin Huey[m]** [1987–1995] (CN133)"
 
     Utility Helicopter
 
@@ -2543,7 +2544,7 @@ icon: smflag/ca
 
 ### :nato-infsm: Infantry (Air Defence)
 
-??? equip "<a id='unit-CN837'></a>:unit-CN837: **Abn Blowpipe SAM Team** [1980–1986] (CN837)"
+??? equip-ca "<a id='unit-CN837'></a>:unit-CN837: **Abn Blowpipe SAM Team** [1980–1986] (CN837)"
 
     Airborne SAM Infantry Unit
 
@@ -2563,7 +2564,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN263'></a>:unit-CN263: **Blowpipe SAM Team** [1980–1986] (CN263)"
+??? equip-ca "<a id='unit-CN263'></a>:unit-CN263: **Blowpipe SAM Team** [1980–1986] (CN263)"
 
     SAM Infantry Unit
 
@@ -2583,7 +2584,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x2] |
 
-??? equip "<a id='unit-CN836'></a>:unit-CN836: **Abn Blowpipe SAM Team** [1985–1990] (CN836)"
+??? equip-ca "<a id='unit-CN836'></a>:unit-CN836: **Abn Blowpipe SAM Team** [1985–1990] (CN836)"
 
     Airborne SAM Infantry Unit
 
@@ -2603,7 +2604,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN262'></a>:unit-CN262: **Blowpipe SAM Team** [1985–1990] (CN262)"
+??? equip-ca "<a id='unit-CN262'></a>:unit-CN262: **Blowpipe SAM Team** [1985–1990] (CN262)"
 
     SAM Infantry Unit
 
@@ -2623,7 +2624,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x2] |
 
-??? equip "<a id='unit-CN838'></a>:unit-CN838: **Abn Javelin SAM Team** [1989–2005] (CN838)"
+??? equip-ca "<a id='unit-CN838'></a>:unit-CN838: **Abn Javelin SAM Team** [1989–2005] (CN838)"
 
     Airborne SAM Infantry Unit
 
@@ -2643,7 +2644,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN264'></a>:unit-CN264: **Javelin SAM Team** [1989–2005] (CN264)"
+??? equip-ca "<a id='unit-CN264'></a>:unit-CN264: **Javelin SAM Team** [1989–2005] (CN264)"
 
     SAM Infantry Unit
 
@@ -2665,7 +2666,7 @@ icon: smflag/ca
 
 ### :nato-infat: Infantry (Anti-Tank Carried)
 
-??? equip "<a id='unit-CN827'></a>:unit-CN827: **Abn Carl Gustav Team** [1968–1986] (CN827)"
+??? equip-ca "<a id='unit-CN827'></a>:unit-CN827: **Abn Carl Gustav Team** [1968–1986] (CN827)"
 
     Airborne Anti-Tank Infantry Unit
 
@@ -2684,7 +2685,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN195'></a>:unit-CN195: **Carl Gustav Team** [1971–1986] (CN195)"
+??? equip-ca "<a id='unit-CN195'></a>:unit-CN195: **Carl Gustav Team** [1971–1986] (CN195)"
 
     Anti-Tank Infantry Unit
 
@@ -2703,7 +2704,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN826'></a>:unit-CN826: **Abn Carl Gustav Team** [1985–1995] (CN826)"
+??? equip-ca "<a id='unit-CN826'></a>:unit-CN826: **Abn Carl Gustav Team** [1985–1995] (CN826)"
 
     Airborne Anti-Tank Infantry Unit
 
@@ -2723,7 +2724,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN194'></a>:unit-CN194: **Carl Gustav Team** [1985–1995] (CN194)"
+??? equip-ca "<a id='unit-CN194'></a>:unit-CN194: **Carl Gustav Team** [1985–1995] (CN194)"
 
     Anti-Tank Infantry Unit
 
@@ -2745,7 +2746,7 @@ icon: smflag/ca
 
 ### :nato-infam: Infantry (Anti-Tank Mounted)
 
-??? equip "<a id='unit-CN205'></a>:unit-CN205: **TOW Team** [1976–1983] (CN205)"
+??? equip-ca "<a id='unit-CN205'></a>:unit-CN205: **TOW Team** [1976–1983] (CN205)"
 
     Anti-Tank Infantry Unit
 
@@ -2765,7 +2766,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN204'></a>:unit-CN204: **I-TOW Team** [1983–1986] (CN204)"
+??? equip-ca "<a id='unit-CN204'></a>:unit-CN204: **I-TOW Team** [1983–1986] (CN204)"
 
     Anti-Tank Infantry Unit
 
@@ -2786,7 +2787,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN203'></a>:unit-CN203: **I-TOW Team** [1985–1987] (CN203)"
+??? equip-ca "<a id='unit-CN203'></a>:unit-CN203: **I-TOW Team** [1985–1987] (CN203)"
 
     Anti-Tank Infantry Unit
 
@@ -2807,7 +2808,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN202'></a>:unit-CN202: **TOW-2 Team** [1987–1992] (CN202)"
+??? equip-ca "<a id='unit-CN202'></a>:unit-CN202: **TOW-2 Team** [1987–1992] (CN202)"
 
     Anti-Tank Infantry Unit
 
@@ -2830,7 +2831,7 @@ icon: smflag/ca
 
 ### :nato-infhq: Infantry (Headquarters)
 
-??? equip "<a id='unit-CN211'></a>:unit-CN211: **Headquarters** [1958–1986] (CN211)"
+??? equip-ca "<a id='unit-CN211'></a>:unit-CN211: **Headquarters** [1958–1986] (CN211)"
 
     Command Unit
 
@@ -2848,7 +2849,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x20] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN801'></a>:unit-CN801: **Airborne Headquarters** [1968–1986] (CN801)"
+??? equip-ca "<a id='unit-CN801'></a>:unit-CN801: **Airborne Headquarters** [1968–1986] (CN801)"
 
     Command Unit
 
@@ -2867,7 +2868,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x12] |
     | **M72 SRAAW(L)** | [x2] |
 
-??? equip "<a id='unit-CN800'></a>:unit-CN800: **Airborne Headquarters** [1985–2020] (CN800)"
+??? equip-ca "<a id='unit-CN800'></a>:unit-CN800: **Airborne Headquarters** [1985–2020] (CN800)"
 
     Command Unit
 
@@ -2887,7 +2888,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x12] |
     | **M72 SRAAW(L)** | [x2] |
 
-??? equip "<a id='unit-CN210'></a>:unit-CN210: **Headquarters** [1985–2020] (CN210)"
+??? equip-ca "<a id='unit-CN210'></a>:unit-CN210: **Headquarters** [1985–2020] (CN210)"
 
     Command Unit
 
@@ -2908,7 +2909,7 @@ icon: smflag/ca
 
 ### :nato-infmg: Infantry (Machine Gun)
 
-??? equip "<a id='unit-CN215'></a>:unit-CN215: **.50 M2 HMG** [1957–1985] (CN215)"
+??? equip-ca "<a id='unit-CN215'></a>:unit-CN215: **.50 M2 HMG** [1957–1985] (CN215)"
 
     Infantry Support Unit
 
@@ -2928,7 +2929,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN223'></a>:unit-CN223: **7.62mm C5 SFMG** [1963–1986] (CN223)"
+??? equip-ca "<a id='unit-CN223'></a>:unit-CN223: **7.62mm C5 SFMG** [1963–1986] (CN223)"
 
     Infantry Support Unit
 
@@ -2948,7 +2949,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x3] |
 
-??? equip "<a id='unit-CN822'></a>:unit-CN822: **Abn 7.62mm C5 SFMG** [1968–1986] (CN822)"
+??? equip-ca "<a id='unit-CN822'></a>:unit-CN822: **Abn 7.62mm C5 SFMG** [1968–1986] (CN822)"
 
     Airborne Infantry Support Unit
 
@@ -2968,7 +2969,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN214'></a>:unit-CN214: **.50 M2 HMG** [1985–1995] (CN214)"
+??? equip-ca "<a id='unit-CN214'></a>:unit-CN214: **.50 M2 HMG** [1985–1995] (CN214)"
 
     Infantry Support Unit
 
@@ -2988,7 +2989,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN220'></a>:unit-CN220: **7.62mm C6 GPMG** [1985–1995] (CN220)"
+??? equip-ca "<a id='unit-CN220'></a>:unit-CN220: **7.62mm C6 GPMG** [1985–1995] (CN220)"
 
     Infantry Support Unit
 
@@ -3008,7 +3009,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x3] |
 
-??? equip "<a id='unit-CN222'></a>:unit-CN222: **7.62mm C6 SFMG** [1985–1995] (CN222)"
+??? equip-ca "<a id='unit-CN222'></a>:unit-CN222: **7.62mm C6 SFMG** [1985–1995] (CN222)"
 
     Infantry Support Unit
 
@@ -3028,7 +3029,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x3] |
 
-??? equip "<a id='unit-CN821'></a>:unit-CN821: **Abn 7.62mm C6 GPMG** [1985–1995] (CN821)"
+??? equip-ca "<a id='unit-CN821'></a>:unit-CN821: **Abn 7.62mm C6 GPMG** [1985–1995] (CN821)"
 
     Airborne Infantry Support Unit
 
@@ -3050,7 +3051,7 @@ icon: smflag/ca
 
 ### :nato-infmr: Infantry (Mortar)
 
-??? equip "<a id='unit-CN234'></a>:unit-CN234: **60mm M19 Mortar** [1957–1986] (CN234)"
+??? equip-ca "<a id='unit-CN234'></a>:unit-CN234: **60mm M19 Mortar** [1957–1986] (CN234)"
 
     Infantry Support Unit
 
@@ -3067,7 +3068,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x2] |
 
-??? equip "<a id='unit-CN242'></a>:unit-CN242: **81mm C3 Mortar** [1967–1986] (CN242)"
+??? equip-ca "<a id='unit-CN242'></a>:unit-CN242: **81mm C3 Mortar** [1967–1986] (CN242)"
 
     Infantry Support Unit
 
@@ -3084,7 +3085,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN831'></a>:unit-CN831: **Abn 60mm M19 Mortar** [1968–1995] (CN831)"
+??? equip-ca "<a id='unit-CN831'></a>:unit-CN831: **Abn 60mm M19 Mortar** [1968–1995] (CN831)"
 
     Airborne Infantry Support Unit
 
@@ -3101,7 +3102,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN832'></a>:unit-CN832: **Abn 60mm M19 Mortar** [1968–1986] (CN832)"
+??? equip-ca "<a id='unit-CN832'></a>:unit-CN832: **Abn 60mm M19 Mortar** [1968–1986] (CN832)"
 
     Airborne Infantry Support Unit
 
@@ -3118,7 +3119,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN834'></a>:unit-CN834: **Abn 81mm C3 Mortar** [1968–1986] (CN834)"
+??? equip-ca "<a id='unit-CN834'></a>:unit-CN834: **Abn 81mm C3 Mortar** [1968–1986] (CN834)"
 
     Airborne Infantry Support Unit
 
@@ -3135,7 +3136,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN233'></a>:unit-CN233: **60mm M19 Mortar** [1985–1995] (CN233)"
+??? equip-ca "<a id='unit-CN233'></a>:unit-CN233: **60mm M19 Mortar** [1985–1995] (CN233)"
 
     Infantry Support Unit
 
@@ -3152,7 +3153,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x2] |
 
-??? equip "<a id='unit-CN241'></a>:unit-CN241: **81mm C3 Mortar** [1985–1994] (CN241)"
+??? equip-ca "<a id='unit-CN241'></a>:unit-CN241: **81mm C3 Mortar** [1985–1994] (CN241)"
 
     Infantry Support Unit
 
@@ -3169,7 +3170,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN833'></a>:unit-CN833: **Abn 81mm C3 Mortar** [1985–1994] (CN833)"
+??? equip-ca "<a id='unit-CN833'></a>:unit-CN833: **Abn 81mm C3 Mortar** [1985–1994] (CN833)"
 
     Airborne Infantry Support Unit
 
@@ -3188,7 +3189,7 @@ icon: smflag/ca
 
 ### :nato-infsc: Infantry (Reconnaissance)
 
-??? equip "<a id='unit-CN213'></a>:unit-CN213: **Motorcycle** [1958–1991] (CN213)"
+??? equip-ca "<a id='unit-CN213'></a>:unit-CN213: **Motorcycle** [1958–1991] (CN213)"
 
     Motorcycle Recon Unit
 
@@ -3207,7 +3208,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x2] |
 
-??? equip "<a id='unit-CN255'></a>:unit-CN255: **Scout Team** [1958–1986] (CN255)"
+??? equip-ca "<a id='unit-CN255'></a>:unit-CN255: **Scout Team** [1958–1986] (CN255)"
 
     Infantry Unit
 
@@ -3228,7 +3229,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN255A'></a>:unit-CN255A: **Scout Team** [1958–1986] (CN255A)"
+??? equip-ca "<a id='unit-CN255A'></a>:unit-CN255A: **Scout Team** [1958–1986] (CN255A)"
 
     Infantry Unit
 
@@ -3250,7 +3251,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN259'></a>:unit-CN259: **Scout Team** [1958–1986] (CN259)"
+??? equip-ca "<a id='unit-CN259'></a>:unit-CN259: **Scout Team** [1958–1986] (CN259)"
 
     Infantry Unit
 
@@ -3271,7 +3272,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN259A'></a>:unit-CN259A: **Scout Team** [1958–1986] (CN259A)"
+??? equip-ca "<a id='unit-CN259A'></a>:unit-CN259A: **Scout Team** [1958–1986] (CN259A)"
 
     Infantry Unit
 
@@ -3293,7 +3294,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN951'></a>:unit-CN951: **Abn LRRP Team** [1968–1986] (CN951)"
+??? equip-ca "<a id='unit-CN951'></a>:unit-CN951: **Abn LRRP Team** [1968–1986] (CN951)"
 
     Long Range Recon Unit
 
@@ -3315,7 +3316,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN952'></a>:unit-CN952: **Abn LRRP Team** [1968–1986] (CN952)"
+??? equip-ca "<a id='unit-CN952'></a>:unit-CN952: **Abn LRRP Team** [1968–1986] (CN952)"
 
     Long Range Recon Unit
 
@@ -3337,7 +3338,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN953'></a>:unit-CN953: **Abn LRRP Team** [1968–1986] (CN953)"
+??? equip-ca "<a id='unit-CN953'></a>:unit-CN953: **Abn LRRP Team** [1968–1986] (CN953)"
 
     Long Range Recon Unit
 
@@ -3361,7 +3362,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN954'></a>:unit-CN954: **Abn LRRP/Sniper Team** [1968–1986] (CN954)"
+??? equip-ca "<a id='unit-CN954'></a>:unit-CN954: **Abn LRRP/Sniper Team** [1968–1986] (CN954)"
 
     Long Range Recon Unit
 
@@ -3386,7 +3387,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN955'></a>:unit-CN955: **Abn LRRP/Sniper Team** [1968–1986] (CN955)"
+??? equip-ca "<a id='unit-CN955'></a>:unit-CN955: **Abn LRRP/Sniper Team** [1968–1986] (CN955)"
 
     Long Range Recon Unit
 
@@ -3410,7 +3411,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN841'></a>:unit-CN841: **Airborne Recon Team** [1968–1979] (CN841)"
+??? equip-ca "<a id='unit-CN841'></a>:unit-CN841: **Airborne Recon Team** [1968–1979] (CN841)"
 
     Airborne Recon Unit
 
@@ -3431,7 +3432,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN504'></a>:unit-CN504: **Sniper/Scout Team** [1975–1995] (CN504)"
+??? equip-ca "<a id='unit-CN504'></a>:unit-CN504: **Sniper/Scout Team** [1975–1995] (CN504)"
 
     Sniper Recon Unit
 
@@ -3453,7 +3454,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x25] |
     | **Hand Grenade** | [x8] |
 
-??? equip "<a id='unit-CN842'></a>:unit-CN842: **Airborne Recon Team** [1979–1986] (CN842)"
+??? equip-ca "<a id='unit-CN842'></a>:unit-CN842: **Airborne Recon Team** [1979–1986] (CN842)"
 
     Airborne Recon Unit
 
@@ -3475,7 +3476,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN256'></a>:unit-CN256: **Scout Team** [1979–1986] (CN256)"
+??? equip-ca "<a id='unit-CN256'></a>:unit-CN256: **Scout Team** [1979–1986] (CN256)"
 
     Infantry Unit
 
@@ -3496,7 +3497,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN256A'></a>:unit-CN256A: **Scout Team** [1979–1986] (CN256A)"
+??? equip-ca "<a id='unit-CN256A'></a>:unit-CN256A: **Scout Team** [1979–1986] (CN256A)"
 
     Infantry Unit
 
@@ -3518,7 +3519,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN258'></a>:unit-CN258: **Scout Team** [1979–1986] (CN258)"
+??? equip-ca "<a id='unit-CN258'></a>:unit-CN258: **Scout Team** [1979–1986] (CN258)"
 
     Infantry Unit
 
@@ -3539,7 +3540,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN258A'></a>:unit-CN258A: **Scout Team** [1979–1986] (CN258A)"
+??? equip-ca "<a id='unit-CN258A'></a>:unit-CN258A: **Scout Team** [1979–1986] (CN258A)"
 
     Infantry Unit
 
@@ -3561,7 +3562,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN956'></a>:unit-CN956: **Abn LRRP Team** [1985–1996] (CN956)"
+??? equip-ca "<a id='unit-CN956'></a>:unit-CN956: **Abn LRRP Team** [1985–1996] (CN956)"
 
     Long Range Recon Unit
 
@@ -3584,7 +3585,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN957'></a>:unit-CN957: **Abn LRRP Team** [1985–1996] (CN957)"
+??? equip-ca "<a id='unit-CN957'></a>:unit-CN957: **Abn LRRP Team** [1985–1996] (CN957)"
 
     Long Range Recon Unit
 
@@ -3608,7 +3609,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN958'></a>:unit-CN958: **Abn LRRP Team** [1985–1996] (CN958)"
+??? equip-ca "<a id='unit-CN958'></a>:unit-CN958: **Abn LRRP Team** [1985–1996] (CN958)"
 
     Long Range Recon Unit
 
@@ -3633,7 +3634,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN959'></a>:unit-CN959: **Abn LRRP/Sniper Team** [1985–1996] (CN959)"
+??? equip-ca "<a id='unit-CN959'></a>:unit-CN959: **Abn LRRP/Sniper Team** [1985–1996] (CN959)"
 
     Long Range Recon Unit
 
@@ -3657,7 +3658,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN843'></a>:unit-CN843: **Airborne Recon Team** [1985–1996] (CN843)"
+??? equip-ca "<a id='unit-CN843'></a>:unit-CN843: **Airborne Recon Team** [1985–1996] (CN843)"
 
     Airborne Recon Unit
 
@@ -3679,7 +3680,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN257'></a>:unit-CN257: **Scout Team** [1985–1996] (CN257)"
+??? equip-ca "<a id='unit-CN257'></a>:unit-CN257: **Scout Team** [1985–1996] (CN257)"
 
     Infantry Unit
 
@@ -3700,7 +3701,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN257A'></a>:unit-CN257A: **Scout Team** [1985–1996] (CN257A)"
+??? equip-ca "<a id='unit-CN257A'></a>:unit-CN257A: **Scout Team** [1985–1996] (CN257A)"
 
     Infantry Unit
 
@@ -3722,7 +3723,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x8] |
     | **M2 Carl Gustav** | [x2] |
 
-??? equip "<a id='unit-CN260'></a>:unit-CN260: **Scout Team** [1985–1996] (CN260)"
+??? equip-ca "<a id='unit-CN260'></a>:unit-CN260: **Scout Team** [1985–1996] (CN260)"
 
     Infantry Unit
 
@@ -3743,7 +3744,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN260A'></a>:unit-CN260A: **Scout Team** [1985–1996] (CN260A)"
+??? equip-ca "<a id='unit-CN260A'></a>:unit-CN260A: **Scout Team** [1985–1996] (CN260A)"
 
     Infantry Unit
 
@@ -3765,7 +3766,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN261'></a>:unit-CN261: **Scout Team** [1985–1996] (CN261)"
+??? equip-ca "<a id='unit-CN261'></a>:unit-CN261: **Scout Team** [1985–1996] (CN261)"
 
     Infantry Unit
 
@@ -3786,7 +3787,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN261A'></a>:unit-CN261A: **Scout Team** [1985–1996] (CN261A)"
+??? equip-ca "<a id='unit-CN261A'></a>:unit-CN261A: **Scout Team** [1985–1996] (CN261A)"
 
     Infantry Unit
 
@@ -3808,7 +3809,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN505'></a>:unit-CN505: **Sniper/Scout Team** [1985–1995] (CN505)"
+??? equip-ca "<a id='unit-CN505'></a>:unit-CN505: **Sniper/Scout Team** [1985–1995] (CN505)"
 
     Sniper Recon Unit
 
@@ -3830,7 +3831,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x25] |
     | **Hand Grenade** | [x8] |
 
-??? equip "<a id='unit-CN960'></a>:unit-CN960: **Abn LRRP Team** [1989–1996] (CN960)"
+??? equip-ca "<a id='unit-CN960'></a>:unit-CN960: **Abn LRRP Team** [1989–1996] (CN960)"
 
     Long Range Recon Unit
 
@@ -3854,7 +3855,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN961'></a>:unit-CN961: **Abn LRRP Team** [1989–1996] (CN961)"
+??? equip-ca "<a id='unit-CN961'></a>:unit-CN961: **Abn LRRP Team** [1989–1996] (CN961)"
 
     Long Range Recon Unit
 
@@ -3879,7 +3880,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN962'></a>:unit-CN962: **Abn LRRP Team** [1989–1996] (CN962)"
+??? equip-ca "<a id='unit-CN962'></a>:unit-CN962: **Abn LRRP Team** [1989–1996] (CN962)"
 
     Long Range Recon Unit
 
@@ -3905,7 +3906,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x2] |
     | **M72 SRAAW(L)** | [x1] |
 
-??? equip "<a id='unit-CN963'></a>:unit-CN963: **Abn LRRP/Sniper Team** [1989–1996] (CN963)"
+??? equip-ca "<a id='unit-CN963'></a>:unit-CN963: **Abn LRRP/Sniper Team** [1989–1996] (CN963)"
 
     Long Range Recon Unit
 
@@ -3932,7 +3933,7 @@ icon: smflag/ca
 
 ### :nato-inflg: Light Infantry
 
-??? equip "<a id='unit-CN211P'></a>:unit-CN211P: **Headquarters** [1958–1986] (CN211P)"
+??? equip-ca "<a id='unit-CN211P'></a>:unit-CN211P: **Headquarters** [1958–1986] (CN211P)"
 
     Command Unit
 
@@ -3950,7 +3951,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x20] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN174A'></a>:unit-CN174A: **Infantry Section** [1958–1986] (CN174A)"
+??? equip-ca "<a id='unit-CN174A'></a>:unit-CN174A: **Infantry Section** [1958–1986] (CN174A)"
 
     Infantry Unit
 
@@ -3971,7 +3972,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN176A'></a>:unit-CN176A: **Infantry Section** [1958–1986] (CN176A)"
+??? equip-ca "<a id='unit-CN176A'></a>:unit-CN176A: **Infantry Section** [1958–1986] (CN176A)"
 
     Infantry Unit
 
@@ -3992,7 +3993,7 @@ icon: smflag/ca
     | **Claymore Mine** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN177'></a>:unit-CN177: **Infantry Section** [1958–1986] (CN177)"
+??? equip-ca "<a id='unit-CN177'></a>:unit-CN177: **Infantry Section** [1958–1986] (CN177)"
 
     Infantry Unit
 
@@ -4012,7 +4013,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN177A'></a>:unit-CN177A: **Infantry Section** [1958–1986] (CN177A)"
+??? equip-ca "<a id='unit-CN177A'></a>:unit-CN177A: **Infantry Section** [1958–1986] (CN177A)"
 
     Infantry Unit
 
@@ -4033,7 +4034,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN178'></a>:unit-CN178: **Infantry Section** [1958–1986] (CN178)"
+??? equip-ca "<a id='unit-CN178'></a>:unit-CN178: **Infantry Section** [1958–1986] (CN178)"
 
     Infantry Unit
 
@@ -4052,7 +4053,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN178A'></a>:unit-CN178A: **Infantry Section** [1958–1986] (CN178A)"
+??? equip-ca "<a id='unit-CN178A'></a>:unit-CN178A: **Infantry Section** [1958–1986] (CN178A)"
 
     Infantry Unit
 
@@ -4072,7 +4073,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN212'></a>:unit-CN212: **MP Section** [1958–1990] (CN212)"
+??? equip-ca "<a id='unit-CN212'></a>:unit-CN212: **MP Section** [1958–1990] (CN212)"
 
     Militay Police Unit
 
@@ -4090,7 +4091,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x35] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN175'></a>:unit-CN175: **Infantry Section** [1965–1986] (CN175)"
+??? equip-ca "<a id='unit-CN175'></a>:unit-CN175: **Infantry Section** [1965–1986] (CN175)"
 
     Infantry Unit
 
@@ -4112,7 +4113,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN801P'></a>:unit-CN801P: **Airborne Headquarters** [1968–1986] (CN801P)"
+??? equip-ca "<a id='unit-CN801P'></a>:unit-CN801P: **Airborne Headquarters** [1968–1986] (CN801P)"
 
     Command Unit
 
@@ -4131,7 +4132,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x12] |
     | **M72 SRAAW(L)** | [x2] |
 
-??? equip "<a id='unit-CN812'></a>:unit-CN812: **Airborne Infantry Section** [1968–1986] (CN812)"
+??? equip-ca "<a id='unit-CN812'></a>:unit-CN812: **Airborne Infantry Section** [1968–1986] (CN812)"
 
     Airborne Infantry Unit
 
@@ -4155,7 +4156,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN813'></a>:unit-CN813: **Airborne Infantry Section** [1968–1986] (CN813)"
+??? equip-ca "<a id='unit-CN813'></a>:unit-CN813: **Airborne Infantry Section** [1968–1986] (CN813)"
 
     Airborne Infantry Unit
 
@@ -4177,7 +4178,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN814'></a>:unit-CN814: **Airborne Infantry Section** [1968–1986] (CN814)"
+??? equip-ca "<a id='unit-CN814'></a>:unit-CN814: **Airborne Infantry Section** [1968–1986] (CN814)"
 
     Airborne Infantry Unit
 
@@ -4201,7 +4202,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN501'></a>:unit-CN501: **Sniper Team** [1975–1995] (CN501)"
+??? equip-ca "<a id='unit-CN501'></a>:unit-CN501: **Sniper Team** [1975–1995] (CN501)"
 
     Sniper Unit
 
@@ -4220,7 +4221,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN502'></a>:unit-CN502: **Sniper Team** [1975–1995] (CN502)"
+??? equip-ca "<a id='unit-CN502'></a>:unit-CN502: **Sniper Team** [1975–1995] (CN502)"
 
     Sniper Unit
 
@@ -4240,7 +4241,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN175A'></a>:unit-CN175A: **Infantry Section** [1979–1986] (CN175A)"
+??? equip-ca "<a id='unit-CN175A'></a>:unit-CN175A: **Infantry Section** [1979–1986] (CN175A)"
 
     Infantry Unit
 
@@ -4263,7 +4264,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN176'></a>:unit-CN176: **Infantry Section** [1979–1986] (CN176)"
+??? equip-ca "<a id='unit-CN176'></a>:unit-CN176: **Infantry Section** [1979–1986] (CN176)"
 
     Infantry Unit
 
@@ -4283,7 +4284,7 @@ icon: smflag/ca
     | **Claymore Mine** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN800P'></a>:unit-CN800P: **Airborne Headquarters** [1985–2020] (CN800P)"
+??? equip-ca "<a id='unit-CN800P'></a>:unit-CN800P: **Airborne Headquarters** [1985–2020] (CN800P)"
 
     Command Unit
 
@@ -4303,7 +4304,7 @@ icon: smflag/ca
     | **Hand Grenade** | [x12] |
     | **M72 SRAAW(L)** | [x2] |
 
-??? equip "<a id='unit-CN210P'></a>:unit-CN210P: **Headquarters** [1985–2020] (CN210P)"
+??? equip-ca "<a id='unit-CN210P'></a>:unit-CN210P: **Headquarters** [1985–2020] (CN210P)"
 
     Command Unit
 
@@ -4322,7 +4323,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x20] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN170'></a>:unit-CN170: **Infantry Section** [1985–1995] (CN170)"
+??? equip-ca "<a id='unit-CN170'></a>:unit-CN170: **Infantry Section** [1985–1995] (CN170)"
 
     Infantry Unit
 
@@ -4342,7 +4343,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN170A'></a>:unit-CN170A: **Infantry Section** [1985–1995] (CN170A)"
+??? equip-ca "<a id='unit-CN170A'></a>:unit-CN170A: **Infantry Section** [1985–1995] (CN170A)"
 
     Infantry Unit
 
@@ -4362,7 +4363,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN171'></a>:unit-CN171: **Infantry Section** [1985–1995] (CN171)"
+??? equip-ca "<a id='unit-CN171'></a>:unit-CN171: **Infantry Section** [1985–1995] (CN171)"
 
     Infantry Unit
 
@@ -4384,7 +4385,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN171A'></a>:unit-CN171A: **Infantry Section** [1985–1995] (CN171A)"
+??? equip-ca "<a id='unit-CN171A'></a>:unit-CN171A: **Infantry Section** [1985–1995] (CN171A)"
 
     Infantry Unit
 
@@ -4406,7 +4407,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN172'></a>:unit-CN172: **Infantry Section** [1985–1995] (CN172)"
+??? equip-ca "<a id='unit-CN172'></a>:unit-CN172: **Infantry Section** [1985–1995] (CN172)"
 
     Infantry Unit
 
@@ -4426,7 +4427,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN173'></a>:unit-CN173: **Infantry Section** [1985–1995] (CN173)"
+??? equip-ca "<a id='unit-CN173'></a>:unit-CN173: **Infantry Section** [1985–1995] (CN173)"
 
     Infantry Unit
 
@@ -4445,7 +4446,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x8] |
 
-??? equip "<a id='unit-CN173A'></a>:unit-CN173A: **Infantry Section** [1985–1995] (CN173A)"
+??? equip-ca "<a id='unit-CN173A'></a>:unit-CN173A: **Infantry Section** [1985–1995] (CN173A)"
 
     Infantry Unit
 
@@ -4464,7 +4465,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x5] |
     | **Hand Grenade** | [x8] |
 
-??? equip "<a id='unit-CN174'></a>:unit-CN174: **Infantry Section** [1985–1995] (CN174)"
+??? equip-ca "<a id='unit-CN174'></a>:unit-CN174: **Infantry Section** [1985–1995] (CN174)"
 
     Infantry Unit
 
@@ -4484,7 +4485,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x20] |
 
-??? equip "<a id='unit-CN503'></a>:unit-CN503: **Sniper Team** [1985–1995] (CN503)"
+??? equip-ca "<a id='unit-CN503'></a>:unit-CN503: **Sniper Team** [1985–1995] (CN503)"
 
     Sniper Unit
 
@@ -4504,7 +4505,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x10] |
     | **Hand Grenade** | [x4] |
 
-??? equip "<a id='unit-CN806'></a>:unit-CN806: **Airborne Infantry Section** [1989–1995] (CN806)"
+??? equip-ca "<a id='unit-CN806'></a>:unit-CN806: **Airborne Infantry Section** [1989–1995] (CN806)"
 
     Airborne Infantry Unit
 
@@ -4527,7 +4528,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN807'></a>:unit-CN807: **Airborne Infantry Section** [1989–1995] (CN807)"
+??? equip-ca "<a id='unit-CN807'></a>:unit-CN807: **Airborne Infantry Section** [1989–1995] (CN807)"
 
     Airborne Infantry Unit
 
@@ -4552,7 +4553,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN808'></a>:unit-CN808: **Airborne Infantry Section** [1989–1995] (CN808)"
+??? equip-ca "<a id='unit-CN808'></a>:unit-CN808: **Airborne Infantry Section** [1989–1995] (CN808)"
 
     Airborne Infantry Unit
 
@@ -4577,7 +4578,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN809'></a>:unit-CN809: **Airborne Infantry Section** [1989–1995] (CN809)"
+??? equip-ca "<a id='unit-CN809'></a>:unit-CN809: **Airborne Infantry Section** [1989–1995] (CN809)"
 
     Airborne Infantry Unit
 
@@ -4600,7 +4601,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN810'></a>:unit-CN810: **Airborne Infantry Section** [1989–1995] (CN810)"
+??? equip-ca "<a id='unit-CN810'></a>:unit-CN810: **Airborne Infantry Section** [1989–1995] (CN810)"
 
     Airborne Infantry Unit
 
@@ -4625,7 +4626,7 @@ icon: smflag/ca
     | **Satchel Charge** | [x4] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN811'></a>:unit-CN811: **Airborne Infantry Section** [1989–1995] (CN811)"
+??? equip-ca "<a id='unit-CN811'></a>:unit-CN811: **Airborne Infantry Section** [1989–1995] (CN811)"
 
     Airborne Infantry Unit
 
@@ -4652,7 +4653,7 @@ icon: smflag/ca
 
 ### :nato-infme: Mechanized Infantry
 
-??? equip "<a id='unit-CN161'></a>:unit-CN161: **Mech Infantry Section** [1958–1986] (CN161)"
+??? equip-ca "<a id='unit-CN161'></a>:unit-CN161: **Mech Infantry Section** [1958–1986] (CN161)"
 
     Infantry Unit
 
@@ -4672,7 +4673,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x5] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN161A'></a>:unit-CN161A: **Mech Infantry Section** [1958–1986] (CN161A)"
+??? equip-ca "<a id='unit-CN161A'></a>:unit-CN161A: **Mech Infantry Section** [1958–1986] (CN161A)"
 
     Infantry Unit
 
@@ -4693,7 +4694,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x5] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN162'></a>:unit-CN162: **Mech Infantry Section** [1958–1986] (CN162)"
+??? equip-ca "<a id='unit-CN162'></a>:unit-CN162: **Mech Infantry Section** [1958–1986] (CN162)"
 
     Infantry Unit
 
@@ -4713,7 +4714,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN162A'></a>:unit-CN162A: **Mech Infantry Section** [1958–1986] (CN162A)"
+??? equip-ca "<a id='unit-CN162A'></a>:unit-CN162A: **Mech Infantry Section** [1958–1986] (CN162A)"
 
     Infantry Unit
 
@@ -4734,7 +4735,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN211M'></a>:unit-CN211M: **Mechanized Headquarters** [1958–1986] (CN211M)"
+??? equip-ca "<a id='unit-CN211M'></a>:unit-CN211M: **Mechanized Headquarters** [1958–1986] (CN211M)"
 
     Command Unit
 
@@ -4752,7 +4753,7 @@ icon: smflag/ca
     | **FN-HP No.2 Pistol** | [x20] |
     | **Hand Grenade** | [x6] |
 
-??? equip "<a id='unit-CN160'></a>:unit-CN160: **Mech Infantry Section** [1979–1986] (CN160)"
+??? equip-ca "<a id='unit-CN160'></a>:unit-CN160: **Mech Infantry Section** [1979–1986] (CN160)"
 
     Infantry Unit
 
@@ -4774,7 +4775,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN160A'></a>:unit-CN160A: **Mech Infantry Section** [1979–1986] (CN160A)"
+??? equip-ca "<a id='unit-CN160A'></a>:unit-CN160A: **Mech Infantry Section** [1979–1986] (CN160A)"
 
     Infantry Unit
 
@@ -4797,7 +4798,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN157'></a>:unit-CN157: **Mech Infantry Section** [1985–1995] (CN157)"
+??? equip-ca "<a id='unit-CN157'></a>:unit-CN157: **Mech Infantry Section** [1985–1995] (CN157)"
 
     Infantry Unit
 
@@ -4820,7 +4821,7 @@ icon: smflag/ca
     | **M72 SRAAW(L)** | [x1] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN158'></a>:unit-CN158: **Mech Infantry Section** [1985–1995] (CN158)"
+??? equip-ca "<a id='unit-CN158'></a>:unit-CN158: **Mech Infantry Section** [1985–1995] (CN158)"
 
     Infantry Unit
 
@@ -4841,7 +4842,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x5] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN159'></a>:unit-CN159: **Mech Infantry Section** [1985–1995] (CN159)"
+??? equip-ca "<a id='unit-CN159'></a>:unit-CN159: **Mech Infantry Section** [1985–1995] (CN159)"
 
     Infantry Unit
 
@@ -4862,7 +4863,7 @@ icon: smflag/ca
     | **M2 Carl Gustav** | [x6] |
     | **Hand Grenade** | [x16] |
 
-??? equip "<a id='unit-CN210M'></a>:unit-CN210M: **Mechanized Headquarters** [1985–2020] (CN210M)"
+??? equip-ca "<a id='unit-CN210M'></a>:unit-CN210M: **Mechanized Headquarters** [1985–2020] (CN210M)"
 
     Command Unit
 
@@ -4883,7 +4884,7 @@ icon: smflag/ca
 
 ### :nato-rcwl: Reconnaissance
 
-??? equip "<a id='unit-CN273'></a>:unit-CN273: **Ferret Mk 1** [1954–1981] (CN273)"
+??? equip-ca "<a id='unit-CN273'></a>:unit-CN273: **Ferret Mk 1** [1954–1981] (CN273)"
 
     Recon Unit
 
@@ -4900,7 +4901,7 @@ icon: smflag/ca
     |---|---|
     | **.30 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN327A'></a>:unit-CN327A: **M151 Jeep [m]** [1960–2005] (CN327A)"
+??? equip-ca "<a id='unit-CN327A'></a>:unit-CN327A: **M151 Jeep [m]** [1960–2005] (CN327A)"
 
     Recon Unit
 
@@ -4914,7 +4915,7 @@ icon: smflag/ca
     |---|---|
     | **7.62mm C6** | [x90] |
 
-??? equip "<a id='unit-CN278'></a>:unit-CN278: **Lynx** [1967–1995] (CN278)"
+??? equip-ca "<a id='unit-CN278'></a>:unit-CN278: **Lynx** [1967–1995] (CN278)"
 
     Recon Unit
 
@@ -4935,7 +4936,7 @@ icon: smflag/ca
     | **.50 Cal Browning** | [x90] |
     | **7.62mm L37** | [x90] |
 
-??? equip "<a id='unit-CN76'></a>:unit-CN76: **SF Jeep** [1971–2020] (CN76)"
+??? equip-ca "<a id='unit-CN76'></a>:unit-CN76: **SF Jeep** [1971–2020] (CN76)"
 
     Recon Unit
 
@@ -4953,7 +4954,7 @@ icon: smflag/ca
     | **.50 Cal Browning** | [x90] |
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN331'></a>:unit-CN331: **Bombardier VW Iltis [m]** [1983–1995] (CN331)"
+??? equip-ca "<a id='unit-CN331'></a>:unit-CN331: **Bombardier VW Iltis [m]** [1983–1995] (CN331)"
 
     Recon Unit
 
@@ -4969,7 +4970,7 @@ icon: smflag/ca
 
 ### :nato-spsam: Self-Propelled Air Defence
 
-??? equip "<a id='unit-CN301'></a>:unit-CN301: **ADATS** [1989–2010] (CN301)"
+??? equip-ca "<a id='unit-CN301'></a>:unit-CN301: **ADATS** [1989–2010] (CN301)"
 
     Self Propelled SAM
 
@@ -4989,7 +4990,7 @@ icon: smflag/ca
 
 ### :nato-spat: Self-Propelled Anti-Tank
 
-??? equip "<a id='unit-CN288'></a>:unit-CN288: **106mm RCL Jeep** [1961–1990] (CN288)"
+??? equip-ca "<a id='unit-CN288'></a>:unit-CN288: **106mm RCL Jeep** [1961–1990] (CN288)"
 
     Self Propelled Anti-Tank
 
@@ -5007,7 +5008,7 @@ icon: smflag/ca
     |---|---|
     | **106mm M40A1** | [x20] |
 
-??? equip "<a id='unit-CN297'></a>:unit-CN297: **TOW Jeep** [1976–1983] (CN297)"
+??? equip-ca "<a id='unit-CN297'></a>:unit-CN297: **TOW Jeep** [1976–1983] (CN297)"
 
     Self Propelled Anti-Tank
 
@@ -5024,7 +5025,7 @@ icon: smflag/ca
     |---|---|
     | **BGM-71B TOW** | [x4] |
 
-??? equip "<a id='unit-CN293'></a>:unit-CN293: **M150A1** [1979–1984] (CN293)"
+??? equip-ca "<a id='unit-CN293'></a>:unit-CN293: **M150A1** [1979–1984] (CN293)"
 
     Self Propelled Anti-Tank
 
@@ -5042,7 +5043,7 @@ icon: smflag/ca
     | **BGM-71B TOW** | [x16] |
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN292'></a>:unit-CN292: **M150A2** [1984–1992] (CN292)"
+??? equip-ca "<a id='unit-CN292'></a>:unit-CN292: **M150A2** [1984–1992] (CN292)"
 
     Self Propelled Anti-Tank
 
@@ -5061,7 +5062,7 @@ icon: smflag/ca
     | **BGM-71C I-TOW** | [x16] |
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN296'></a>:unit-CN296: **TOW Jeep** [1984–1992] (CN296)"
+??? equip-ca "<a id='unit-CN296'></a>:unit-CN296: **TOW Jeep** [1984–1992] (CN296)"
 
     Self Propelled Anti-Tank
 
@@ -5079,7 +5080,7 @@ icon: smflag/ca
     |---|---|
     | **BGM-71C I-TOW** | [x4] |
 
-??? equip "<a id='unit-CN291'></a>:unit-CN291: **M113A2 TUA** [1989–2000] (CN291)"
+??? equip-ca "<a id='unit-CN291'></a>:unit-CN291: **M113A2 TUA** [1989–2000] (CN291)"
 
     Self Propelled Anti-Tank
 
@@ -5100,7 +5101,7 @@ icon: smflag/ca
 
 ### :nato-sparty: Self-Propelled Artillery
 
-??? equip "<a id='unit-CN282'></a>:unit-CN282: **M109** [1966–1983] (CN282)"
+??? equip-ca "<a id='unit-CN282'></a>:unit-CN282: **M109** [1966–1983] (CN282)"
 
     Self Propelled Artillery
 
@@ -5118,7 +5119,7 @@ icon: smflag/ca
     | **155mm M114** | 155mm M114 HE [x28] |
     | **.50 Cal Browning** | [x90] |
 
-??? equip "<a id='unit-CN283'></a>:unit-CN283: **M109A4B+** [1981–2005] (CN283)"
+??? equip-ca "<a id='unit-CN283'></a>:unit-CN283: **M109A4B+** [1981–2005] (CN283)"
 
     Self Propelled Artillery
 
@@ -5138,7 +5139,7 @@ icon: smflag/ca
 
 ### :nato-spmtr: Self-Propelled Mortar
 
-??? equip "<a id='unit-CN298'></a>:unit-CN298: **M125** [1961–1999] (CN298)"
+??? equip-ca "<a id='unit-CN298'></a>:unit-CN298: **M125** [1961–1999] (CN298)"
 
     Self Propelled Mortar
 
@@ -5158,7 +5159,7 @@ icon: smflag/ca
 
 ### :nato-tank: Tanks
 
-??? equip "<a id='unit-CN313'></a>:unit-CN313: **Leopard C1** [1978–1986] (CN313)"
+??? equip-ca "<a id='unit-CN313'></a>:unit-CN313: **Leopard C1** [1978–1986] (CN313)"
 
     Main Battle Tank
 
@@ -5181,7 +5182,7 @@ icon: smflag/ca
     | **7.62mm C6** | [x120] |
     | **7.62mm C6** | [x90] |
 
-??? equip "<a id='unit-CN312'></a>:unit-CN312: **Leopard C1** [1982–1984] (CN312)"
+??? equip-ca "<a id='unit-CN312'></a>:unit-CN312: **Leopard C1** [1982–1984] (CN312)"
 
     Main Battle Tank
 
@@ -5204,7 +5205,7 @@ icon: smflag/ca
     | **7.62mm C6** | [x120] |
     | **7.62mm C6** | [x90] |
 
-??? equip "<a id='unit-CN311'></a>:unit-CN311: **Leopard C1** [1985–1986] (CN311)"
+??? equip-ca "<a id='unit-CN311'></a>:unit-CN311: **Leopard C1** [1985–1986] (CN311)"
 
     Main Battle Tank
 
@@ -5227,7 +5228,7 @@ icon: smflag/ca
     | **7.62mm C6** | [x120] |
     | **7.62mm C6** | [x90] |
 
-??? equip "<a id='unit-CN315'></a>:unit-CN315: **Leopard C1** [1987–1992] (CN315)"
+??? equip-ca "<a id='unit-CN315'></a>:unit-CN315: **Leopard C1** [1987–1992] (CN315)"
 
     Main Battle Tank
 
@@ -5250,7 +5251,7 @@ icon: smflag/ca
 
 ### :nato-utya: Utility Vehicles (Artillery)
 
-??? equip "<a id='unit-CN328'></a>:unit-CN328: **M880 5/4 Ton** [1975–1986] (CN328)"
+??? equip-ca "<a id='unit-CN328'></a>:unit-CN328: **M880 5/4 Ton** [1975–1986] (CN328)"
 
     Artillery Towing Vehicle
 
@@ -5261,7 +5262,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN322'></a>:unit-CN322: **CUCV** [1985–2020] (CN322)"
+??? equip-ca "<a id='unit-CN322'></a>:unit-CN322: **CUCV** [1985–2020] (CN322)"
 
     Artillery Towing Vehicle
 
@@ -5274,7 +5275,7 @@ icon: smflag/ca
 
 ### :nato-utyw: Utility Vehicles (Tracked)
 
-??? equip "<a id='unit-CN324'></a>:unit-CN324: **Bandvagn 206** [1980–2020] (CN324)"
+??? equip-ca "<a id='unit-CN324'></a>:unit-CN324: **Bandvagn 206** [1980–2020] (CN324)"
 
     Tracked Utility Vehicle
 
@@ -5285,7 +5286,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN324A'></a>:unit-CN324A: **Bandvagn 206 [m]** [1980–2020] (CN324A)"
+??? equip-ca "<a id='unit-CN324A'></a>:unit-CN324A: **Bandvagn 206 [m]** [1980–2020] (CN324A)"
 
     Tracked Utility Vehicle
 
@@ -5301,7 +5302,7 @@ icon: smflag/ca
 
 ### :nato-utyw: Utility Vehicles (Wheeled)
 
-??? equip "<a id='unit-CN329'></a>:unit-CN329: **M35 2&1/2-Ton** [1946–2020] (CN329)"
+??? equip-ca "<a id='unit-CN329'></a>:unit-CN329: **M35 2&1/2-Ton** [1946–2020] (CN329)"
 
     Wheeled Utility Vehicle
 
@@ -5312,7 +5313,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CNPK1'></a>:unit-CNPK1: **M35 2&1/2-Ton [Parked]** [1946–2020] (CNPK1)"
+??? equip-ca "<a id='unit-CNPK1'></a>:unit-CNPK1: **M35 2&1/2-Ton [Parked]** [1946–2020] (CNPK1)"
 
     Wheeled Utility Vehicle
 
@@ -5323,7 +5324,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN326'></a>:unit-CN326: **M809 5 Ton Truck** [1946–2020] (CN326)"
+??? equip-ca "<a id='unit-CN326'></a>:unit-CN326: **M809 5 Ton Truck** [1946–2020] (CN326)"
 
     Wheeled Utility Vehicle
 
@@ -5334,7 +5335,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN327'></a>:unit-CN327: **M151 Jeep** [1960–2005] (CN327)"
+??? equip-ca "<a id='unit-CN327'></a>:unit-CN327: **M151 Jeep** [1960–2005] (CN327)"
 
     Wheeled Utility Vehicle
 
@@ -5345,7 +5346,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CN330'></a>:unit-CN330: **Bombardier VW Iltis** [1983–1995] (CN330)"
+??? equip-ca "<a id='unit-CN330'></a>:unit-CN330: **Bombardier VW Iltis** [1983–1995] (CN330)"
 
     Wheeled Utility Vehicle
 
@@ -5356,7 +5357,7 @@ icon: smflag/ca
     
         - —
 
-??? equip "<a id='unit-CNPK2'></a>:unit-CNPK2: **VW Iltis [Parked]** [1983–1995] (CNPK2)"
+??? equip-ca "<a id='unit-CNPK2'></a>:unit-CNPK2: **VW Iltis [Parked]** [1983–1995] (CNPK2)"
 
     Wheeled Utility Vehicle
 
@@ -5369,7 +5370,7 @@ icon: smflag/ca
 
 ### :nato-fatardr: Weapons Locating Radar
 
-??? equip "<a id='unit-CNWLR1'></a>:unit-CNWLR1: **NATO WLR** [1975–1995] (CNWLR1)"
+??? equip-ca "<a id='unit-CNWLR1'></a>:unit-CNWLR1: **NATO WLR** [1975–1995] (CNWLR1)"
 
     NATO based WLR
 

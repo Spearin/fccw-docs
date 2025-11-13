@@ -28,17 +28,17 @@ The Flashpoint Campaigns game uses the terrain to perform path-planning (on the 
 
 For line-of-sight calculations, the terrain is treated as several plateaus, each containing objects on their terrain, and atmosphere above them. The objects and the atmosphere above it both have different properties with respect to blocking / attenuating the (optical, thermal, RADAR) line of sight. See Figure 2.
 
-![](images/image003.png)
+![](images/image004.png)
 
 Figure2: Lines-of-sight, taking into account the atmosphere (hatched) above hexes, and the objects in the hex
 
-## Map CreationProcess
+## Map Creation Process
 
 The aim of map creation is to define terrain such that the Flashpoint Campaigns game, the Flashpoint Campaigns computer player, and the human player all understand it.
 
 This guide focuses on creating maps for the Flashpoint Campaigns game and Flashpoint Campaigns computer player; creating a pretty map for the human player is more an ‘art’ and does not need to be restricted by this guide. See Figure 3.
 
-![](images/image004.png)
+![](images/image006.png)
 
 Figure3: The map making process
 
@@ -46,11 +46,11 @@ The Flashpoint Campaigns game includes the ‘Map Values Scanner’ to scan a bi
 
 The Map Values Scanner requires as input a bitmap (\*.png file) with 128 pixels per kilometer, with pixels having colors defined by the Map Data Types file. This Map Data Types is a spreadsheet telling the scanner which colors represent elevation, fields, forests, roads, and streams. See Figure 4 and see [Appendix B. Default FCSS Map Data Types](#_bookmark4) for a more complete description.
 
-![](images/image005.png)
+![](images/image008.png)
 
 Figure4: Part of the FCSS Map Data Types file, defining the interpretation of the map values bitmap
 
-![](images/image006.png)*Figure 5: The map values bitmap input for the terrain described in the first figure*
+![](images/image010.png)*Figure 5: The map values bitmap input for the terrain described in the first figure*
 
 Scanning the map values bitmap is a fully automatic process. The effort of creating the map is in creating the input for the Map Values Scanner, the so-called Map Values Bitmap. For this, we recommend using a third-party tool dedicated to creating maps: QGis.
 
@@ -64,4 +64,5 @@ QGis also comes with two disadvantages: it is a complex tool designed for manipu
 
 This guide (and the corresponding example project) describes how to configure QGis and create a first map. The corresponding example project includes a set of QGis styles and templates tuned for creating a map values bitmap for the Flashpoint Campaigns 2.x engine (see Appendix A).
 
-**NOTE:** To get the most out of QGis, notably out of the OpenStreetMap / Google / Bing layers, QGis is best run from a computer connected to the internet.
+!!! note  
+    To get the most out of QGis, notably out of the OpenStreetMap / Google / Bing layers, QGis is best run from a computer connected to the internet.

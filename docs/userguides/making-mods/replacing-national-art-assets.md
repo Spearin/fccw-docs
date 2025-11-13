@@ -14,7 +14,7 @@ Each image is called out by a specific platform (AFV, Aircraft, or Infantry) in 
 
 The background of the PNG formatted image needs to be transparent. In the case of NATO image elements, the interior of those elements is white, but the surrounding exterior is transparent.
 
-![](images/image004.png)The unit images can be full color as well as the grayscale (we use black with grays/transparency in the edge from the anti-aliasing effect), as this works well with the Halo and Colored Silhouettes option in the game.
+The unit images can be full color as well as the grayscale (we use black with grays/transparency in the edge from the anti-aliasing effect), as this works well with the Halo and Colored Silhouettes option in the game.
 
 Platforms should face/head to the right (appear to be driving or flying left to right) in the image. The game engine will automatically flip the image for player two. This does not apply to infantry units using NATO images for their PICID that start with an underline. Any file name starting with an underline (for example: “\_Inf.bmp”) will not flip direction based on the side played. All art in the NATO Folder does not flip by default for any side.
 
@@ -28,7 +28,8 @@ All the NATO unit images are located in the /Modules/Common/Data /NATO folder. I
 
 A silhouette must be at least 256 pixels wide by 128 pixels tall and have a 2 to 1 aspect ratio. The game scales these images to be used in various UI dialogs and on the counters.
 
-**NOTE:** Any image with a 2 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 2 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
+!!! note
+    Any image with a 2 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 2 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
 
 The image must be saved as a “PNG” type file with a transparent background. Leave at least 4 pixels on the bottom and 5-10 on the sides and top as a buffer zone around the images. Aircraft and helicopters should be centered in the middle of the image with a minimum of 5 to 10-pixel buffer to the edge. This will minimize the overlap of other counter graphics.
 
@@ -39,8 +40,6 @@ Each unit requires both a picture image and a NATO picture image in the data fil
 ## SubUnit Inspector Images
 
 Users can add Subunit Inspector (SUI) images for each platform to replace the standard silhouette image in the SUI.
-
-![](images/image005.png)![](images/image006.png)
 
 ### Use
 
@@ -56,9 +55,11 @@ All the SUI images are located in \Modules\Common\Data\<Country Name>\Unit Image
 
 The SUI image is 256 pixels wide by 128 pixels tall at a minimum, and if larger, it should maintain the 2 to 1 size ratio to fit the image location.
 
-**NOTE:** Any image with a 2 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 2 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
+!!! note
+    Any image with a 2 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 2 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
 
-**NOTE:** The larger the file size, the more memory the game will use or need. Color images use more memory for images of the same size.
+!!! note
+    The larger the file size, the more memory the game will use or need. Color images use more memory for images of the same size.
 
 It must be saved as a PNG-type file. Other file formats will not be displayed.
 
@@ -66,9 +67,7 @@ The file name must match the current silhouette name by adding a “-S” to the
 
 ## Unit Badges/Insignias/National Flags
 
-|  | | --- | |  | |  |  |
-
-   Each force in a scenario can be represented with a Unit Badge. In the game, we have supplied three types. First, a stylized national flag, next, a stylized nation insignia, and finally, several unit badges or patches from actual units from each nation. 
+Each force in a scenario can be represented with a Unit Badge. In the game, we have supplied three types. First, a stylized national flag, next, a stylized nation insignia, and finally, several unit badges or patches from actual units from each nation.
 
 ### Use
 
@@ -88,9 +87,11 @@ All the Badges are located in /Modules/Data/<Country Name>/Badges folder.
 
 A badge must be 100 pixels wide by 100 pixels tall minimum with 300 x 300 pixels being a good resolution for most images. If made larger, the 1 to 1 aspect ratio must be followed, or the in-game image will be distorted.
 
-**NOTE:** Any image with a 1 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 1 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
+!!! note
+    Any image with a 1 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 1 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
 
-**NOTE:** The larger the file size, the more memory the game will use or need.
+!!! note
+    The larger the file size, the more memory the game will use or need.
 
 It must be saved as a “PNG” type file.
 
@@ -98,9 +99,7 @@ The file name can be any name you wish to identify the badge. The shorter the na
 
 ## Counter Background Art
 
-|  | | --- | |  | |  |  |
-
-   Every Nation has art for the counter background that needs to convey the country of origin based on the color scheme used.
+Every Nation has art for the counter background that needs to convey the country of origin based on the color scheme used.
 
 ### Use
 
@@ -122,9 +121,11 @@ Counter Backgrounds are located in /Modules/Data/<Country Name>/Backgrounds fold
 
 Counter Background art must be 300 pixels wide by 300 pixels tall and color. Larger images can be used, but a 1 to 1 aspect ratio needs to be maintained to avoid a distorted counter image in-game.
 
-**NOTE:** Any image with a 1 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 1 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
+!!! note
+    Any image with a 1 to 1 aspect ratio will work and get scaled in the game’s UI. If the image is not in a 1 to 1 aspect ratio format, the image will appear distorted in the game. If you have 4k or larger screens, you may wish to make your art larger to maintain better detail when zoomed in.
 
-**NOTE:** The larger the file size, the more memory the game will use or need.
+!!! note
+    The larger the file size, the more memory the game will use or need.
 
 It must be saved as a “PNG” type file.
 
@@ -132,9 +133,7 @@ The file name can be anything you want. We do recommend using something that use
 
 ## Flags
 
-|  | | --- | |  | |  |  |
-
-   These are art files used that place a nation’s flag in a number of places in the UI for identification purposes.
+These are art files used that place a nation’s flag in a number of places in the UI for identification purposes.
 
 ### Use
 
@@ -148,10 +147,12 @@ Flags are located in /Modules/Data/<Country Name>/Flags folder. Each nation need
 
 Flag art must be 256 pixels wide by 144 pixels tall and color.
 
-**NOTE:** Larger images may be used, but we have not tested if the game UI will scale them in all places.
+!!! note
+    Larger images may be used, but we have not tested if the game UI will scale them in all places.
 
 It must be saved as a “PNG” type file.
 
 The file name can be anything you want. We do recommend using something that uses the nation’s name or code to be easily recognized. The game will select the first flag it finds in the Flags folder.
 
-**NOTE:** There is no need to have more than one flag file in the folder as only one is needed for the UI.
+!!! note
+    There is no need to have more than one flag file in the folder as only one is needed for the UI.

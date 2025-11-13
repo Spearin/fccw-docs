@@ -3,16 +3,10 @@
 These codes are found in the Formation Table in the BPT Defaults column and relate to specific AI behaviors the units in that template type/area will perform during the simulation.
 
 !!! note
-
-    This
-
-feature is currently in development and has not been fully implemented in the code. The Data Validation Program is up to date with these codes and will flag missing or bad/unneeded codes in the table.
+    This feature is currently in development and has not been fully implemented in the code. The Data Validation Program is up to date with these codes and will flag missing or bad/unneeded codes in the table.
 
 !!! note
-
-    Codes
-
-in italics are currently in use but will be replaced soon with the more detailed codes seen in the sections below.
+    Codes in italics are currently in use but will be replaced soon with the more detailed codes seen in the sections below.
 
 ## Independent Air Defense
 

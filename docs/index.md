@@ -1,11 +1,9 @@
 ---
 title: Home
+hide: 
+    - navigation
+    - toc
 ---
-!!! warning
-    This documents website is a work in progress. There are many known issues, including:
-
-    * Missing images
-
 # Welcome to _Flashpoint Campaigns: Cold War_
 
 This is a grand tactical combat simulation on the Cold War battlefield\. As the force Commander, you will plan and then issue orders and Standard Operating Procedures to your battalion, brigade, or regimental forces shaping the fight by maneuver and your intent\. Your forces will engage the enemy on rendered real\-world map locations\. Each hex is 500m of militarily significant terrain\. Each battle can last 4 to 24 hours of in\-game time\. Your troops will meet their foes any time of day and in any environment\.

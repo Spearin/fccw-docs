@@ -44,4 +44,3 @@ __Code:__
 \- FPSS\-6158: __Direct Path UI__: fix checked/enabled states in waypoint pop\-up menu, move Direct Path to last spot in the row, as it will be an infrequent choice\. \(William, r9556\)
 
 \- FPSS\-6167: introduce a 0 minutes workaround for players to plan future Resupply orders that will resupply up to 100% in minimal time \(marcbellizi\) \(William, r9561\)
-

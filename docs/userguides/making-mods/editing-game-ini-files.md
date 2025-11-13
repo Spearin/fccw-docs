@@ -2,11 +2,14 @@
 
 The game has several INI files that store certain information used by the game to track options, setting, colors, line widths, and a host of other functions. In some cases, changing these may be easier than doing them in-game or may be helpful to change colors or transparency of overlays to colors the player finds easier to work with. While these files are easy to open and edit in a text editor, as the following warning notes, you can break the game.
 
-**NOTE:** We will not be defining every value seen in the ini files in this document. The entries are, for the most part, self-explanatory. We will note what each files covers and which ones not to mess with if you want your game to work right.
+!!! note
+    We will not be defining every value seen in the ini files in this document. The entries are, for the most part, self-explanatory. We will note what each files covers and which ones not to mess with if you want your game to work right.
 
-**WARNING:**Making incorrect entries or incorrect formats (text instead of an integer, can cause the game to crash and be almost impossible to find. If you are not comfortable editing ini files don’t mess with them. If you are, make backups and use them if things crash.
+!!! warning
+    Making incorrect entries or incorrect formats (text instead of an integer, can cause the game to crash and be almost impossible to find. If you are not comfortable editing ini files don’t mess with them. If you are, make backups and use them if things crash.
 
-**WARNING:**These files WILL get overridden by updates when there are changes or new values added to the game by the development team. If you really want your changes, please make copies and note what information you have changed, so you can update the file(s) when needed.
+!!! warning
+    These files WILL get overridden by updates when there are changes or new values added to the game by the development team. If you really want your changes, please make copies and note what information you have changed, so you can update the file(s) when needed.
 
 ## List of INI Files
 
@@ -24,7 +27,8 @@ Here is a listing and explanation of what is found in each INI file.
 
 - PathFlavors.ini – This INI file holds various path finding parameters used by the game to move units on the map. While this particular INI file is well documented with comments, it is most likely to break the game if you give it a value the game does not like. Make a backup in case things break or you may find yourself reinstalling the game.
 
-**WARNING:**Just to say it again, be very careful making changes to this file. Start small. Test a lot. Have a backup.
+!!!  warning
+    Just to say it again, be very careful making changes to this file. Start small. Test a lot. Have a backup.
 
 ## INI File Layout
 
@@ -34,7 +38,8 @@ The following sections cover the basic layout found in the INI files and any Not
 
 A Header is a word found in “[]” in the INI files and is used to note the function or use of the following entries. These are keywords used in the code to pull data from the named items that follow.
 
-**WARNING:**You should not alter, edit, or delete these entries as the game can and will crash. You may not add new Headers either, as there is no supporting code. Basically, leave them alone.
+!!! warning
+    You should not alter, edit, or delete these entries as the game can and will crash. You may not add new Headers either, as there is no supporting code. Basically, leave them alone.
 
 ### Data Keys
 
@@ -50,6 +55,7 @@ After the Section Header there can be lines with Data Keys. These Data Keys are 
 
 ### Comments
 
-These are notes that help explain the values for uses for the various entries. These must start with a “;” and space and then any info you want to add. This is a great way to record changes you make and note the original value. For example: *; Changed VaporLineWidth from 10 to 13 – 4Jan25.*
+These are notes that help explain the values for uses for the various entries. These must start with a “;” and space and then any info you want to add. This is a great way to record changes you make and note the original value. For example: *;**Changed VaporLineWidth from 10 to 13 – 4Jan25.*
 
-**WARNING:**Do not add comments after Values or Headers as these will cause the items to not be read and result in crashes. Place Comments above or below the line you wish to comment on.
+!!! warning
+    Do not add comments after Values or Headers as these will cause the items to not be read and result in crashes. Place Comments above or below the line you wish to comment on.

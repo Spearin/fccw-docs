@@ -1,6 +1,6 @@
 # Animations
 
-![](images/image010.png)   While the game engine is basically 2D, we do have a few animations for various effects to add some action.
+While the game engine is basically 2D, we do have a few animations for various effects to add some action.
 
 ## Use
 
@@ -22,6 +22,8 @@ Users cannot add new items to this folder. If you wish to change the any animati
 
 - The files must be saved into a ZIP file with the same name
 
-**NOTE:** Making an animation too large or small, too long or short, or misspelling the name of frames or the file can result in a game engine crash.
+!!! note
+    Making an animation too large or small, too long or short, or misspelling the name of frames or the file can result in a game engine crash.
 
-**NOTE:** If you plan to make new animations, it is advised to back up the originals to a new location.
+!!! note
+    If you plan to make new animations, it is advised to back up the originals to a new location.

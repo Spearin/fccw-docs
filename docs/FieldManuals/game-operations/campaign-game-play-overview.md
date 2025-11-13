@@ -1,63 +1,85 @@
 # Campaign Game Play Overview
 
-![](images/image310.png)On the Main Menu screen select Start New: Campaign.   ![](images/image311.png)
+A campaign is a sequence of scenarios from one nation’s perspective where the result of one scenario may influence the subsequent scenario. The player carries over core forces from scenario to scenario. This means that campaign scenarios might play out very differently from single scenarios because it is of vital importance to preserve your force as you try to win your part of the war.
 
-The available campaigns are listed with a campaign description positioned beneath. Select one and hit Proceed to continue.
+To start a new campaign, click on the New Campaign button in the Main Menu.
 
-![](images/image312.png)![](images/image313.png)
+![](images/image569.jpg)
 
-Set the gameplay options for the Fog of War as usual. 
+This launches the Campaign Selection dialog, as seen below. Review the campaigns that are available in the module. Click on a campaign to open an overview of it in the right-side window to get an idea of the overall mission and historical context of the campaign.
 
-**NOTE:** You cannot pick which side you will play or what your opponent will be.  You will play the side the campaign author has specified, and it will be against the AI.
+![](images/image571.jpg)
 
-Next, you can choose the Battle Plan for the campaign scenario if there is more than one or select it to be picked at random.
+Click Play to proceed.
 
-![](images/image314.png)![](images/image315.png)
+Only the Difficulty settings can be customized for a campaign, as shown below. Select a Difficulty preset or set custom Game Options and Fog of War options that will apply to all scenarios in the campaign. These settings are covered in Section 4.3 above.
 
-Clicking Proceed will load the scenario, and you can begin to play.  The program title bar tells you the name of the campaign and which scenario you are currently playing.
+**NOTE:** You cannot pick which side you play or who your opponent will be in a campaign. These are specified by the campaign author, and the opponent will be the AI.
 
-![](images/image316.png)
+![](images/image573.jpg)
 
-Play the scenario to a conclusion or end it early (if more than 2/3s has been played) via the top menu Game / End Game Now selection.  After the standard Battle Over dialog, you will be asked to save the campaign in progress as a “. CAV” file.  Select a file name and click on the Save button.
+If the following two settings in the Game Options are selected during campaign setup: Enemy Units Always Visible and Allow Gathering of Full Information of Visible Enemy Units, then Staff Report dialogs will have an option in the bottom left corner to View Enemy Tactical Operations Center (see the last image of this subsection below). Checking this toggle converts each tab to show the same information but from the enemy’s perspective and the details change accordingly. Uncheck this toggle to return to your forces’ information. Selecting only one or the other of these two Game Options will not allow this information to be viewed in-game (see Section 4.3.2 above).
 
-![](images/image314.png)![](images/image317.png)
+Click Play to proceed. Next, choose the Battle Plan for the first campaign scenario (if there is more than one available) or leave it at Random Selection to be picked at random. Battle Plans will be selected at the start of each campaign scenario.
 
-You will then see the following message:
+![](images/image575.jpg)
 
-![](images/image314.png)![](images/image318.png)
+Click Proceed to load the scenario and begin to play. The game program’s title bar displays the name of the campaign and which scenario is currently in progress as seen below:
 
-Clicking on Proceed will take you to the Staff Summary of the TOC Scenario Information dialog for the usual post-mortem debrief.  Note that there is a new tab in this dialog called “Campaign Chronology”.  This report will show you the accumulated campaign information to date.  It contains:
+![](images/image577.jpg)
 
-- The campaign description
+Play the scenario to the conclusion or end it early, if at least two-thirds completed, to proceed to the next scenario via the Game menu bar item, End Game Now selection. After the standard Battle Over dialog, save the campaign in progress as a “.cav” file. Manually enter a file name or use the default file name detailing the campaign, scenario, real-world date and time, percentage complete, and game time, then click the Save button.
 
-- For each scenario you will see:
+![](images/image579.jpg)
 
-o The scenario briefing
+The following Campaign Scenario Completed message will appear:
 
-o The game time the scenario ended and the distribution of VPs, both for the scenario and the campaign so far
+![](images/image581.jpg)
 
-o The staff evaluation received for that scenario
+Click on Proceed to view the Scenario Information dialog for the usual postmortem debrief. Note that there is a new tab in this dialog called “Campaign Chronology”. This report will show the accumulated campaign information to date. It contains:
 
-- When the entire campaign is complete, a final summary evaluation will be appended for you to review.
+- The campaign description.
 
-When the player has finished the scenario post-mortem, use the Game / Start Next Campaign Scenario menu option to go to the next scenario.
+- For the first scenario, it will show:
 
-The new scenario will load, and the player’s core forces will be imported and placed in the appropriate setup areas.
+o The Scenario Briefing, including scenario start and end game times.
 
-![](images/image319.png)![](images/image320.png)The Force Recovery dialog will be shown to detail how much rest, recovery, and replacements your core force has received.
+o The Scenario Verdict, including your star rating and very brief staff evaluation (see Section 30.1 above).
 
-This report summarizes a lot of meaningful detail!
+o The distribution of Victory Points between forces.
 
-![](images/image321.png)
+o The Core Force Status, depicted with a bar graph of how many unit types are still active.
 
-The player will now receive the mission briefing for the scenario and play can start.  When this scenario is complete, the same process will be used to start the third and final scenario.
+- As subsequent scenarios’ results are available, it will also show:
 
-When this final scenario concludes, a campaign summation screen will be shown:
+o Details on the Campaign Force Recovery Phase, including where you are in the progression of the campaign and Recovery details for your core forces.
 
-![](images/image322.png)
+o The Subunit Distribution in table form, about the fate of your units.
 
-The game end-state can then be browsed in the usual way.  The TOC Scenario Info Campaign Chronology will now be complete.
+o Any new Force Attachments made to your force.
 
-![](images/image323.png)
+o Followed by the same information as provided for the first scenario, as above.
 
-From here you can select the close button return to the Main Menu and start another battle or campaign.
+- When the entire campaign is complete, a final summary evaluation is appended for you to review.
+
+After reviewing and closing the scenario postmortem, use the Game menu bar item, Start Next Campaign Scenario option to go to the next scenario as shown below:
+
+![](images/image583.jpg)
+
+The new scenario will load and import your core forces, placed in the appropriate setup areas. Select an Opponent Battle Plan when prompted.
+
+The Force Recovery dialog shows next (see below) which recounts how much rest and recovery your core force has received as well information on any replacements and attachments. Review this carefully to understand your forces going into the next battle.
+
+![](images/image585.jpg)
+
+Click Proceed, review the Mission Briefing for the scenario, and then begin playing. When this scenario is complete, the same process is used to start the third and subsequent scenarios.
+
+A campaign summation screen is displayed after the final scenario is finished, as seen below. It is similar to the Final Report (see Section 30.2 above) but includes ratings for all the scenarios making up the campaign.
+
+![](images/image587.jpg)
+
+Click Proceed and the final game postmortem can be browsed in the usual way (see Section 30 above). The Scenario Information dialog’s Campaign Chronology Report is now complete and can be reviewed in the tab on the right, as shown below. At the bottom of this tab is a summary of each scenario.
+
+![](images/image589.jpg)
+
+When finished with the reports, click the Close button to return to the Main Menu to start another battle or campaign.

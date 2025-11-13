@@ -32,11 +32,7 @@ The bottom part of the turn/clock panel lists:
 
 - Cloud base height, and whether the clouds are rising or falling
 
-![](images/image005.png)
-
 The part of the day, and specifically the transitions from night through dawn to day, and from day through dusk to night, are also indicated by a hue change of the terrain.
-
-![](images/image006.png)
 
 ## Weather Forecast
 
@@ -46,19 +42,13 @@ The weather forecast provides information by the hour for the ‘modern era’, 
 
 Additionally, the weather forecast provides a list of systems that might be impacted by those weather conditions (roughly based on US FM 34-81-1).
 
-![](images/image007.png)
-
-![](images/image008.png)
-
 ## Scenario Editor
 
 The scenario creator defines the weather for the scenario he creates. The scenario creator either selects a single ‘weather day’, resulting in ‘fixed’ weather for the scenario, or multiple ‘weather days’, resulting in pseudo-random weather for the scenario.
 
 In case of multiple ‘weather days’, one of these ‘weather days’ is picked at random at scenario start time, and used for the duration of the scenario, across saves and reloads of that scenario. Whenever the scenario starts anew, the random selection is performed anew, most likely yielding different weather.
 
-The Scenario Editor’s dialog to select weather (‘weather days’) for is shown below.
-
-![](images/image009.png)
+The Scenario Editor’s dialog to select weather (weather days’) for is shown below.
 
 In the Scenario Editor’s ‘Select Weather’ dialog, first the weather station is selected, in ‘1. Select Weather Area’. (If the map used for the scenario shipped with the game, the Scenario Editor will automatically select the matching weather station, based on a configuration file).
 

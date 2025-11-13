@@ -8,45 +8,47 @@ In QGis, we export a selected area of the map by making a Print Composer for thi
 
 To create the Print Composer for our 46×30 hex map, do the following. Use the "Project" menu, "Composers Manager", select a "specific" New from template, and press the "..." button to load the 46×30 print composer template.
 
-**WARNING:** If you are creating your second map, or are using the example project to start from, do not modify the existing fcrs\_500\_Minden print composer but make sure to create a new one.
+!!! warning
+    If you are creating your second map, or are using the example project to start from, do not modify the existing fcrs\_500\_Minden print composer but make sure to create a new one.
 
-![](images/image036.png)
+![](images/image070.png)
 
 Figure 34    Creating a new Print Composer from the 46×30 hex template
 
 With the template selected in the Composer Manager dialog, select Add. A new dialog will pop up to name the new Print Composer. Let's name it fcrs\_500\_Minden.
 
-![](images/image037.png)
+![](images/image072.png)
 
 Figure 35    Naming our new Print Composer
 
 The new fcrs\_500\_minden Print Composer will appear, with its own (blank) window.
 
-![](images/image038.png)
+![](images/image074.png)
 
 Figure 36    The Minden Print Composer in a new window
 
 Start with closing the 'Command List' Panel and 'Items' Panel, since we don't need it. Select the Item Properties tab, then select the blank area in the main view. (The area is blank because it focused on an area of the map in Southern Germany for which we don't have elevation).
 
-![](images/image039.png)
+![](images/image076.png)
 
 Figure 37    Default Scale and Map Extents of the Print Composer
 
 To make this Print Composer print/export our Minden area, we need to change the extents in the Item Properties to match our map box but not change the scale (39370).
 
-**NOTE:** the scale 39370 comes from 1000m / 1 inch since we're exporting a bitmap at 64 pixels per 500m hex or 128 per 1000m = 128 dots per inch).
+!!! note
+    the scale 39370 comes from 1000m / 1 inch since we're exporting a bitmap at 64 pixels per 500m hex or 128 per 1000m = 128 dots per inch).
 
 Alt-tab to the QGis main window, select the area box layer, select our area box, and use View, Center on Selection to center the window on the area box. Alt-tab back to the print composer and press the "Set to map canvas extent" button.
 
 The Print Composer will update to the following (zoom out to 25% using the control in the bottom row of the Print Composer):
 
-![](images/image040.png)
+![](images/image078.png)
 
 Figure 38    Focusing the Print Composer on the Minden area (but incorrect scale)
 
 Next, correct the scale back to 39370, so the hexes are the 64-pixel height Flashpoint Campaigns: Cold War expects:
 
-![](images/image041.png)
+![](images/image080.png)
 
 Figure 39    Minden area, at correct scale 39370 (but not perfectly aligned with the game’s hexes)
 
@@ -54,19 +56,19 @@ Next, we need to tweak the extents such that the hex grid perfectly aligns with 
 
 **Step 1**. Export to the map for scanning by Flashpoint Campaigns using the current extents. In the Print Composer, use "Composer" Menu, Export as Image, and save the image, for example, to our project folder:
 
-![](images/image042.png)
+![](images/image082.png)
 
 Figure 40    xporting our map for scanning by the Flashpoint Campaigns Map Values Scanner as fcrs\_minden.png
 
 In the next dialog, you should see the following settings (128dpi, width of approximately 2572 pixels). Just press Save for QGis to export the .png file.
 
-![](images/image043.png)
+![](images/image084.png)
 
 Figure 41    QGis automatically exports the image with the correct width and resolution
 
 **Step 2**. Load the exported bitmap in the Flashpoint Map Values Scanner and check the hex grid alignment with yellow hex cursor.
 
-![](images/image044.png)
+![](images/image086.png)
 
 Figure 42    Flashpoint Campaigns Map Values editor with the exported QGis map, and the grid not aligning perfectly with the map cursor (yellow hexagon, top left)
 
@@ -76,13 +78,13 @@ The offset in this case seems about 1/20th of a hex horizontally to the left and
 
 Switch back to QGis and our Print Composer. First fix the horizontal offset, subtracting 25m to the extents Xmin and Xmax:
 
-![](images/image045.png)
+![](images/image088.png)
 
 Figure 43    Tweaking the Print Composer extents to align with the game’s grid
 
 With these extents, update the Print Composer (press Update preview), Repeat steps 1 and 2, also adjusting for vertical offset in Ymax and Ymin.
 
-![](images/image046.png)
+![](images/image090.png)
 
 Figure 44    Offset reduced horizontally, but still requiring vertical tweaks...
 
@@ -90,11 +92,12 @@ Rinse and repeat until you get it spot on. This takes me typically 3 to 8 tries.
 
 Here is the result:
 
-![](images/image047.png)
+![](images/image092.png)
 
 Figure 45    Well aligned Print Composer settings and Flashpoint Campaign game hex grid
 
-**NOTE:** especially for larger maps, be sure to check both the top left corner (hex 101) and bottom right corner of the map for alignment.
+!!! note
+    Especially for larger maps, be sure to check both the top left corner (hex 101) and bottom right corner of the map for alignment.
 
 Now, let's save everything we have done. In the Print Composer, explicitly save the Minden Print Composer, using Composer menu, save as template (name fcrs\_500\_Minden).
 
@@ -102,15 +105,15 @@ In the QGis main window, in the Layers Panel, toggle off all the editing flags f
 
 Add some organization to the Layers Panel, by introducing the following groups (using, in the Layers Panel, right mouse button, Add Layer Group):
 
-§ Helpers
+- Helpers
 
-§ Manual Annotations
+- Manual Annotations
 
-§ Elevation
+- Elevation
 
 Next, drag and drop the layer such that the elevation items are under elevation, and the area boxes are under helpers, as follows:
 
-![](images/image048.png)
+![](images/image094.png)
 
 Figure 46    Some housekeeping done to our layers (ignore the GeoSearch layer; that layer and corresponding plug-in are no longer functional in QGis 2.x)
 
@@ -118,13 +121,13 @@ Finally, use the Print Composer again export the map as we should, with the area
 
 Load the map into the Flashpoint Map Values Scanner again.  This time, let’s fill out the map meta information, consisting of author information, map name, and altitude information. Under ‘Editor Display’, choose Author Details… to launch the following dialog:
 
-![](images/image049.png)
+![](images/image096.png)
 
 Figure 47    Map meta information: author information and map description
 
 Press ‘Proceed’ to close this dialog. Next, and open, again under ‘Editor Display’, the Map Scale and Base Altitude dialog. The map scale cannot be changed (and is fixed to 500m hexes). For altitude, fill out the base level we have chosen for our elevation style in QGis (75m).
 
-![](images/image050.png)
+![](images/image098.png)
 
 Figure 48    Map meta information: base altitude of 75m
 
@@ -132,13 +135,13 @@ Now, we can scan the bitmap for terrain properties (mainly elevation data, as th
 
 After approximately one minute (longer for larger maps and slower computers), the map will have been scanned. A popup dialog appears, showing a summary of the findings:
 
-![](images/image051.png)
+![](images/image100.png)
 
 Figure 49    Map scanning results: six elevation levels, and twenty-two steep slopes
 
 Press ‘Proceed’ to close the dialog. We can now inspect the scanning result. From the ‘View’ menu, choose ‘Elevation Values’ to have the elevation (from 0 to the maximum elevation) displayed.
 
-![](images/image052.png)
+![](images/image102.png)
 
 Figure 50    Elevation values after map scanning
 
@@ -150,7 +153,7 @@ Altitude indicates per hex altitude value. Feature height (or object height) ind
 
 Hex identifier is the hex number identification the location, typically running from 101 to 4630 for 20x15km maps. The Hex Side Obstacles indicates hex side obstacles and steep hill sides:
 
-![](images/image053.png)
+![](images/image104.png)
 
 Figure 51    Steep hill sides indicated by the Hex Side Obstacles view
 
@@ -158,6 +161,6 @@ Figure 51    Steep hill sides indicated by the Hex Side Obstacles view
 
 Save the result as fcss\_minden.fp10.
 
-![](images/image054.png)
+![](images/image106.png)
 
 Figure 52    Save our scanned map as fcss\_minden.fp10

@@ -6,17 +6,14 @@ This new tab of information requires adding weapon data from the systems tab to 
 
 From there, the unit’s weapon list needs updated to show the rounds used and the total number of rounds (or bursts) carried on the platform. The weapons list can be a mix of weapon systems that have munitions or not. See Section 18.24 above for details on how to annotate munition load outs for weapon systems.
 
-**NOTE:** Mistakes in the formatting of the Weapon System and it ammo loadout or munition information can cause the game to crash or have unwanted effects on combat.
+!!! note
+    Mistakes in the formatting of the Weapon System and it ammo loadout or munition information can cause the game to crash or have unwanted effects on combat.
 
 ## The Munition Types Tab
-
-![](images/image030.png)![](images/image031.png)
 
 The Munition Types Tab is similar to and uses the values, calculations, and shared characteristic of the Systems (Weapons) tab and the information from Section 10 Systems applies to this table for the columns outlined in Red above and zoomed in below in Section 11.2. The columns outlined in the blue box are new entries that have definitions seen below in Section 11.3.
 
 ## Columns Based on Systems Values
-
-![](images/image032.png)
 
 The major difference for these columns compared to the Systems tab is the values apply to only one type of munition type like AP or HEAT round.
 
@@ -29,8 +26,6 @@ If a munition type does not use one or any of the values for SA Value, AP Pen, o
 Be sure to only apply those Characteristics that apply to the type of round/munition being designed. This is different from the Systems tab where the older data covers all munition cases and is parsed out internally in the code for capability.
 
 ## Columns for the Munition Types
-
-![](images/image033.png)
 
 These new columns have the following definitions.
 
@@ -62,17 +57,14 @@ In the image above the first munition type is an “Armor Piercing” round.
 
 These codes tell the code how to apply the round when fired. Codes in Italic are provisional and may be added later.
 
-![](images/image034.png)
-
 These codes must be typed in as shown to function in the game.
 
-**NOTE:** New custom types will not function in game and require coding to work. Contact the developers if new items are required.
+!!! note
+    New custom types will not function in game and require coding to work. Contact the developers if new items are required.
 
 ## Setting Up Munition Types
 
 The following image shows how to add defined Munition types in the Units Tab in the Integrated Weapons List with other weapons.
-
-![](images/image035.png)
 
 ### Munition Type Entry
 
@@ -86,10 +78,10 @@ Here are the rules to follow to format a valid Integrated Weapons List:
 
 - A Munitions based Weapon entry has the following format.
 
-o Starts with just the WEAPTAG value and then a “: ”.
+- Starts with just the WEAPTAG value and then a “: ”.
 
-o Then any number of defined munition types by AmmoTypeID then ”\*” and then the number of rounds
+- Then any number of defined munition types by AmmoTypeID then ”\*” and then the number of rounds
 
-o Each Munition Type MUST be separated by a ”; ”.
+- Each Munition Type MUST be separated by a ”; ”.
 
-o The last or only Munition Type must be followed by a comma if another weapon entry follows.
+- The last or only Munition Type must be followed by a comma if another weapon entry follows.

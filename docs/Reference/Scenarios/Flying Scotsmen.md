@@ -1,7 +1,7 @@
 # Flying Scotsmen
-_D+19 | 8 Aug 1989, 0500hrs - 1300hrs [:smflag-gb:](./Forces/United Kingdom.html) vs [:smflag-eg:](./Forces/East Germany.html) [:smflag-su:](./Forces/Soviet Union.html) @ [Eiterfeld](../Maps/Eiterfeld/Eiterfeld.html)_
+_D+19 | 08 August 1989, 05:00hrs - 13:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Eiterfeld](../../Maps/Eiterfeld/Eiterfeld)_
 
-Preparations for the NORTHAG counter-attack involved identifying weak spots in the Pact defensive lines. That by itself was not enough to just identify weak spots in their lines, but also locations where NATO could quickly deploy an attacking force before the WP forces could be reinforced.  One such place was the Eiterfeld area. 
+Preparations for the NORTHAG counterattack involved identifying weak spots in the Pact defensive lines. That by itself was not enough to just identify weak spots in their lines, but also locations where NATO could quickly deploy an attacking force before the WP forces could be reinforced.  One such place was the Eiterfeld area.
 
 In this area an East German force set-up defensive positions behind the Haune river. Obstacles and bridge demolitions secured their flanks. Their position was not deep nor did recon identify strong back-up forces in proximity.
 

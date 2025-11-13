@@ -1,213 +1,221 @@
 # The Game Map
 
-All the action in the game takes place on beautifully rendered maps of real-world terrain. Each hex represents 500 meters of distance, hex face too hex face. The map shows terrain elevations, terrain types, roads, rails, and map markers. Knowing the effects of these elements is critical for success on the battlefield.
+All action in the game takes place on beautifully rendered maps of real-world terrain. Each hex represents 500 meters of distance from hex face to hex face. The map shows terrain elevations, terrain types, roads, rails, and map markers. Knowing the effects of these elements is critical for success on the battlefield.
 
-![](images/image200.png)
+![](images/image378.jpg)
 
 ## Moving the Map
 
-There are a few ways to move around the map during the game and they are as follows:
+There are a few ways to move around the map during the game:
 
-- Map scrolling by placing the mouse cursor near a map or program edge. This is defined in Game Options.
+- Scroll the map by placing the mouse cursor near a map or program edge. This is defined in User Preferences under Map Scrolling Parameters ([***F2***], see Section 3.2.1 above).
 
-- You can left-click and drag any non-unit part of the map to a new position on the screen in real time. Clicking a unit will highlight the unit.
+- Left-click and drag any non-unit part of the map to a new position on the screen in real time. Clicking a unit highlights the counter in a yellow square. Clicking a hex highlights the hex in gray.
 
-- You can click the Mini Map and center the game map to the chosen location based on the zoom level.
+- Click the Mini Map to center the game map on the specified location based on the zoom level (see Section 13.4 above).
 
 ## Zooming the Map
 
-There are a few ways to zoom the map during the game and they are as follows:
+There are a few ways to zoom the map during the game:
 
-- Rolling a mouse wheel will zoom the map in and out by the set increments if your mouse is equipped as such. There is a setting in the game option to reverse the direction of the zoom function.
+- Roll a mouse wheel to zoom the map in and out by set increments if your mouse is equipped as such. A setting in the User Preferences [***F2***] reverses the direction of the zoom function (see Section 3.1.1 above).
 
-- You can click the Mini Map (+) and (–) buttons. The Fit button will zoom the map out so the whole map is visible on the screen.
+- Click the Mini Map (+) and (–) speed buttons. The Fit button zooms the map out so the whole map is visible on the screen (see Section 13.4 above).
 
-- You can go to the Options menu select the Map Zoom Option item and select a Zoom from the menu.
+**NOTE:** To take a screen capture of your entire map, it may be more helpful to use the Full Map Screen Capture[***Ctrl+Z***]feature instead. This captures the entire game map and all counters and markers on it with no UI shown and saves in the specified screen capture folder.
+
+- Go to the Options menu to select the Map Zoom Option item and select a Zoom from the menu (see Section 11.9.3 above). Hotkeys for different zoom levels are listed in this submenu (***Ctrl*** + numbers ***0*** through ***9***).
 
 ## Flyout Panel/Unit Hint
 
-The Flyout Menu activates if you hover the mouse cursor over a stack of units or a hex on the map. The Flyout menu appears after a second or so showing you the terrain under the counters or markers, any significant markers like VP markers, bridges, mines, or obstacles, and each of the counters present in the stack. At the bottom of the Flyout menu, you also get the hex location (column/row), hex elevation, cover, concealment, and mobility values.
+The Flyout Panel opens from hovering the mouse cursor over a stack of units or a hex on the map. The Flyout Panel appears after a second or so showing the terrain under the counters or markers, any significant markers like Victory Point (VP) locations, bridges, mines, or obstacles, as well as each of the counters present in the stack. At the bottom of the Flyout Panel are the hex location (column/row grid coordinates), Elevation, Cover, Concealment, and Mobility values.
 
-Beyond helping see stacked units, you can right-click on units in the Flyout dialog to issue orders and even shift-click units to group select them.
+![](images/image380.jpg)
 
-![](images/image201.png)
+How long it takes to trigger the Flyout Panel can be changed via the Map Mouse Hover Delay setting in the General tab of User Preferences ([***F2***], see Section 3.1.1 above).
+
+Beyond helping to see stacked units, the Flyout Panel facilitates right-clicking on units to issue orders. ***Shift***-click units to group select them (see Section 21.9 below for issuing group orders).
 
 ## Elevations
 
-On the game map, you will notice that the ground is colored differently based on its elevation. The more elevated the terrain is, the lighter the basic green color will be. Elevated sections of the terrain are outlined in a visible shaded edge.
+The ground on the game map is shaded differently based on elevation (see also Section 11.8.2 above). The more elevated the terrain, the lighter the basic green color. Elevated sections of the terrain are outlined in a visible shaded edge.
 
-You can also check the hex elevation by hovering on the tile and seeing the information on the Flyout or in the Status Bar at the bottom right of the screen or going to the Terrain Overlay menu and selecting Elevation Values.
+![](images/image382.jpg)
 
-Placing units on higher terrain will provide them with a better line of sight.
+Check the hex elevation by hovering over the tile to open this information in the Flyout Panel (see Section 16.3 above), in the Status Bar at the bottom right of the screen (see Section 12.2 above), or going to the Terrain Overlay menu and selecting Elevation Values (see Section 11.8.2 above).
 
-![](images/image202.png)
+Placing units on higher terrain provides them with a better Line of Sight (see Section 11.6.1 above).
 
 ## Terrain
 
-The map is made up of various terrain elements applied over the elevations.
+Each type of terrain has values for Cover (see Section 11.8.3 above), Concealment (Section 11.8.4 above), and Mobility (Section 11.8.5 above) that impact Spotting, combat, and movement in various ways. The values are set in the Map Values Editor for each map used in the game. See Section 11.8 above for more information about other terrain factors.
 
-Each type of terrain has mobility, concealment, and cover values that impact spotting, combat, and movement in various ways. The values are set in the Map Values Editor for each map used in the game.
+- ![](images/image384.jpg)**Clear** – A few small elements are visible on the elevation art. These tiles are not really “clear” as they have a small number of rolling hills, trees, fields, and buildings. However, these elements have relatively small amounts of Cover and Concealment capabilities.
 
-- ![](images/image203.png)**Clear** – A few small elements are visible on the elevation art. These tiles are not really “clear”, as they have a small number of rolling hills, some trees, fields, and buildings. These elements have a small amount of cover and concealment capability.
+- ![](images/image386.jpg)**Fields** – Cultivated farm fields. Relatively flat, solid terrain. One of the more numerous terrain types in central Europe. Fields do provide some Concealment with the crops during growing seasons.
 
-- ![](images/image204.png)**Fields** – Cultivated farm fields. Relatively flat solid terrain (in the summer and if it is not raining). One of the more numerous terrain types in central Europe. Fields do provide some concealment with the crops during the growing seasons.
+- ![](images/image388.jpg)**Forest/Orchards** – Lots of trees of various types cut with the occasional path, trail, or road. Not so thick that driving over them is prohibited. Orchards show smaller trees in nicely spaced rows. Trees can also be found along many country roads.
 
-- ![](images/image205.png)**Forest/Orchards** – Lots of trees of various types cut with the occasional path, trail, or road. Not so thick that driving over them is prohibited. Orchards show smaller trees in nicely spaced rows. Trees can also be found along many country roads.
+- ![](images/image390.jpg)**Rural** – Houses and small buildings found in villages and towns. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They also provide good ambush sites for infantry against armored vehicles. Depicted as orange squares, some trees, and minor roads.
 
-- ![](images/image206.png)**Rural** – Houses and small buildings found in villages and towns. These built-up areas provide good cover and concealment and decent mobility with many roads. They also provide good ambush sites for infantry against armored vehicles. They are depicted as orange squares, some trees, and minor roads.
+- ![](images/image392.jpg)**Urban** – Larger government buildings, shops, and apartment complexes. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as red squares, a few trees, and roads.
 
-- ![](images/image207.png)**Urban** – Larger government buildings, shops, and apartment complexes. These built-up areas provide good cover and concealment and decent mobility with many roads. Also, provide good ambush sites for infantry against armored vehicles. They are depicted as brown squares, a few trees, and some roads.
+- ![](images/image394.jpg)**Industrial** – Factories and warehouses. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as brown squares, occasional trees, and roads.
 
-- ![](images/image208.png)![](images/image209.png)![](images/image210.png)**Industrial** – Factories and warehouses. These built-up areas provide good cover and concealment and decent mobility with many roads. They also provide good ambush sites for infantry against armored vehicles. They are depicted as gray squares, occasional trees, and roads.
-
-- **Named Landmarks** – On several maps, there are some named landmarks like airfields, depots, or hills with heights. These are cosmetic but informational.
+- ![](images/image396.jpg)![](images/image398.jpg) **Named Landmarks** – Maps may have some named landmarks like airfields, depots, or hills with heights. Cosmetic but informational.
 
 ## Roads
 
-The map has a few types of major road networks represented for use in the game.
+Each type of road provides improved ease of movement through the various types of terrain found on the map compared to off-road routes. There are a few types of road networks.
 
-Each type of road provides improved mobility through the various types of terrain found on the map.
+- ![](images/image400.jpg)**Road** – Basic two-lane country roads that are paved and in decent condition. Roads provide a suitable means of movement for forces through the various terrain on the map. Roads are shown as gray lines with a black border.
 
-- ![](images/image211.png)**Road** – These are basic two-lane country roads paved and in decent condition. These roads provide a suitable means of movement for forces through the various terrain on the map. Roads are shown as gray lines with a black border.
+- ![](images/image402.jpg)**Highway** – Multilane roads, paved and in good condition for heavy traffic. Highways provide a reasonable means of movement for forces through the various terrain on the map. Highways are shown as wide yellow lines with a black border.
 
-- ![](images/image212.png)**Highway** – These are multilane roads paved and in good condition for heavy traffic. These roads provide a reasonable means of movement for forces through the various terrain on the map. Highways are shown as wide yellow lines with a black border.
-
-- ![](images/image213.png)**Autobahn** – These are modern very wide multilane roads built to allow fast movement of traffic and military vehicles. These roads provide an excellent means of movement for forces through the various terrain on the map. Autobahns are shown as double orange lines with black borders.
+- ![](images/image404.jpg)**Autobahn** – Modern, very wide multilane roads built to allow fast movement of traffic and military vehicles. Autobahns provide an excellent means of movement for forces through the various terrain on the map. Autobahns are shown as double orange lines with black borders.
 
 ## Railroads
 
-- ![](images/image214.png)**Railroad** – While we do not have trains or move things by rail in the game, we do show railways as alternating black and light gray lines on the map. Rail bridges are also shown on the maps and can, in a pinch, be used to cross units over water.
+- ![](images/image406.jpg)**Railroad** – While we do not have trains or move things by rail in the game, railways are shown as alternating black and light gray lines on the map. Rail bridges are also shown on the maps and can, in a pinch, be used to cross units over water.
 
 ## Water Obstacles
 
-The map has a few types of water obstacles that can hamper the movement of military units across the map. There are different means to cross these obstacles.
+There are a few types of water obstacles that can hamper the movement of military units across the map. There are different means to cross these obstacles.
 
-- ![](images/image215.png)**Stream** – These waterways are small, narrow, and shallow. With a bit of prep time units can cross these without the aid of bridges or engineering bridges.
+- ![](images/image408.jpg)**Stream** – Small, narrow, and shallow bodies of water. With a bit of prep time, units can cross streams without the aid of existing bridges nor engineered bridges.
 
-- ![](images/image216.png)**Minor River** – These waterways are wide enough and deep enough to require a bridge (road or engineering) or amphibious vehicles to cross (with some prep time). Most of these will be names on the map.
+- ![](images/image410.jpg)**Minor River** – Wide enough and deep enough to require a bridge (road or engineering) or amphibious vehicles to cross (with some prep time). Most minor rivers are named on the map.
 
-- ![](images/image217.png)**Major River** – These waterways are vast and deep and must be crossed by bridge (in this case shown by two bridge markers) or swam at slow speeds by amphibious capable vehicles. Most of these major rivers will have names on the map.
+- ![](images/image412.jpg)**Major River** – Vast and deep bodies of water that must be crossed by bridge (may be shown with two bridge markers) or swam at slow speeds by amphibious-capable vehicles. Most major rivers are named on the map.
 
-- ![](images/image218.png)**Lakes** – Lakes and ponds are various sizes of enclosed water obstacles. The only means of crossing these obstacles is an engineering bridge or two or amphibious units that can slowly swim across to the other side. In most cases, going around them is the better plan.
+- ![](images/image414.jpg)**Lakes** – Lakes and ponds are various sizes of enclosed water obstacles. The only means of crossing these obstacles is an engineered bridge or two or amphibious units that can slowly swim across to the other side. In most cases, going around lakes is the better plan.
 
 ## Bridges
 
-As noted in the section above, the primary way to cross rivers and streams is to use a bridge. These markers are shown on the map as wide light gray/white semi-transparent rectangles with black edges, and they are placed on the map across water obstacles and meet up with the ends of roads.
+As noted in the section above, bridges are the primary way to cross rivers and streams. These markers are shown on the map as wide, white/light gray, semi-transparent rectangles with black edges when part of the map. Combat engineers can also place them on the map across water obstacles to meet up with the ends of roads, see **FM03B Tutorial Operations: Intermediate** for more information on using engineers.
 
-- Road and Rail bridges both use the same marker.
+![](images/image416.jpg)
 
-- A Blown bridge is denoted with a red cross over it. Bridges can be in a blown state as part of the scenario design or can be blown with engineering units during a scenario.
+- Road and Rail Bridges both use the same marker.
 
-- Specific engineering units can place temporary bridges across water obstacles. These bridges are colored blue for NATO-owned and red for Warsaw Pact-owned bridges.
+- A Blown Bridge is marked with a red cross over it, as shown above. Bridges can be in a blown state as part of the scenario design or can be blown with engineering units during a scenario.
 
-![](images/image219.png)![](images/image220.png)![](images/image221.png)![](images/image220.png)![](images/image220.png)![](images/image222.png)![](images/image223.png)
+- Specific engineering units can place temporary bridges across water obstacles. These bridges are colored blue for NATO-owned and red for Warsaw Pact-owned.
 
 ## Map Markers – Full Hex
 
-Full hex map markers apply their effects on the entire hex and any units within. The color shows ownership. Red for Player one and Blue for Player two. Unowned markers are in yellow.![](images/image224.png)
+Full hex map markers apply their effects on the entire hex and any units within. The color shows ownership for some of them, red for Player 1 and blue for Player 2. Un-owned markers are in yellow.
 
-- **Brew/Casualty Kill Markers** – A small blue (Player 1) or red (Player 2) smoking tanks or crosses showing where a subunit vehicle/squad was destroyed or fell out.
+![](images/image418.jpg)
 
-- **Chemical Contamination** – The hex at this location is contaminated with persistent chemicals. Units can suffer losses if they move through these areas and become contaminated.
+- **Brew/Casualty** – Small blue (Player 1) or red (Player 2) kill markers of smoking tanks or crosses show where a subunit vehicle or squad was destroyed or fell out.
 
-- **Crater** – A small image showing the impact point of a barrage or air strike. Craters cause a slight movement penalty in the hex.
+- **Chemical Contamination** – This hex is contaminated with persistent chemicals. Units can suffer losses if they move through these areas and become contaminated.
 
-- **Fortification** – A purposely built defensive structure made to protect forces from enemy fire. Units can screen or hold in them to gain a significant protection advantage. Not currently in the game.
+- **Crater** – A small image shows the impact points of a barrage or air strike. Craters cause a slight Movement penalty in the hex (see Section 11.8.5 above for more on Mobility ratings).
 
-- **Gas Cloud (Nonpersistent)** – The hex contains a non-persistent chemical cloud. Units entering run the risk of losing subunits. These clouds will dissipate over time and pose no lingering threat.
+- **Fortification** – A purposely-built defensive structure made to protect forces from enemy fire. Units can Screen or Hold in them to gain a significant protection advantage. Not currently in the game.
 
-- **Improved Position (IP)** – An engineered defensive position that provides additional protection to units in them.
+- **Gas – Nonpersistent** – This hex contains a non-persistent chemical cloud. Units that enter run the risk of losing subunits. These clouds dissipate over time and pose no lingering threat.
 
-- **Minefield** – A mixed anti-tank/anti-personnel minefield that attacks all who enter the location particularly those who do not know it is there. Engineering units can clear lanes in these fields for safe movement.
+- **Improved Position (IP)** – An engineered defensive position that provides additional protection to units in these hexes.
+
+- **Minefield** – A mixed anti-tank/anti-personnel minefield that attacks all who enter this location, particularly those who do not know it is there. Engineering units can clear lanes in these fields for safe movement (see Section 23.4 below for minefield movement orders).
 
 - **Obstacle** – An engineered barrier that obstructs the movement of forces leading to movement delays. Engineering units can clear lanes in these fields for safe movement.
 
-- **Radiation Contamination** – The hex is littered with highly radioactive debris and fallout after a nuclear strike. Entering these can cause losses to subunits based on the NBC protection level of the units passing through. Units moving through become contaminated and must be “cleaned” when out of the hazardous terrain.
+- **Radiation** – This hex is littered with highly radioactive debris and fallout after a nuclear strike. Entering these hexes can cause losses to subunits based on their NBC (nuclear, chemical, and biological) protection level. Units moving through become contaminated and must be “cleaned” when out of the hazardous terrain by ordering Rest and Resupply.
 
-- **Reduced Fortification** – Marker shows a Fortification that has been damaged by engineers or combat and is no longer able to protect the unit in it. Not currently in the game.
+- **Reduced Fortification** – This shows a fortification that has been damaged by engineers or combat and is no longer able to protect the unit in it. Not currently in the game.
 
-- **Reduced Improved Position (IP)** – The marker shows an Improved Position (IP) that has been damaged by engineers or combat and is no longer able to protect the unit in it.
+- **Reduced Improved Position (IP)** – This shows an Improved Position (IP) that has been damaged by engineers or combat and is no longer able to protect the unit in it.
 
-- **Reduced Minefield** - The marker shows a Minefield that has been cleared by engineers with lanes making it safe to pass through.
+- **Reduced Minefield** – This shows a minefield that has been cleared by engineers and has lanes making it safe to pass through.
 
-- **Reduced Obstacle** – The marker shows an obstacle that has been cleared by engineers with lanes making it safe to pass through.
+- **Reduced Obstacle** – This shows an obstacle that has been cleared by engineers and has lanes making it safe to pass through.
 
-- **Smoke: Normal** – An obscuring cloud that reduces the visibility into and through it extensively unless a unit is using a thermal sight.
+- **Smoke: Normal** – An obscuring cloud that extensively reduces the Visibility into and through these hexes unless a unit is using thermal sight.
 
-- **Smoke: Thermal** – A thermally obscuring cloud that reduces the visibility into and through it considerably unless a unit is using a radar system for spotting.
+- **Smoke: Thermal** – A thermally obscuring cloud that considerably reduces the Visibility into and through these hexes unless a unit is using a radar system for Spotting.
 
-- **Smoke: Multi-Spectral** – An obscuring cloud that blocks visual, thermal, and radars from seeing into it and past it.
+- **Smoke: Multi-Spectral** – An obscuring cloud that blocks visual, thermal, and radars from seeing into and past these hexes.
 
-- **VP Location** – A banner with a point value that is awarded to the owner (blue-Player 1 and red-Player 2) who holds the objective at the end of the game. Unclaimed VP locations are shown with a split NATO/Warsaw Pact symbol. The point values for these locations can be split with different values for each side.
+- **VP Location** – A banner with the Victory Point (VP) value that is awarded to the owner who holds the objective at the end of the game (blue: Player 1 and red: Player 2). Unclaimed VP locations are shown with a split blue/red symbol. The point values for these locations can be split with different values for each side.
 
 ## Map Markers – Hex Edge
 
-Hex Edge Map Markers are placed along the edge of a hex, and the marker's effect only applies when crossing that hex edge. These markers are shown as full on the top of the picture below or reduced at the bottom of the image for each type. The color shows ownership. Red for Player one and Blue for Player two. Unowned markers are in yellow.![](images/image225.png)
+Hex edge map markers are placed along the edge(s) of a hex and the effect only applies when crossing that hex edge. These markers are shown as full-effect in the top row of the image below or reduced-effect in the bottom row for each type of marker. The color shows ownership: red for Player 1 and blue for Player 2. Un-owned markers are in yellow.
 
-- **Fortification** – A purposely built defensive structure made to protect forces from enemy fire. Units can screen or hold in them to gain a significant protection advantage. A Reduced Fortification has been damaged by engineers or combat and is no longer able to protect units in it. Not currently in the game.
+![](images/image420.jpg)
 
-- **Improved Position (IP)** – An engineered defensive position that provides additional protection to units in them. A reduced IP marker shows an Improved Position (IP) that has been damaged by engineers or combat and is no longer able to protect units in it.
+- **Fortification** – A purposely-built defensive structure made to protect forces from enemy fire. Units can Screen or Hold behind these hex edges to gain a significant protection advantage. A Reduced Fortification has been damaged by engineers or combat and is no longer able to protect units in it. Not currently in the game.
 
-- **Minefield** – A mixed anti-tank/anti-personnel minefield that attacks all who enter the location particularly those who do not know it is there. Engineering units can clear lanes in these fields for safe movement. A Reduced Minefield shows that it has been cleared by engineers with lanes making it safe to pass through.
+- **Improved Position (IP)** – An engineered defensive position that provides additional protection to units behind these hex edges. A reduced IP marker shows an Improved Position (IP) that has been damaged by engineers or combat and is no longer able to protect units behind it.
+
+- **Minefield** – A mixed anti-tank/anti-personnel minefield that attacks all who enter the location, particularly those who do not know it is there. A Reduced Minefield shows that it has been cleared by engineers with lanes making it safe to pass through (see Section 23.4 below for minefield movement orders).
 
 - **Obstacle** – An engineered barrier that obstructs movement leading to movement delays. Engineering units can clear lanes in these fields for safe movement. A Reduced Obstacle shows an obstacle that has been cleared by engineers with lanes making it safe to pass through.
 
 ## MCOO Map Legend
 
-The following hatches and lines are found on the Modified Combined Obstacle Overlay (MCOO) and have the following impact on gameplay for ground-based units. These effects do not hamper the movement of air units.
+The following hatches and lines are found on the Modified Combined Obstacle Overlay (MCOO; pronounced mah-KOO) and have the following effects on gameplay for ground-based units. These effects do not hamper the movement of air units.
 
-- ![](images/image226.png)**Impassible Terrain** – A terrain with a red cross-hatching is considered impassable by ground units. Units cannot travel into or through this type of terrain. There is no impassible terrain currently in the game.
+The MCOO can be activated by the Terrain Overlay menu bar item (see Section 11.8.1 above) or hitting ***Ctrl+M***.
 
-- ![](images/image227.png)![](images/image228.png)**Impassible Hex Edge** – Hex edges shown with a red solid line are impassible to ground forces. This indicates a slope that is at an incline/decline that is too steep for ground units to traverse. This is seen in hexes with multiple elevations at an edge.
+- ![](images/image422.jpg)**Impassible Terrain** – Terrain with red cross-hatching is considered impassable by ground units. Units cannot travel into or through this type of terrain. There is no impassible terrain currently in the game.
 
-- **Slow-Go Terrain** – The terrain with the red hatch is noted as slow-go terrain. This means your ground units will be slowed down as they navigate more restricted lanes of travel. This terrain is mainly seen in forested hexes in the game.
+- ![](images/image424.jpg)**Impassible Hex Edge** – Hex edges shown with a red solid line are impassible to ground forces. This indicates a slope that is at an incline/decline that is too steep for ground units to navigate. This is seen in hexes with multiple elevations at an edge. See Section 11.8.2 above for more on Elevation values.
 
-- ![](images/image229.png)**Built-Up Terrain** – Terrain with an orange hatch is built-up areas like villages, towns, and cities. The unit will be a bit slower through these areas. These hexes are also a potential danger for units moving through as cover and concealment for enemies is high in these areas.
+- ![](images/image426.jpg)**Slow-Go Terrain** – Terrain with a red hatch is noted as slow-go terrain. This means ground units are slowed down as they navigate more restricted lanes of travel. This terrain is mainly seen in forested hexes in the game. See Section 11.8.5 above for more on Mobility ratings.
 
-- ![](images/image230.png)**Open Terrain** – The grey terrain zones are considered open ground. These hexes have a few hills, trees, or buildings, and can be crossed without slowing down. They also show clear lanes of fire and line of sight. These areas are good to avoid if moving into an enemy area and having clear lanes of fire from cover is excellent when defending.
+- ![](images/image428.jpg)**Built-Up Terrain** – Terrain with an orange hatch is built-up with villages, towns, or cities. Units travel a bit slower through these areas. These hexes are also potentially dangerous for units moving through as Cover and Concealment for enemies is high in these areas (see Sections 11.8.3 and 11.8.4 above, respectively).
 
-- ![](images/image231.png)**Road Network** – The black or dark gray lines show the road network on the map. This terrain will have better movement rates than open ground and also allow for faster travel through any Slow-Go or Built-up terrain.
+- ![](images/image430.jpg)**Open Terrain** – Gray zones are considered open ground. These hexes have relatively few hills, trees, or buildings, and can be crossed without slowing down. They also have clear lanes of fire and Lines of Sight (see Section 11.6.1 above). These areas are good to avoid if moving into an enemy area but having clear lanes of fire from Cover is excellent when defending.
 
-- ![](images/image232.png)**Water Obstacles** – The solid blue lines or blue-filled hexes represent water obstacles that require bridging or units with amphibious capability to cross over them. Other units can cross with road bridges.
+- ![](images/image432.jpg)**Road Network** – Yellow lines show the road network on the map. This terrain has better movement rates than open ground and also allows for faster travel through any Slow-Go or Built-Up Terrain.
+
+- ![](images/image434.jpg)**Water Obstacles** – Solid blue lines or blue-filled hexes represent water obstacles that require bridging or units with amphibious capability to cross over them. Other units can cross with road bridges. See Section 16.8 above for information on water obstacles.
 
 ## Animated Fire Lines
 
-Flashpoint Campaigns offers two types of fire line animations. The default basic fire lines or direct-fire-based weapon animations. You can turn on the weapon-based effects from the Options menu.
+***Flashpoint Campaigns: Cold War*** offers two types of fire line animations: default basic fire lines or direct-fire-based weapon animations. Toggle these weapon-based effects from the User Preferences menu ([***F2***], see Section 3.3 above).
+
+**NOTE:** In the following images, the counters used are for fire line/animation illustration purposes only and may not reflect the weapons capability of the units shown.
 
 ### Classic Fire Lines
 
-These are the fat red/blue (default colors, transparency, and width, which can be changed in the User Preferences dialog) lines from shooter to target.
+These are fat red/blue lines from shooter to target. Default colors, transparency, and width can be changed in User Preferences ([***F2***], see Section 3.3 above3.3.1 above).
 
-![](images/image233.png)
+![](images/image436.jpg)
 
-### Main Gun Fire Animation
+### Main Gun Fire
 
-These are narrow “semi-transparent” straight lines from shooter to target. Fast-moving colored projectile with a thin vapor trail moving from shooter to target. A wide muzzle blast smoke animation at the shooter location.
+These are narrow, semi-transparent, straight lines from shooter to target. Main gun fire lines show a fast-moving projectile with a thin vapor trail moving from shooter to target. There is a wide muzzle blast smoke animation at the shooter location.
 
-![](images/image234.png)
+![](images/image438.jpg)
 
-### Autocannon/Machine Gun Animation
+### Autocannon/Machine Gun
 
-These are narrow “semi-transparent” straight-line vapor trails from shooter to target with three short colored projectiles moving from shooter to target. Three narrow muzzle blasts smoke animations at the shooter location.
+These are narrow, semi-transparent, straight-line vapor trails with three short projectiles moving from shooter to target. There are three narrow muzzle blasts and corresponding smoke animations at the shooter location.
 
-![](images/image235.png)
+![](images/image440.jpg)
 
-### Anti-Tank Guided Missile Animation
+### Anti-Tank Guided Missile
 
-These are wiggly trajectory vapor trails from shooter to target (representing ATGM course corrections) a fat, colored projectile with a bright orange tail (engine), and a vanishing smoke trail. There is a launch blast smoke animation at the shooter location.
+These are wiggly-trajectory vapor trails from shooter to target, representing anti-tank guided missile course corrections, with a fat projectile, a bright tail from the engine (shown with a mixture of white, yellow, orange, and red), and a vanishing smoke trail. There is a launch blast smoke animation at the shooter location.
 
-![](images/image236.png)
+![](images/image442.jpg)
 
-### Surface-to-Air Missile (SAM) Animation
+### Surface-to-Air Missile (SAM)
 
-These are hooked trajectory vapor trails from shooter to target (representing off-angle launch followed by tracking) and a fat accelerating color projectile with a persistent smoke trail. There is a launch blast smoke animation at the shooter location.
+These are hooked-trajectory vapor trails from shooter to target, representing off-angle launch followed by tracking, and a fat, accelerating projectile with a persistent smoke trail. There is a launch blast smoke animation at the shooter location.
 
-![](images/image237.png)
+![](images/image444.jpg)
 
 ### Fire Line Colors and Scaling
 
-Projectile colors follow User Preferences for Line of Fire colors for both sides. You may want to switch to more tracer-like colors like yellow, orange, or red to brighten up the default colors (brighter is the new default for new installs).
+Projectile colors follow User Preferences for Line of Fire colors for both sides ([***F2***], see Section 3.4 above). It may be desirable to switch to more tracer-like colors like yellow, orange, or red to brighten up the default colors.
 
 Animation sizes follow map scaling and will scale up and down with changes in zoom levels.
 
-Animation speed follows other animation speeds but is capped at a maximum speed of 10. Reduce animation speed below 10 to slow down fire exchange animations.
+Animation speed follows other animation speeds but is capped at a maximum speed value of 50. Reduce animation speed below 50 to slow down fire exchange animations (see Section 3.1.1 above).

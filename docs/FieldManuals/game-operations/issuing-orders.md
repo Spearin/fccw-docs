@@ -1,139 +1,157 @@
 # Issuing Orders
 
-You control your forces by giving orders to your units. Be aware that a certain period is needed by the staff to formulate and transmit your orders. The unit will need time to prepare for the new order which is a function of the type of order, the training, readiness, and the tactical situation of the unit to which it is issued.
+Control your forces by giving orders to your units. Be aware that a certain period is needed by the staff to formulate and transmit your orders. The units need time to prepare for the new orders which is a function of the type of order, training level, Readiness, and the tactical situation of the unit to which it is issued.
 
-Orders take as long as they take to run to completion, and this may not coincide neatly with the Orders Phase intervals. Orders persist to the next turn if you do not issue new ones. If you keep interrupting orders with new orders, the delay time will increase as orders have to be rescinded and then new orders will be generated for the units.
+Orders take as long as they take to run to completion and this may not coincide neatly with the command cycle/orders phase intervals. Orders persist to the next turn if new ones are not issued. If you keep interrupting orders with new orders, the Delay time will increase as orders must be rescinded and new ones generated. The lengths of the command cycles are displayed in the Game Control Panel (see Section 13.1 above).
 
-## Open the Unit Menu
+One notable exception to this is the special case of the first turn, or opening salvo. Orders given during the initial setup phase only are deemed pre-planned, therefore have no orders delay. The first turn will begin in the first minute of battle. All necessary work to prepare is assumed to have been finished during the setup time. This makes the first turn particularly advantageous as the execution will be quicker than in later turns (see Section 21.7 below for more information on Delays).
 
-Orders can be given to a unit by right-clicking on the unit icon on the map and selecting an order from the displayed Unit Popup Menu. Some orders require selecting to set them (Screen, On Call, Hold, Resupply, etc.). Others require the player to designate waypoints or target points (Moves, Assault, Barrage, Hunting, etc.). With these last orders, you must finish the order by selecting one of the options in the Orders on Arrival dialog that pops up when you are done selecting waypoints for the move.
+## Open the Unit Popup Menu
 
-If you decide during the issuing of a move or bombardment order that you want to do something else, you can click the Esc key to stop the order. Accepting an order and then issuing a new order can also be done. This case does not add additional time to the command delay as the order is not yet in process.
+Orders are given to a unit by right-clicking on the unit counter on the map and selecting an order from the Unit Popup Menu that opens. Some orders only require selecting the option to set them (Screen, On Call, Hold, Resupply, etc.). Others require the player to designate waypoints or target points before they can be set (Moves, Assault, Barrage, Hunt, etc.). With these last actions, finish the order by selecting one of the options in the Orders on Arrival dialog that pops up when finished selecting waypoints for the move.A breakdown of the orders is provided in the next section.
 
-In the image below, you can see the Orders Block of the Unit Popup Menu. The listed orders may be in two sections of the dialog and show up based on the type of unit with Orders that are proper to use for the particular unit type.
+In the image below, the blocks containing orders in the Unit Popup Menu are highlighted in red. The listed orders may be in two sections of the dialog and are based on the type of unit selected and which orders are appropriate for that unit type.
 
-For more detailed information about plotting movement, see Section 22 below.
+![](images/image462.jpg)
 
-![](images/image244.png)![](images/image245.png)
+Press the ***Esc*** key to stop an order rather than continue on to waypoint selections if you decide to take a different direction instead of issuing a Move or Barrage order. Accepting an order (by selecting the final Orders on Arrival shown below) and then issuing a new order also works. This change does not add additional time to the command delay as the order is not yet in process (i.e., the turn resolution has not been started and progress has not begun yet).
 
-![](images/image246.png)You can also open the Unit Popup Menu by clicking on the hyperlinked Menu option beneath the unit counter in some reports and displays. This is useful for Off-Map Assets like artillery and air units.
+![](images/image464.jpg)
 
-![](images/image247.png)
+For more detailed information about plotting movement and setting waypoints, see Section 22 below.
+
+![](images/image466.jpg)Another way to open the Unit Popup Menu is by right-clicking the unit counter in some reports and displays when visible. This is useful for off-map assets like artillery and air units, as shown below.
+
+![](images/image468.jpg)
 
 ## Primary Unit Orders
 
+Most units have the following primary orders available:
+
 - **Assault** – Move in a spread-out formation using both road and off-road movement to be ready to attack an enemy.
 
-- **Move Deliberate** – A more defensive move than Assault, but still can travel on or off-road.
+- **Move Deliberate** – A more defensive form of travel than Assault but also travels both on and off-road.
 
-- **Move Hasty** – Faster than Assault and Deliberate moves, but trades speed for defensive coverage uses. It sticks mainly to roads.
+- **Move Hasty** – Faster than Assault and Deliberate moves, but trades better defensive coverage for better speed. It sticks mainly to roads even when there is less Cover or Concealment.
 
-- **Screen** – A non-moving state of seeking moderate cover and ready to attack or move if required.
+- **Screen** – A non-moving state of seeking moderate Cover and being ready to attack or move from that position if required.
 
-- **Hold** – A non-moving state of seeking the best cover in the hex and some cases, digging in for improved defensive protection if the unit is in the hex for 30 minutes. This is the best choice for defending locations.
+- **Hold** – A non-moving state of seeking the best Cover in the hex and in some cases, digging in for improved defensive protection if the unit will be in the hex for at least 30 minutes. This is the strongest choice for defending locations.
 
-- **Rest and Resupply** – The unit is in a state of rearming, refueling, and resting to recover readiness and morale. This only works if the unit is not in combat. Aircraft and Helicopters will return to base to rearm and refuel.
+- **Rest and Resupply** – A state of rearming, refueling, and resting to recover Readiness and Morale. After selecting this option from the popup menu, set the Rest and Resupply parameters based on spending a certain amount of time in this action (in Minutes), resupplying to a certain Ammo level (% Resupply), or resting to a certain Readiness level (% Readiness). Increasing or decreasing one threshold criterion will alter the others based on a proportionate level of recuperation.
 
-## Indirect Fire-Specific Orders
+![](images/image470.jpg)
 
-- **Is Under FSCC (Staff) Control** – This toggle allows you to have the Staff AI provide fire missions for the unit or place it under your direct control. Not really an order but affects how orders are done for this unit.
+Rest and Resupply only takes place if the unit is not in combat. Units with Resupply orders will receive supply trucks and other vehicles that meet them in place during lulls in battle, or units may drive to the rear if close enough and then promptly return to their original location. Aircraft and helicopters return to base to rearm and refuel. See Section 27 below for supply and logistics information.
 
-- **On Call** – The unit is ready for new orders, either movement or barrage.
+## Indirect Fire Specific Orders
 
-- **Barrage** – These are orders to fire certain types of munitions at a set of targets on the map.
+Additional orders that are available for units with indirect fire capabilities include:
 
-- Suppression Fire – Low rate of fire of high explosive (HE) rounds that has limited kill power but does inflict readiness loss to targeted units.
+- **Barrage** – Opens a submenu of orders to fire certain types of munitions at a set of targets on the map.
 
-- Neutralizing Fire - High rate of fire of high explosive (HE) rounds maximizing kill power and inflicting readiness loss to targeted units.
+- **Suppression Fire** – Low rate of fire of high explosive (HE) rounds that have limited kill power but do inflict Readiness loss to targeted units.
 
-- Saturation Area Fire - This option is found only on multiple rocket launchers. It allows all the unit’s rockets to be fired off in rapid succession and strike a much larger target zone. If this mission is chosen, you can only select one target point and the rounds will land in the target hex and the surrounding six hexes. This is a devastating attack that can cause severe losses to man and machine. Units firing a saturation attack automatically go to zero ammo and must resupply before shooting again.
+- **Neutralizing Fire** – High rate of fire of high explosive (HE) rounds that maximize killing power and inflict Readiness loss to targeted units.
 
-- Smoke – Fires rounds that deploy a smoke screen of various types that obscure vision and sensors.
+- **Saturation Area Fire** – This option is found only on multiple rocket launchers. It allows all the unit’s rockets to be fired off in rapid succession and strike a much larger target zone. Only one target point can be selected if this mission is chosen. Rounds will land in the target hex and surrounding six hexes. This is a devastating attack that can cause severe losses to person and machine. Units firing a saturation attack automatically go to zero Ammo and must Resupply before shooting again.
 
-- Scatterable Mines (FASCAM) – This ammunition deploys a hex-wide minefield in the targeted hexes.
+- **Smoke** – Fires rounds that deploy smoke screens of various types that obscure vision and sensors.
 
-- Improved Conventional Munitions (ICM) – These rounds deploy several submunitions capable of destroying both armored and soft targets.
+- **Scatterable Mines (FASCAM)** – Deploys hex-wide minefields in the targeted hexes.
 
-- Nuclear Munition – These are single rounds with a tactical nuclear warhead that can cause massive area-wide damage and nuclear contamination.
+- **Improved Conventional Munitions (ICM)** – Rounds deploy several submunitions capable of destroying both armored and soft targets.
 
-- Chemical Munition – These rounds can drop persistent or non-persistent chemical attacks into hexes. Non-persistent strikes will dissipate over time.
+- **Nuclear Munition** – Single rounds with a tactical nuclear warhead that cause massive area-wide damage and nuclear contamination.
 
-- **Counter Battery** – Your units are set to fire on located enemy artillery units. While on Counter-battery they will not shoot other missions.
+- **Chemical Munition** – Rounds drop persistent or non-persistent chemical attacks into hexes. Non-persistent strikes dissipate over time.
+
+- **Counter Battery** – Units are set to fire on located enemy artillery units if they are within range, including both on- and off-map units. Units do not shoot other missions while on Counter Battery. Units with Counter Battery orders can be available to the Fire Support Control Center (FSCC) for fire support requests if they are under FSCC control and not already engaged (see Section 25.4.1 below).
+
+- **On Call** – Unit is ready for new orders from the player or FSCC.
+
+- **Is Under FSCC (Staff) Control** – When checked, gives fire mission control to the Staff AI. When unchecked, the unit is placed under the player’s direct control. Not exactly an order, but affects how orders are made for this unit.
 
 ## Engineering Specific Orders
 
-- **Remove (Blow) Bridge** – Allows an engineer to blow a fixed bridge if they are in an adjacent hex.
+Orders that are specific to engineering units include:
 
-- **Lift Mines** – Allows an engineer to clear lanes in a minefield for units to pass safely through.
+- **Remove (Blow) Bridge** – Deconstruct a fixed bridge if they are in an adjacent hex.
 
-- **Remove Engineered Obstacle** – This allows an engineer to remove obstacles to create lanes for units to pass through.
+- **Lift Mines** – Clear lanes in a minefield for units to pass safely through.
 
-- **Demolish Positions –** Allows the engineer to destroy improved position in a hex.
+- **Remove Engineered Obstacle** – Remove obstacles to create lanes for units to pass through.
 
-- **Lay/Recover Bridge –** Allows a Short-Span Bridging vehicle to place or retrieve a temporary bridge over a hex-side water obstacle.
+- **Demolish Positions –** Destroy Improved Positions in a hex (see Section 16.10 above for information on Improved Positions).
+
+- **Lay/Recover Bridge –** Short-span bridging vehicles place or retrieve a temporary bridge over a hex-side water obstacle.
 
 ## Helicopter Specific Orders
 
-- **Hunt** – This makes the helicopter move from point to point looking for enemy units to engage while doing its best to use terrain to mask its movement.
+Helicopters have their own specific attack order:
+
+- **Hunt** – Moves from waypoint to waypoint looking for enemy units to engage, while doing its best to use terrain to mask its movement.
 
 ## Aircraft Specific Orders
 
-- **Is Under FSCC (Staff) Control** – This toggle allows you to have the Staff AI provide fire missions for the unit or place it under your direct control. Not really an order, but affects how orders are done for this unit.
+Aircraft have similar options as above, with an additional strike order:
 
-- **On Call** – The unit is on station and waiting to be called back in for a strike.
+- **On Call** – Unit is on station and waiting to be called back in for a strike.
 
-- **Air Strike** – Order an aircraft to attack a given hex with its carried ordinance. Depending on the type of aircraft and weapons, targets may be restricted to specific types.
+- **Is Under FSCC (Staff) Control** – When checked, gives fire mission control to the Staff AI. When unchecked, the unit is placed under the player’s direct control. Not exactly an order, but affects how orders are made for this unit.
+
+- **Air Strike** – Orders an aircraft to attack a selected hex with its carried ordinance. Depending on the type of aircraft and weapons, targets may be restricted to specific types.
 
 ## Unit Orders Delay Factors
 
-Orders take time to transmit, absorb, and implement. Some are fast and some will take time. For many orders, there is a preparation time before the order can commence and then a period during which the order is executed. If the unit is On Call or is already performing the same kind of order requested (i.e., Move to Move, Screen to Screen, just with different parameters) then the Orders Delay equals 2 minutes. Otherwise, the Orders Delay equals the standard Orders Delay (2 to 60 minutes, average 5 to 10 minutes).
+Orders take time to transmit, absorb, and implement. Some are fast and some take time. For many orders, there is a preparation time before the order can begin and then a period during which the order is executed. If the unit is On Call or is already performing the same kind of order requested (e.g., Move to Move or Screen to Screen, just with different parameters) then the Orders Delay equals 2 minutes. Otherwise, the Orders Delay equals the standard Orders Delay (2 to 60 minutes, average 5 to 10 minutes).
 
 Other delay factors include:
 
-- If the unit is being rested, then the order delay is increased by 10 minutes.
+- If the unit is being rested, then the Orders Delay is increased by 10 minutes.
 
 - If the unit needs to relinquish a dug posture, then the Orders Delay is increased by 5 minutes.
 
-- If the unit is not currently moving and the new order requires movement, then the order delay is increased by 5 minutes.
+- If the unit is not currently moving and the new order requires movement, then the Orders Delay is increased by 5 minutes.
 
-- If the unit is under fire, then the order delay is increased by 50%.
+- If the unit is under fire, then the Orders Delay is increased by 50%.
 
-- If the scenario electronic warfare intensity is Medium then the Orders Delay is increased by 20%, if EW intensity is High then it is increased by 33%.
+- If the scenario electronic warfare (EW) intensity is Medium then the Orders Delay is increased by 20%. If EW intensity is High then it is increased by 33% (see Section 25.9 below for more on this).
 
-- If the unit is ordered to Assault, then the order delay cannot be less than 30 minutes.
+- If the unit is ordered to Assault, then the Order Delay cannot be less than 15 minutes.
 
-These are base delays and will vary based on the training level of the forces, the readiness of the forces, and command and control losses.
+These are base delays and vary based on the training level of the forces, their Readiness, and command and control losses. Command delays appear in posted Estimated Times of Arrival (ETAs) and the Orders tab of the Unit Dashboard ([***F4***], see Section 14.2.2 above).
+
+As described at the start of this section, one notable exception to this is the special case of the first turn, or opening salvo. Orders given during the initial setup phase only are considered pre-planned and have no Orders Delay. The first turn begins in the first minute of battle. All necessary preparation work is assumed to have been finished during the setup time. This makes the first turn particularly advantageous as the execution will be quicker than in later turns which are subject to the above mentioned delay factors.
 
 ## Involuntary Orders Changes
 
-Not all units always follow orders under all circumstances. Self-preservation will take over long before the very last bullet is fired, or life is lost. There may be an involuntary change of orders if the unit reaches a stress threshold limit. This limit is calculated using the current morale, training, and readiness levels, losses, HQ proximity, and national factors for following orders and command flexibility. If the limit is exceeded, attacks will stall, and defenses will turn into retreats. Specifically:
+Not all units follow orders under all circumstances. Self-preservation takes over long before the very last bullet is fired or life is lost. There may be an involuntary change of orders if the unit reaches a stress threshold limit. This limit is calculated using the current Morale, Readiness, and training levels, losses, HQ proximity, and national factors for following orders and command flexibility. If the limit is exceeded, attacks will stall and defenses will turn into retreats. Specifically:
 
-- Assaults, Moves, and Resupply orders become Screens
+- Assaults, Moves, and Resupply orders become Screens.
 
-- Screens, and Holds become Scoots for relative safety
+- Screens and Holds become Scoots for relative safety.
 
-- Specialist units (e.g., artillery, supply, etc.) revert to On Call or Scoot to safety
+- Specialist units (e.g., artillery, supply, etc.) revert to On Call or Scoot to safety.
 
-- Overwatch and Support units will stop advancing if their associated Main Effort and Line units are lost in battle.
+- Overwatch and Support units stop advancing if their associated Main Effort and Line units are lost in battle.
 
-- Units in a group move will halt movement to keep spacing and formation by role (recon front, main effort, and line, then overwatch, and support in the rear).
+- Units in a group movement halt to keep spacing and formation by role (Recon in front, Main Effort and Line, then Overwatch, and Support in the rear).
 
-**NOTE:** Units doing an automatic Scoot will show an “F” for the order type when moving. Units that trigger a Withdrawal via SOP settings, will show a “W” for their orders. As a player, you cannot set these order types, they are reactions to whatever is going on in the game with the unit in question.
+**NOTE:** Units doing an automatic Scoot show an “F” for the order type when moving (for “fallback”’; see Section 17.1 above for counter information breakdown). Units that trigger a Withdrawal via SOP settings (see Section 23 below) show a “W” for their orders. These order types cannot be set by the player since they are reactions to whatever is going on in the game for the unit in question.
 
 ## Issuing Group Orders
 
-It is possible to give orders to more than one unit at a time by the following means:
+It is possible to give orders to more than one unit at a time via the following means:
 
-- Shift + Left mouse clicking on each unit you wish to issue a standard order to. These can be units from different groups and headquarters.
+- ***Shift*** + left-click on each unit you wish to issue a standard order to. These can be units from different groups and headquarters.
 
-- Select All Subordinate units in a formation by selecting their HQ with Alt + Left mouse click.
+- ***Alt*** + left-click on a headquarters (HQ) to select all subordinate units in that HQ’s formation.
 
-This will highlight all subordinate units in that group.
+- ***Ctrl*** + left-click on a subunit to highlight that subunit, its HQ, and the rest of the subunits under that HQ.
 
-![](images/image248.png)
+![](images/image472.jpg)
 
-To issue any orders to the selected group, right-click on any of the highlighted units to see the Unit Popup Menu and select an order. If you select a movement order, the AI will provide intelligent pathing to keep the units in a cohesive formation and then spread them out at the final waypoint in defensive locations (if possible) to avoid stacking. You can select each unit and alter the placement of the waypoints as you see fit.
+To issue orders to the selected group, right-click on any of the highlighted units to open the Unit Popup Menu and select an order. If selecting a Movement order, the AI provides intelligent pathing to keep units in a cohesive formation and then spread them out at the final waypoint in defensive locations (if possible) to avoid stacking. Select any unit and alter the placement of the waypoints as you see fit (see Section 22 below for ordering and modifying movement orders).
 
-**NOTE:** Select the most used order for all waypoints that you want and then use each unit’s Dashboard to change the type of movement order at various waypoints. See Section 22.1.1 below
-
-See more information in Section 22 below.
+**NOTE:** Do this efficiently by selecting the order that will apply to the most units and then use the unit’s/units’ Dashboard(s) to change the type of Movement order at various waypoints to individually customize them, as described in the next section.

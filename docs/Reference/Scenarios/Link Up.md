@@ -1,6 +1,10 @@
 # Link Up
-_D+9 | 29 July 1989, 0400hrs - 1400hrs [:smflag-us:](./Forces/United States.html) vs [:smflag-su:](./Forces/Soviet Union.html) @ [Fulda](../Maps/Fulda/Fulda.html)_
+_D+9 | 29 July 1989, 04:00hrs - 14:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Fulda](../../Maps/Fulda/Fulda)_
 
-NATO s counter-attack has begun with a successful attack at Niddia. From there, the 3rd Armored Division advanced towards Schotten and were able to break through the Soviet line early on 28 July. After securing Lauterbach, the Americans sent an Armored Battalion southeast towards Fulda. To the South, the Americans had captured Gersfeld and were pushing North to link up with the 3rd Armored Division in Fulda\! The Soviets were not prepared for the counter-attack and had little in place to react to this threat.  They were unable to seal the gap and their forces arrived too late at Schotten.  Luckily for them, the 244th Motor Rifle Regiment (MRR) was recovering near Fulda and started moving into defensive locations in the midafternoon of 28 July.  Other forces in East Germany are being rushed forward to ensure that Fulda does not fall. The war is returning to Fulda with a vengeance.
+NATO’s counterattack has begun with a successful attack at Niddia.  From there, the 3rd Armored Division advanced towards Schotten and were able to break through the Soviet line early on 28 July. After securing Lauterbach, the Americans sent an Armored Battalion southeast towards Fulda. To the South, the Americans had captured Gersfeld and were pushing North to link up with the 3rd Armored Division in Fulda!
+
+The Soviets were not prepared for the counterattack and had little in place to react to this threat.  They were unable to seal the gap and their forces arrived too late at Schotten.  Luckily for them, the 244th Motor Rifle Regiment (MRR) was recovering near Fulda and started moving into defensive locations in the midafternoon of 28 July.  Other forces in East Germany are being rushed forward to ensure that Fulda does not fall.
+
+The war is returning to Fulda with a vengeance.
 
 **_Scenario by Mike Johnstone | Map by David Whitt_**

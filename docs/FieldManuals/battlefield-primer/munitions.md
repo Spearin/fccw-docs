@@ -16,7 +16,7 @@ Gun tube-fired ATGMs mainly used in Soviet tanks and anti-tank guns.
 
 ## Canister/Flechette (CAN)
 
-Close-In, short-range, widespread round that can devastate soft targets.
+Close-in, short-range, widespread shotgun-type round that can devastate soft targets.
 
 ## Demolition Charge (DEMO)
 
@@ -30,7 +30,7 @@ A munition has a warhead with a Thermobaric type of explosion.
 
 A munition with a blast fragmentation-type warhead is used to destroy soft targets and structures. They are commonly used with artillery units.
 
-## High Explosive Anti Tank (HEAT)
+## High Explosive Anti-Tank (HEAT)
 
 A munition with a formed HE penetrator warhead. They are used against armored vehicles.
 
@@ -48,15 +48,15 @@ A munition with an explosive squash head warhead. Used against armor and creates
 
 ## Hyper Velocity Round (HVR)
 
-This round is an armor-piercing shell of the late WWII era used versus armor with a higher velocity design for greater penetration than a standard AP round.
+This round is an armor-piercing shell of the late WWII era used against armor with a higher velocity design for greater penetration than a standard AP round.
 
 ## Illumination Rounds
 
-***Content to be added before release***.
+A munition designed to provide illumination over a dark battlefield by dropping parachute-slowed flares. The flares open at altitude and burn for a short time.
 
 ## Improved Conventional Munition (ICM)
 
-ICM is a munition with dual purpose/sensor fused warhead commonly used as a submunition in cluster bomb weapons.
+ICM is a munition with a dual-purpose/sensor-fused warhead commonly used as a submunition in cluster bomb weapons.
 
 ## Non-Persistent Chemical (NCHEM)
 
@@ -64,7 +64,7 @@ A chemical dispersion warhead releases a cloud of non-persistent gas that can ki
 
 ## Nuclear (NUKE)
 
-A nuclear warhead (Tactical Yields) devastates units and structures for several kilometers and leaves vast area radiation contaminated.
+A nuclear warhead (Tactical Yields) devastates units and structures for several kilometers and leaves a vast area radiation-contaminated.
 
 ## Persistent Chemical (PCHEM)
 
@@ -78,10 +78,10 @@ These precision-guided munitions are guided to the target by a laser source.
 
 These precision-guided munitions use onboard guidance to home in on a target.
 
-## Scattered Mines (MINES)
+## Scattered Mines  (MINES)
 
-These mines are munitions with AP/AT mine submunition payload that deploys the mines over an area
+These mines are munitions with AP/AT mine submunition payload that deploy the mines over an area.
 
 ## Smoke – Normal
 
-These munitions dispences visual obscuring smoke to block the line of sight between your forces and the enemy. Thermal sights will see through this type of smoke.
+These munitions dispense visual-obscuring smoke to block the line of sight between your forces and the enemy. Thermal sights will see through this type of smoke.

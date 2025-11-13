@@ -6,8 +6,6 @@ The weather data is stored under Modules/Common in the Weather subfolder. The We
 
 In addition, the Modules/Maps folder contains a ‘meteo\_stations.tsv’ file defining the preferred weather station for each map.
 
-![](images/image010.png)
-
 ## Weather Station Folders
 
 Under the Modules/Common/Weather folder, each weather station has its own folder. The weather station folder can have any name. Its only contents should be weather data files.
@@ -24,8 +22,6 @@ See below for its contents.
 
 In each Module’s Maps folder, there is a file ‘meteo\_stations.tsv’ file. Its contents look like this:
 
-![](images/image011.png)
-
 The meteo\_stations.tsv file is a tab-separated file, containing two columns. To the left, the map name (without folder, and without file extension). On the same line, on the right of the tab character is the corresponding folder name for the meteo station. For example, on the 3rd line, for map ‘Graziskia 40x30km’ the recommended weather data is in folder ‘121195\_\_Suwalki\_\_Podlaskie\_\_Poland’.
 
 The final entry is a special one, indicating the default weather station for maps not explicitly listed below.
@@ -36,17 +32,11 @@ The final entry is a special one, indicating the default weather station for map
 
 The weather data of each weather station is defined by \*\_year\_\_####\_\*.csv semi-colon separated files, one for each year. Its contents look like this (as a text file):
 
-![](images/image012.png)
-
 The .csv semi-colon separated files are better loaded and inspected in a spreadsheet application such as LibreOffice Calc or Microsoft Excel (after indicating that the semi-colon is the separator):
-
-![](images/image013.png)
 
 After a header and a blank row, the bulk of the data follows, in 16 columns. The first row defines the header and is followed by 365 or 366 days of 24 hours of weather.
 
 The table below describes each columns meaning, supported measurement units, and expected format:
-
-![](images/image014.png)
 
 Notes:
 

@@ -1,6 +1,6 @@
 title: Weather Setup
 nav:
-  - Section: index.md
+  - Introduction: index.md
   - weather-system.md
   - weather-in-the-game.md
   - weather-data-files.md

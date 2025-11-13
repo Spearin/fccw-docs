@@ -16,20 +16,20 @@ Non-Explosive Reactive Armor, also known as Non-Energetic reactive armor (NERA),
 
 ## Advanced Composite Armor (ACA)
 
-Composite armor is a type of vehicle armor consisting of layers of different materials such as metals, plastics, ceramics, or air. Most composite armors are lighter than their all-metal equivalent, but occupy a larger volume for the same resistance to penetration. It is possible to design composite armor that is stronger, lighter, and less voluminous than traditional armor. Still, the cost is often prohibitively high, restricting its use to especially vulnerable vehicle parts. Its primary purpose is to help defeat high-explosive anti-tank (HEAT) projectiles. Some versions add layers of depleted uranium plates to enhance the armor’s ability to defeat armor-piercing rounds.
+Composite armor is a type of vehicle armor consisting of layers of different materials such as metals, plastics, ceramics, or air. Most composite armors are lighter than their all-metal equivalent, but occupy a larger volume for the same resistance to penetration. It is possible to design composite armor that is stronger, lighter, and less voluminous than traditional armor. Still, the cost is often prohibitively high, restricting its use to especially vulnerable vehicle parts. Its primary purpose is to help defeat high-explosive anti-tank (HEAT) projectiles. Some versions add layers of depleted uranium plates to enhance the armor's ability to defeat armor-piercing rounds.
 
 ## HEAT Resistant Armor (HRA)
 
-Similar to NERA and Composite armor, HEAT-resistant armor is specifically designed to be placed on lighter vehicles like armored personnel carriers and infantry fighting vehicles as it is lighter in weight due to its sandwiched materials.
+Like NERA and Composite armor, HEAT-resistant armor is specifically designed to be placed on lighter vehicles like armored personnel carriers and infantry fighting vehicles, as it is lighter in weight due to its sandwiched materials.
 
 ## Armored Skirts
 
-An added protection measure from WWII, armored skirts have evolved into several types, such as plates, slats, wire, and spaced configurations. These all degrade both kinetic and chemical rounds
+An added protection measure from WWII, armored skirts have evolved into several types, such as plates, slats, wire, and spaced configurations. These all degrade both kinetic and chemical rounds.
 
 ## Active Protection Systems (APS)
 
-These systems were designed in the late 70 and early 80s to provide hard and soft kill capability for tanks against ATGMs and RPGs. The Soft Kill systems are meant to jam or degrade the guidance systems of incoming missiles. These are like the Shtora Thermal-Optical Jamming System (TIJ). The Hard Kill systems (Drozd, Arena, Trophy) track the incoming ATGM or RPG and fire an explosive charge to take out the threat.
+These systems were designed in the late 70s and early 80s to provide hard and soft kill capability for tanks against ATGMs and RPGs. The Soft Kill systems are meant to jam or degrade the guidance systems of incoming missiles. These are like the Shtora Thermal-Optical Jamming System (TIJ). The Hard Kill systems (Drozd, Arena, Trophy) track the incoming ATGM or RPG and fire an explosive charge to take out the threat.
 
 ## Stealth and Low Observable Technology
 
-These were US-based technologies from the late 70s and applied to the F-117 Nighthawk stealth fighter. Stealth (STP) and Low Observable (LOP) platforms have significantly reduced radar and thermal profiles, allowing them to fly into hostile and contested airspace virtualkly undetected and greatly reduced the chance of being targeted by enemy SAMs and other air defence systems..
+These were US-based technologies from the late 70s and applied to the F-117 Nighthawk stealth fighter. Stealth (STP) and Low Observable (LOP) platforms have significantly reduced radar and thermal profiles, allowing them to fly into hostile and contested airspace virtually undetected and significantly reducing the chance of being targeted by enemy SAMs and other air defense systems.

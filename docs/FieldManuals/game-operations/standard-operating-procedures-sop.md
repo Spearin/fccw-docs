@@ -1,83 +1,75 @@
 # Standard Operating Procedures (SOP)
 
-One of the more requested features from earlier games was the ability to set Standard Operation Procedures in more detail for your units. We have that now and it is a very powerful tool for you as the commander to wield. This tool gives you the flexibility to adjust many different operational parameters of your units, per unit, per waypoint, and for new orders. Grayed-out parameters are not available for the selected unit.
+One of the more requested features from earlier games was the ability to set Standard Operation Procedures (SOP[s]; pronounced as its acronym ess-oh-PEE[Z]) in more detail for your units. We have that now and it is a very powerful tool for you as the commander to wield. This tool gives you the flexibility to adjust many different operational parameters of your units, per unit, per waypoint, and for new orders. Grayed-out parameters are not available for the selected unit.
 
-These SOPs can be applied to the selected unit or easily copied to other units in the formation or of a similar platform type.
+These SOPs can be applied to the selected unit or easily applied to other units in the formation or of a similar platform type as described below.
 
-To open the SOP Manager, you can right-click on a unit or select Menu hyperlink from a report and select it from the Unit Popup Menu, select a unit and hit Ctrl+k on the keyboard, click on the Edit Order SOP button on the Orders tab of the Dashboard for the selected unit or open the dialog from the SOP Main Menu option.
+There are many ways to open the SOP Manager: right-click on a unit to open the Unit Popup Menu, select a unit and hit ***Ctrl+K***, click on the Edit Order SOP button on the Orders tab of a unit’s Dashboard (see Section 14.2.2 above), or open from the SOP menu bar option.
 
-![](images/image280.png)
+![](images/image512.jpg)
 
-## Scope
+## SOP Preset
 
-The Scope sets which order (new, current singular order like Screen or Hold, or per waypoint of a move) the settings are applied to. Once all the settings are adjusted to the parameters you want for the unit(s) there are options on how to Apply them as noted in Section 23.7 below.
-
-Selecting the “? Scope” button will pop up the following message providing information on how the Scope is used.
-
-![](images/image281.png)
+- **SOP Preset** – Use the dropdown as a fast way to set all other values on the form to match the selected preset. Changing any values from the exact values in a preset will change the dropdown to show the closest-matching preset and append [Modified] at the end to indicate it has been customized, as shown above. Which presets are available depend on the unit selected. HQ units have Preset options for all their subordinates in addition to their own.
 
 ## Stance
 
-- **Tactical Initiative** – This is the likelihood of a unit deviating from its orders or pathing based on the current situation it is in (under fire, outnumbered, etc.). These settings are None, Slight, Moderate, or Generous.
+- **Acceptable Losses** – The unit’s/units’ willingness to take losses before seeking a change in orders. The settings for this item are Do or Die, Substantial, Moderate, or Minimal.
 
-- **Acceptable Losses** – This is the unit(s) willingness to take losses before seeking a change in orders. This works with the Tactical Initiative above to set how a unit reacts. The settings for this item are Do or Die, Substantial, Moderate, or Minimal.
-
-- **Preferred Standoff Range** – The number of 500m hexes you wish the unit(s) to be distant from any detected enemy units.
+- **Preferred Standoff Range** – The number of 500 m hexes the unit(s) are to be distant from any Detected enemy units.
 
 ## Combat
 
-- **Direct Fire Discipline –** This sets the range or ability to shoot at enemy units in direct fire. The available settings are Refuse fire, Hold until fired on, Point blank (0 to 1 hex), Short Range (1/3 Max Range), Medium Range (2/3 Max Range), and Maximum Range.
+- **Fire Discipline –** Sets the range/ability to shoot at enemy units in direct fire. The available settings are Refuse Fire, Hold Until Fired On, Point Blank (0 to 1 hex), Short Range (1/3 Max Range), Medium Range (2/3 Max Range), and Maximum Range.
 
-- **Relocate When** – This determines under what condition a unit will seek to scoot to a new location for better protection or to avoid enemy fire. The possible selections are After each fire mission, After all fire missions, While the enemy spotted, After receiving any fire, After receiving direct fire, After taking any losses, After taking direct fire losses, or Never. Some of these settings work better for certain types of units. The after-fire mission settings work better for artillery for instance.
+- **Relocate When** – Determines under what conditions a unit will seek to Scoot to a new location for better protection or to avoid enemy fire (see Section 21.8 above). The possible selections are After Each Fire Mission, After All Fire Missions, While Enemy Spotted, After Receiving Any Fire, After Receiving Direct Fire, After Taking Any Losses, After Taking Direct Fire Losses, After Taking Indirect Fire Losses, or Stance Only. Some of these settings work better for certain types of units. The after-fire mission settings work better for artillery for instance.
 
-- **Provide Direct Support to** – This setting is for Indirect Fire Units only and allows you to set specific direct support operations for your artillery assets. The default setting is support for All Requesting Units. This is equal to General support as noted in Section 25.4 below. Other options that support specific units are Units in the same formation or lower, Specified HQ or lower, or Refuse all requests (which stops the FSCC from using this unit in any supporting call for fires). In the selection box below is a listing of units to attach support to.
+- **Direct Support Priority** – Set specific Direct Support operations for artillery assets. This setting is for indirect fire units only. The default is to support All requesting units which is the same as General Support noted in Section 25.4 below. Other options to support specific units directly are Same Group (or Lower), Specified Unit (and Lower), or None (Refuse All) which stops the Fire Support Control Center (FSCC) AI from using this unit in any supporting call for fires. These are the same as Direct Support as noted in 25.4 below.
 
 ## Movement
 
-- **Preferences** – When a unit moves from waypoint to waypoint there are a few options for how that travel can be done. The hasty move will prefer roads, and Deliberate or Assaulting move orders will mix roads with cross-country movement. You can set stricter movement preferences by checking the boxes for Concealment (more off-road and seeking better-covered terrain to move through, Roads (favor taking roads instead of cross country) and Avoid NBC (which will path units around NBC-contaminated locations on the map).
+- **Minefield Contact** – The unit’s/units’ response to entering a minefield. The options here are Ignore and Run (do not delay, accept the potential for more subunit losses crossing the field), In-Stride Breach (slow down to follow a leader through the field, hoping to avoid mines by traveling in the same tracks), or Stop and Reduce (halt and either wait for engineers to remove enough mines to open a path, or do the work themselves at a slower rate).
 
-- **Minefield Contact** – This is the unit(s) response to entering a minefield. The options here are Ignore and Run (do not delay and accept the potential for more subunit losses crossing the field).
-
-In Stride Breach (units slow down to follow a leader through the field hoping to avoid mines by traveling in the same tracks), or Stop and Reduce (units halt and either wait for engineers to remove enough mines to open a path through or do the work themselves at a slower rate).
+- **Preferences** – Set stricter movement preferences for travel between waypoints (see Section 22 above for waypoint plotting). Move Hasty prefers roads while Move Deliberate or Assault orders mix roads with cross-country movement. For additional control, check any number of boxes to prefer a Direct Path (favors arrival in the destination over considering hexes’ protective or risk factors), Concealment (favors off-road paths and seeks better-Covered terrain to move through), Roads (favors taking roads instead of cross country, can result in less Cover), and Avoid NBC (which paths units around nuclear, chemical, and/or biological contamination on the map). See Section 11.8 above for information on how different terrain features impact movement.
 
 ## Transports
 
-- **Passengers Disembark at Range** – There are two options for disembarking transported troops and teams from their carriers. The first option is setting a few hexes (500m) from the final waypoint. This is useful for assaults or recon efforts in hostile territory. The other option is setting a few hexes from a spotted enemy. This is useful if on the move and your troops encounter unexpected enemy contact.
+- **Passengers Disembark at Range** – There are two options for disembarking transported troops and teams from their carriers. The first is to set the number of hexes (500 m) from the final waypoint or end of path. This is useful for assaults or recon efforts in hostile territory. The second is to set the number of hexes from a Spotted enemy. This is useful if your troops encounter unexpected enemy contact while on the move.
 
-- **Carriers when Empty** – Once transporting APCs (Armored Personnel Carriers) or IFVs (Infantry Fighting Vehicles) disembark their troops or teams, this setting tells the transporting units what they should do. For APCs, the better choice is to Hide Nearby (seek cover and do not engage the enemy) as these vehicles are usually poorly armed and armored. The other option is Support Passengers (seek good cover but engage enemy units with on-board weapon systems) to improve firepower against the enemy, but risks losing transports to enemy fire.
+- **Carriers When Empty** – Once transporting APCs (Armored Personnel Carriers) or IFVs (Infantry Fighting Vehicles) disembark their troops or teams, this setting tells the transporting units what they to do next. For APCs, the better choice is to Hide Nearby (seek Cover and do not engage the enemy) as these vehicles are usually poorly armed and armored. The other option is Support Passengers (seek good Cover but engage enemy units with on-board weapon systems) to improve firepower against the enemy, but risks losing transports to enemy fire. See Section 22.1.3 above on the Lost transport indicator.
 
-## Recovery
+## Automatically Apply
 
-- **Resupply** – This option lets you set a limit for the unit’s Ammo level and when it hits the trigger level or below, the unit will go into resupply until it either Recovers to the set percentage over time or recovers for a set amount of time which restores an amount of ammo based on the amount of time set.
+To automatically save changes while clicking between orders, check the box to Automatically Apply Current Settings When Scope Changes located between the Also Apply To… toggles and the Orders window. When checked, any changes to the indicated scope (i.e., the selected order) will automatically Apply to become the new SOP if you select a new order or new unit. This removes the need to click the Apply button at the bottom to move through adjustments more quickly, but also means that any changes are automatically saved and cannot be reverted to by clicking Cancel.
 
-- **Readiness** – This option lets you set a limit for the unit’s Readiness level and when it hits the trigger level or below, the units will go into resupply until it either Recovers to the set percentage over time or recovers for a set amount of time which restores an amount of readiness based on the amount of time set.
+## Also Apply To…
 
-## Inspect and Apply
+There are four toggles on the bottom left corner of the SOP Manager dialog that are used to select which units the orders Also Apply To:
 
-There are six buttons on the left of the dialog that are used to do the following:
+- **Subordinates** – Apply settings for all units in a formation (HQ and subordinates, as shown below). Higher HQs have more units that will change down the order of battle chain. Hitting Apply pops up a dialog showing all the affected units, see image below. Units can be excluded from the change by unchecking the toggle below a counter. Click the recycle button to the left of the Proceed button to invert the selections. Click Proceed.
 
-- **Inspect Selected Unit** – If you want to select and see the SOPs for another unit on the map, select a new unit on the map and then click the Inspect Selected Unit button to have the SOP Manager display its SOP values.
+![](images/image514.jpg)
 
-- **Apply to This Unit Only** – Applies all the changes made only to the selected unit.
+- **Other Tank units** – Apply settings to all units of the same type (e.g., tanks, APCs, HQs, etc.). Hitting Apply pops up a dialog showing all the affected units, see image below. Units can be excluded from the change by unchecking the toggle below the counter. Click the recycle button to the left of the Proceed button to invert the selections. Click Proceed when finished.
 
-- **Cancel** – Restores the original SOP values before any changes are made. Once You do an Apply, there is no way to revert changes via this option.
+![](images/image516.jpg)
 
-- **Apply to Self and All Subordinates** – This setting is helpful if you want to set all the units in a formation (HQ and subordinates). The higher the HQ, the more units will be changed down the order of battle chain. When applied a dialog will pop up showing all the affected units.
+- **Other Selected units** – Apply settings to any other units selected while the dialog is open.
 
-![](images/image282.png)
+- **Future Orders** – Apply settings to all orders that follow the current order. Check this box to modify the Default SOP going forward.
 
-- **Apply to All Units of the Same Type** – This setting is useful if you want to set all the units of a selected type (like Tanks, APCs, HQs, etc.).
+## Rest & Resupply SOP
 
-When applied a dialog will pop up showing all the affected units.
+Another SOP that can be customized is for Rest and Resupply. Open this dialog by selecting Adjust Rest & Resupply SOP from the Unit Popup Menu (see Section 14.1 above) or by selecting Edit Rest & Resupply SOP from the Staff tab of the Unit Dashboard (see Section 14.2.4 above).
 
-![](images/image283.png)
+![](images/image518.jpg)The following changes can be made with this dialog:
 
-- **Apply to This and Later Unit Orders** – This option allows you to take the current SOP setting and apply them to all the orders in the Scope list.
+- **Readiness Trigger** – Set the Readiness level that will trigger a Rest and Resupply order if it falls below it. The default is set to 25% but can be changed to be higher or lower.
 
-At the bottom of the dialog is a check box to Automatically Apply Current Settings on the Scope Change. If this is active, any changes that are applied to the indicated scope will apply if you select a new unit and click the Inspect Selected Unit button. With it active if you switch to a new order in the scope selection, any changes will be applied to the previous order scope.
+- **Ammo Trigger** – Set the Key Ammo level that will trigger a Rest and Resupply order if it falls below it. The default is set to 25% but can be changed to be higher or lower.
 
-## Copy SOPs via the Spotlight Panel
+- **Key Ammo** – This window shows the key ammunition for the unit selected. Each ammunition type can be toggled individually to resupply when it falls below the defined threshold from above so that resupply time is used only for the preferred or highest-priority ammunition to suit your needs.
 
-There are a few more tricks with SOPs. Once you have an SOP loaded (and edited) in the SOP Manager, you can apply it to parts of the OOB Tree in the Spotlight Panel (toggle the view with F10 to see the OOB Tree as the Unit Details are showing). Select a unit to paste the current SOP setting in the SOP Manager and right-click. From the popup menu select the option you wish to “paste” to the selected unit.
+- **Also Apply** – Select other conditions to apply the current Rest and Resupply SOP to: Subordinates, Other Units of the same type, or Other Selected Units.
 
-The trick with the SOP Manager is to keep it open, go out, and paste the SOP where you need it. Think of it as a clipboard more than an editor for a single unit's SOP. You can apply the setting to any number of units in the Spotlight.
+Click Apply to implement changes to the SOP. Click Reset to Defaults to discard changes and use game defaults. Click Cancel to revert to the last saved SOP. Close the dialog when finished.

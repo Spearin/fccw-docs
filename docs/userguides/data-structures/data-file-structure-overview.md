@@ -1,6 +1,6 @@
 # Data File Structure Overview
 
-![](images/image003.png)   We will look at each of the tabs found in a National Data File used in this version of the Flashpoint Campaigns game engine. Each entry for a given tab will be noted as to its functionality. Data files have nine tabs. Each has a function for the game. Data files are created and modified in Excel or compatible programs.
+We will look at each of the tabs found in a National Data File used in this version of the Flashpoint Campaigns game engine. Each entry for a given tab will be noted as to its functionality. Data files have nine tabs. Each has a function for the game. Data files are created and modified in Excel or compatible programs.
 
 ## National Tab
 
@@ -30,11 +30,9 @@ This tab provides data for the various types of munitions fired by certain weapo
 
 One of the tabs added to the National Data File is the Surnames tab. Surnames are used to add a name to the various leaders found in the game. The 200 names are country specific as well.
 
-![](images/image004.png)
-
 ## Credits Tab
 
-Other than the naming convention for the top cell and some color tweaks the new and RS Credit’s tab contain the same information. ![](images/image005.png)
+Other than the naming convention for the top cell and some color tweaks the new and RS Credit’s tab contain the same information.
 
 ## Notice Tab
 
@@ -46,4 +44,4 @@ This tab is used to provide the following information about the data file. The i
 
 - Creator of Data File
 
-- ![](images/image006.png)   Copyright reflects the full On Target Simulations LTD name and is dated for the year the work was done.
+- Copyright reflects the full On Target Simulations LTD name and is dated for the year the work was done.

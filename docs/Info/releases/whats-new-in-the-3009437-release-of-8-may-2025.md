@@ -26,4 +26,3 @@ __Code:__
 \- FPSS\-5987: Scenario Welcome window says improved positions cannot be moved in setup, which is incorrect\.  This dialog has now been fixed\.
 
 \- FPSS\-6044: fixed an incorrect check to see if we were about to move into the hex we're already in\. \(Kevin, r9431\)
-

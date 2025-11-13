@@ -1,5 +1,5 @@
 # CA1-SN2 Opportunity Knocks
-_D+5 | 25 Jul 1989, 1600hrs - 2200hrs [:smflag-ca:](./Forces/Canada.html) vs [:smflag-su:](./Forces/Soviet Union.html) @ [Rottenburg](../Maps/Rottenburg/Rottenburg.html)_
+_D+5 | 25 July 1989, 16:00hrs - 22:00hrs [:smflag-ca:](../Forces/Canada.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Rottenburg](../../Maps/Rottenburg/Rottenburg)_
 
 The battle this morning was fierce.  The Soviets threw the 242nd Motor Rifle Regiment (MRR)into the fray trying to find a way through the Canadian defence.  However, the 2nd Princess Patricia’s Canadian Light Infantry (PPCLI) Battalion (Bn) was able to stop them.
 

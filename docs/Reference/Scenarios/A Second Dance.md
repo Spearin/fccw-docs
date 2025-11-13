@@ -1,6 +1,12 @@
 # A Second Dance
-_D+2 | 22 July 1989, 1600hrs - 2200hrs [:smflag-us:](./Forces/United States.html) vs [:smflag-su:](./Forces/Soviet Union.html) @ [Lauterbach Hessen](../Maps/Lauterbach Hessen/Lauterbach Hessen.html)_
+_D+2 | 22 July 1989, 16:00hrs - 22:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Lauterbach_Hessen](../../Maps/Lauterbach_Hessen/Lauterbach_Hessen)_
 
-The Soviet push towards Frankfurt is proceeding well.  The 8th Guards Army had two Motor Rifle Divisions (MRD) in the first echelon, the 27th Guards MRD and the 57th Guards MRD.  The 27th was on the right and pushing up against the West Germans.   .The 57th were exploiting the hole in the US defenses resulting from the capture of Fulda and were now tasked with breaking through the hasty defenses of the lead elements of the 3rd US Armored Division.  Next in their sights is Lauterbach with a view to securing the town and its road and rail network. The 3rd Brigade needed more time to get a defense line established.  The 1-36 Mechanized Battalion (Mech Bn) had recently moved into place around Lauterbach to slow down the Soviet advance to give time for the development of the main defense line further to the west. The clash this morning was inconclusive.  The Soviets had not managed to get into Lauterbach, but they had severely weakened the 1-36 Mech Bn.  Over the last few hours, the Soviets had moved more forces into the area.  The Americans were also moving forces towards Lauterbach.
+The Soviet push towards Frankfurt is proceeding well.  The 8th Guards Army had two Motor Rifle Divisions (MRD) in the first echelon, the 27th Guards MRD and the 57th Guards MRD.  The 27th was on the right and pushing up against the West Germans.
+
+The 57th were exploiting the hole in the US defenses resulting from the capture of Fulda and were now tasked with breaking through the hasty defenses of the lead elements of the 3rd US Armored Division.  Next in their sights is Lauterbach with a view to securing the town and its road and rail network.
+
+The 3rd Brigade needed more time to get a defense line established.  The 1-36 Mechanized Battalion (Mech Bn) had recently moved into place around Lauterbach to slow down the Soviet advance to give time for the development of the main defense line further to the west.
+
+The clash this morning was inconclusive.  The Soviets had not managed to get into Lauterbach, but they had severely weakened the 1-36 Mech Bn.  Over the last few hours, the Soviets had moved more forces into the area.  The Americans were also moving forces towards Lauterbach.
 
 **_Scenario by Mike Johnstone | Map by William van der Sterren_**

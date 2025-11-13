@@ -1,6 +1,6 @@
 # Types of Units in the Game
 
-This section will cover the basic types of units found in the game and describe what they can do. As we develop more DLCs there is the potential for new kinds of platforms to be introduced into the game.
+This section will cover the basic types of units found in the game and describe what they can do. As we develop more DLCs, there is the potential for new kinds of platforms to be introduced into the game.
 
 ## Air Platforms
 
@@ -8,7 +8,7 @@ This covers everything from Aircraft and Helicopters to Drones (Unmanned Aerial 
 
 ### Aircraft
 
-Fighters are various single and multi-engine aircraft used in CAS and SEAD missions. Those are missions where bombs, guns, rockets, or Precision Guided Munitions (PGMs) are fired or dropped on enemy ground targets. They appear on the map when they execute a strike mission. Strikes are ordered very similarly to artillery missions. When the aircraft arrives and execute its strike, they are vulnerable to enemy air superiority fighters and AD systems within range of the strike target.
+Fighters are various single and multi-engine aircraft used in CAS and SEAD missions. Those are missions where bombs, guns, rockets, or Precision Guided Munitions (PGMs) are fired or dropped on enemy ground targets. They appear on the map when they execute a strike mission. Strikes are ordered very similarly to artillery missions. When the aircraft arrives and executes its strike, they are vulnerable to enemy air superiority fighters and AD systems within range of the strike target.
 
 ### Drones
 
@@ -22,7 +22,7 @@ These are low-flying, crewed aircraft. They move much faster than ground units a
 
 #### Attack Helicopters (HELO-AT)
 
-They are usually armed with autocannons, rockets, and missiles (both anti-tank and anti-air). Usually unarmored, sometimes lightly armored. These are very lethal to all types of ground targets. They are vulnerable to anti-air (gun and SAM), autocannons (from IFVs <2500m), and machine guns at close range (<1500m). Think "eggshells armed with hammers" when employing them. Their Precision Guided Munitions (PGMs) will usually outrage the weapons of their targets (except AD systems).
+They are usually armed with autocannons, rockets, and missiles (both anti-tank and anti-air). Usually unarmored, sometimes lightly armored. These are very lethal to all types of ground targets. They are vulnerable to anti-air (gun and SAM), autocannons (from IFVs <2500m), and machine guns at close range (<1500m). Think "eggshells armed with hammers" when employing them. Their Precision Guided Munitions (PGMs) will usually outrange the weapons of their targets (except AD systems).
 
 #### Scout Helicopters (HELO-SC)
 
@@ -30,7 +30,7 @@ Lightly armed or unarmed and unarmored. It has better sensors, and the crew is t
 
 #### Utility Helicopters (HELO-UT)
 
-Usually armed with at most a door-mounted MG, unarmored, and have basic sensors. Think flying Jeep.
+Usually armed with at most a door-mounted MG, unarmored, and have basic sensors. Think of a flying jeep or truck.
 
 ### Surface to Surface Missile (SSM)
 
@@ -38,15 +38,15 @@ These are long-range ballistic missiles with a heavy warhead. Some have chemical
 
 ## Ground Troop Platforms
 
-These are anything, not a vehicle nor a static facility (like a FARP). Most are infantry squads and weapon crews (MG, ATGM, RPG, and teams). It also includes towed platforms, like field artillery and air defense weapons guns. Most infantry is transported on the Cold War battlefield in trucks, Armored Personnel Carriers, or Infantry Fighting Vehicles. Some units still move by marching with their legs.
+These are units that are not a vehicle nor a static facility (like a FARP). Most are infantry squads and weapon crews (MG, ATGM, RPG, and teams). It also includes towed platforms, like field artillery and air defense weapon guns. Most infantry is transported on the Cold War battlefield in trucks, Armored Personnel Carriers, or Infantry Fighting Vehicles. Some units still move by marching with their legs.
 
 ### Anti-Tank Weapon Systems (ATWS)
 
-These are towed for AT guns. Often designed using a tank's main gun and mounted on a two-wheeled carriage. Most often requires a prime mover for mobility.
+These are towed Anti-Tank guns. Often designed using a tank's main gun and mounted on a two-wheeled carriage. Most often requires a prime mover for mobility.
 
 ### Engineers (ENGR)
 
-Ground troops with special training to remove mines and obstacles, build defensive structures, blow bridges and defensive enemy structures, and create minefields and obstacles to hinder and shape the enemy movement in future versions.
+Ground troops with special training to remove mines and obstacles, build defensive structures, blow bridges, and enemy defensive structures, and create minefields and obstacles to hinder and shape the enemy movement in future versions.
 
 ### Flak Systems (FLAK)
 
@@ -54,7 +54,7 @@ These systems are towed or emplaced Air Defense (AD) platforms that utilize a gu
 
 ### Infantry (INF)
 
-Infantry squads have rifles, grenades, short-range grenade launchers, AT rocket launchers, and often light MGs. AT rocket launchers are very short-range and will fire in volleys against tanks. Very hard to spot and shoot when stationary in complex terrain. Line squads (as opposed to HQs sections and non-infantry gun crews) are very lethal to soft targets, owing to better fire control and the resulting heavy volume of fire. These troops move primarily by marching.
+Infantry squads have rifles, grenades, short-range grenade launchers, AT rocket launchers, and often light Machine guns. AT rocket launchers are very short-range and will fire in volleys against tanks. It is tough to spot and shoot when stationary in complex terrain. Line squads (as opposed to HQ sections and non-infantry gun crews) are very lethal to soft targets, owing to better fire control and the resulting heavy volume of fire. These troops move primarily by marching.
 
 ### Infantry – ATGM (INFAT)
 
@@ -64,9 +64,9 @@ These are dismounted infantry teams whose primary weapon is an Anti-Tank Guided 
 
 They give orders and such. Most communications go through them. See them as links in a communications network. Command units can manage communications/orders more efficiently/effectively. Low volume of fire if they get into a fight. Typically, few, if any, AT weapons.
 
-### **4.2.7** **Infantry – Machine Gun (INFMG)**
+### **6.2.7** **Infantry – Machine Gun (INFMG)**
 
-These are dismounted infantry teams whose primary weapon is a Machine Gun. Typically, this is a heavy MG and has more range than an infantry squad with light MGs.
+These are dismounted infantry teams whose primary weapon is a Machine Gun. Typically, this is a heavy MG and has more range than an infantry squad with light Machine guns.
 
 ### Scouts (INFSC)
 
@@ -78,11 +78,11 @@ These are dismounted infantry teams whose primary weapon is a Man-portable Air D
 
 ### Towed Artillery
 
-Artillery comes in three types – mortars, howitzers, and rocket launchers (Surface to Surface Missile (SSMs) battery predominantly uses nuclear or chemical warheads). The differences among these are the types of munitions available and their range. These are crew-served weapon systems that are towed to a location for use. Other transports carry the crews and munitions.
+Artillery comes in three types: mortars, howitzers, and rocket launchers (Surface to Surface Missile (SSMs) battery predominantly uses nuclear or chemical warheads). The differences among these are the types of munitions available and their range. These are crew-served weapon systems that are towed to a location for use. Other transports carry the crews and munitions.
 
 #### Mortars (MTRWS)
 
-In most cases, these are man-portable, relatively short-range (out to about 6000m), and limited to HE and Smoke munitions. The caliber range is 60mm-120mm. The Warsaw pact does have some heavier mortars, 160mm and 240mm, for example.
+In most cases, these are man-portable, relatively short-range (out to about 6000m), and limited to HE and Smoke munitions. The caliber range is 60mm-120mm. The Warsaw Pact does have some heavier mortars, 160mm and 240mm, for example.
 
 #### Howitzers (ARTY)
 
@@ -94,7 +94,7 @@ These are towed multiple launch systems that can lay down an intense barrage in 
 
 ## Land Platforms
 
-The following sections cover a number of the ground-based platforms that are found in the game. As we add more features with future DLCs, more types of units may be added to the game.
+The following sections cover several of the ground-based platforms that are found in the game. As we add more features with future DLCs, more types of units may be added to the game.
 
 ### Armored Personnel Carrier (APC)
 
@@ -106,7 +106,7 @@ These can be either guns or missiles. Gun systems designed for AD are labeled as
 
 ### Infantry Fighting Vehicle (IFV)
 
-Transports infantry, but sometimes used without infantry in offensive roles. Armed with autocannon. Lightly armored. Usually, they have ATGMs. They are designed for transporting infantry and providing additional fire support. If they have long-range ATGMs, they can also be suitable for taking out vehicles from a distance. Autocannons can be effective against helicopters at close range.
+It transports infantry, but is sometimes used without infantry in offensive roles. IFVs are armed with autocannon, lightly armored, and usually have ATGMs for anti-tank killing power. They are designed for transporting infantry and providing additional fire support. If they have long-range ATGMs, they can also be suitable for taking out vehicles from a distance. Autocannons can be effective against helicopters at close range.
 
 ### Command Vehicles (COMV)
 
@@ -114,7 +114,7 @@ As the name suggests, these are platforms that aid in C2. The majority are in HQ
 
 ### Reconnaissance (RECCE/RECON)
 
-They usually have better sensors and can see a bit further, classify (tank vs. APC), and identify (T-72 vs. tank) enemies quicker. They usually try to stay hidden. Their weapons can vary, depending on their vehicle, and there's a recon version of many vehicles (ranging from wheeled utility vehicles to tanks to helicopters). They may have AT rocket launchers. Typically, they are small units.
+They usually have better sensors and can see a bit further, classify (tank vs. APC), and identify (T-72 vs. tank) enemies quickly. They usually try to stay hidden. Their weapons can vary, depending on their vehicle, and there's a recon version of many vehicles (ranging from wheeled utility vehicles to tanks to helicopters). They may have AT rocket launchers. Typically, they are small units.
 
 ### Self-Propelled Artillery (SPARTY)
 
@@ -126,7 +126,7 @@ ATGM launcher mounted on a vehicle. SPATs are a purpose-built platform. Some APC
 
 ### Self-Propelled Flak (SPFLAK)
 
-Air Defense (AD) gun system mounted on a vehicle. Typically, it is lightly armored. Some may also have SAMs in addition to the gun. The weapon system(s) may be mounted on a tracked or wheeled chassis.
+Air Defense (AD) gun system mounted on a vehicle. Typically, it is lightly armored. Some may also have SAMs in addition to guns. The weapon system(s) may be mounted on a tracked or wheeled chassis.
 
 ### Self-Propelled Mortar (SPMTR)
 
@@ -138,11 +138,11 @@ This is a Multiple Rocket Launcher (MRL) mounted on a vehicle. The chassis may b
 
 ### Self-Propelled SAM (SPSAM)
 
-SAM mounted on a vehicle. The chassis may be a truck and unarmored or derived from an APC design and be lightly armored. It may be on a tracked or wheeled chassis.
+SAM mounted on a vehicle. The chassis may be a truck and unarmored or derived from an APC design and lightly armored. It may be on a tracked or wheeled chassis.
 
 ### Tank
 
-Generally, found as a tracked vehicle. Armor can vary from light to heavy. They are armed with large-diameter cannons and machine guns (MGs). Sometimes they can fire ATGMs that have a more extended range than the cannon. Tanks are the best ground-based fighting units, and they are at the forefront of any combat on the ground.
+Generally found as a tracked vehicle, tanks can vary from light to heavy. They are armed with large-diameter cannons and machine guns (Machine guns). Sometimes they can fire ATGMs from the main tank gun. These ATGMs have a higher accuracy at range than the cannon. Tanks are the best ground-based fighting units, and they are at the forefront of any combat on the ground.
 
 ### Utility Vehicle
 
@@ -150,7 +150,7 @@ Often unarmored. These vehicles are sometimes armed with machine guns but rarely
 
 ### Weapon Locating Radars (WLR)
 
-***Content to be added before release***.
+These are spectrum warfare equipment that is used to locate the shells or missiles fired by artillery systems using radar and computers to compute the launch point of these ballistic weapons. Once located, the information is sent to counter-battery artillery units to engage the enemy systems. These WLRs are both towed and self-propelled setups.
 
 ### Logistical Locations
 

@@ -16,7 +16,7 @@ Before you launch into a project, take the time to gather supporting source info
 
 ## Third-Party Tools and Other Assets
 
-Modding a game takes time, effort, and tools. Modding the items in this FM requires a few 3rd party software tools. Here is a breakdown of what you need for the specific items.
+Modding a game takes time, effort, and tools. Modding theitems in this FM requires a few 3rd party software tools. Here is a breakdown of what you need for the specific items.
 
 - Graphics – Painting programs that can create or edit \*.bmp and \*.png images
 
@@ -26,4 +26,4 @@ So, if you want to edit items in those areas, you will need software to do so.
 
 ## Working with User Feedback
 
-Once you place content online for others, you must deal with positive and negative feedback and suggestions. The best advice I can give is to be polite in your responses. Where possible, take good suggestions and work them in. At the end of the day, it is your work and your vision, and there is nothing wrong with telling someone to use the tools to modify it the way they like. It’s what we are doing!
+Once you place content online for others, you must deal with positive and negative feedback and suggestions. The best advice I can give is to be polite in your responses. Where possible,take good suggestions and work them in. At the end of the day, it is your work and your vision, and there is nothing wrong with telling someone to use the tools to modify it the way they like. It’s what we are doing!

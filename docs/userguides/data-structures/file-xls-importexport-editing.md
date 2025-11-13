@@ -2,45 +2,28 @@
 
 Being able to both export certain key scenario data, edit it via an Excel file and then import changes back into a scenario file is a powerful tool for advanced users. Like anything data editing related, you can also break the scenario with bad data element input.
 
-**WARNING:** Right now, there is no tool like the Data File Validation Tool to sweep for bugs and typos. We strongly advise that you make well understood small changes. Also, it is a particularly good idea to have your scenario backed up in case something breaks.
+!!! warning
+    Right now, there is no tool like the Data File Validation Tool to sweep for bugs and typos. We strongly advise that you make well understood small changes. Also, it is a particularly good idea to have your scenario backed up in case something breaks.
 
 ## Exporting Scenario Data
 
 First, we must enter the Scenario Editor from the Main Menu screen. Click on the “Scenario” button in the Edit section.
 
-![](images/image052.png)
-
 Next, we need to load a scenario that we want to make a change in. Click on the “Load Standalone SCN File” button.
-
-![](images/image053.png)
 
 For this example, I am going to edit a scenario called “Brothers in Arms”. As the information notes, it is a small scenario featuring Cold War American, West-German and East-German units. Click “Load” to load the scenario.
 
-![](images/image054.png)
-
 Here is the scenario after loading.
-
-![](images/image055.png)
 
 Now, go to the Top Menu and click on “Scenario Editor” and then click on “Export Game Data to XLSX file”.
 
-![](images/image056.png)
-
 An Announcements dialog will pop up with some important information about using the XLS Export/Import tool. Worth a quick review.
-
-![](images/image057.png)
 
 Hit “Proceed” and you are presented with the Save File screen for the exported XLSX file. By default, the game uses the scenario name. You can use that or change it to something else. It may be a good idea to export the file twice and name one with “\_Original” or something similar in case you wish to revert changes back to the original scenario information.
 
-![](images/image058.png)
-
 Click “Proceed” to save your export file. If all goes well with the export, you will see the following dial box. Hit “OK”. If you are exporting to the same file after the first time, you will get a confirmation dialog to overwrite the existing file.
 
-![](images/image059.png)
-
 The exported XLSX file is now located in the Scenarios sub-folder of the FCCW module. In this example, we are using a scenario for Cold War and the “Brothers in Arms.xlsx” file is in the [installed location]/Modules/FCCW/Scenarios or if a Steam install it is located in [Steam Drive]\ D:\SteamLibrary\steamapps\common\Flashpoint Campaigns Cold War\Modules\FCCW\Scenarios as seen below.
-
-![](images/image060.png)
 
 Next is the discussion on editing the file in Excel (or comparable program).
 
@@ -48,15 +31,12 @@ Next is the discussion on editing the file in Excel (or comparable program).
 
 First, we need to open the exported scenario data as noted above with Excel or compatible program. Once opened in Excel, there are four tabs of various data in the exported file.
 
-**NOTE:** Currently, the only data that can be edited and imported back into a scenario is in the Units tab. In the future we will be working to make all four tabs full import/export capable.
+!!! note
+    Currently, the only data that can be edited and imported back into a scenario is in the Units tab. In the future we will be working to make all four tabs full import/export capable.
 
 You can browse the other tabs if you wish. For now, let’s concentrate on the Units tab and click it to look at what parameters are available to edit.
 
-![](images/image061.png)
-
 Click the Unit tab and you should see the following columns of data. A bit of an eye chart but we will go over each one next as to what you can and can’t do.
-
-![](images/image062.png)
 
 A. Name: This is the name of the unit seen on the counter and in any of the dialogs where a unit name is shown. This can be edited freely.
 
@@ -70,7 +50,8 @@ E. % Ammo: You can set the percentage of ammo units in the scenario here. 0 to 1
 
 F. HQ Size: This is the same HQ size value found in the data editing information of Data Files. This represents the command level of the HQ, not the actual size of the HQ.
 
-**NOTE:** the “...” symbol for a platoon is 3 periods and **NOT** the ellipse symbol. Excel will auto correct this if you do not change it in the Options/Proofing/Autocorrect Settings. Find the Ellipse correction, highlight it and then delete it.
+!!! note
+    The “...” symbol for a platoon is 3 periods and **NOT** the ellipse symbol. Excel will auto correct this if you do not change it in the Options/Proofing/Autocorrect Settings. Find the Ellipse correction, highlight it and then delete it.
 
 G. Icon Type: This is an internal value, and it should not be changed. If you are adding new units, you will want to add this in and try to match existing values seen in the scenario. For example, if you add and new Tank Company, you will want to use the “itTank” reference.
 
@@ -78,7 +59,8 @@ a. Valid Icon Types are the following: itRecce, itHelo, itTank, itMechInf, itInf
 
 H. Location: This is a 4-digit map coordinate or a “0” if the unit is off-map followed by /North(-) or South(+) distance in kilometers, /West(-) or East (+) distance in kilometers, and /0/0.
 
-**NOTE:** It is possible to place a unit out of effective range adjusting these numbers and that can lead to a crash. Using the in-game Off-Map Asset Placement dialog is a safer way to make these adjustments in the Scenario Editor.
+!!! note
+    It is possible to place a unit out of effective range adjusting these numbers and that can lead to a crash. Using the in-game Off-Map Asset Placement dialog is a safer way to make these adjustments in the Scenario Editor.
 
 I. Morale: You can change the Morale value of any unit in this field. Valid integer values are 0 to 100.
 
@@ -102,7 +84,8 @@ Q. Withdrawal Offset in Mins (Minutes): A “-1” indicates that the unit stays
 
 R. Internal Values: **DO NOT** edit or attempt to add for new units. The game will import any new units and not look for this field. We may try to move this to its own tab in the future.
 
-**WARNING:** changing ANY values in this field or adding or removing values will cause the game to crash if this file is imported with adjusted values.
+!!! warning
+    Changing ANY values in this field or adding or removing values will cause the game to crash if this file is imported with adjusted values.
 
 S. Unit Status: This is the game state of the unit. “usActive” is the default state of any unit that is in the scenario. You can also set to “usInactive”. This unit will not act until fired on or until it spots an enemy unit. Units set to come on as reinforcements will have a “usReinforcement” code in this field.
 
@@ -140,21 +123,17 @@ After saving the edited date file, the next step is to import the modified data 
 
 Click on the “Scenario Editor” menu item and then select “Import Scenario from XLSX” item.
 
-**WARNING:** It is important to load up the correct scenario for the datafile that you are trying to import. The import will replace the unit’s data with a different scenario/map combination. The best way to avoid an issue is to leave the scenario up while the editing to the Excel file is being done. That also helps see units, locations, and other items helpful to the editors.
-
-![](images/image063.png)
+!!! warning
+    It is important to load up the correct scenario for the datafile that you are trying to import. The import will replace the unit’s data with a different scenario/map combination. The best way to avoid an issue is to leave the scenario up while the editing to the Excel file is being done. That also helps see units, locations, and other items helpful to the editors.
 
 The following dialog box will pop up warning about loading the wrong file into your scenario. Click proceed to get to the Import Data from XLXS file dialog.
-
-![](images/image064.png)
-
-![](images/image065.png)
 
 Select the correct XLSX data file to import in the list, in this case “Brothers in Arms.xlsx” and then hit “Load” to have the data imported into the scenario. Currently there are no indicators that things are done. Give the process a few seconds and then look for your modifications.
 
 Save your scenario by clicking the Save Scenario button in the Scenario Editor dialog if all the changes appear to be made and are as intended.
 
-**NOTE:** If you made alterations to an existing scenario, we strongly suggest changing or altering the scenario name to note the new file so it can be understood when loading all scenarios for game selection.
+!!! note
+    If you made alterations to an existing scenario, we strongly suggest changing or altering the scenario name to note the new file so it can be understood when loading all scenarios for game selection.
 
 ## Limitations/Uses of this Tool
 

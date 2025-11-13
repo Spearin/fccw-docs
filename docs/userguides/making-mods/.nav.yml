@@ -1,6 +1,6 @@
 title: Making Mods
 nav:
-  - Section: index.md
+  - introduction.md
   - getting-started.md
   - replacing-national-art-assets.md
   - animations.md

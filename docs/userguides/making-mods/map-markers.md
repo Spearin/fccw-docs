@@ -1,6 +1,6 @@
 # Map Markers
 
-![](images/image012.png)   These are the various markers seen on the map other than counters. They show everything from losses, craters, obstacles, smoke, NBC effects, victory locations, and more. Each one of these items can be modified with a new image placed in the Custom Folder.
+These are the various markers seen on the map other than counters. They show everything from losses, craters, obstacles, smoke, NBC effects, victory locations, and more. Each one of these items can be modified with a new image placed in the Custom Folder.
 
 ## Use
 

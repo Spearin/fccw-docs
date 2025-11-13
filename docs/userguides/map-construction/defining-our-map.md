@@ -1,6 +1,7 @@
 # Defining Our Map
 
-**WARNING:** Here's comes a tricky bit, since getting this wrong may cause us to end up with a map at the wrong scale, and effort wasted. If you use the example project to create your own map, make sure to follow the instructions related to the coordinate system.
+!!! warning
+    Here's comes a tricky bit, since getting this wrong may cause us to end up with a map at the wrong scale, and effort wasted. If you use the example project to create your own map, make sure to follow the instructions related to the coordinate system.
 
 Make sure QGis is now using our UTM coordinate system again (since measurements on other coordinate systems might result in the wrong scale).  Check "Project", "Project Properties", "CRS" tab and re-select our WGS 84 / UTM zone entry again. Press Apply, OK.
 
@@ -8,7 +9,7 @@ Make sure QGis is now using our UTM coordinate system again (since measurements 
 
 Next, enable a decorative square grid at 5km scale. This will help us draw a box reflecting the intended map size. To display the decorative grid, use the "View" menu, Decorations, Grid. In the Grid properties dialog, select Enable grid, and set the Interval X and Interval Y to 5000 (meters). Press Apply and OK.
 
-![](images/image020.png)
+![](images/image038.png)
 
 Figure 18    Enabling a decorative 5km grid
 
@@ -16,7 +17,8 @@ Figure 18    Enabling a decorative 5km grid
 
 To pick and plan our map area, we are going to create a map area box. The typical map size for FCSS is 46×30 hexes, which at 500m hex corresponds to approximately 20 x 15 km (the hexes overlap a bit in the horizontal direction, and consume 433m width, not 500m).
 
-**WARNING:** QGis will let you create larger or smaller maps just as easily. My experience is that beyond 35km, the earth's round shape will cause bending of the UTM based hex grid (which we'll create later), so lines and shapes drawn on this QGis hex grid tend to deviate from the grid assumed by FCSS, and "leak" into neighboring hexes. The large 90x60 hex "Eiterfeld" northern Fulda corridor map in Flashpoint Campaigns: Germany Reforged was a challenge because of this. For a first map, I suggest starting small with a 20x15km area.
+!!! warning
+    QGis will let you create larger or smaller maps just as easily. My experience is that beyond 35km, the earth's round shape will cause bending of the UTM based hex grid (which we'll create later), so lines and shapes drawn on this QGis hex grid tend to deviate from the grid assumed by FCSS, and "leak" into neighboring hexes. The large 90x60 hex "Eiterfeld" northern Fulda corridor map in Flashpoint Campaigns: Germany Reforged was a challenge because of this. For a first map, I suggest starting small with a 20x15km area.
 
 Now, let's create a new layer for our new map area (and future ones), and then draw the area box.
 
@@ -24,13 +26,13 @@ Use the "Layer" menu, "Create Layer", "New Shapefile layer" to define a new laye
 
 Under "New field", type "area", set the type to "Text data", and press "Add to fields list". This will add a field for the area's name.
 
-![](images/image021.png)
+![](images/image040.png)
 
 Figure 19    Creating a new layer to contain the area box(es)
 
 Next, press OK to create the layer. Name the layer "area\_boxes" and save it insider our project folder.
 
-![](images/image022.png)
+![](images/image042.png)
 
 Figure 20    Saving the area boxes layer as "area\_boxes" inside our project folder
 
@@ -40,11 +42,11 @@ Next, we draw a rectangle of 4 grid squares wide (4×5km = 20km) and 3 grid squa
 
 Enter "Minden" as the area name. You can leave the id blank. And press OK. (Or, if you are not happy, press cancel, so the polygon is discarded, and you can create a new one).
 
-![](images/image023.png)
+![](images/image044.png)
 
 Figure 21    The pop-up dialog when we're done drawing the area box rectangle
 
-![](images/image024.png)
+![](images/image046.png)
 
 Figure 22    Our 4×3 5km square box for the Minden area
 
@@ -54,19 +56,20 @@ Make sure to save the edit to the area\_boxes layer, using "Layer" menu, "Save L
 
 QGis gave the area\_boxes layer a default style (green uniform fill). We are only interested in the box's only, so let's change the style. In the Layers panels, select the area\_boxes layer. Use right mouse button, select Properties, then select the Style tab. Using the "Style" button at the bottom, Load Style, and select the "editing\_style\_areabox.qml" style from the presets we installed previously in our project folder.
 
-![](images/image025.png)
+![](images/image048.png)
 
 Figure 23    Loading a style pre-set for the area box layer
 
 In the file selection dialog, press Open. Next, press Apply and OK.
 
-![](images/image026.png)
+![](images/image050.png)
 
 Figure 24    Area box with new style
 
 We are still looking an at elevation only map of the Minden area, making it hard to position our map box. If we add a "Google maps" style road map with some elevation shading underneath, it becomes much easier to positioning the box to capture interesting terrain.
 
-**NOTE:** My experience with Bing (satellite) maps in QGis has been better than with Google maps. With Google maps, occasionally the layer didn't refresh properly when zooming in and zooming out, and occasionally the maps layer shifted a few hundred meters. I don't have a clue what the cause of this problem is (me, QGis, the OpenLayers plug-in or Google), but when the Bing maps are good enough, I use these.
+!!! note
+    My experience with Bing (satellite) maps in QGis has been better than with Google maps. With Google maps, occasionally the layer didn't refresh properly when zooming in and zooming out, and occasionally the maps layer shifted a few hundred meters. I don't have a clue what the cause of this problem is (me, QGis, the OpenLayers plug-in or Google), but when the Bing maps are good enough, I use these.
 
 Use "Web" menu, "OpenLayers plug-in" and add a layer. Here, the OpenStreetMap/OCM Landscape is a good option since it displays roads and elevation.
 
@@ -76,7 +79,7 @@ Use the Layers Panel, select the area\_boxes layer, and drag it upwards so it si
 
 Also disable the 5km Decorative Grid, since QGis, under the hood, has switched to a different projection and coordinate system, to use map tiles from Internet sources. As a result, the 5km decorative grid is no longer accurate; actually, it is more than 30% off! (View, Decorations, Grid, and untick the grid lines option).
 
-![](images/image027.png)
+![](images/image052.png)
 
 Figure 25    White area box outline shown on top of OCM Landscape map
 
@@ -84,7 +87,7 @@ QGis shows us which terrain can be covered by a 20x15km map. Let's move it south
 
 Ensure the area\_boxes layer is selected. Use the "View" menu, Select, Select Feature(s), then click inside the Minden area box to select it. Next, use "Edit" menu, Move Feature(s) to switch to a move mode, and move the area box south. Finally, deselect the box (so we can see through it) using "View" menu, Select, Deselect all selections.
 
-![](images/image028.png)
+![](images/image054.png)
 
 Figure 26    Improved position for our area box
 
@@ -96,17 +99,17 @@ Next, center the Minden area box in the center of the window, with a few kilomet
 
 Create the hex grid layer using the "MMQGis" menu, Create, Create Grid. In the "Grid" dialog, change the Shape Type to Hexagons. Change the output Shapefile to save the grid as "grid\_500\_minden" in our project folder (via the Browse button). Use Project Units (should be metric). Choose Extent "Current Window". Set Y-spacing to 500 (X-spacing will automatically adjust to 433). Press OK to create the hex grid layer.
 
-![](images/image029.png)
+![](images/image056.png)
 
 Figure 27    Minden area centered in window with margin, and MMQGis hex grid dialog
 
-![](images/image030.png)
+![](images/image058.png)
 
 Figure 28    MMQGis hex grid dialog settings
 
 Select the grid\_500\_minden layer and change its style to a transparent grid using right mouse button, Properties, Style, Load Style, and load the \_qgis\_vector\_styles\editing\_style\_grid.qml style.
 
-![](images/image031.png)
+![](images/image060.png)
 
 Figure 29    Zoomed in our new hex grid layer
 
@@ -124,7 +127,7 @@ In the Layers Panel, deselect the OCM Landscape overlay, so we can see the under
 
 Select the area\_boxes layer, then select the Minden area box in the layer. Next, use View menu, "Zoom to Selection" to focus on the map area.
 
-![](images/image032.png)
+![](images/image062.png)
 
 Figure 30    Zooming to the Minden area box
 
@@ -134,7 +137,7 @@ Rename the new duplicate elevation data layer to srtm\_38\_02\_Minden. Deselect 
 
 With srtm\_38\_02\_Minden select, use right mouse button, Properties. The properties dialog allows you to do two things: (1) inspect the actual elevation in the area in view, and (2) apply a style.
 
-![](images/image033.png)
+![](images/image064.png)
 
 Figure 31    Inspecting Minden area's elevation and applying the corresponding elevation style
 
@@ -142,13 +145,13 @@ To inspect the elevation in Minden's area, select as "Extent" "Current", then pr
 
 As a rule of thumb, round up from the minimum elevation to the next multiple of 25m, and pick an elevation style starting with that number (so 50m, in this case).
 
-![](images/image034.png)
+![](images/image066.png)
 
 Figure 32    Loading the 50m step elevation style starting at 050m
 
 To load the elevation style, press the Style button, "Load Style", load the 50\_step50 file from \_qgis\_elevation\_styles folder, and press Apply.
 
-![](images/image035.png)
+![](images/image068.png)
 
 Figure 33    Minden area elevation rendered in Flashpoint Campaigns colors
 

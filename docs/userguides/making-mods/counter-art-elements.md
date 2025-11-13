@@ -1,6 +1,6 @@
 # Counter Art Elements
 
-![](images/image011.png)   These are the art elements used on counters to denote various types of information relating to the unit’s size, type and directions of movement, selection, emitting radar, spotted, transporting, status, and subunit status.
+These are the art elements used on counters to denote various types of information relating to the unit’s size, type and directions of movement, selection, emitting radar, spotted, transporting, status, and subunit status.
 
 ## Use
 
@@ -20,6 +20,8 @@ Users cannot add new items to this folder. If you wish to change the any art ele
 
 - It must be saved as a PNG file with transparency
 
-**NOTE:** Making an image too large or small or misspelling the name can result in a game engine crash.
+!!! note
+    Making an image too large or small or misspelling the name can result in a game engine crash.
 
-**NOTE:** If you are planning to make new images, backing up the originals to a new location is advised.
+!!! note
+    If you are planning to make new images, backing up the originals to a new location is advised.

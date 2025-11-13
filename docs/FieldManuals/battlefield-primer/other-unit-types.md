@@ -8,4 +8,4 @@ These platform types would support ships and submarines that could provide firep
 
 ## Space (Stations and Satellites)
 
-These platform types would provide additional intelligence-gathering assets to provide recon before and during a battle or campaign.
+These platform types would provide additional intelligence-gathering assets to provide reconnaissance before and during a battle or campaign.
