@@ -1,3 +1,7 @@
+---
+search:
+    exclude: true
+---
 # User Guides
 
 ## Scenario Design

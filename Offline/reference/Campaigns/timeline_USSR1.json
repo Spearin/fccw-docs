@@ -1,0 +1,32 @@
+[
+  {
+    "title": "SN1 Red Hammer",
+    "content": "1000 - 1600 | [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) | @ [Melsungen](../Maps/melsungen/Melsungen.md)<br>\n\nFor three days now NATO forces have been on the defensive. They have fought better than expected and have not broken. There have been several battles where Soviet firepower has shattered NATO forces but the same is true for some of our own forces. \n\nThe time has come to release the Red Hammer. This operation is intended to breakthrough to the Rhine River. NATO reserves and reinforcements have been diverted to other parts of the front. This area is the boundary of the remains of the 1st Belgian Corps and the 3rd West German Corps. \n\nIt's time to swing the Red Hammer and end this war\\!",
+    "icon": ":material-sword-cross:",
+    "sub_title": "23 Jul"
+  },
+  {
+    "title": "SN2 Goddess of War",
+    "content": "0500 - 1100 | [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) | @ [Marburg](../Maps/marburg/Marburg.md)<br>\n\nAfter overrunning the light territorial forces defending Melsungen, the Soviet juggernaut continued their westwards advance unhindered. \n\nNot having the necessary forces to stop the Soviets, NATO decided to gain more time by placing another West-German territorial force on their path. \n\nThis time however, the challenge would be greater as NATO deployed an entire territorial brigade in the path of the advancing Soviets.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "24 Jul"
+  },
+  {
+    "title": "SN3 Valley of Death",
+    "content": "1200 - 2000 | [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) | @ [Haiger](../Maps/haiger/Haiger.md)<br>\n\nAs news of the continued Soviet advance filtered through NATO s command, it was becoming clear that the territorial forces would not be able to entirely stop the advance. \n\nTo again try to stem the tide, elements of a West-German Panzer Brigade took up hasty defensive positions east of Haider. They had barely enough time to maneuver into position before the first Soviet elements were spotted.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "25 Jul"
+  },
+  {
+    "title": "SN4 Hells Gate",
+    "content": "1000 - 1800 | [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) | @ [Montabaur](../Maps/montabaur/Montabaur.md)<br>\n\nStarting to slow, but still creeping forward, the Soviet forces were now in sight of the Rhein. NATO kept plugging gaps and placing more and more reserves on their path. However, the advance, thus far, had not been stopped. \n\nYet again, another West-German mechanized brigade was moving forward in an attempt to prevent any further progress west by the Pact.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "26 Jul"
+  },
+  {
+    "title": "SN5 Gotterdammerung",
+    "content": "0800 - 1600 | [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) | @ [Neuwied](../Maps/neuwied/Neuwied.md)<br>\n\nWith the Rhein in sight, the Soviet forces gained a new lease of life. The sight of their target meant that they were but a short effort away from achieving their goals. \n\nUnfortunately, this also meant that NATO had strong reasons to defend this area. The Soviet forces were under no illusions regarding their task. While they knew that they were only a stone's throw away from their target, they knew that this last push would prove the hardest.",
+    "icon": ":material-sword-cross:",
+    "sub_title": "27 Jul"
+  }
+]

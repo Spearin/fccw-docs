@@ -3,6 +3,8 @@ title: Home
 hide: 
     - navigation
     - toc
+search:
+    exclude: true
 ---
 # Welcome to _Flashpoint Campaigns: Cold War_
 

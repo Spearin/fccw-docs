@@ -12,15 +12,6 @@ theme:
   custom_dir: overrides
   palette:
     - scheme: flashpoint
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: green
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   font:
     text: IBM Plex Mono
     code: Roboto Mono
@@ -35,32 +26,40 @@ theme:
     - navigation.indexes
     - navigation.footer
     - navigation.tracking
-    - search.suggest
+    - navigation.path
+    # - search.suggest
     - toc.follow
 #    - toc.integrate
+    - navigation.instant.preview
 extra_css:
   - assets/stylesheets/neoteroi-mkdocs.css
   - assets/stylesheets/extra.css
   - assets/stylesheets/mil-symbols.css
   - assets/stylesheets/force.css
 plugins:
-  - tags
+  - search:
+      lang: en
+      separator: '[\s\,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      prebuild_index: true
+      indexing: 'sections'
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
   - meta
-# - optimize
-# - offline
-  - search
-#  - categories
-  - localsearch
-  - git-revision-date-localized:
-      fallback_to_build_date: true
+#  - offline
+#  - git-revision-date-localized:
+#      fallback_to_build_date: true
 #  - mkdocs-literate-nav
-  - mkdocs-video
-  - mermaid2
+#  - mkdocs-video
+#  - mermaid2
 #  - live-edit
   - macros
   - autolinks
   - autorefs
  # - glightbox
+  - optimize:
+      optimize_png: false
   - enumerate-headings:
       toc_depth: 1
       strict: false
@@ -76,29 +75,9 @@ plugins:
       restart_increment_after:
         - FieldManuals/game-operations/welcome-commander-screen.md
         - FieldManuals/battlefield-primer/surviving-modern-warfare.md
-        - FieldManuals/intermediate-tutorials/index.md
-        - FieldManuals/advanced-tutorials/index.md
+        - FieldManuals/intermediate-tutorials/
+        - FieldManuals/advanced-tutorials/
   - awesome-nav  
-  - exporter:
-      buttons:
-        - title: Download as PDF
-          icon: material-file-download-outline
-          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
-          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
-      formats:
-        pdf:
-          explicit: true
-          enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
-          # concurrency: 8
-          stylesheets:
-            - docs/assets/stylesheets/pdf.scss
-          # covers:
-          #  front: docs/assets/templates/covers/front.html.j2
-          #  back: docs/assets/templates/covers/back.html.j2
-          aggregator:
-            enabled: true
-            output: FCCW-FM.pdf
-            covers: book
 markdown_extensions:
   - abbr
   - tables

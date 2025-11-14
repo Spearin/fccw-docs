@@ -15,5 +15,8 @@ Thumbs.db
 site/
 utils/
 Guides/
+_Guides/
+Offline Guides/
 
 requirements.in
+.gitignore

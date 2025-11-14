@@ -1,6 +1,8 @@
 ---
 hide:
 - toc
+search:
+    exclude: true
 ---
 # The Field Manuals \(FM\)
 
