@@ -37,6 +37,8 @@ extra_css:
   - assets/stylesheets/mil-symbols.css
   - assets/stylesheets/force.css
 plugins:
+  - projects:
+        projects_config_files: "*/docs/mkdocs.yml"
   - search:
       lang: en
       separator: '[\s\,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
