@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/itc-eras-ultra');                
 
+/* Country Palette */
+:root {
+  --admon-l: #f0dbc5;   /* light neutral */
+  --admon-d: #e7c9a9;   /* dark neutral */
+  --cc-be-l: #d6bd71;
+  --cc-be-d: #5a7e9f;
+  --cc-ca-l: #9fd4c4;
+  --cc-ca-d: #8cc1b1;
+  --cc-cz-l: #c55152;
+  --cc-cz-d: #5f7398;
+  --cc-de-l: #9db9c6;
+  --cc-de-d: #7f9ba7;
+  --cc-eg-l: #c55152;
+  --cc-eg-d: #9e9e9e;
+  --cc-fr-l: #6188cb;
+  --cc-fr-d: #4f76b9;
+  --cc-pl-l: #f1f1f1;
+  --cc-pl-d: #a72929;
+  --cc-su-l: #c55152;
+  --cc-su-d: #af3b3c;
+  --cc-gb-l: #cfc3b2;
+  --cc-gb-d: #c2af95;
+  --cc-us-l: #56a356;
+  --cc-us-d: #439042;
+}
+
 [data-md-color-scheme="flashpoint"] {
     --md-primary-fg-color: #8f0000;
     --md-typeset-a-color: var(--md-primary-fg-color);
@@ -9,21 +35,42 @@
     --md-primary-fg-color--dark: #3c0000;
     /* --md-text-font: "Tahoma"; */
 
-    .md-content h1, h2, h3 {
+    .md-header__title, .md-content h1, h2, h3, h4 {
     font-family: 'ITC Eras Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
     }
+
+    h1, h2, h3, h4 {
+        color: var(--md-primary-fg-color);
+    }
+
+    .md-header {
+        background-image: url("../../assets/images/title-bg.png");
+        background-color: rgba(143, 0, 0, 0.85);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .md-tabs {
+        background-color: transparent;
+    }
+
+    .md-header__topic:first-child {
+    font-size: 1.3em;
+}
 }
 
 [data-md-color-scheme="slate"] {
-.sym-en-land, .sym-en-land1, .sym-fr-land, .sym-fr-land1 {
-  color: #FFF;
-}
-.md-content h1, h2 {
-    font-family: "Handjet", 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    color: var(--md-accent-fg-color)
-}
+    .sym-en-land, .sym-en-land1, .sym-fr-land, .sym-fr-land1 {
+    color: #FFF;
+    }
+    .md-content h1, h2 {
+        font-family: "Handjet", 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        color: var(--md-accent-fg-color)
+    }
 
 }
 
@@ -33,4 +80,52 @@
 
 .md-sidebar__scrollwrap {
     border-left: 1px dotted #AAA;
+}
+
+.nt-timeline .nt-timeline-content {
+    font-size: 15px;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 1rem;
+}
+
+.nt-timeline.vertical.left .nt-timeline-items {
+    background: radial-gradient(circle, rgb(6, 14, 54) 0%, rgb(228, 50, 50) 100%) no-repeat 30px/2px 100%
+}
+.nt-timeline.vertical.left {
+    padding-left: 50px;
+}
+.nt-timeline.vertical.left .nt-timeline-sub-title {
+    left: -50px;
+}
+.nt-timeline-dot .icon {
+    margin-top: 4px;
+}
+
+h1 .twemoji, .nt-timeline-content .twemoji {
+    --md-icon-size: 2em;
+    display: inline;
+}
+
+.nt-timeline-content .twemoji svg {
+    box-shadow: rgba(0,0,0,0.33) -1px 3px 5px;
+}
+
+.md-nav__link svg {
+    filter: grayscale(0.8);
+    transition: all 1s ease-in-out;
+}
+.md-nav__link:hover svg, .md-nav__item .md-nav__link--active svg {
+    filter: grayscale(0);
+}
+.md-typeset .twemoji .em.em-nato { 
+    height: calc(3 * var(--md-icon-size)); 
+    width: calc(3 * var(--md-icon-size));
+    max-height: none;
+    margin-top: -30%
+}
+.md-typeset .twemoji .em.em-unit { 
+    height: calc(4 * var(--md-icon-size)); 
+    width: calc(4 * var(--md-icon-size));
+    max-height: none;
+    margin-top: -46%;
 }
