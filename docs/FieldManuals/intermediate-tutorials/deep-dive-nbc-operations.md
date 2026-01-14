@@ -1,10 +1,13 @@
 # Deep Dive: NBC Operations
 
-*"Gas! Gas! Gas! – The call you never want to hear but must always be ready for."* – Infantryman’s Lament
+!!! quote
+    *"Gas! Gas! Gas! – The call you never want to hear but must always be ready for."* – Infantryman’s Lament
 
 ***Flashpoint Campaigns: Cold War****, Nuclear, Biological, and Chemical (NBC) Operations* introduces hazardous battlefield conditions that impact unit effectiveness and survivability. Units must be adequately equipped and trained to operate in contaminated environments requiring specialized tactics and planning.
 
-**NOTE:** NATO and Warsaw Pact NBC units may have different equipment, but NBC detection and protection follow the same procedures in-game. Both factions must monitor contamination zones, deploy protective gear, and respond to threats using identical gameplay logic.
+!!! note
+
+    NATO and Warsaw Pact NBC units may have different equipment, but NBC detection and protection follow the same procedures in-game. Both factions must monitor contamination zones, deploy protective gear, and respond to threats using identical gameplay logic.
 
 This tutorial covers NBC Operations, detailing NBC protection and battlefield management in the event of WMD threats.
 
@@ -30,8 +33,6 @@ NBC Operations involve combat scenarios where nuclear, biological, or chemical w
 
 - In Flashpoint Campaigns, decontamination is performed by units under Rest and Resupply orders.
 
--
-
 ### Combat in NBC Environments:
 
 - Units operating in contaminated zones may suffer reduced combat efficiency.
@@ -50,7 +51,9 @@ By mastering NBC Operations, players can mitigate the impact of WMDs and maintai
 
 Weapons of Mass Destruction are potent and must be handled with caution. In the game, WMDs come in three types: Nuclear Weapons, Persistent Chemical Weapons, and Non-Persistent Chemical Weapons.
 
-**NOTE:** The game does not include biological weapons.
+!!! note
+
+    The game does not include biological weapons.
 
 ### Nuclear Weapons:
 
@@ -64,7 +67,9 @@ A nuclear strike delivers a devastating attack that affects all units within its
 
 - Decontamination: To recover from radiation exposure, units must receive a Resupply order and spend time clearing the hazard.
 
-![](images/image298.jpg)Nuclear Contamination (Blue Side Nuclear Attack)
+![](images/image298.jpg)
+
+Nuclear Contamination (Blue Side Nuclear Attack)
 
 ### Persistent Chemical Weapons:
 
@@ -76,7 +81,9 @@ Persistent chemical attacks involve nerve or blood agents that linger in the are
 
 - Decontamination: Units can be decontaminated through a Resupply order, but their combat effectiveness is reduced while wearing protective gear.
 
-![](images/image299.jpg)Chemical Contamination (Blue Side Attack)
+![](images/image299.jpg)
+
+Chemical Contamination (Blue Side Attack)
 
 ### Non-Persistent Chemical Weapons:
 

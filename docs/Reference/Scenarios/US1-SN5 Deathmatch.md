@@ -1,9 +1,5 @@
 # US1-SN5 Deathmatch
-_D+5 | 25 July 1989, 14:00hrs - 20:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Neuffen](../../Maps/Neuffen/Neuffen)_
-
-Date: July 25, 1989 - Day 5 @ 14:00hrs
-
-Opposing Forces: United States vs Soviet Union
+_D+5 | 25 July 1989, 14:00hrs - 20:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Neuffen](../../Maps/neuffen/Neuffen/)_
 
 Despite the dramatic decimation of the 48 MRD, its intended impact was not realized once the dust settled. The leading units of the 1ID (Fwd) found themselves backpedaling after exhausting their ammunition, as additional waves of the Red Army swiftly arrived. The 31st Tank Division (31 TD) launched attacks on the German flanks while the 30th Guards Motorized Rifle Division (30 GMRD) patched up gaps in the advance, supported by the Czechoslovakian rearguard now pushing westward. Salvaging what remained of the 48 MRD, the Soviet rearguard reorganized the survivors into a battle-weary yet resolute battalion, tasked with completing their mission at any cost, assured of the full support of the entire Army Corps.
 

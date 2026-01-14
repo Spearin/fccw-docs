@@ -1,29 +1,60 @@
 ---
-title: Home
-hide: 
-    - navigation
+hide:
     - toc
-search:
-    exclude: true
+    - navigation
 ---
-# Welcome to _Flashpoint Campaigns: Cold War_
+# Guides Overview
 
-This is a grand tactical combat simulation on the Cold War battlefield\. As the force Commander, you will plan and then issue orders and Standard Operating Procedures to your battalion, brigade, or regimental forces shaping the fight by maneuver and your intent\. Your forces will engage the enemy on rendered real\-world map locations\. Each hex is 500m of militarily significant terrain\. Each battle can last 4 to 24 hours of in\-game time\. Your troops will meet their foes any time of day and in any environment\.
+You have reached the _Flashpoint Campaigns: Cold War_ online Guides. The information on this site is primarily compiled from the various PDF Field Manuals found in the game directory. Review the sections below, explore the navigation menu above, and find what you're looking for in the search bar!
 
-The game engine is based on asynchronous WEGO turns\. This means you will issue orders and then watch a variable amount of time unfold on the battlefield\. Then issue or adjust orders to react to what has happened as you execute your battleplan\.
+<div class="grid cards" markdown>
 
-__*Flashpoint Campaigns: Cold War*__ is a deep simulation of combat operations where your forces are arranged in maneuver units of companies, platoons, and sections of tanks, infantry fighting vehicles, infantry squads and teams, recon forces, engineers, air\-defense and anti\-tank systems, helicopters and more\. As the Commander, you must use available off\-map assets like long\-range artillery, rockets, or airstrikes\.
+-   :material-book-open-variant-outline:{ .lg .middle } [__RTFM__](fieldmanuals/game-operations/)
 
-Your efforts in this complex battlespace will be constantly challenged by modeled features like Electronic Warfare, Air Superiority, Realistic Weather, Line of Sight and Fire, Terrain and Elevation, Smoke and Mines, and Human Factors like training, morale, and readiness\. All these elements must be considered if you are to be victorious on the battlefield\.
+    ---
 
-The game is packed with information dialogs, map overlays, and range rings to aid you as Commander, master the situation, and understand your force’s capabilities\.
+    Go from navigating the main menu to claiming victory on the battlefield, one step at a time.
 
-__*Flashpoint Campaigns: Cold War*__ is a data\-rich simulation where each nation has information on National Characteristics, Command Parameters, and Orders of Battle\. Data Tables are packed with era\-specific equipment and troops\. Weapon Systems of the time, such as guns, missiles, precision munitions, small arms, and much more, are comprehensively modeled\.
+    [:octicons-arrow-right-24: FM01: Game Operations](fieldmanuals/game-operations/)
 
-As a toolkit, you can create your own scenarios and campaigns\. You can also dive deeper and create or modify game data, artwork, and sound effects as you see fit\. All these modding capabilities are supported by detailed documentation\.
+-   :fontawesome-solid-person-military-pointing:{ .lg .middle } [__Real World Lessons__](fieldmanuals/battlefield-primer/)
 
-## Gender Pronouns and Inclusion
+    ---
 
-We understand that users of all genders will play our simulation\. We try to keep language in the game and manuals gender\-neutral, when possible, but sometimes use the pronoun “he” to refer to the user\. This is merely to streamline the writing, not to exclude anyone or note a specific gender\.
+    Learn the "dos and don'ts" of modern tactical warfare, but not an army training manual depth. We try to impart lessons learned from the game and those elements of real-world tactics that apply and can save your backside in this game.
 
-The On Target Simulations team supports the inclusion of all people in the field of wargaming.
+    [:octicons-arrow-right-24: FM02: Battlefield Primer](fieldmanuals/battlefield-primer/)
+
+-   :material-human-male-board:{ .lg .middle } [__Learn to Play__](fieldmanuals/tutorials-overview)
+
+    ---
+
+    Read through and learn from the Tutorial Scenarios. From [the Basics](fieldmanuals/basic-tutorials/), to more complex [Engineering](fieldmanuals/intermediate-tutorials/engineering-operations/), [Artillery](fieldmanuals/intermediate-tutorials/artillery-operations/), [Air Support](fieldmanuals/intermediate-tutorials/air-support-operations/), [NBC Ops](fieldmanuals/intermediate-tutorials/nbc-operations/). Then, learn more advanced combat systems including [Air Assault](fieldmanuals/advanced-tutorials/simplified-air-assault-operations/) and [Convoy Operations](fieldmanuals/advanced-tutorials/simplified-convoy-operations/).
+
+    [:octicons-arrow-right-24: FM03: Tutorials](fieldmanuals/tutorials-overview)
+
+-   :fontawesome-regular-question-circle:{ .lg .middle } [__What about...__](info/)
+
+    ---
+
+    Find answers to [frequently asked questions](info/faq/), learn the [system requirements](info/setup/), and discover the [game credits](info/credits/).
+
+    [:octicons-arrow-right-24: Game Info](info/)
+
+-   :fontawesome-solid-earth-europe:{ .lg .middle } [__Content Reference__](reference/)
+
+    ---
+
+    Learn more about the [Chronology of WWIII](reference/Chronology/), review the [Force TO&Es](reference/Forces/), read the [Scenario descriptions](reference/Scenarios/A%20Brief%20Moment%20In%20Time), and [study the Maps](reference/Maps/) in the [Operational Guides](reference/) section.
+
+    [:octicons-arrow-right-24: Operational Guides](reference/)
+
+-   :fontawesome-solid-user-gear:{ .lg .middle } [__Extend the Game__](userguides/)
+
+    ---
+
+    Learn how to use the [Scenario Editor](userguides/scenario-design/), [make Mods](userguides/making-mods/introduction), [edit the Data structures](userguides/data-structures/introduction), and [more!](userguides/) 
+
+    [:octicons-arrow-right-24: User Content Guides](userguides/)
+
+</div>

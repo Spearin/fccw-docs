@@ -1,7 +1,7 @@
 # Panzers Forward
-_D+2 | 22 July 1989, 14:00hrs - 20:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Langquaid](../../Maps/Langquaid/Langquaid)_
+_D+2 | 22 July 1989, 14:00hrs - 20:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Langquaid](../../Maps/langquaid/Langquaid/)_
 
-Having been successful in their engagement at Straubin, the marauding force of the Czechoslovakian 9th Tank Division made a short operational pause and started to exploit in depth towards Munich. This exploitation quickly extended beyond their air superiority corridor. Then, a veritable hail of fire fell from the sky, bringing it to a halt and forcing it into defensive dispersal. The group was also close to the edge of the Pact's communication network and was vulnerable to any NATO force that could strike it.
+Having been successful in their engagement at Straubin, the marauding force of the Czechoslovakian 9th Tank Division made a short operational pause and started to exploit in depth towards Munich. This exploitation quickly extended beyond their air superiority corridor. Then, a veritable hail of fire fell from the sky, bringing it to a halt and forcing it into defensive dispersal. The group was also close to the edge of the Pact&#x27;s communication network and was vulnerable to any NATO force that could strike it.
 
 The advanced group of the 9th Tank Division had gotten separated from the rest of its division. Emboldened by their run, its Commander was undaunted. Making use of whatever cover they could find and keeping to a dispersed pattern, he started to move towards the rest of his division. He knew that the axis of advance of the Czechoslovakian divisions was to the north of his current position, so, in his mind, he now had to plan for re-uniting with the main body of his division somewhere in the vicinity of Langquaid.
 
@@ -11,6 +11,6 @@ By the time the advanced group of the 9th Tank Division was in sight of the smal
 
 Despite the opportunity, the 4th Panzer Grenadier Division was struggling to release the resources it needed to finish the advanced group and prevent its junction with the main body. This task was now falling to the West German forces in the Langquaid area. This was the area of the Pz Bde 24, thus far spared of any heavy combats.
 
-The original plan had called for the Pz Bde 24 only to attack the 9th Tank Division's advanced group. With the advanced group veering north and the sudden threat of reunion with the main body of the Tank Division, the Pz Bde 24 not only had to attack the advanced group, but also keep an eye out for the potential arrival of more Czechoslovakian units.
+The original plan had called for the Pz Bde 24 only to attack the 9th Tank Division&#x27;s advanced group. With the advanced group veering north and the sudden threat of reunion with the main body of the Tank Division, the Pz Bde 24 not only had to attack the advanced group, but also keep an eye out for the potential arrival of more Czechoslovakian units.
 
 **_Scenario by Jo Lima; Mike Johnstone | Map by William van der Sterren_**

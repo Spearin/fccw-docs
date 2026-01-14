@@ -1,5 +1,5 @@
 # A Second Dance
-_D+2 | 22 July 1989, 16:00hrs - 22:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Lauterbach_Hessen](../../Maps/Lauterbach_Hessen/Lauterbach_Hessen)_
+_D+2 | 22 July 1989, 16:00hrs - 22:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Lauterbach_Hessen](../../Maps/lauterbach_hessen/Lauterbach_Hessen/)_
 
 The Soviet push towards Frankfurt is proceeding well.  The 8th Guards Army had two Motor Rifle Divisions (MRD) in the first echelon, the 27th Guards MRD and the 57th Guards MRD.  The 27th was on the right and pushing up against the West Germans.
 

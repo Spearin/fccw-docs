@@ -124,7 +124,9 @@ To make different sets of information visible, select Custom Filter Settings and
 
 Different colors can make your tags stand out. Select “Highlight Settings” and a pop-up submenu with a very large list of Tags appears (see Section 14.4.1 below). For example, to see messages with the Tag for “Mines” with a color to stand out, select “Mines” from the list and then set the color for that Tag.
 
-**NOTE:** Be cautious not to overdo it as it may be too hard to read the text.
+!!! note
+
+    Be cautious not to overdo it as it may be too hard to read the text.
 
 ## Subunit Inspector (SUI)
 

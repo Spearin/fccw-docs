@@ -1,5 +1,5 @@
 # US3-SN2 Holding the Line
-_D+8 | 28 July 1989, 05:00hrs - 13:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Schotten](../../Maps/Schotten/Schotten)_
+_D+8 | 28 July 1989, 05:00hrs - 13:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Schotten](../../Maps/schotten/Schotten/)_
 
 After being slowed down by a valiant effort by the 1-36 Mechanized Battalion (Mech Bn), the 1 Guards Tank Army has been picking up speed as they head towards Frankfurt.  The 20th Motor Rifle Division (MRD) after some heavy fighting, has pushed a second echelon Motor Rifle Regiment (MRR) through a gap Southwest along B257.
 

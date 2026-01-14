@@ -1,5 +1,5 @@
 # Once More Unto The Breach
-_D+9 | 29 July 1989, 19:00hrs - 00:00hrs [:smflag-fr:](../Forces/France.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Germersheim](../../Maps/Germersheim/Germersheim)_
+_D+9 | 29 July 1989, 19:00hrs - 00:00hrs [:smflag-fr:](../../Forces/France/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Germersheim](../../Maps/germersheim/Germersheim/)_
 
 After a tactical pause and re-grouping, the East-German lead unit, the 7th Panzer Division, had now seen action against Americans and West Germans. They, had attacked in tandem with the Soviets, had tried to link with the Czechoslovakians, and finally had crossed the Neckar in support of the Soviet 35th Guards Assault Brigade attack. They were now a spent force with very little capability to overcome the French forces opposing them. Unable to continue their advance, they began to prepare defensive positions.
 

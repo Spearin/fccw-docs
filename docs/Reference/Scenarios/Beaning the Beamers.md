@@ -1,5 +1,5 @@
 # Beaning the Beamers
-_D+0 | 20 July 1989, 03:00hrs - 09:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Landau ad Isar](../../Maps/Landau-ad-Isar/Landau ad Isar)_
+_D+2 | 22 July 1989, 05:00hrs - 11:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Landau ad Isar](../../Maps/landau-ad-isar/Landau ad Isar/)_
 
 Shortly after 0100, reports started coming from recon forces stationed along the border with Czechoslovakia that Warsaw Pact forces were crossing the border en masse. NATO soldiers were alerted to report to their units and mobilize for war. Units were rushed forward to meet the Warsaw Pact onslaught.
 

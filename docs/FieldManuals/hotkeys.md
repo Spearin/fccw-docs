@@ -1,7 +1,4 @@
----
-title: Hotkeys
----
-# Hotkey Use in Flashpoint Campaigns
+# :fontawesome-regular-keyboard: Hotkeys
 
 As with most software, Flashpoint Campaigns \- Cold War \(FCCW\) has many predefined Hotkeys that substitute menu functions or speed button clicks to perform various actions in the simulation\.
 

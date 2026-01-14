@@ -7,7 +7,7 @@
 *[FAQ]: Frequently Asked Questions
 *[USSR]: Union of Soviet Socialist Republics
 *[WP]: Warsaw Pact
-*[RTFM]: Read The Field Manuals
+*[RTFM]: Read The Field Manual
 *[FM]: Field Manual
 *[OOB]: Order of Battle
 *[WW3]: World War 3

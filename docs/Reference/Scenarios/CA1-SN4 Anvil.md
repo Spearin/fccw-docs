@@ -1,5 +1,5 @@
 # CA1-SN4 Anvil
-_D+7 | 27 July 1989, 15:00hrs - 21:00hrs [:smflag-ca:](../Forces/Canada.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Wendlingen](../../Maps/Wendlingen/Wendlingen)_
+_D+7 | 27 July 1989, 15:00hrs - 21:00hrs [:smflag-ca:](../../Forces/Canada/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Wendlingen](../../Maps/wendlingen/Wendlingen/)_
 
 With the capture of WENDLINGEN, the Soviet forces South of Stuttgart are now surrounded and cut off.  With morale and logistic issues rising, the Soviet forces are working independently to move East to re-establish contact with their supply lines.
 

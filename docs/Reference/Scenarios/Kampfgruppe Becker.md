@@ -1,5 +1,5 @@
 # Kampfgruppe Becker
-_D+19 | 08 August 1989, 14:30hrs - 23:30hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Montabaur](../../Maps/Montabaur/Montabaur)_
+_D+19 | 08 August 1989, 14:30hrs - 20:30hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Montabaur](../../Maps/montabaur/Montabaur/)_
 
 Lieutenant Colonel Gustav Becker, commander of the 132nd Panzergrenadier Battalion, was sound asleep against a tree in Assembly Area Schnitzel.  His much-needed rest after days of fighting was suddenly interrupted by a liaison officer from Brigade headquarters.  As he walked to the liaison officer’s vehicle he thought, while shaking off the cobwebs of sleep in his brain: “my god, what do they want us to do now.”  Arriving at the brigade headquarters, he was met by the brigade commander who told him that an opportunity has arisen, and his unit is the best prepared to take advantage of it.
 

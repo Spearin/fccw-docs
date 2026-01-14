@@ -48,7 +48,9 @@ Right-click on the Mortar unit, then select Barrage and then click on HE-Neutral
 
 After the Plot Targets dialog comes up, click on the enemy unit and hit Commit. Once the Dashboard opens, scroll down on the number of rounds and select 60. Click on Apply to set the new round count and close the Dashboard with the “X” in the upper right of the dialog.
 
-**NOTE:** It is very possible that there may be no enemies in the area or more. You can place more target points if more units are visible in your play through. This is again due to the dynamic nature of the game engine as we do not use scripted events.
+!!! note
+
+     It is very possible that there may be no enemies in the area or more. You can place more target points if more units are visible in your play through. This is again due to the dynamic nature of the game engine as we do not use scripted events.
 
 ![](images/image214.jpg)
 
@@ -78,7 +80,9 @@ Hit Start and proceed with the turn resolution.
 
 Another 10 minutes and our force has taken out all the enemy tanks, but the Southern Scouts paid for it with heavy losses as seen in the Dashboard image below.
 
-**NOTE:** As you can see on the counter and in the Dashboard, the “L” (Leg) movement icon is now orange indicating the unit no longer has enough transports to move is infantry units. These guys are on foot for the rest of the fight.
+!!! note
+
+     As you can see on the counter and in the Dashboard, the “L” (Leg) movement icon is now orange indicating the unit no longer has enough transports to move is infantry units. These guys are on foot for the rest of the fight.
 
 ![](images/image224.jpg)
 

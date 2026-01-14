@@ -1,0 +1,3754 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.ontargetsimulations.com/guides/coldwar/userguides/data-structures/systems.html">
+      
+      
+        <link rel="prev" href="units.html">
+      
+      
+        <link rel="next" href="munition-types.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Systems - Flashpoint Campaigns: Cold War Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/neoteroi-mkdocs.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/mil-symbols.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/force.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="flashpoint" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#systems" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../index.html" title="Flashpoint Campaigns: Cold War Guides" class="md-header__button md-logo" aria-label="Flashpoint Campaigns: Cold War Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Flashpoint Campaigns: Cold War Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Systems
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="flashpoint" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../info/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Game Info
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fieldmanuals/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gameplay Manuals
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../reference/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Operational Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  User Content Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="Flashpoint Campaigns: Cold War Guides" class="md-nav__button md-logo" aria-label="Flashpoint Campaigns: Cold War Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"/></svg>
+
+    </a>
+    Flashpoint Campaigns: Cold War Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../info/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Info
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../fieldmanuals/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay Manuals
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../reference/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operational Guides
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Content Guides
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Content Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../scenario-design/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scenario Design
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../battle-planning/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Battle Planning
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../campaign-design/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campaign Design
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../map-construction/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Map Construction
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../making-mods/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Making Mods
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7c0-2.21 3.58-4 8-4s8 1.79 8 4-3.58 4-8 4-8-1.79-8-4m8.08 11H12c-4.42 0-8-1.79-8-4v3c0 2.21 3.58 4 8 4h.29a7.4 7.4 0 0 1-.29-2c0-.34.03-.67.08-1M20 12.08V9c0 2.21-3.58 4-8 4s-8-1.79-8-4v3c0 2.21 3.58 4 8 4h.69c1.13-2.37 3.53-4 6.31-4 .34 0 .67.03 1 .08m3.8 8.32c.1 0 .1.1 0 .2l-1 1.7c-.1.1-.2.1-.3.1l-1.2-.4c-.3.2-.5.3-.8.5l-.2 1.3c0 .1-.1.2-.2.2h-2c-.1 0-.2-.1-.3-.2l-.2-1.3c-.3-.1-.6-.3-.8-.5l-1.2.5c-.1 0-.2 0-.3-.1l-1-1.7c-.1-.1 0-.2.1-.3l1.1-.8v-1l-1.1-.8c-.1-.1-.1-.2-.1-.3l1-1.7c.1-.1.2-.1.3-.1l1.2.5c.3-.2.5-.3.8-.5l.2-1.3c0-.1.1-.2.3-.2h2c.1 0 .2.1.2.2l.2 1.3c.3.1.6.3.9.5l1.2-.5c.1 0 .3 0 .3.1l1 1.7c.1.1 0 .2-.1.3l-1.1.8v1zM20.5 19c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Structures & Editing
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data Structures & Editing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="location-of-data-files.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Location of Data Files
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-file-structure-overview.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Data File Structure Overview
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="platform-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      <abbr title="Atomic Element of Capability">Platform</abbr> Types
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="platform-characteristics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      <abbr title="Atomic Element of Capability">Platform</abbr> Characteristics
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="weaponsystem-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Weapon/System Types
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="munition-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Munition Types
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="weapon-list-codes-new-provisional.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Weapon List Codes (New-Provisional)
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="task-force-type-filters.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Task Force Type Filters
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formation-roles.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Formation Roles
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="battle-planner-template-bpt-codes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Battle Planner Template (BPT) Codes
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mobility-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Mobility Types
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started-with-data-editing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Getting Started with Data Editing
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="editing-the-data.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Editing the Data
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="national-defaults.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      National Defaults
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="command.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Command
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Formations
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="units.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Units
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Systems
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="systems.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Systems
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#weaptag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          WEAPTAG
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Name
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nato-designation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="North Atlantic Treaty Organization">NATO</abbr> Designation
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Description
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Type
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Role
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accuracy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Accuracy
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accuracy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidedsmart-weapons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Guided/Smart Weapons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-guided-weapons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Non-Guided Weapons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effective-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Effective Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#min-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Min Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sa-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SA Value">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-artillery-guns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Artillery Guns
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-mortars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Mortars
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-rockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Rockets
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-small-arms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Small Arms
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-tank-he-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Tank <abbr title="High Explosive">HE</abbr> Rounds
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ap-pen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="Armor Piercing">AP</abbr> Pen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heat-pen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="High Explosive Anti-Tank">HEAT</abbr> Pen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weapon-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Weapon Lists
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Weapon Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#capabilities-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Capabilities List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defenses-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Defenses List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidance-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Guidance List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Sound Effect
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="munition-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Munition Types
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="surnames.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Surnames
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="notice.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Notice
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-folder-setup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Data Folder Setup
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-validation-tool.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      Data Validation Tool
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-xls-importexport-editing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <span class="md-typeset">
+      File XLS Import/Export Editing
+    </span>
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../weather-setup/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weather Setup
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../map-overlay-creation/index.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Map Overlay Creation
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#weaptag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          WEAPTAG
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Name
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nato-designation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="North Atlantic Treaty Organization">NATO</abbr> Designation
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Description
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Type
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Role
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accuracy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Accuracy
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accuracy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidedsmart-weapons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Guided/Smart Weapons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-guided-weapons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Non-Guided Weapons
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effective-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Effective Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#min-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Min Range
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sa-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SA Value">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-artillery-guns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Artillery Guns
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-mortars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Mortars
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-rockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Rockets
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-small-arms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Small Arms
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-value-for-tank-he-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          SA Value for Tank <abbr title="High Explosive">HE</abbr> Rounds
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ap-pen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="Armor Piercing">AP</abbr> Pen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heat-pen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          <abbr title="High Explosive Anti-Tank">HEAT</abbr> Pen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weapon-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Weapon Lists
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Weapon Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#capabilities-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Capabilities List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defenses-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Defenses List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidance-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Guidance List
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Sound Effect
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="systems">Systems</h1>
+<p>The Systems tab is where each specific weapon or system (Precision Guided Munition, Tank Gun, and Anti-Tank Guided Missile) is defined for a number of characteristics.</p>
+<h2 id="weaptag">WEAPTAG</h2>
+<p>The WEAPTAG is an alphanumeric entry that must be a unique identifier for each entry. Our basic format is the weapon type character code (See Section 6 above) and then an integer value to create values like “ATGM4”, or “ISW8”.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Once you set these values for a dataset and use it in the scenario editor, any edits, or reorders of the WEAPTAGs that break the initial WEAPTAG-Weapon relationship will cause existing scenarios to load bad data if you update a scenario’s data with a corrupted dataset with remapped WEAPTAGs. If you need to add more weapons between entries (for data consistency/appearance), you should add to the code with additional alphanumeric characters. For example, if you had “ATGM3” and “ATGM4” in your list and wanted to add in two more variants, you can add rows to the spreadsheet in between them and use WEAPTAGs like “ATGM3A” and “ATGM3B”. You could also add a new value greater than the largest weapon type the WEAPTAG list.</p>
+</div>
+<h2 id="name">Name</h2>
+<p>This is the given identification of a specific weapon or system used by its nation. For example, “<abbr title="Air-to-Ground Missile">AGM</abbr>-114K Hellfire II”, “9M330 Tor”, “120mm L11A5”, etc.</p>
+<h2 id="nato-designation"><abbr title="North Atlantic Treaty Organization">NATO</abbr> Designation</h2>
+<p>This is a weapon’s or system’s specific <abbr title="North Atlantic Treaty Organization">NATO</abbr> designation, if one exists. For example, “SA-15 Gauntlet” for the “(9M330 Tor”). This field is included to allow for most OpFor hardware of Russian origin to carry its given <abbr title="North Atlantic Treaty Organization">NATO</abbr> designated code and name. It can also be used for alternate names used by countries for other countries’ hardware.</p>
+<h2 id="description">Description</h2>
+<p>This is a short description explaining the Weapon’s function/type. For example, “Auto Cannon”, “Medium Tank Cannon”, etc. This description is displayed in the Sub-Unit Inspector and in several other information panels when weapon information is shown.</p>
+<h2 id="type">Type</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Type Tag</strong></th>
+<th><strong>New Description</strong></th>
+<th><strong>Role</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><abbr title="Anti-Air Artillery">AAA</abbr></strong></td>
+<td>Anti-Aircraft Gun</td>
+<td><abbr title="Air Defense">AD</abbr>,<abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>ACN</strong></td>
+<td>Aircraft Cannon</td>
+<td><abbr title="Anti-Tank">AT</abbr>,<abbr title="Armor Piercing">AP</abbr>,<abbr title="Air Defense">AD</abbr></td>
+</tr>
+<tr>
+<td><strong>AGL</strong></td>
+<td>Automatic Grenade Launcher</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>AMG</strong></td>
+<td>Aircraft Machine Gun</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr>,<abbr title="Air Defense">AD</abbr></td>
+</tr>
+<tr>
+<td><strong>ARK</strong></td>
+<td>Air Launched Rocket</td>
+<td><abbr title="Anti-Tank">AT</abbr>,<abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>ATK</strong></td>
+<td>Anti-Tank Gun</td>
+<td><abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>AUCN</strong></td>
+<td>Auto Cannon</td>
+<td><abbr title="Anti-Tank">AT</abbr>,<abbr title="Armor Piercing">AP</abbr>,<abbr title="Air Defense">AD</abbr></td>
+</tr>
+<tr>
+<td><strong>FGN</strong></td>
+<td>Artillery Gun</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>ISW</strong></td>
+<td>Infantry Support Weapon</td>
+<td><abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>MGN</strong></td>
+<td>Machine Gun</td>
+<td><abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>MTR</strong></td>
+<td>Mortar</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>RKT</strong></td>
+<td>Rocket</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong><abbr title="Rocket Propelled Grenade">RPG</abbr></strong></td>
+<td>Rocket Propelled Grenade</td>
+<td><abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>SMA</strong></td>
+<td>Light Small Arms</td>
+<td><abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>TGN</strong></td>
+<td>Light Tank Cannon</td>
+<td><abbr title="Anti-Tank">AT</abbr>,<abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>VSW</strong></td>
+<td>Vehicle Support Weapon</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>ACM</strong></td>
+<td>Cluster Munition</td>
+<td><abbr title="Anti-Tank">AT</abbr>,<abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>AIB</strong></td>
+<td>Iron Bomb</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>EXP</strong></td>
+<td>Explosive Device</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>FLM</strong></td>
+<td>Flame Weapon</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr></td>
+</tr>
+<tr>
+<td><strong>AARM</strong></td>
+<td>Anti-Radiation Missile</td>
+<td>AL</td>
+</tr>
+<tr>
+<td><strong><abbr title="Air-to-Ground Missile">AGM</abbr></strong></td>
+<td>Guided Missile</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr>,AL</td>
+</tr>
+<tr>
+<td><strong><abbr title="Anti-Tank Guided Missile">ATGM</abbr></strong></td>
+<td>Anti-Tank Guided Missile</td>
+<td><abbr title="Anti-Tank">AT</abbr>,AL</td>
+</tr>
+<tr>
+<td><strong><abbr title="Surface-to-Air Missile">SAM</abbr></strong></td>
+<td>Surface to Air Missile</td>
+<td><abbr title="Air Defense">AD</abbr></td>
+</tr>
+<tr>
+<td><strong>BIOW</strong></td>
+<td>Biological Weapon</td>
+<td><abbr title="Armor Piercing">AP</abbr></td>
+</tr>
+<tr>
+<td><strong>CWN</strong></td>
+<td>Chemical Warhead Non-Persistent</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr>,AL</td>
+</tr>
+<tr>
+<td><strong>CWP</strong></td>
+<td>Chemical Warhead Persistent</td>
+<td><abbr title="Armor Piercing">AP</abbr>,<abbr title="Anti-Tank">AT</abbr>,AL</td>
+</tr>
+<tr>
+<td><strong>NCW</strong></td>
+<td>Nuclear Warhead (kT)</td>
+<td><abbr title="Anti-Air">AA</abbr></td>
+</tr>
+</tbody>
+</table>
+<p>This is the weapons type and listed in Section 6 above as the Type Tag. Examples are “<abbr title="Anti-Tank Guided Missile">ATGM</abbr>”, “ISW”, and “<abbr title="Air-to-Ground Missile">AGM</abbr>”.</p>
+<h2 id="role">Role</h2>
+<p>Weapon Role codes are used in the game engine to help the AI determine use versus targets. Weapons can have more than one role. In those cases, a comma delimited list in the Weapons Role field is required.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><abbr title="Anti-Air">AA</abbr></strong></td>
+<td>Anti-All: Affects all types</td>
+</tr>
+<tr>
+<td><strong><abbr title="Air Defense">AD</abbr></strong></td>
+<td>Air Defense: Target Airborne Threats</td>
+</tr>
+<tr>
+<td><strong><abbr title="Armor Piercing">AP</abbr></strong></td>
+<td>Anti-Personnel: Target Ground Troops</td>
+</tr>
+<tr>
+<td><strong><abbr title="Anti-Tank">AT</abbr></strong></td>
+<td>Anti-Tank: Target Land Based Threats</td>
+</tr>
+</tbody>
+</table>
+<p>The current list of Role based on Weapon Type Tag Follows:</p>
+<h2 id="accuracy">Accuracy</h2>
+<p>Weapon accuracy comes in two types, Guided/Smart Weapons with their own means to engage a target (these will have one or more Guidance List Characteristic (see Section 5.2 above) or a basic accuracy related to the type of weapon system in use (primarily gun-based systems).</p>
+<h3 id="guidedsmart-weapons">Guided/Smart Weapons</h3>
+<p>The accuracy for weapon systems like AARM, <abbr title="Air-to-Ground Missile">AGM</abbr>, <abbr title="Anti-Tank Guided Missile">ATGM</abbr>, NCW, RKT (guided), or <abbr title="Surface-to-Air Missile">SAM</abbr>. The range is 0 to 20 and each point of value is worth 5%. Set this value to at or near the weapons rated accuracy for use against its standard target type. Other weapon related characteristics and enemy systems will adjust this base accuracy in combat.</p>
+<h3 id="non-guided-weapons">Non-Guided Weapons</h3>
+<p>For all of the other non-guided weapons use the value found in the table below for the type of weapon and in some cases size/caliber to get the basic accuracy number. These weapons will factor in fire control, crew capability and other effects to determine a final hit probability in combat.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Type</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Accuracy</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><abbr title="Anti-Air Artillery">AAA</abbr></strong></td>
+<td>Anti-Aircraft Gun ≥ 12.7mm</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong><abbr title="Anti-Air Artillery">AAA</abbr></strong></td>
+<td>Anti-Aircraft Gun &lt; 12.7mm</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>ACM</strong></td>
+<td>Cluster Munition</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>ACN</strong></td>
+<td>Aircraft Cannon</td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>AGL</strong></td>
+<td>Automatic Grenade Launcher</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>AIB</strong></td>
+<td>Iron Bomb (Air launched, free fall)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>AMG</strong></td>
+<td>Aircraft Machine Gun</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>ARK</strong></td>
+<td>Air Launched Rocket(s)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>ATG</strong></td>
+<td>Anti-Tank Gun (Recoilless Rifles)</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>AUCN</strong></td>
+<td>Chain Gun</td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>EXP</strong></td>
+<td>Explosive Device (Grenade, IED)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>FGN</strong></td>
+<td>Artillery Gun (All sizes)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>FLM</strong></td>
+<td>Flame Weapon</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>ISW</strong></td>
+<td>Infantry Support Weapon</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>MGN</strong></td>
+<td>Machine Gun</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>MTR</strong></td>
+<td>Mortar (All Sizes)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>RKT</strong></td>
+<td>Unguided Ground Launched Rockets</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong><abbr title="Rocket Propelled Grenade">RPG</abbr></strong></td>
+<td>Rocket Propelled Grenade</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>SMA</strong></td>
+<td>Medium Small Arms (Assault Rifles)</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>SMA</strong></td>
+<td>Light Small Arms (Rifles, SMGs)</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>SMA</strong></td>
+<td>Light Small Arms (Pistols)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>SMA</strong></td>
+<td>Small Arms (Sniper Rifles)</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>TGN</strong></td>
+<td>Tank Cannon – Smoothbore per 2500m of Range</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>TGN</strong></td>
+<td>Tank Cannon – Rifled per 2500m of Range</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>VSW</strong></td>
+<td>Vehicle Support Weapon</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="range">Range</h2>
+<p>This is the maximum range of the weapon system in meters.</p>
+<h2 id="effective-range">Effective Range</h2>
+<p>Depending on weapon type, the Effective range is calculated by taking the maximum range in meters times the Range Multiplier. This range is used in combat calculations as a factor for hit percentage and also the base point for the weapons <abbr title="Armor Piercing">AP</abbr> penetration calculated in Section 19.12 below.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Weapon Type(s)</strong></th>
+<th><strong>Range Multiplier</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="Anti-Air Artillery">AAA</abbr>, AMG, AUCN, FGN, ISW, MGN, MTR, SMA (not Sniper), TGN, VSW</td>
+<td>0.33</td>
+</tr>
+<tr>
+<td>ACN, AGL, AIB, ARK, EXP, FLM, RKT (Unguided), <abbr title="Rocket Propelled Grenade">RPG</abbr>, SMA (Sniper only)</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>ACM</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>AARM, <abbr title="Air-to-Ground Missile">AGM</abbr>, <abbr title="Anti-Tank Guided Missile">ATGM</abbr>, NCW, RKT (Guided), <abbr title="Surface-to-Air Missile">SAM</abbr></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="min-range">Min Range</h2>
+<p>Certain weapon systems have a minimum range which must be traveled or is unreachable. Primarily this will affect artillery systems, ATGMs, <abbr title="Surface-to-Air Missiles">SAMs</abbr>, and some PGMs. IF there is no minimum range restriction set the value in this field to 0.</p>
+<h2 id="sa-value">SA Value</h2>
+<p>SA or Small Arms value is a relative measure of small high-speed projectiles from a gun, machine gun or other ballistic firing weapon system or from blast fragmentation warheads on artillery shells or missile warheads (ATGMs, <abbr title="Surface-to-Air Missiles">SAMs</abbr>, and Rockets). The following charts show the calculated SA value for the various types of weapons that have this value. The size if the bore size of the barrel or diameter of the shell in millimeters.</p>
+<h3 id="sa-value-for-artillery-guns">SA Value for Artillery Guns</h3>
+<p>Use these values for tube artillery based on the shell size in millimeters. If the size is not on the table, you can use the formula below to calculate the value. Values are rounded to the nearest 0.25.</p>
+<p><strong>SA Value = Tube Size in mm * 0.04338 + 3.35746 – then round to the closest 0.25</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong><abbr title="High Explosive">HE</abbr>: Arty Guns</strong></th>
+<th><strong>SA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>40</td>
+<td>5</td>
+</tr>
+<tr>
+<td>50</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>60</td>
+<td>6</td>
+</tr>
+<tr>
+<td>81</td>
+<td>6.75</td>
+</tr>
+<tr>
+<td>82</td>
+<td>7</td>
+</tr>
+<tr>
+<td>105</td>
+<td>8</td>
+</tr>
+<tr>
+<td>120</td>
+<td>8.5</td>
+</tr>
+<tr>
+<td>122</td>
+<td>8.75</td>
+</tr>
+<tr>
+<td>130</td>
+<td>9</td>
+</tr>
+<tr>
+<td>152</td>
+<td>10</td>
+</tr>
+<tr>
+<td>155</td>
+<td>10</td>
+</tr>
+<tr>
+<td>160</td>
+<td>10.25</td>
+</tr>
+<tr>
+<td>175</td>
+<td>11</td>
+</tr>
+<tr>
+<td>203</td>
+<td>12.25</td>
+</tr>
+<tr>
+<td>227</td>
+<td>13.25</td>
+</tr>
+<tr>
+<td>240</td>
+<td>13.75</td>
+</tr>
+<tr>
+<td>300</td>
+<td>16.25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sa-value-for-mortars">SA Value for Mortars</h3>
+<p>Use these values for mortars based on the shell size in millimeters. If the size is not on the table, you can use the formula below to calculate the value. Values are rounded to the nearest 0.25.</p>
+<p><strong>SA Value = Tube Size in mm * 0.0414 + 1.1122 – then round to the closest 0.25</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong><abbr title="High Explosive">HE</abbr>: Arty Guns</strong></th>
+<th><strong>SA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>40</td>
+<td>5</td>
+</tr>
+<tr>
+<td>50</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>60</td>
+<td>6</td>
+</tr>
+<tr>
+<td>81</td>
+<td>6.75</td>
+</tr>
+<tr>
+<td>82</td>
+<td>7</td>
+</tr>
+<tr>
+<td>105</td>
+<td>8</td>
+</tr>
+<tr>
+<td>120</td>
+<td>8.5</td>
+</tr>
+<tr>
+<td>122</td>
+<td>8.75</td>
+</tr>
+<tr>
+<td>130</td>
+<td>9</td>
+</tr>
+<tr>
+<td>152</td>
+<td>10</td>
+</tr>
+<tr>
+<td>155</td>
+<td>10</td>
+</tr>
+<tr>
+<td>160</td>
+<td>10.25</td>
+</tr>
+<tr>
+<td>175</td>
+<td>11</td>
+</tr>
+<tr>
+<td>203</td>
+<td>12.25</td>
+</tr>
+<tr>
+<td>227</td>
+<td>13.25</td>
+</tr>
+<tr>
+<td>240</td>
+<td>13.75</td>
+</tr>
+<tr>
+<td>300</td>
+<td>16.25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sa-value-for-rockets">SA Value for Rockets</h3>
+<p>Use these values for rockets based on the size in millimeters of the rocket diameter. If the size is not on the table, you can use the formula in the header cell after the dash to calculate the value. If the rocket is a Fuel Air Explosive type (<abbr title="Fuel Air Explosive">FAE</abbr>), use the <abbr title="Fuel Air Explosive">FAE</abbr> column.</p>
+<table>
+<thead>
+<tr>
+<th><strong><abbr title="High Explosive">HE</abbr>: Rockets – mm/15</strong></th>
+<th><strong>SA</strong></th>
+<th><strong><abbr title="Fuel Air Explosive">FAE</abbr></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>40</td>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<td>50</td>
+<td>3</td>
+<td>13</td>
+</tr>
+<tr>
+<td>60</td>
+<td>4</td>
+<td>15</td>
+</tr>
+<tr>
+<td>81</td>
+<td>5</td>
+<td>20</td>
+</tr>
+<tr>
+<td>82</td>
+<td>5</td>
+<td>21</td>
+</tr>
+<tr>
+<td>105</td>
+<td>7</td>
+<td>26</td>
+</tr>
+<tr>
+<td>120</td>
+<td>8</td>
+<td>30</td>
+</tr>
+<tr>
+<td>122</td>
+<td>8</td>
+<td>31</td>
+</tr>
+<tr>
+<td>130</td>
+<td>9</td>
+<td>33</td>
+</tr>
+<tr>
+<td>152</td>
+<td>10</td>
+<td>38</td>
+</tr>
+<tr>
+<td>155</td>
+<td>10</td>
+<td>39</td>
+</tr>
+<tr>
+<td>160</td>
+<td>11</td>
+<td>40</td>
+</tr>
+<tr>
+<td>175</td>
+<td>12</td>
+<td>44</td>
+</tr>
+<tr>
+<td>203</td>
+<td>14</td>
+<td>51</td>
+</tr>
+<tr>
+<td>227</td>
+<td>15</td>
+<td>57</td>
+</tr>
+<tr>
+<td>240</td>
+<td>16</td>
+<td>60</td>
+</tr>
+<tr>
+<td>300</td>
+<td>20</td>
+<td>75</td>
+</tr>
+<tr>
+<td>400</td>
+<td>27</td>
+<td>100</td>
+</tr>
+<tr>
+<td>750</td>
+<td>50</td>
+<td>188</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sa-value-for-small-arms">SA Value for Small Arms</h3>
+<p>Use these values for small arms and anti-aircraft guns based on round size in millimeters. If the size is not on the table, you can use the formula in the header cell after the dash to calculate the value. If the gun system has multiple barrels, use the modifier at the bottom of the table to adjust the SA value to get a final data value.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Small Arms/AAG – 0.0915mm + 0.6393</strong></th>
+<th><strong>SA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7.62</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12.7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>14</td>
+<td>2</td>
+</tr>
+<tr>
+<td>20</td>
+<td>2</td>
+</tr>
+<tr>
+<td>25</td>
+<td>3</td>
+</tr>
+<tr>
+<td>30</td>
+<td>3</td>
+</tr>
+<tr>
+<td>35</td>
+<td>4</td>
+</tr>
+<tr>
+<td>40</td>
+<td>4</td>
+</tr>
+<tr>
+<td>50</td>
+<td>5</td>
+</tr>
+<tr>
+<td>60</td>
+<td>6</td>
+</tr>
+<tr>
+<td>80</td>
+<td>8</td>
+</tr>
+<tr>
+<td>105</td>
+<td>10</td>
+</tr>
+<tr>
+<td>120</td>
+<td>12</td>
+</tr>
+<tr>
+<td>125</td>
+<td>12</td>
+</tr>
+<tr>
+<td><strong>2 to 3 barrels = +1 to SA</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>4 to 6 barrels = +2 to SA</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sa-value-for-tank-he-rounds">SA Value for Tank <abbr title="High Explosive">HE</abbr> Rounds</h3>
+<p>Use these values for tank <abbr title="High Explosive">HE</abbr> rounds based on the shell size in millimeters. If the size is not on the table, you can use the formula in the header cell after the dash to calculate the value.</p>
+<table>
+<thead>
+<tr>
+<th><strong><abbr title="High Explosive">HE</abbr>: TGNs – mm/20-1</strong></th>
+<th><strong>SA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>40</td>
+<td>1</td>
+</tr>
+<tr>
+<td>50</td>
+<td>2</td>
+</tr>
+<tr>
+<td>60</td>
+<td>2</td>
+</tr>
+<tr>
+<td>81</td>
+<td>3</td>
+</tr>
+<tr>
+<td>82</td>
+<td>3</td>
+</tr>
+<tr>
+<td>105</td>
+<td>4</td>
+</tr>
+<tr>
+<td>120</td>
+<td>5</td>
+</tr>
+<tr>
+<td>122</td>
+<td>5</td>
+</tr>
+<tr>
+<td>130</td>
+<td>6</td>
+</tr>
+<tr>
+<td>152</td>
+<td>7</td>
+</tr>
+<tr>
+<td>155</td>
+<td>7</td>
+</tr>
+<tr>
+<td>165</td>
+<td>7</td>
+</tr>
+<tr>
+<td>175</td>
+<td>8</td>
+</tr>
+<tr>
+<td>203</td>
+<td>9</td>
+</tr>
+<tr>
+<td>227</td>
+<td>10</td>
+</tr>
+<tr>
+<td>240</td>
+<td>11</td>
+</tr>
+<tr>
+<td>300</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ap-pen"><abbr title="Armor Piercing">AP</abbr> Pen</h2>
+<p>The <abbr title="Armor Piercing">AP</abbr> Pen value represents the best <abbr title="Armor Piercing">AP</abbr> round for a given weapon system and is calculated by taking the weapon’s penetration value in millimeters of RHA at effective range (may vary with a weapon but roughly a range equal to muzzle velocity) divided by 10. This value assumes long rod penetrators for tank guns and <abbr title="Armor Piercing">AP</abbr> type rounds for other kinetic weapon systems. The penetration value will be increased or decreased by an in-game engine calculation based on actual range to target.</p>
+<h2 id="heat-pen"><abbr title="High Explosive Anti-Tank">HEAT</abbr> Pen</h2>
+<p>The <abbr title="High Explosive Anti-Tank">HEAT</abbr> Pen value represents the best <abbr title="High Explosive Anti-Tank">HEAT</abbr> round for a given weapon system and is calculated by taking the weapon’s penetration value in millimeters of RHA divided by 10. <abbr title="High Explosive Anti-Tank">HEAT</abbr> values do not change over range. Do not degrade or decrement the full value of the <abbr title="High Explosive Anti-Tank">HEAT</abbr> penetration for any special conditions (top attack, tandem or triple warheads, standoff probes, etc.), those items will be accounted for in the various Characteristics lists in Section 5.2 above.</p>
+<h2 id="weapon-lists">Weapon Lists</h2>
+<p>There are three columns in the data file devoted to lists of parameters. They deal with Abilities, Defenses, and Equipment <abbr title="Atomic Element of Capability">Platform</abbr> Characteristics. As you can see from the image below, these lists are sparsely populated and very type dependent.</p>
+<p><img alt="" src="images/image023.png" /></p>
+<h3 id="capabilities-list">Capabilities List</h3>
+<p>These Shared Characteristic Codes for Weapons-Capabilities can be found in Section 5.2 above. If your weapon or system has any of the Capabilities found in the lists, you add them to a comma delimited list in the Capabilities List spreadsheet field.</p>
+<h3 id="defenses-list">Defenses List</h3>
+<p>These Shared Characteristic Codes for Weapons-Defenses can be found in Section 5.2 above. If your weapon or system has any of the Defenses found in the lists, you add them to a comma delimited list in the Defenses List spreadsheet field.</p>
+<h3 id="guidance-list">Guidance List</h3>
+<p>These Shared Characteristic Codes for Weapons-Guidance can be found in Section 5.2 above. If your weapon or system has any of the Guidance systems found in the lists, you add them to a comma delimited list in the Guidance List spreadsheet field. You may have more than one guidance system on the weapon.</p>
+<h2 id="sound-effect">Sound Effect</h2>
+<p>Each weapon has an associated sound effect when it is fired/used. These “*.WAV” files are based on weapon type as noted in the table below. You can add in your own weapon sound effects and that information is covered in the Game Engine Modification document.</p>
+<p><img alt="" src="images/image024.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="units.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Units">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Units
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="munition-types.html" class="md-footer__link md-footer__link--next" aria-label="Next: Munition Types">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Munition Types
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 - 2026 On Target Simulations (OTS) Ltd. All Rights Reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.footer", "navigation.tracking", "navigation.prune", "search.suggest", "toc.follow", "navigation.instant.preview"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

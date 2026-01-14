@@ -1,5 +1,5 @@
 # Air and Land
-_D+1 | 21 July 1989, 12:00hrs - 20:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Hameln](../../Maps/Hameln/Hameln)_
+_D+1 | 21 July 1989, 12:00hrs - 20:00hrs [:smflag-gb:](../../Forces/United Kingdom/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Hameln](../../Maps/hameln/Hameln/)_
 
 Even if expected, the air assaults by Soviet forces were still a problem. There was an abundance of targets and little possibility of defending them at all times. NATO was left with reacting and hoping the reaction could clear the air landing units.
 

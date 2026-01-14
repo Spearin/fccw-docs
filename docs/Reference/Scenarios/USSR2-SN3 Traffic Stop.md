@@ -1,5 +1,5 @@
 # USSR2-SN3 Traffic Stop
-_D+4 | 24 July 1989, 08:00hrs - 16:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Kirchheim u Teck](../../Maps/Kirchheim-u-Teck/Kirchheim u Teck)_
+_D+4 | 24 July 1989, 08:00hrs - 16:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Kirchheim u Teck](../../Maps/kirchheim-u-teck/Kirchheim u Teck/)_
 
 NATO has been unable to stop the advance of the Soviets, especially in the gap between Frankfurt and Munich.  NATO continues to push forces forward as they arrive, but they are finding it hard to stop the penetrations across the front.
 

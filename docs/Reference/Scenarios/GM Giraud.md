@@ -1,5 +1,5 @@
 # GM Giraud
-_D+17 | 06 August 1989, 14:00hrs - 20:00hrs [:smflag-fr:](../Forces/France.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Epinal](../../Maps/Epinal/Epinal)_
+_D+17 | 06 August 1989, 14:00hrs - 20:00hrs [:smflag-fr:](../../Forces/France/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Epinal](../../Maps/epinal/Epinal/)_
 
 The Soviet advance into France led to a situation that surprised even the Warsaw Pact command. Punching into a hole meant that the advance forces moved forward at such a pace that created difficulties for their second echelon to catch-up. The flanks were extended and flank protection became rather sparse, even at key points.
 

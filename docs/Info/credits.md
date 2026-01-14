@@ -1,8 +1,4 @@
----
-title: Credits
----
-
-# Game Credits
+# :material-human-greeting-variant: Game Credits
 
 ## On Target Simulations
 
@@ -18,7 +14,7 @@ title: Credits
 
 ### On Target Simulations Content Team
 
-Alexander “Stimpak” Schwarz, Charles Belva, David “sec22” Whitt, Fred Schwarz, Joao Lima, Jo van der Pluym, John Osborne, Jörgen Torgersson, Mike “MikeJ19” Johnstone, Scott Gibbs
+Alexander “Stimpak” Schwarz, Charles Belva, David “sec22” Whitt, Fred Schwarz, Joao Lima, Jo van der Pluym, John Osborne, Jörgen Torgersson, Mike “MikeJ19” Johnstone, Richard “The Plodder” Lloyd, Scott Gibbs.
 
 ### Cold War Super Testers
 

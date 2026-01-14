@@ -1,5 +1,5 @@
 # WG1-SN2 Uphill Struggle
-_D+1 | 21 July 1989, 03:00hrs - 09:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Bamberg](../../Maps/Bamberg/Bamberg)_
+_D+1 | 21 July 1989, 03:00hrs - 09:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Bamberg](../../Maps/bamberg/Bamberg/)_
 
 Following their decisive destruction of the 4. Motorisierte Schützendivision (4. MSD) spearhead, PzBrig 36, pivoted east toward the still-smoldering ruins of Schesslitz. The area had already become a crucible of combat, leaving the Warsaw Pact in partial control.
 

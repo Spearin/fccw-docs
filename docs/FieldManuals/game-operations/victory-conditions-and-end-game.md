@@ -16,7 +16,9 @@ A representative of the General Staff Inspectorate provides a quick review of yo
 
 Click the Proceed button to continue to the Scenario Information Staff Report to see the full postmortem results.
 
-**NOTE:** If the following two settings in Game Options were selected during scenario setup: Enemy Units Always Visible and Allow Gathering of Full Information of Visible Enemy Units, the dialog that follows hitting Proceed will have an option in the bottom left corner to View Enemy Scenario Information Center. Checking this toggle converts each tab to show the same information but from the enemy’s perspective and the details change accordingly. Uncheck this toggle to return to your forces’ information. Selecting only one or the other of these two Game Options will not allow this information to be viewed (see Section 4.3.2 above).
+!!! note
+
+    If the following two settings in Game Options were selected during scenario setup: Enemy Units Always Visible and Allow Gathering of Full Information of Visible Enemy Units, the dialog that follows hitting Proceed will have an option in the bottom left corner to View Enemy Scenario Information Center. Checking this toggle converts each tab to show the same information but from the enemy’s perspective and the details change accordingly. Uncheck this toggle to return to your forces’ information. Selecting only one or the other of these two Game Options will not allow this information to be viewed (see Section 4.3.2 above).
 
 ## Final Report
 
@@ -74,6 +76,4 @@ There is the option to continue playing until the end of the scenario time or un
 
 !!! note
 
-    It is infrequent to improve on the
-
-Sudden Death evaluation as your forces are combat ineffective and usually will suffer more losses if the Sudden Death threshold is ignored.
+    It is infrequent to improve on the Sudden Death evaluation as your forces are combat ineffective and usually will suffer more losses if the Sudden Death threshold is ignored.

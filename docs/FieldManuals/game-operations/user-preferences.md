@@ -86,7 +86,9 @@ Tweak various settings that influence how the Turn Resolution is displayed in th
 
 - **Show Line of Fire (LOF) from Attacker to Defender** – When checked, a line is drawn on the map from the attacker to the target to show the current direct fire attack being resolved (see Section 16.13 below for details on these lines).
 
-**NOTE:** In some cases, the attacker may not be Spotted, but the general area of fire may be noticed.
+!!! note
+
+    In some cases, the attacker may not be Spotted, but the general area of fire may be noticed.
 
 - **Flash Target Hex Location** – When checked, the hex of the target unit in combat flashes the number of times set in the General tab to help locate the action.
 
@@ -116,4 +118,7 @@ The level of color transparency can also be changed. This allows the player, for
 
 **Reset to Defaults –** This button returns all color options back to the game’s default settings for color, size, and transparency.
 
-**NOTE:** It is possible to create unsightly or even invisible colors. If you want to experiment with this, you might want to consider backing up the original “overlays.ini” file.
+!!! note
+
+    It is possible to create unsightly or even invisible colors. If you want to experiment with this, you might want to consider backing up the original “overlays.ini” file.
+    

@@ -1,5 +1,5 @@
 # Hammer Falls
-_D+2 | 22 July 1989, 06:00hrs - 16:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Schluechtern](../../Maps/Schluechtern/Schluechtern)_
+_D+2 | 22 July 1989, 06:00hrs - 16:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Schluechtern](../../Maps/schluechtern/Schluechtern/)_
 
 The Soviet advance is moving well.  The 79 Guards Tank Division has moved into the lead.  Their task is to clear a road through Schluchtern and Bad Orb towards Frankfurt.  Overnight, the divisional recce came into contact with the American main defense near Schluchtern.  An Infantry Battalion is dug in and ready to defend.  17 Tank Regiment is going to attack at dawn, with support from divisional guns and rockets.
 

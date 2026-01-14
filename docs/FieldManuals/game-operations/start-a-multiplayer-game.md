@@ -34,7 +34,9 @@ Once finished, click the Register button. It may take a few moments to send the 
 
 ![](images/image048.jpg)
 
-**NOTE:** If you already have a Matrix/Slitherine account, please use that as your login. To make a new account for PBEM++, you must have an unregistered email available to use.
+!!! note
+
+    If you already have a Matrix/Slitherine account, please use that as your login. To make a new account for PBEM++, you must have an unregistered email available to use.
 
 ## The Multiplayer Game Lobby
 

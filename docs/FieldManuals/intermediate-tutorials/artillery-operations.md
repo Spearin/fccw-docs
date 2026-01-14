@@ -4,7 +4,9 @@ This tutorial focuses on Artillery Operations, covering the planning, execution,
 
 The screenshot below shows the first screen when the game launches. To proceed, select the “Tutorial” button.
 
-![](images/image096.jpg) A list of tutorials will appear. Highlight “Tutorial - Artillery**Operations”**and select the “Play” button at the bottom of the dialog.
+![](images/image096.jpg) 
+
+A list of tutorials will appear. Highlight **“Tutorial - Artillery Operations”**and select the “Play” button at the bottom of the dialog.
 
 ![](images/image098.jpg)
 
@@ -12,13 +14,19 @@ Next, set the Difficulty Settings for this Tutorial mission.
 
 Select “Player 1: NATO Commander.”
 
-![](images/image100.jpg) We recommend using the settings shown above for the first attempt at this mission. If that proves too challenging, try again and make the enemy units visible to aid your planning and movement.
+![](images/image100.jpg) 
+
+We recommend using the settings shown above for the first attempt at this mission. If that proves too challenging, try again and make the enemy units visible to aid your planning and movement.
 
 Select the Difficulty level at “Grognard” and then select the “Play” button to proceed. You will see a player Announcement describing the Tutorial, and you should read this. When done, click on the Proceed button at the bottom. You have now arrived at the main map and can start to see what you have at your disposal.
 
-**NOTE:** You can set the Difficulty to “Recruit” to help show the enemy units the first time you play the scenario to take some of the guess work out of locating the targets.
+!!! note
 
-![](images/image102.jpg) This displays the initial setup of your forces on the map. The next step is to review the troops you will command
+     You can set the Difficulty to “Recruit” to help show the enemy units the first time you play the scenario to take some of the guess work out of locating the targets.
+
+![](images/image102.jpg) 
+
+This displays the initial setup of your forces on the map. The next step is to review the troops you will command
 
 ## Review Your Forces
 
@@ -78,7 +86,9 @@ This list from the Chain of Command information panel shows the units you will c
 
 - Role: This is not an artillery unit but rather is used to detect enemy artillery units when they fire. Their Counter-Battery (CB) Radar detects and locates enemy artillery, mortars, and rockets. One system enables rapid detection of enemy artillery and is very valuable in organizing CB fire in return.
 
-**NOTE:** This unit is NOT player-controlled and does its job automatically and sends fire mission requests to the FSCC that need to be served by artillery units that are on Counter-Battery orders.
+!!! note
+
+     This unit is NOT player-controlled and does its job automatically and sends fire mission requests to the FSCC that need to be served by artillery units that are on Counter-Battery orders.
 
 ![](images/image114.jpg)
 
@@ -106,7 +116,9 @@ The screenshot above displays your units, which are represented by NATO symbols 
 
 For this tutorial, you will notice black crosses (TRP) showing where you will fire your artillery mission.
 
-**NOTE:** Each numbered circle is the phase number for each task you will do.
+!!! note
+
+     Each numbered circle is the phase number for each task you will do.
 
 Additionally, enemy units on the map show where the suspected enemy positions are located.
 
@@ -122,23 +134,23 @@ Tactical Operations Center – Fire Support interface provides a comprehensive v
 
 - Fire Support Assets (Active Tab):
 
-o Displays all currently available mortar and artillery units, including their readiness, morale, ammunition levels, and current tasking status.  It can also be used to manage which units are under centralized FSCC control for coordinated fire planning. This helps reduce fire mission latency and ensures synchronized support.
+- Displays all currently available mortar and artillery units, including their readiness, morale, ammunition levels, and current tasking status.  It can also be used to manage which units are under centralized FSCC control for coordinated fire planning. This helps reduce fire mission latency and ensures synchronized support.
 
 - Fire Missions:
 
-o Lists all currently planned or active fire missions, allowing players to modify or cancel them.
+- Lists all currently planned or active fire missions, allowing players to modify or cancel them.
 
 - Fire Support Control Center (FSCC):
 
-o Shows the status of FSCC fire support requests.
+- Shows the status of FSCC fire support requests.
 
 - Counter Battery:
 
-o Used to assign counter-battery missions targeting enemy artillery once their firing positions are detected.
+- Used to assign counter-battery missions targeting enemy artillery once their firing positions are detected.
 
 - Air Support:
 
-o Manages available air-delivered fire support (e.g., CAS, SEAD), separate from ground-based artillery.
+- Manages available air-delivered fire support (e.g., CAS, SEAD), separate from ground-based artillery.
 
 This section, “Fire Support Assets”, displays detailed information about each fire support unit under your control, divided into mortar and artillery sections:
 
@@ -196,7 +208,9 @@ The most common mission is the high-explosive (HE) barrage. These are the steps 
 
 5. Your choice of target hexes will be limited by the maximum range of the artillery unit you have selected. There is a range ring overlay that draws these over the map. In the row of buttons at the very bottom of the map is one called “Ranges”. This toggles the display of range rings on and off for the currently selected unit. For artillery, the key range to know is the “Max” range. For our selected unit, this is 20,000 meters and covers virtually all the map. Toggle on this overlay and scroll to the east until you see this bright green arc that says “Max: 20000m”. You cannot shoot beyond this line.
 
-**NOTE:** Some units, especially mortars, have quite a short range and need to be close enough to engage the chosen target hexes.
+!!! note
+
+     Some units, especially mortars, have quite a short range and need to be close enough to engage the chosen target hexes.
 
 6. Having committed the mission, you are now presented with the unit Dashboard open to the first of the barrage orders in the Orders tab. You can leave the mission as is or tweak the parameters.
 
@@ -224,7 +238,9 @@ When the mission is complete, you may see the attacking artillery unit scoot to 
 
 The Unit Dashboard (F4) Log tab will show what has happened: ![](images/image134.jpg)
 
-**NOTE:** The game timings are approximate, can be influenced by events on the map, and are subject to rounding error. This is normal and expected.
+!!! note
+
+     The game timings are approximate, can be influenced by events on the map, and are subject to rounding error. This is normal and expected.
 
 ## Phase 2: Illumination Fire Missions
 
@@ -256,9 +272,8 @@ You may see an enemy unit revealed by this Illumination mission.  It’s your ch
 
 Illumination rounds vary by caliber and delivery system. Larger-caliber systems provide more comprehensive coverage and longer illumination duration. The approximate coverage area by caliber is as follows:
 
-|  |  |  |
-| --- | --- | --- |
 | **Caliber/Weapon System** | **Approximate Coverage** | **Diameter** |
+| --- | --- | --- |
 | 50 – 60 mm Mortars | 1 hex | 1 hex |
 | 81 – 82 mm Mortars | 7 hexes | 3 hexes |
 | 100 mm+ Mortars / 90 – 122mm Guns | 19 hexes | 5 hexes |
@@ -276,13 +291,13 @@ Illumination fire missions are issued via the Barrage Menu and executed similarl
 
 - Mission Adjustment:
 
-o Use the Waypoint Button to reposition an existing or planned illumination fire mission.
+- Use the Waypoint Button to reposition an existing or planned illumination fire mission.
 
-o The Paths Overlay and Fire Missions Overlay can display active and queued missions, assisting with coordination.
+- The Paths Overlay and Fire Missions Overlay can display active and queued missions, assisting with coordination.
 
-o During the Orders Phase, mission timing can be adjusted or delayed using the Unit Dashboard.
+- During the Orders Phase, mission timing can be adjusted or delayed using the Unit Dashboard.
 
-o Avoid overlapping illumination areas to maximize efficiency and reduce waste.
+- Avoid overlapping illumination areas to maximize efficiency and reduce waste.
 
 Plan illumination to precede anticipated engagements or assaults by 1–2 minutes to optimize visibility for your maneuver elements.
 
@@ -300,17 +315,17 @@ Plan illumination to precede anticipated engagements or assaults by 1–2 minute
 
 - FSCC optimizes the mission by:
 
-o Evaluating the current tactical situation and nearby threats.
+- Evaluating the current tactical situation and nearby threats.
 
-o Avoiding overlaps with other illuminated areas.
+- Avoiding overlaps with other illuminated areas.
 
-o Preventing friendly units from being exposed unnecessarily.
+- Preventing friendly units from being exposed unnecessarily.
 
-o Targeting last known enemy contact locations when appropriate.
+- Targeting last known enemy contact locations when appropriate.
 
-o Placing illumination near the requesting unit’s location to ensure tactical relevance.
+- Placing illumination near the requesting unit’s location to ensure tactical relevance.
 
-o Coordinating counter-battery fires to suppress or neutralize enemy artillery threats.
+- Coordinating counter-battery fires to suppress or neutralize enemy artillery threats.
 
 ### Computer-Controlled Player (AI):
 
@@ -320,7 +335,9 @@ o Coordinating counter-battery fires to suppress or neutralize enemy artillery t
 
 - Typically employs illumination to support attacks, ambushes, or when operating in low-light conditions.
 
-**NOTE:** Illumination rounds do not cause damage and cannot be used to suppress or destroy enemy forces. Their value lies purely in increasing visibility and battlefield awareness.
+!!! note
+
+     Illumination rounds do not cause damage and cannot be used to suppress or destroy enemy forces. Their value lies purely in increasing visibility and battlefield awareness.
 
 Check the unit loadout to confirm it has `ILLUM` or `Illumination-Visible` ammunition.
 
@@ -346,25 +363,25 @@ Here’s a checklist of possible reasons and solutions:
 
 - Enemy units may be:
 
-o Stationary
+- Stationary
 
-o In forest, urban terrain, or improved positions
+- In forest, urban terrain, or improved positions
 
-o Not moving or firing, reducing detection chances
+- Not moving or firing, reducing detection chances
 
-**Solution:**Use area fire missions or recon elements to provoke enemy action.
+**Solution:** Use area fire missions or recon elements to provoke enemy action.
 
 ### FO Unit Capabilities
 
 - FOs may have:
 
-o Limited night observation gear
+- Limited night observation gear
 
-o Low detection skill rating in game mechanics
+- Low detection skill rating in game mechanics
 
-o Obstructed terrain details (trees, buildings, elevation)
+- Obstructed terrain details (trees, buildings, elevation)
 
-**Solution:**Move FO units to a higher elevation or closer range and check their equipment (e.g., no NVDs).
+**Solution:** Move FO units to a higher elevation or closer range and check their equipment (e.g., no NVDs).
 
 ## Illumination Fire Mission Triggers
 
@@ -386,9 +403,9 @@ The following action and situations can lead to Illumination missions being gene
 
 - Nearby friendly units report:
 
-o Being fired upon from a general direction
+- Being fired upon from a general direction
 
-o Unexplained mine strikes, ATGM hits, or small arms fire
+- Unexplained mine strikes, ATGM hits, or small arms fire
 
 ### Recon Intelligence
 

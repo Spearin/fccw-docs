@@ -1,7 +1,4 @@
----
-title: Setup
----
-# Setup Guide
+# :fontawesome-solid-computer: Setup Guide
 
 ## System Requirements
 

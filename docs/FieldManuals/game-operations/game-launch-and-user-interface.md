@@ -30,7 +30,9 @@ Before we dive into the details of all the various User Interface (UI) elements,
 
 - The UI should work well with ultra-wide screens and scale well with 4K monitors.
 
-**NOTE:** If you have multiple monitors with different font scaling levels and drag dialogs to another screen with a different scale, dialogs and other menu panels may not display correctly. This is something we are looking into and hope to correct in the future.
+!!! note
+
+    If you have multiple monitors with different font scaling levels and drag dialogs to another screen with a different scale, dialogs and other menu panels may not display correctly. This is something we are looking into and hope to correct in the future.
 
 ## Manual Sections Covering the UI
 
@@ -52,4 +54,6 @@ The following sections cover all the various parts of the game interface and wha
 
 - See Section 17 below for information on Unit Counters.
 
-**NOTE:** If you want to jump to the how-to-do things portion of the manual, head for Section 21 below on Issuing Orders.
+!!! note
+
+    If you want to jump to the how-to-do things portion of the manual, head for Section 21 below on Issuing Orders.

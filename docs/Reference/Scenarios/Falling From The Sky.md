@@ -1,5 +1,5 @@
 # Falling From The Sky
-_D+4 | 24 July 1989, 14:00hrs - 20:00hrs [:smflag-be:](../Forces/Belgium.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Warburg](../../Maps/Warburg/Warburg)_
+_D+4 | 24 July 1989, 14:00hrs - 20:00hrs [:smflag-be:](../../Forces/Belgium/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Warburg](../../Maps/warburg/Warburg/)_
 
 As the Soviets pushed ever harder against the NATO lines, local penetrations meant that some NATO frontline units were now relying on ever tenuous supply and retreat lines.
 

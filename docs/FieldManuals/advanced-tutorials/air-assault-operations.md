@@ -1,10 +1,13 @@
 # Air Assault Operations
 
-*“**Strike deep, strike fast, and disappear.” – Air Assault Creed.*
+!!! quote
+    *“**Strike deep, strike fast, and disappear.” – Air Assault Creed.*
 
 Air Assault Operations involve rapidly deploying ground forces by **rotary-wing aircraft** (helicopters) into an area to **seize and hold key terrain,****conduct raids, or reinforce units in combat****.** These operations emphasize speed, mobility, and shock effects to overwhelm enemy forces before they can react effectively.
 
-**NOTE:** Whether you’re commanding Soviet Mi-8s or American UH-60s, air assault operations play the same role. Helicopter insertions, landing zones, and air mobility are handled using identical mechanics across factions—only the unit names and aircraft models differ.
+!!! note
+
+    Whether you’re commanding Soviet Mi-8s or American UH-60s, air assault operations play the same role. Helicopter insertions, landing zones, and air mobility are handled using identical mechanics across factions—only the unit names and aircraft models differ.
 
 ## What are Air Assault Operations
 
@@ -38,13 +41,13 @@ Helicopter support significantly enhances operational flexibility, enabling rapi
 
 **A Forward Arming and Refueling Point (FARP) is a temporary, tactical facility near the front lines that provides rapid refueling and rearming support for rotary-wing aircraft, such as helicopters**. FARPs enable continuous air operations by reducing the time and distance aircraft need to travel to resupply, thus increasing sortie rates and operational tempo.
 
-![](images/image001.jpg)
+![](images/image001.png)
 
 ### Attack Helicopter
 
 **Attack helicopters** are rotary-wing aircraft designed for offensive operations against ground targets. Their primary roles include close air support (CAS), anti-tank warfare, armed reconnaissance, and suppression of enemy air defenses (SEAD). Attack helicopters are heavily armed and armored, capable of engaging a variety of threats on the battlefield.
 
-![](images/image003.jpg)
+![](images/image002.png)
 
 ### Scout Helicopter
 
@@ -52,10 +55,10 @@ Helicopter support significantly enhances operational flexibility, enabling rapi
 
 Their primary purpose is to gather intelligence on enemy positions, movements, and terrain, supporting ground and air operations. While some scout helicopters are lightly armed, their key advantages are speed, agility, and stealth rather than heavy firepower.
 
-![](images/image005.jpg)
+![](images/image003.png)
 
 ### Utility Helicopter
 
 Utility helicopters are often unarmed or lightly armed like scout helicopters, but they are larger and heavier. This increased size gives them a greater potential to carry large loads not typically representative of helicopters. This can vary from the relatively lightweight UH-1 Huey to the venerable and flexible Mi-8. They typically have a lower speed than other helicopter types, but are still much faster than any land based equivalent.
 
-![](images/image007.jpg)
+![](images/image004.png)

@@ -1,7 +1,7 @@
 # WG1-SN5 Operation Entgleisen
-_D+4 | 24 July 1989, 08:00hrs - 20:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Lichtenfels](../../Maps/Lichtenfels/Lichtenfels)_
+_D+4 | 24 July 1989, 08:00hrs - 20:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Lichtenfels](../../Maps/lichtenfels/Lichtenfels/)_
 
-Panzerbrigade 36 (PzBrig 36) operated in what should have been the enemy's rear area—or at least it would have been had a continuous frontline still existed. The brigade was at the edge of its communication range with 12 Panzerdivision (12 PzDiv), and relentless Soviet electronic warfare (EW) interference complicated already tenuous coordination. Sporadic and fragmented reports indicated Soviet activity on all sides, including unverified claims that the enemy had advanced as far as Heilbronn.
+Panzerbrigade 36 (PzBrig 36) operated in what should have been the enemy&#x27;s rear area—or at least it would have been had a continuous frontline still existed. The brigade was at the edge of its communication range with 12 Panzerdivision (12 PzDiv), and relentless Soviet electronic warfare (EW) interference complicated already tenuous coordination. Sporadic and fragmented reports indicated Soviet activity on all sides, including unverified claims that the enemy had advanced as far as Heilbronn.
 
 For the troops, such rumors were a bitter pill. If Heilbronn had fallen, Bad Mergentheim had likely also succumbed to the Soviet advance. Each passing day reinforced a grim reality: the forward NATO defenses had collapsed, local Territorial Army units were still scrambling to organize, and the specter of a nuclear escalation loomed larger.
 

@@ -1,9 +1,9 @@
 # USSR2-SN4 All That Glitters
-_D+6 | 26 July 1989, 07:00hrs - 16:00hrs [:smflag-fr:](../Forces/France.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Rottenburg](../../Maps/Rottenburg/Rottenburg)_
+_D+6 | 26 July 1989, 07:00hrs - 16:00hrs [:smflag-fr:](../../Forces/France/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Rottenburg](../../Maps/rottenburg/Rottenburg/)_
 
 The gap in the NATO defence has widen.  They are rushing forces into place to create a new defence line.  Elements of the French 2e Division Blindee (Armoured) are moving towards the Neckar River South of Stuggart to plug the gap and set up a new defence line along the river.  At least one Infantry Battalion arrived in the area around 1800 on 25 July.
 
-The 79th Airmobile Brigade continues to shine.  Their actions near Kirchheim helped slow down the US forces and allowed for more Warsaw Pact forces to push West unimpeded.  Getting the Brigade out of Kirccheim was challenging, but was another successful operation.
+The 35th ODShBR continues to shine.  Their actions near Kirchheim helped slow down the US forces and allowed for more Warsaw Pact forces to push West unimpeded.  Getting the Brigade out of Kirccheim was challenging, but was another successful operation.
 
 After a short rest, the Brigade is ready to go back into action along the Neckar River.  This time, they will be helping the 11th Guards Tank Division get across the river near Rottenburg.
 

@@ -1,5 +1,5 @@
 # Tutorial - Air Assault Operations
-_D+22 | 11 August 1989, 04:00hrs - 16:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Bad Neustadt](../../Maps/Bad-Neustadt/Bad Neustadt)_
+_D+22 | 11 August 1989, 04:00hrs - 16:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Bad Neustadt](../../Maps/bad-neustadt/Bad Neustadt/)_
 
 To begin this tutorial, open the Help menu within Flashpoint Campaigns: Cold War. Navigate to the Field Manuals folder and locate FM FCCW-03 Tutorial Operations.pdf file. Follow the instructions provided in Section 13 to launch Tutorial - Air Assault Operations.
 

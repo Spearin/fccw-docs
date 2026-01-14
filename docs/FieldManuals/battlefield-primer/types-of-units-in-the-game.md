@@ -14,7 +14,9 @@ Fighters are various single and multi-engine aircraft used in CAS and SEAD missi
 
 Unmanned aerial units operate much like helicopters, but typically fly at higher altitudes and have a smaller detection signature. They may be harder to see, but they don't use as much terrain masking to protect AD systems. Flight paths don't depend on the terrain.
 
-**NOTE:** We currently do not have any drones in the game, but we may add them later. Drone technology was in its infancy in the 80s, and there were not many systems suited to the battlefield at this time.
+!!! note
+
+    We currently do not have any drones in the game, but we may add them later. Drone technology was in its infancy in the 80s, and there were not many systems suited to the battlefield at this time.
 
 ### Helicopters
 

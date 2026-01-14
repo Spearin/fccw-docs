@@ -1,5 +1,5 @@
 # US3-SN4 Revisiting Schotten
-_D+11 | 31 July 1989, 03:00hrs - 11:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Schotten](../../Maps/Schotten/Schotten)_
+_D+11 | 31 July 1989, 03:00hrs - 11:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Schotten](../../Maps/schotten/Schotten/)_
 
 The Soviet attack on the main defense line did not go very well.  The lead divisions hit the wall hard and have not recovered.  They did get some limited breakthroughs, but these quickly turned into more trouble as NATO artillery and air support helped stop and then destroy any forces that penetrated the line.
 

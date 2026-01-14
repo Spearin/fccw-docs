@@ -1,7 +1,7 @@
 # Tutorial - Engineer Operations
-_D+22 | 11 August 1989, 07:00hrs - 19:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Aiterhofen](../../Maps/Aiterhofen/Aiterhofen)_
+_D+22 | 11 August 1989, 07:00hrs - 19:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Aiterhofen](../../Maps/aiterhofen/Aiterhofen/)_
 
-To begin, navigate to the Help menu within Flashpoint Campaigns: Cold War. Open the Field Manuals folder and locate the FM FCCW-03 Tutorial Operations.pdf file. Follow the instructions provided in Section 7 to launch Tutorial - Engineer Operations.
+To begin, navigate to the Help menu within Flashpoint Campaigns: Cold War. Open the Field Manuals folder and locate the FM03B Tutorial Operations: Intermediate.pdf file. Follow the instructions provided in Section 3 to launch Engineering Operations.
 
 NOTE: Only playable as Player 1
 

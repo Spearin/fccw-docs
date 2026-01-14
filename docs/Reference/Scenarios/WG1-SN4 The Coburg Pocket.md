@@ -1,5 +1,5 @@
 # WG1-SN4 The Coburg Pocket
-_D+2 | 22 July 1989, 10:00hrs - 20:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Coburg](../../Maps/Coburg/Coburg)_
+_D+2 | 22 July 1989, 10:00hrs - 20:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Coburg](../../Maps/coburg/Coburg/)_
 
 As the war erupted across Franconia, the Hindenburg Kaserne in Coburg was obliterated in a surprise attack that marked the beginning of intense hostilities. The 4th Squadron, 4th Cavalry Regiment (4 SQD, 4 CAV) conducting a routine border patrol was caught off guard by devastating artillery barrages and a sudden communications blackout. Within hours, the Soviet 39th Guards Motor Rifle Division (39 GMRD) bypassed Coburg, leaving a trail of destruction: Bravo Troop annihilated, squadron headquarters and the Air Cavalry unit neutralized by a VX gas attack, and Alpha Troop trapped in the rugged hills southeast of Rödental.
 

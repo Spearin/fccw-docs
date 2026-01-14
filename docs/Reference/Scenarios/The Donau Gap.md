@@ -1,5 +1,5 @@
 # The Donau Gap
-_D+1 | 21 July 1989, 19:00hrs - 03:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Aiterhofen](../../Maps/Aiterhofen/Aiterhofen)_
+_D+1 | 21 July 1989, 19:00hrs - 03:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Aiterhofen](../../Maps/aiterhofen/Aiterhofen/)_
 
 Following their successful crossing of the Donau, the Czechoslovakian 2nd Motor Rifle Division again reverted into over-cautious mode and failed to exploit their gains fully. They instead became involved in a battle of attrition against whatever was left of the West German Panzer Grenadier Battalion 111 and of the retreating Panzer Grenadier Battalion 112. This brought their advance to a total halt for most of the day. Now, arriving at the front was the first forward group of the Czechoslovakian 9th Tank Division.
 

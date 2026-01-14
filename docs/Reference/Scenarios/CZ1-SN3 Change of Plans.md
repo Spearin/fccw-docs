@@ -1,5 +1,5 @@
 # CZ1-SN3 Change of Plans
-_D+1 | 21 July 1989, 11:00hrs - 19:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Grafenwoehr](../../Maps/Grafenwoehr/Grafenwoehr)_
+_D+1 | 21 July 1989, 11:00hrs - 19:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Grafenwoehr](../../Maps/grafenwoehr/Grafenwoehr/)_
 
 The day has come for the Warsaw Pact to finally reunite Germany and destroy NATO.  Both alliances have been preparing for war but, the Warsaw Pact believes that it has the advantage and the final orders for the attack have been issued.
 

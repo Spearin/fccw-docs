@@ -1,5 +1,5 @@
 # Schlacht bei Diemelstadt
-_D+29 | 18 August 1989, 12:00hrs - 16:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-pl:](../Forces/Poland.md) @ [Warburg](../../Maps/Warburg/Warburg)_
+_D+29 | 18 August 1989, 12:00hrs - 16:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-pl:](../../Forces/Poland/) @ [Warburg](../../Maps/warburg/Warburg/)_
 
 The Warsaw Pact offensive initially made good progress, especially in the north but failed  to breach the Weser River.  The communist offensive stalled and both sides settled down to operational pauses.  Like two weary and battered prize fighters resting in their corners, both the Warsaw Pact and NATO armies rested and refitted over a ten-day period.  Then, in mid-August, the Pact resumed the offensive with heavy pressure on the West German III Corps.  The Fresh Polish Operational Front hit the West Germans hard, trying to outflank NORTHAG by driving towards Dortmund.
 

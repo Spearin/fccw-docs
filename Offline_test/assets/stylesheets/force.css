@@ -1,0 +1,69 @@
+/* Base */
+.md-typeset .admonition,
+.md-typeset details {
+  --admonition-border: var(--admon-l);
+  --admonition-title-bg: var(--admon-d);
+  MArgin: 0.5em 0;
+  background: var(--admonition-bg);
+  background-color: var(--admonition-bg);
+  border-color: var(--admonition-border);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.md-typeset summary::before {
+  display: none;
+}
+
+[dir=ltr] .md-typeset summary {
+  background-color: var(--admon-d);
+  padding-left: 0;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, filter 0.2s ease-in-out;
+  color: #111;
+  font-weight: normal;
+}
+
+.md-typeset summary:hover {
+  background-color: var(--admon-l);
+  border-color: var(--admon-d);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.md-typeset details[open] > summary { 
+  --admonition-border: var(--admon-d);
+  --admonition-title-bg: var(--admon-l);
+  background-color: var(--admonition-title-bg);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  color: #EEE;
+}
+
+/* Map country to active tokens */
+.formation-be, .equip-be  { --admon-l:var(--cc-be-l); --admon-d:var(--cc-be-d); }
+.formation-ca, .equip-ca { --admon-l:var(--cc-ca-l); --admon-d:var(--cc-ca-d); }
+.formation-cz, .equip-cz { --admon-l:var(--cc-cz-l); --admon-d:var(--cc-cz-d); }
+.formation-de, .equip-de { --admon-l:var(--cc-de-l); --admon-d:var(--cc-de-d); }
+.formation-eg, .equip-eg { --admon-l:var(--cc-eg-l); --admon-d:var(--cc-eg-d); }
+.formation-fr, .equip-fr { --admon-l:var(--cc-fr-l); --admon-d:var(--cc-fr-d); }
+.formation-pl, .equip-pl { --admon-l:var(--cc-pl-l); --admon-d:var(--cc-pl-d); }
+.formation-su, .equip-su { --admon-l:var(--cc-su-l); --admon-d:var(--cc-su-d); }
+.formation-gb, .equip-gb { --admon-l:var(--cc-gb-l); --admon-d:var(--cc-gb-d); }
+.formation-us, .equip-us { --admon-l:var(--cc-us-l); --admon-d:var(--cc-us-d); }
+
+.md-typeset details.formation-pl[open] > summary { 
+  --admonition-border: var(--admon-d);
+  --admonition-title-bg: var(--admon-l);
+  background-color: var(--admonition-title-bg);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  color: var(--cc-pl-d);
+}
+
+
+[data-md-color-scheme="slate"] {
+  .md-typeset summary ul li > .twemoji {
+    filter: invert(0.9);
+  }
+  [dir=ltr] .md-typeset summary {
+    filter: saturate(0.3);
+  }
+}

@@ -1,5 +1,5 @@
 # UK1-SN2 Fancy Meeting You Here
-_D+0 | 20 July 1989, 19:00hrs - 01:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Holle](../../Maps/Holle/Holle)_
+_D+0 | 20 July 1989, 19:00hrs - 01:00hrs [:smflag-gb:](../../Forces/United Kingdom/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Holle](../../Maps/holle/Holle/)_
 
 July 20, 1985 - British vs Soviet forces
 

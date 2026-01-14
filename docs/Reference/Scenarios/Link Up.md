@@ -1,5 +1,5 @@
 # Link Up
-_D+9 | 29 July 1989, 04:00hrs - 14:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Fulda](../../Maps/Fulda/Fulda)_
+_D+9 | 29 July 1989, 04:00hrs - 14:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Fulda](../../Maps/fulda/Fulda/)_
 
 NATO’s counterattack has begun with a successful attack at Niddia.  From there, the 3rd Armored Division advanced towards Schotten and were able to break through the Soviet line early on 28 July. After securing Lauterbach, the Americans sent an Armored Battalion southeast towards Fulda. To the South, the Americans had captured Gersfeld and were pushing North to link up with the 3rd Armored Division in Fulda!
 

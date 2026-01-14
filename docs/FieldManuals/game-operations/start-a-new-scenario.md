@@ -74,13 +74,17 @@ There are three settings that you can adjust for each side of the game. These ch
 
 - **Enemy Units are Always Visible** – When checked, this is a potent option as you will always see all enemies on the map. Combat still requires the units to “see” the enemy, but you do not need to locate hidden enemies by recon or fire. When unchecked, units must use their sensors to Spot enemy units and take time to identify them before they will be displayed on the game map.
 
-**NOTE:** If checked, units that are Spotted have a tiny white spotting dot on the bottom edge of the counter towards the right. These dots will not be shown if unchecked.
+!!! note
+
+    If checked, units that are Spotted have a tiny white spotting dot on the bottom edge of the counter towards the right. These dots will not be shown if unchecked.
 
 - **Emergency Resupply is Automatic** – When checked, this setting allows units with low Ammo to resupply an amount of ammunition even if it is moving or fighting at the time. Unit orders do not affect or prevent emergency resupply. This option may help new players to relieve some of the strategic difficulty of the game without altering how Victory Points are won. When unchecked, you as the commander must monitor levels and order units to Rest and Resupply, and set Resupply parameters (see Section 21.2 below for issuing orders and Section 23 below the SOP settings) in order for resupply to take place.
 
 - **Allow Gathering of Full Information of Visible Enemy Units** – When checked, the player gets detailed information on a unit by right-clicking and seeing a read-only version of the enemy unit’s Subunit Inspector (see Section 14.3 below). It is also possible to right-click and see some unit overlays from the Show menu item (see Section 11.6 below for unit overlays).
 
-**NOTE:** Experienced players should unselect this option as it gives away too much information on the enemy and its units.
+!!! note
+
+    Experienced players should unselect this option as it gives away too much information on the enemy and its units.
 
 ### Fog of War for Map Markers
 

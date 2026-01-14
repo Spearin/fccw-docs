@@ -144,7 +144,9 @@ Engineer units have bridging assets for wet gap (river) crossing. The WP realize
 
 NATO bridging requirements were much less and were more focused on deciding when to demolish east-west bridges after NATO was done using them to move westward. NATO recognized the need for crossing the Rhine by REFORGER reinforcements at non-highway points, so there were units dedicated to that mission (often ferry units of the Bundeswehr).
 
-**NOTE:** REFORGER is Exercise Campaign REFORGER (from REturn of FORces to [GERmany](https://en.wikipedia.org/wiki/Germany "Germany")) was an annual [exercise](https://en.wikipedia.org/wiki/Military_exercise "Military exercise") and campaign conducted by NATO during the [Cold War](https://en.wikipedia.org/wiki/Cold_War "Cold War"). The training was intended to ensure that NATO could quickly deploy forces to [West Germany](https://en.wikipedia.org/wiki/West_Germany "West Germany") in a conflict with the [Warsaw Pact](https://en.wikipedia.org/wiki/Warsaw_Pact "Warsaw Pact").
+!!! note
+
+    REFORGER is Exercise Campaign REFORGER (from REturn of FORces to [GERmany](https://en.wikipedia.org/wiki/Germany "Germany")) was an annual [exercise](https://en.wikipedia.org/wiki/Military_exercise "Military exercise") and campaign conducted by NATO during the [Cold War](https://en.wikipedia.org/wiki/Cold_War "Cold War"). The training was intended to ensure that NATO could quickly deploy forces to [West Germany](https://en.wikipedia.org/wiki/West_Germany "West Germany") in a conflict with the [Warsaw Pact](https://en.wikipedia.org/wiki/Warsaw_Pact "Warsaw Pact").
 
 ### Obstacles and Minefields
 

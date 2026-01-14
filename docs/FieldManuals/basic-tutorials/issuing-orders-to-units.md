@@ -4,13 +4,17 @@ In Flashpoint Campaigns: Cold War, issuing orders to units involves providing cl
 
 These orders outline objectives, assigned tasks, coordination measures, timing, and available support, ensuring that units understand their roles and responsibilities. Orders are delivered through the game's command interface, allowing players to manage unit actions such as movement, engagement, and resupply in a structured and realistic operational environment.
 
-**NOTE:**Whether you're commanding NATO or Warsaw Pact forces, issuing orders works similarly. You'll use the same process to order units, assign fire missions, and manage readiness. Don’t worry about differences in nationality—focus on learning how to give smart, timely orders.
+!!! note
+
+    Whether you're commanding NATO or Warsaw Pact forces, issuing orders works similarly. You'll use the same process to order units, assign fire missions, and manage readiness. Don’t worry about differences in nationality—focus on learning how to give smart, timely orders.
 
 For detailed instructions on Issuing Orders to Units, refer to ***FM01 Game Operations***.
 
 ## Plotting Red Route Movement for Scouts
 
-![](images/image090.jpg)Use Shift to select 3, 5, & 6/11ACR. Right click on one of the units and then select Move Deliberate to order a protected and slower approach to the destination.
+![](images/image090.jpg)
+
+Use Shift to select 3, 5, & 6/11ACR. Right click on one of the units and then select Move Deliberate to order a protected and slower approach to the destination.
 
 A dialog will pop up noting the number of waypoints you can select.
 
@@ -34,13 +38,17 @@ Once the movement order is issued, the troops mount up, and the counter image ch
 
 ![](images/image096.jpg)
 
-![](images/image098.jpg)To get an idea of arrival time at the final locations you can hover over waypoint #3 to get the information seen below. Our units should been on station around 07:22 hours. This could vary as traffic and other factors may alter the arrival time.
+![](images/image098.jpg)
+
+To get an idea of arrival time at the final locations you can hover over waypoint #3 to get the information seen below. Our units should been on station around 07:22 hours. This could vary as traffic and other factors may alter the arrival time.
 
 We need to have this idea to know when to start dropping the smoke screen and move the helicopter up for support.
 
 Looking at the Game panel, it may take 2 or 3 command cycles for those units to get into position.
 
-**NOTE:** These are the basic steps for plotting any type of movement command to on-map units. The following sections will show the movement orders in less detail as it is the same type of information.
+!!! note
+
+     These are the basic steps for plotting any type of movement command to on-map units. The following sections will show the movement orders in less detail as it is the same type of information.
 
 ## Plotting Blue Route Movement for Scouts
 
@@ -96,11 +104,15 @@ When the turn cycle ends you will see the message below and hear a double burst 
 
 While the Scouts and Tanks have another turn or two on the move to reach the fire positions, we need to order the AH-64 Attack helicopter to begin moving out. It is much faster than the ground units, but units will now have some orders delay getting going as we are now past the pre-battle orders.
 
-![](images/image118.jpg)Right-click on the 11/AH64 unit and then select the Hunt order. Hunt is an order specific to helicopters that has them dance around and use terrain masking while looking for enemy targets to engage. This movement is designed to reduce their exposure to enemy air dense units or ground fire that could take them out.
+![](images/image118.jpg)
+
+Right-click on the 11/AH64 unit and then select the Hunt order. Hunt is an order specific to helicopters that has them dance around and use terrain masking while looking for enemy targets to engage. This movement is designed to reduce their exposure to enemy air dense units or ground fire that could take them out.
 
 Plot the route as seen in the image below and then set the Order on Arrival to Screen so the helicopter will move and disengage if under fire based on its SOP settings.
 
-**NOTE:** There is no FARP (Forward Arming and Refueling Point) on the map for this helicopter to go back to if it needs to rearm when out of key ammunition. The unit may go back and land near the HQ unit as that acts like the FARP when one is not in the battle.
+!!! note
+
+     There is no FARP (Forward Arming and Refueling Point) on the map for this helicopter to go back to if it needs to rearm when out of key ammunition. The unit may go back and land near the HQ unit as that acts like the FARP when one is not in the battle.
 
 ![](images/image120.jpg)
 
@@ -116,7 +128,9 @@ Note that the Mortar’s default SOPs will cause it to seek Concealment as it mo
 
 Double click on the Mtr/11ACR unit to bring up the Dashboard. Select the final order the hold and right-click on it. This will being up a small Orders Change menu. Select the On Call order. The Apply button will turn yellow. To confirm the order change, click on the Apply button.
 
-**NOTE:** You can alter the order for each movement point. You can go from a Hasty move to a Deliberate Move and finish with an Assault move if it fits the need. You can also adjust the unit’s SOP setting for each order in the list in this dialog and there are cases where that will be useful.
+!!! note
+
+     You can alter the order for each movement point. You can go from a Hasty move to a Deliberate Move and finish with an Assault move if it fits the need. You can also adjust the unit’s SOP setting for each order in the list in this dialog and there are cases where that will be useful.
 
 Close the Dashboard with the “X” in the upper right.
 
@@ -130,7 +144,9 @@ Select 11Arty. Right click on the unit and then select Barrage and then select S
 
 Set up the 6 Target Points as shown to attempt to block the entire approach in the valley.
 
-![](images/image128.jpg)Odds are we do not have enough rounds to do the whole line but getting the central portion up will help when contact is made.
+![](images/image128.jpg)
+
+Odds are we do not have enough rounds to do the whole line but getting the central portion up will help when contact is made.
 
 Hit the Commit button to lock in the barrages and this will pop up the Dashboard for the Artillery unit and show the fire missions on the map as seen below.
 
@@ -206,7 +222,9 @@ Now open the Intelligence Staff report dialog by hitting the “Int” button on
 
 ![](images/image156.jpg)
 
-**NOTE:** Your playthrough can have a different set of results as the game is not scripted and the combat is dynamic every time. Please continue as we work toward an end game resolution.
+!!! note
+
+     Your playthrough can have a different set of results as the game is not scripted and the combat is dynamic every time. Please continue as we work toward an end game resolution.
 
 ## Running the Fourth Turn Resolution
 
@@ -264,7 +282,9 @@ Shift-Select all six scout units and then right-click on one to bring up the ord
 
 The dialog seen below will pop up and you can click Proceed to make the listed change to all the units.
 
-**NOTE:** Below each unit, you can see the current setting that is getting revised.
+!!! note
+
+     Below each unit, you can see the current setting that is getting revised.
 
 ![](images/image180.jpg)
 

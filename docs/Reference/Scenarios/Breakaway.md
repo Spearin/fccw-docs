@@ -1,5 +1,5 @@
 # Breakaway
-_D+19 | 08 August 1989, 08:00hrs - 15:00hrs [:smflag-ca:](../Forces/Canada.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Rottenburg](../../Maps/Rottenburg/Rottenburg)_
+_D+19 | 08 August 1989, 08:00hrs - 15:00hrs [:smflag-ca:](../../Forces/Canada/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Rottenburg](../../Maps/rottenburg/Rottenburg/)_
 
 It has been a week since the Warsaw Pact initiated World War III.  The war has been fought in the air, sea, and on land around all corners of the world.  In Europe, the Warsaw Pact has steadily moved westward, but they have not been able to get a significant breakout.
 

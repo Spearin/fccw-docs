@@ -1,5 +1,5 @@
 # The Ride of the 12th Cuirassier
-_D+13 | 02 August 1989, 08:00hrs - 14:00hrs [:smflag-fr:](../Forces/France.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Colmar](../../Maps/Colmar/Colmar)_
+_D+13 | 02 August 1989, 08:00hrs - 14:00hrs [:smflag-fr:](../../Forces/France/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Colmar](../../Maps/colmar/Colmar/)_
 
 Defenses perimeters within West Germany have started breaking down, and Soviet formations have reached the border with France. In several places, they have crossed the Rhine River and have entered onto French soil. Once such penetration occurred not far from the city of Colmar. Lead elements of the 27th Guards Rifle Division have entered the city and have started to set up defensive positions awaiting reinforcement.
 

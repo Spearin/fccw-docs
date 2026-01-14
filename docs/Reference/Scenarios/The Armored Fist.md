@@ -1,5 +1,5 @@
 # The Armored Fist
-_D+2 | 22 July 1989, 02:00hrs - 07:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Pegnitz](../../Maps/Pegnitz/Pegnitz)_
+_D+2 | 22 July 1989, 02:00hrs - 07:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Pegnitz](../../Maps/pegnitz/Pegnitz/)_
 
 As the East-German 7th Panzer Division finished off the 102nd Panzer Grenadier Battalion, the remnants of the 1-2 Armored Calvary Regiment in Hof were trying to escape its clutches. The evolving situation posed a considerable number of problems to the US 1st Arm Division. Not only was the 1-2 Armored Calvary Regiment now isolated, but left unchecked, the 7th Panzer Division had an open route to strike at the northern flank of the 10th Panzer Brigade. This could cause a collapse of the front in this area. What was a tactical problem initially was quickly turning into a strategic one.
 

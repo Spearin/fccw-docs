@@ -1,5 +1,5 @@
 # USSR1-SN2 Goddess of War
-_D+4 | 24 July 1989, 05:00hrs - 11:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Marburg](../../Maps/Marburg/Marburg)_
+_D+4 | 24 July 1989, 05:00hrs - 11:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Marburg](../../Maps/marburg/Marburg/)_
 
 After overrunning the light territorial forces defending Melsungen, the Soviet juggernaut continued their westwards advance unhindered.
 

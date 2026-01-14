@@ -1,7 +1,7 @@
 # Tutorial - Artillery Operations
-_D+22 | 11 August 1989, 01:00hrs - 13:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Bad Neustadt](../../Maps/Bad-Neustadt/Bad Neustadt)_
+_D+22 | 11 August 1989, 01:00hrs - 13:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Bad Neustadt](../../Maps/bad-neustadt/Bad Neustadt/)_
 
-To launch this tutorial, navigate to the Help menu within Flashpoint Campaigns: Cold War. Open the Field Manuals folder and locate the FM FCCW-03 Tutorial Operations.pdf file. Follow the instructions outlined in Section 8 to begin Tutorial - Artillery Operations.
+To launch this tutorial, navigate to the Help menu within Flashpoint Campaigns: Cold War. Open the Field Manuals folder and locate the FM03B Tutorial Operations: Intermediate.pdf file. Follow the instructions outlined in Section 4 to begin Tutorial - Artillery Operations.
 
 NOTE: Only playable as Player 1
 

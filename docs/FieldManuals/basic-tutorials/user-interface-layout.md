@@ -34,7 +34,9 @@ Pink Box: Hex Info - A breakdown of the selected hex and its game related values
 
 Blue Box: Info Panels – Top panel is the Game Panel. It covers Game Time, Start/Pause button, Command Cycle estimates, Weather Info, and Airspace Control owner. Next, is the Command Panel. It covers Who you are as the Commander, Time to the next Orders Cycle, Percentage of Victory Points your force has, Electronic Warfare (EW) level impacting your forces, overall Readiness of your forces, Estimated Victory Conditions, and a set of Staff Function speed buttons to open specific Staff Dialogs. Next is the Spotlight Panel. It is a multi-mode panel that can show the Order of Battle (OOB), or the selected Unit Info, or both if you have a large enough screen. They are toggled with the F10 key. Finally, the Mini-Map. The map shows NATO forces (blue), and Warsaw Pact (red), Victory locations (yellow), and a rectangle show what part of the map is displayed on the screen. Depending on the options set for enemy visibility, the enemy markers will only show if spotted on the Mini-map. You can recenter the map by clicking on a point in the Mini-Map. There are buttons on the side to adjust the zoom level or set the map to 100% or Fit.
 
-**NOTE:** All these panels can be moved around the screen or moved to another screen. They can also collapse and expand by clicking the double arrow icon in the upper right of the panel.
+!!! note
+
+     All these panels can be moved around the screen or moved to another screen. They can also collapse and expand by clicking the double arrow icon in the upper right of the panel.
 
 ## Frequently Used Main Menu Items
 
@@ -42,9 +44,13 @@ Click the Staff item and then click on Scenario Information to take a moment to 
 
 ![](images/image012.jpg)
 
-**NOTE:** We will not go through all these items in this Tutorial, Refer to ***FM01 Game Operations*** to see all these entries covered in detail.
+!!! note
 
-**NOTE:** You can also open the Staff Dialogs using the speed buttons on the Commander Panel. For example, Ops will open the Operations dialog and Int will open the Intelligence dialog.
+     We will not go through all these items in this Tutorial, Refer to ***FM01 Game Operations*** to see all these entries covered in detail.
+
+!!! note
+
+     You can also open the Staff Dialogs using the speed buttons on the Commander Panel. For example, Ops will open the Operations dialog and Int will open the Intelligence dialog.
 
 ![](images/image014.jpg)
 
@@ -94,7 +100,9 @@ This is shown in the image below.
 
 If you right-click on a hex, not on a unit counter, The Map pop-up menu comes up and allows you to toggle map values for many hex-related game parameters. Slightly more important in planning is the function at the top of the menu, the Modified Combined Obstacle Overly of MCOO for short. This is an important planning tool to help visualize the battlefield to see cover, poor mobility, and open lines of fire.
 
-**NOTE:** You can also open the MCOO from the Terrain Overlay Main Menu as seen below.
+!!! note
+
+     You can also open the MCOO from the Terrain Overlay Main Menu as seen below.
 
 ![](images/image024.jpg)
 
@@ -154,7 +162,9 @@ Click on the Subunits Tab to see the individual subunits that make up the units.
 
 In the left window we see the 4 M1A1(HA) tanks of this unit. You click on any of the subunit icons to show the information on the right window which provides a listing of the subunits weapons and current ammunition allocation. At the bottom, If the unit has any special EW emitters or EW detectors will be listed here.
 
-**NOTE:** As the battle continues, the amounts of ammunition will change for all the listed subunits.
+!!! note
+
+     As the battle continues, the amounts of ammunition will change for all the listed subunits.
 
 Click on the Staff tab next to see important alerts, contact information, and Ammo summary for the unit selected as seen below.
 
@@ -174,7 +184,9 @@ This is the same log as you can bring up on the main game screen by hitting F7 o
 
 As the battle is fought this window will be populated with messages dealing with this unit. Orders, spotting reports, engagements, kills, and losses, will all get posted here.
 
-**NOTE:** There are filters and color settings in these logs. See FM01 Game Operations for details on how to set them up.
+!!! note
+
+     There are filters and color settings in these logs. See FM01 Game Operations for details on how to set them up.
 
 Now we need to look at the Subunit Inspector (SUI) to see greater details of the subunits in the selected unit. With the Dashboard open, switch to the Subunits Tab and double click on one of the subunit images. You can also right-click on a unit counter on the map and select the Subunit Inspector option for the popup menu or select a unit and hit F6. Yes, we do have a number of ways and locations to access important information.
 
@@ -196,7 +208,9 @@ After you have reviewed your equipment and troops, you can close the dialog by c
 
 The lock will freeze the SUI on the currently selected unit. You can then open another SUI from another unit for comparisons.
 
-**NOTE:** For details about what the various values and items mean, refer to ***FM01 Game Operations***.
+!!! note
+
+     For details about what the various values and items mean, refer to ***FM01 Game Operations***.
 
 ![](images/image042.jpg)
 

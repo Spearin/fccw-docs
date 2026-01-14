@@ -1,5 +1,5 @@
 # Huenfeld Bridges
-_D+10 | 30 July 1989, 07:00hrs - 12:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Eiterfeld](../../Maps/Eiterfeld/Eiterfeld)_
+_D+10 | 30 July 1989, 07:00hrs - 12:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Eiterfeld](../../Maps/eiterfeld/Eiterfeld/)_
 
 NATO’s counter attack continues to be successful and the Soviets are on their heels, getting pushed back across the front.  The focus of operations North of Fulda is on the bridges in Hünfeld and the connection to the B84 heading into East Germany.
 

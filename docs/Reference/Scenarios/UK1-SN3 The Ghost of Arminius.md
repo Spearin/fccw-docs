@@ -1,5 +1,5 @@
 # UK1-SN3 The Ghost of Arminius
-_D+3 | 23 July 1989, 03:00hrs - 11:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-pl:](../Forces/Poland.md) @ [Bielefeld](../../Maps/Bielefeld/Bielefeld)_
+_D+3 | 23 July 1989, 03:00hrs - 11:00hrs [:smflag-gb:](../../Forces/United Kingdom/) vs [:smflag-pl:](../../Forces/Poland/) @ [Bielefeld](../../Maps/bielefeld/Bielefeld/)_
 
 The Warsaw Pact forces have pushed west from their Weser River crossing sites - their main axis running from Bad Oeynhausen towards Münster. A supporting axis of the attack pushed southwest following the Autobahn 2 and highway B61 into the Bielefeld, Teutoburger Wald area.
 

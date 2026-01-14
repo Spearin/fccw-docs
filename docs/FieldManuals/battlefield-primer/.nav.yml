@@ -1,4 +1,6 @@
 nav:
+  - Battlefield Primer Introduction: index.md
+  - surviving-modern-warfare.md  
   - combined-arms-battle.md
   - battlefield-functions-and-activities.md
   - command-and-control.md

@@ -1,10 +1,13 @@
 # Deep Dive: Air Support Operations
 
-*"Whoever controls the air generally controls the battlefield."* – General Dwight D. Eisenhower.
+!!! quote
+    *"Whoever controls the air generally controls the battlefield."* – General Dwight D. Eisenhower.
 
 ***Flashpoint Campaigns Cold War*** allows players to integrate Air Support Operations, utilizing a variety of aircraft for close air support (CAS), suppression of enemy air defenses (SEAD), aerial reconnaissance and surveillance (ARS), level bombing, utility missions, and gunship strikes. Proper air asset coordination can tip the battle balance by neutralizing high-value targets, suppressing enemy movements, delivering precise firepower, supporting logistical operations, and providing critical battlefield intelligence.
 
-**NOTE:** In reality, NATO and Warsaw Pact employed different aircraft and munitions; however, in-game air support followed the same mechanics for both sides. Whether calling in a Soviet Su-25 or an American A-10, players will assign air missions. Designate targets and manage air assets using the same interface and rules.
+!!! note
+
+    In reality, NATO and Warsaw Pact employed different aircraft and munitions; however, in-game air support followed the same mechanics for both sides. Whether calling in a Soviet Su-25 or an American A-10, players will assign air missions. Designate targets and manage air assets using the same interface and rules.
 
 ## What are Air Support Operations?
 
@@ -18,16 +21,18 @@ Air Support Operations involve deploying fixed-wing and rotary-wing aircraft to 
 
 - Fixed-wing aircraft missions include:
 
-o Close Air Support (CAS): Engages enemy forces near friendly troops.
+- Close Air Support (CAS): Engages enemy forces near friendly troops.
 
-o Interdiction: Targets enemy reinforcements and supply lines.
+- Interdiction: Targets enemy reinforcements and supply lines.
 
-* Suppression of Enemy Air Defenses (SEAD): Destroying or
+- Suppression of Enemy Air Defenses (SEAD): Destroying or
 neutralizing enemy surface-to-air missile (SAM) sites and anti-aircraft artillery (AAA).
 
-o Reconnaissance: Provides critical intelligence on enemy movements.
+- Reconnaissance: Provides critical intelligence on enemy movements.
 
-**NOTE:** Air Assault and Transport will be covered in **FM03C Tutorial Operations: Advanced.**
+!!! note
+
+    Air Assault and Transport will be covered in **FM03C Tutorial Operations: Advanced.**
 
 #### Execution of Air Support Missions:
 
@@ -71,17 +76,17 @@ Close Air Support (CAS) involves ground-attack aircraft with various ammunition 
 
 - **NATO:**
 
-o A-10A Thunderbolt II – iconic CAS platform, durable, tank-killer.
+- A-10A Thunderbolt II – iconic CAS platform, durable, tank-killer.
 
-o F-4E Phantom II – multi-role, used for CAS in some NATO forces.
+- F-4E Phantom II – multi-role, used for CAS in some NATO forces.
 
-o Harrier GR.3 or AV-8A/B (USMC/UK) – V/STOL CAS option (terrain flexibility).
+- Harrier GR.3 or AV-8A/B (USMC/UK) – V/STOL CAS option (terrain flexibility).
 
 - **Warsaw Pact:**
 
-o Su-25 Frogfoot – Soviet A-10 equivalent, heavily armored.
+- Su-25 Frogfoot – Soviet A-10 equivalent, heavily armored.
 
-o MiG-21bis or MiG-23BN – secondary CAS roles in Eastern Bloc air forces.
+- MiG-21bis or MiG-23BN – secondary CAS roles in Eastern Bloc air forces.
 
 ### Interdiction/Strike Aircraft
 
@@ -95,21 +100,21 @@ Interdiction can occur deep behind enemy lines (deep interdiction) or closer to 
 
 - **NATO:**
 
-o F-15E Strike Eagle (Introduced in 1988) - Multi-role, interdiction, strike
+- F-15E Strike Eagle (Introduced in 1988) - Multi-role, interdiction, strike
 
-o F-16
+- F-16
 
-o F-111F Aardvark - Deep strike, interdiction, precision bombing
+- F-111F Aardvark - Deep strike, interdiction, precision bombing
 
-o B-52G Stratofortress - Strategic bombing, deep strike, interdiction
+- B-52G Stratofortress - Strategic bombing, deep strike, interdiction
 
 - **Warsaw Pact:**
 
-o Su-24 Fencer - Deep strike, interdiction, tactical bombing
+- Su-24 Fencer - Deep strike, interdiction, tactical bombing
 
-o MiG-27 Flogger-D/J - Tactical strike, ground attack
+- MiG-27 Flogger-D/J - Tactical strike, ground attack
 
-o Tu-22M Backfire - Long-range strike, maritime interdiction
+- Tu-22M Backfire - Long-range strike, maritime interdiction
 
 ### Suppression of Enemy Air Defenses (SEAD)
 
@@ -123,10 +128,10 @@ SEAD missions can involve a combination of electronic warfare (jamming and decep
 
 - **NATO**
 
-o F-4E Wild Weasel **-** Detect, engage, and neutralize enemy radar-guided SAM sites and air defense systems.
+- F-4E Wild Weasel **-** Detect, engage, and neutralize enemy radar-guided SAM sites and air defense systems.
 
 - **Warsaw Pact**
 
-o MiG-25BM Foxbat - Destroy enemy radar systems and SAM sites using long-range anti-radiation missiles
+- MiG-25BM Foxbat - Destroy enemy radar systems and SAM sites using long-range anti-radiation missiles
 
-o Su-17M4 Fitter-K - Ground attack and SEAD platform
+- Su-17M4 Fitter-K - Ground attack and SEAD platform

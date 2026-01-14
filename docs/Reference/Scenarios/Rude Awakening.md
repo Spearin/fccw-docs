@@ -1,5 +1,5 @@
 # Rude Awakening
-_D+1 | 21 July 1989, 04:00hrs - 09:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Fulda](../../Maps/Fulda/Fulda)_
+_D+1 | 21 July 1989, 04:00hrs - 09:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Fulda](../../Maps/fulda/Fulda/)_
 
 The Soviet push on Jul 20th overwhelmed a NATO defense that was not in place.  The Soviets had breached screens across the Front.  NATO had been caught by surprise and the Soviets were taking advantage.
 

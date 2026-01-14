@@ -106,7 +106,9 @@ Other essential functions found in this menu are items related to overlay graphi
 
 - **Import Mission Graphics from Clipboard** – Loads any mission graphic currently copied to the clipboard from your paint program, provided the image dimensions are identical to the map dimensions (as exported to the clipboard from above). The game will add the image to show your color graphics as an overlay on the map while turning gray-scale-colored pixels (including white and black) transparent. The game is compatible with the “in-memory” clipboard format from Paint.NET, not with those from MS Paint and Paint3D.
 
-**NOTE:** The color black will not be shown in the mission graphics.
+!!! note
+
+    The color black will not be shown in the mission graphics.
 
 - **Import Mission Graphics from Briefing** – Loads the pre-made mission graphic from your side’s Mission Briefing in the Operations Staff Report.
 
@@ -166,7 +168,9 @@ The Adjust SOP selection opens a submenu of SOP options set out as individual it
 
 - **Fire Discipline...** – The range or ability to shoot at enemy units with direct fire. The available settings are Refuse Fire, Hold Until Fired On, Point Blank (0 to 1 hex), Short Range (1/3 Max Range), Medium Range (2/3 Max Range), and Maximum Range.
 
-**NOTE:** This applies to all the unit’s/units’ weapons.
+!!! note
+
+    This applies to all the unit’s/units’ weapons.
 
 - **Minefield Contact...** – The unit’s/units’ response to entering a minefield. The options here are Ignore and Run, where units do not delay and accept the potential for more subunit losses crossing the field; In Stride Breach, where units slow down to follow a leader through the field while trying to avoid mines by traveling in the same tracks; or Stop and Reduce, where units halt and either wait for engineers to remove enough mines to open a path or do the work themselves at a slower rate.
 
@@ -216,7 +220,9 @@ Each hex also shows the visual capability values. Higher numbers mean a better c
 
 In the LOS overlay, the range ring for Detection (not shown, as it extends far) notes the maximum range under perfect conditions that an enemy unit of some type can be detected. Once inside the Classification range (outer ring on the images above and below), the Detected target’s type can be determined (e.g., tank or infantry unit, etc.). Once inside the Identification range (the inner ring on the images), the exact type of enemy unit can be determined (e.g., the tank is a T-80BV).
 
-**NOTE:** The Line of Sight can also be viewed from any hex by ***Shift*** + left-clicking on the hex you wish to check.
+!!! note
+
+    The Line of Sight can also be viewed from any hex by ***Shift*** + left-clicking on the hex you wish to check.
 
 ![](images/image118.jpg)
 
@@ -236,7 +242,9 @@ Selecting this option brings up the SOP-related Ranges overlay for the selected 
 
 Selecting this option brings up the Spottable From overlay for the selected unit. This shows the various ranges and types of systems (visual, thermal, and radar) that the unit is possibly visible to and the hexes where Line of Sight exists. Unit size, movement, firing, and other factors impact these ranges.The color and transparency of this overlay can be customized in Game Colors under User Preferences ([***F2***], see Section 3.4 above).
 
-**NOTE:** Check the selected unit’s Spottable From ranges in any hex by ***Shift*** + left-clicking on the hex you wish to review. The information changes based on the type of terrain in that hex (see Section 11.8 below).
+!!! note
+
+    Check the selected unit’s Spottable From ranges in any hex by ***Shift*** + left-clicking on the hex you wish to review. The information changes based on the type of terrain in that hex (see Section 11.8 below).
 
 ![](images/image124.jpg)
 
@@ -252,14 +260,18 @@ Selecting this option brings up the Ruler overlay to assist with measuring dista
 
 ![](images/image128.jpg)
 
-**NOTE:** Check the Ruler from any hex by ***Shift***
+!!! note
+
+    Check the Ruler from any hex by ***Shift***
 + left-clicking on the hex you want to review.
 
 ## Multi-Unit Overlay Menu Items
 
 Multi-Unit Overlays are helpful on-map graphics that show a variety of information for all units at once including Paths, Lines of Sight, Ranges for weapons and Spotting, Electronic Emissions if any, Deployment Areas, and Transport Plans. There are also functions to show Chain of Command, Air Defense coverage against Helicopters and Planes, Fire Support Coverage and Missions, Direct Support assets, and All Weapon Locating Coverage. Known Hostile Air Assault Coverage can also be displayed. Some of these can be used in combination on the map.
 
-**NOTE:** Many of the following functions also show the currently selected unit’s overlay as it would appear in other hexes by ***Shift*** + left-clicking in the hex of interest. This can be very useful when planning locations for things like Air Defense or looking at variations in Line of Sight at different map locations.
+!!! note
+
+    Many of the following functions also show the currently selected unit’s overlay as it would appear in other hexes by ***Shift*** + left-clicking in the hex of interest. This can be very useful when planning locations for things like Air Defense or looking at variations in Line of Sight at different map locations.
 
 ![](images/image130.jpg)
 
@@ -267,7 +279,9 @@ Multi-Unit Overlays are helpful on-map graphics that show a variety of informati
 
 Selecting this option brings up the active paths for all units that have been given Movement orders. The currently selected unit has a brighter line and shows its waypoints. The color, width, and transparency of these lines can be customized in Game Colors under User Preferences ([***F2***], see Section 3.4 above).
 
-**NOTE:** Primary orders for each unit can be glimpsed by checking the Movement markers present along the edges of the counters (see Section 17.1 below). For example, a blue triangle along one edge or in a corner indicates the direction a unit will advance with Deliberate Movement.
+!!! note
+
+    Primary orders for each unit can be glimpsed by checking the Movement markers present along the edges of the counters (see Section 17.1 below). For example, a blue triangle along one edge or in a corner indicates the direction a unit will advance with Deliberate Movement.
 
 ![](images/image132.jpg)
 
@@ -393,7 +407,9 @@ Selecting this option brings up an overlay that indicates, given the selected un
 
 Selecting this option brings up an overlay for the area in which friendly Weapon Locating Radar (WLR) can Detect and locate hostile artillery units when these are firing. WLR operates from concealed positions off-map with controlled emission cycles to balance coverage with survivability. Scans can support counter-battery fire, FASCAM delivery, or target updates. Activity records are found in the Fire Support Staff report under Counter Battery (see Section 15.4.4 below). WLR operations are not under player control (see Section 25.4.1 below). WLR coverage is a solid orange overlay for the hexes that are covered by Weapon Locating Radar.
 
-**NOTE:** Not every scenario has WLR for each side.
+!!! note
+
+    Not every scenario has WLR for each side.
 
 ![](images/image176.jpg)
 
@@ -463,34 +479,17 @@ Selecting this option shows a defensive rating for every hex on the map in white
 
 The Options Menu is used to access the User Preferences dialog, change the counters’ art style and colors, vary the map to suit your taste, and to present the counters and markers in different ways. You can also change transparency settings for the Mission Graphics (see Section 11.4 above for Mission Graphics information) and MCOO (see Section 16.12 below). Each option is described in turn.
 
-|  |
-| --- |
-|  |
-|  |  |
-
 ![](images/image198.jpg)
 
 - **User Preferences [*F2*]**– Opens the User Preferences dialog that has many of the game settings. See Section 3 above for details on what settings are there and what they do.
 
 - ![](images/image200.jpg)![](images/image201.jpg)**Show NATO Unit Counters [*Ctrl+I*]**– Displays NATO markers in place of the vehicle silhouettes on all counters. Default silhouette counters are shown on the left below, and NATO counters are to the right. For a rundown of NATO symbols and their meaning, refer to **FM02 Battlefield Primer**.
 
--
+- **Show Large Simple Unit Counters [*Ctrl+J*]** – Displays large NATO symbols on all the counters to make the unit type more visible at extreme zoomed-out map levels. These symbols remove some other counter information in order to be larger as demonstrated below. Default silhouette counters are on the left and Large Simple Unit Counters are on the right.
 
-|  |
-| --- |
-|  |
-|  |  |
+![](images/image206.jpg)
 
-**Show Large Simple Unit Counters [*Ctrl+J*]** – Displays large NATO symbols on all the counters to make the unit type more visible at extreme zoomed-out map levels. These symbols remove some other counter information in order to be larger as demonstrated below. Default silhouette counters are on the left and Large Simple Unit Counters are on the right.
-
--
-
-|  |
-| --- |
-|  |
-|  |  |
-
-![](images/image206.jpg)**Show Unit Counter Halo** – Displays a thin halo or glow effect around the silhouette art. Default silhouette counters with no halos can be seen on the left below and halo-enabled counters are on the right. Halos are not available for NATO-styled counters.
+**Show Unit Counter Halo** – Displays a thin halo or glow effect around the silhouette art. Default silhouette counters with no halos can be seen on the left below and halo-enabled counters are on the right. Halos are not available for NATO-styled counters.
 
 - **Use NATO Hostile Unit Counters** – Displays NATO-style counters that use a basic rectangle graphic for friendly units and a diamond graphic for enemy units. These shape help make them easier to distinguish at a glance. However, this increases the complexity of their appearance so it is recommended to use them once you are accustomed to them and can decode them at a speed that works for your gameplay. This option is only active while counters are using NATO art.
 

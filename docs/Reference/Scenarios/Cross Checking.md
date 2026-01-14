@@ -1,5 +1,5 @@
 # Cross Checking
-_D+6 | 26 July 1989, 03:00hrs - 08:00hrs [:smflag-ca:](../Forces/Canada.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Rottenburg](../../Maps/Rottenburg/Rottenburg)_
+_D+6 | 26 July 1989, 03:00hrs - 08:00hrs [:smflag-ca:](../../Forces/Canada/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Rottenburg](../../Maps/rottenburg/Rottenburg/)_
 
 Fighting yesterday was fierce. The Soviets threw the 242nd Motor Rifle Regiment (MRR) into the fray, trying to find a way through the Canadian defense. However, the 2nd Princess Patricia’s Canadian Light Infantry (PPCLI) Battalion (Bn) was able to stop them.
 

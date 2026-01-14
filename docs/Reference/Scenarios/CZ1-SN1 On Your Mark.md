@@ -1,5 +1,5 @@
 # CZ1-SN1 On Your Mark
-_D+0 | 20 July 1989, 04:00hrs - 10:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Marktredwitz](../../Maps/Marktredwitz/Marktredwitz)_
+_D+0 | 20 July 1989, 04:00hrs - 10:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Marktredwitz](../../Maps/marktredwitz/Marktredwitz/)_
 
 The day has come for the Warsaw Pact to finally reunite Germany and destroy NATO.  Both alliances have been preparing for war but, the Warsaw Pact believes that it has the advantage and the final orders for the attack have been issued.
 

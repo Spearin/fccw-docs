@@ -2,23 +2,29 @@
 
 This tutorial covers Air Support Operations, detailing how to request, coordinate, and maximize the effectiveness of airpower.
 
-**NOTE:** This tutorial will only cover Close Air Support (CAS), Strike/Interdiction, and Suppression of Enemy Air Defense (SEAD) operations. In the future, when we expand the Air Operations, we will add more information and update the scenario to show how to use those types of air assets.
+!!! note
+
+     This tutorial will only cover Close Air Support (CAS), Strike/Interdiction, and Suppression of Enemy Air Defense (SEAD) operations. In the future, when we expand the Air Operations, we will add more information and update the scenario to show how to use those types of air assets.
 
 The screenshot below shows the first screen when the game launches. To proceed, click the “Tutorial” button.
 
-![](images/image151.jpg)
+![](images/image096.jpg)
 
 As shown in the screenshot below, a list of tutorials will appear. Highlight Tutorial – Air Support Operations and select the “Play” button at the bottom of the dialog. As shown in the vertically split layout on the next page, the left side contains the relevant screenshot.
 
-![](images/image153.jpg)Next, we must set the Difficulty Settings for the Tutorial mission,
+![](images/image153.jpg)
+Next, we must set the Difficulty Settings for the Tutorial mission,
 
-![](images/image155.jpg)For the best tutorial experience, follow the settings as shown above.
+![](images/image155.jpg)
+For the best tutorial experience, follow the settings as shown above.
 
 Select “Player 1: NATO Commander.”
 
 To help with this tutorial, we recommend setting the Difficulty Level to “Recruit” so you can see the various enemy target locations.
 
-**NOTE:** In actual game play, your forces would need to spot these enemy units or detect them via electronic interception means to provide a location for your aircraft to attack.
+!!! note
+
+     In actual game play, your forces would need to spot these enemy units or detect them via electronic interception means to provide a location for your aircraft to attack.
 
 Select the “Play” button to proceed to the next screen.
 
@@ -28,7 +34,9 @@ Review the mission details carefully to understand your forces' objectives and e
 
 Click the “Proceed” button to launch the game.
 
-![](images/image159.jpg)After you select the “Proceed” button, you will be presented with a screen, as shown in the above screenshot, which displays your forces' initial setup on the map. The next step is to review the forces you will command.
+![](images/image159.jpg)
+
+After you select the “Proceed” button, you will be presented with a screen, as shown in the above screenshot, which displays your forces' initial setup on the map. The next step is to review the forces you will command.
 
 ## Review Your Forces
 
@@ -42,7 +50,9 @@ Effectively managed air assets can disrupt enemy concentrations, provide direct 
 
 - Role: The F-4G Wild Weasel has electronic countermeasures and anti-radiation missiles (ARMs), making it a key asset for Suppression of Enemy Air Defenses (SEAD). It identifies and targets enemy radar installations to clear the path for strike aircraft.
 
-**NOTE:** This F-4 has had the Napalm Bombs removed to focus on the ARMs and cannon.
+!!! note
+
+     This F-4 has had the Napalm Bombs removed to focus on the ARMs and cannon.
 
 ![](images/image161.jpg)
 
@@ -104,7 +114,9 @@ Section C provides an hour by hour forecast of the weather, visibility, cloud ce
 
 ![](images/image177.jpg)
 
-**NOTE:** Airspace Control is only known for the current hour of operations and can change in the next hour. The player does not know when and by how much control will change.
+!!! note
+
+     Airspace Control is only known for the current hour of operations and can change in the next hour. The player does not know when and by how much control will change.
 
 Return to the Fire Control Assets tab to start ordering missions.
 
@@ -268,7 +280,7 @@ Then select and click on the Air Strike order in the list as seen below.
 
 With the Plot Target dialog open, find the Artillery Battery with the 8x 2S1 Gvozdikas and click on them.
 
-![](images/image238.jpg).
+![](images/image238.jpg)
 
 ![](images/image240.jpg)
 
@@ -326,7 +338,9 @@ You can now freely finish out this tutorial by issuing the A-10s and F-16s (once
 
 You may also wish to retry this scenario at the Grodnard level which will hide the enemy units, and they will need to be spotted by aircraft or the observer ground units.
 
-**NOTE:** This spotting will be easier in actual game scenarios where you have an abundance of ground forces to find the enemy.
+!!! note
+
+     This spotting will be easier in actual game scenarios where you have an abundance of ground forces to find the enemy.
 
 ### Points to Remember
 

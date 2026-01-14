@@ -1,13 +1,13 @@
 # A Time to Dance
-_D+0 | 20 July 1989, 04:00hrs - 08:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Bad Neustadt](../../Maps/Bad-Neustadt/Bad Neustadt)_
+_D+0 | 20 July 1989, 04:00hrs - 08:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Bad Neustadt](../../Maps/bad-neustadt/Bad Neustadt/)_
 
 The Soviet Union is withdrawing its forces from the German Democratic Republic (GDR). They have alerted both NATO, and the UN, that they are moving two divisions east, in the sector of the 8th Guards Army. This announcement was made months in advance. Several smaller units have left their permanent duty stations, earlier during the month, for new locations further east.
 
 NATO is on a low alert status and is having to learn to deal with the fact that the Cold War is over. What to do now?
 
-But wait, the 533rd Military Intelligence (MI) Battalion stationed in the Fulda Gap is getting information that doesn’t match up with how events should be unfolding. It seems the Soviets aren't moving to the east.
+But wait, the 533rd Military Intelligence (MI) Battalion stationed in the Fulda Gap is getting information that doesn’t match up with how events should be unfolding. It seems the Soviets aren&#x27;t moving to the east.
 
-The 533rd MI Bn starts scrambling to find out what's up.
+The 533rd MI Bn starts scrambling to find out what&#x27;s up.
 
 The 79th Guards Tank Division left its garrison at Suhl and moved southeast on Route 281. When it reached Coburg the lead element, the 17th Guards Tank Regiment, turned southwest on Route 303 and west onto Route 279. The entire time they were in road march formation. There was no NATO interference with the approach to the border.
 
@@ -19,7 +19,7 @@ The two elite units have been facing each other over the decades and will now co
 
 At 0400 the day is just beginning. What was going to be a hot day in July is about to get much hotter.
 
-The Cold War is about to become a Hot War. It's time to dance to the music.
+The Cold War is about to become a Hot War. It&#x27;s time to dance to the music.
 
 This scenario is adapted from the original Flashpoint Campaign Red Storm scenario of the same name originally developed by Steve Overton.
 

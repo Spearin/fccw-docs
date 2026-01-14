@@ -22,7 +22,9 @@ There are a few ways to zoom the map during the game:
 
 - Click the Mini Map (+) and (–) speed buttons. The Fit button zooms the map out so the whole map is visible on the screen (see Section 13.4 above).
 
-**NOTE:** To take a screen capture of your entire map, it may be more helpful to use the Full Map Screen Capture[***Ctrl+Z***]feature instead. This captures the entire game map and all counters and markers on it with no UI shown and saves in the specified screen capture folder.
+!!! note
+
+    To take a screen capture of your entire map, it may be more helpful to use the Full Map Screen Capture[***Ctrl+Z***]feature instead. This captures the entire game map and all counters and markers on it with no UI shown and saves in the specified screen capture folder.
 
 - Go to the Options menu to select the Map Zoom Option item and select a Zoom from the menu (see Section 11.9.3 above). Hotkeys for different zoom levels are listed in this submenu (***Ctrl*** + numbers ***0*** through ***9***).
 
@@ -50,45 +52,75 @@ Placing units on higher terrain provides them with a better Line of Sight (see S
 
 Each type of terrain has values for Cover (see Section 11.8.3 above), Concealment (Section 11.8.4 above), and Mobility (Section 11.8.5 above) that impact Spotting, combat, and movement in various ways. The values are set in the Map Values Editor for each map used in the game. See Section 11.8 above for more information about other terrain factors.
 
-- ![](images/image384.jpg)**Clear** – A few small elements are visible on the elevation art. These tiles are not really “clear” as they have a small number of rolling hills, trees, fields, and buildings. However, these elements have relatively small amounts of Cover and Concealment capabilities.
+- ![](images/image384.jpg){.img-right}**Clear** – A few small elements are visible on the elevation art. These tiles are not really “clear” as they have a small number of rolling hills, trees, fields, and buildings. However, these elements have relatively small amounts of Cover and Concealment capabilities.
 
-- ![](images/image386.jpg)**Fields** – Cultivated farm fields. Relatively flat, solid terrain. One of the more numerous terrain types in central Europe. Fields do provide some Concealment with the crops during growing seasons.
+---
 
-- ![](images/image388.jpg)**Forest/Orchards** – Lots of trees of various types cut with the occasional path, trail, or road. Not so thick that driving over them is prohibited. Orchards show smaller trees in nicely spaced rows. Trees can also be found along many country roads.
+- ![](images/image386.jpg){.img-right}**Fields** – Cultivated farm fields. Relatively flat, solid terrain. One of the more numerous terrain types in central Europe. Fields do provide some Concealment with the crops during growing seasons.
 
-- ![](images/image390.jpg)**Rural** – Houses and small buildings found in villages and towns. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They also provide good ambush sites for infantry against armored vehicles. Depicted as orange squares, some trees, and minor roads.
+---
 
-- ![](images/image392.jpg)**Urban** – Larger government buildings, shops, and apartment complexes. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as red squares, a few trees, and roads.
+- ![](images/image388.jpg){.img-right}**Forest/Orchards** – Lots of trees of various types cut with the occasional path, trail, or road. Not so thick that driving over them is prohibited. Orchards show smaller trees in nicely spaced rows. Trees can also be found along many country roads.
 
-- ![](images/image394.jpg)**Industrial** – Factories and warehouses. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as brown squares, occasional trees, and roads.
+---
 
-- ![](images/image396.jpg)![](images/image398.jpg) **Named Landmarks** – Maps may have some named landmarks like airfields, depots, or hills with heights. Cosmetic but informational.
+- ![](images/image390.jpg){.img-right}**Rural** – Houses and small buildings found in villages and towns. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They also provide good ambush sites for infantry against armored vehicles. Depicted as orange squares, some trees, and minor roads.
+
+---
+
+- ![](images/image392.jpg){.img-right}**Urban** – Larger government buildings, shops, and apartment complexes. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as red squares, a few trees, and roads.
+
+---
+
+- ![](images/image394.jpg){.img-right}**Industrial** – Factories and warehouses. These built-up areas provide good Cover and Concealment, and decent Mobility with many roads. They provide good ambush sites for infantry against armored vehicles. Depicted as brown squares, occasional trees, and roads.
+
+---
+
+- ![](images/image396.jpg){.img-right}![](images/image398.jpg){.img-right} **Named Landmarks** – Maps may have some named landmarks like airfields, depots, or hills with heights. Cosmetic but informational.
+
+---
 
 ## Roads
 
 Each type of road provides improved ease of movement through the various types of terrain found on the map compared to off-road routes. There are a few types of road networks.
 
-- ![](images/image400.jpg)**Road** – Basic two-lane country roads that are paved and in decent condition. Roads provide a suitable means of movement for forces through the various terrain on the map. Roads are shown as gray lines with a black border.
+- ![](images/image400.jpg){.img-right}**Road** – Basic two-lane country roads that are paved and in decent condition. Roads provide a suitable means of movement for forces through the various terrain on the map. Roads are shown as gray lines with a black border.
 
-- ![](images/image402.jpg)**Highway** – Multilane roads, paved and in good condition for heavy traffic. Highways provide a reasonable means of movement for forces through the various terrain on the map. Highways are shown as wide yellow lines with a black border.
+---
 
-- ![](images/image404.jpg)**Autobahn** – Modern, very wide multilane roads built to allow fast movement of traffic and military vehicles. Autobahns provide an excellent means of movement for forces through the various terrain on the map. Autobahns are shown as double orange lines with black borders.
+- ![](images/image402.jpg){.img-right}**Highway** – Multilane roads, paved and in good condition for heavy traffic. Highways provide a reasonable means of movement for forces through the various terrain on the map. Highways are shown as wide yellow lines with a black border.
+
+---
+
+- ![](images/image404.jpg){.img-right}**Autobahn** – Modern, very wide multilane roads built to allow fast movement of traffic and military vehicles. Autobahns provide an excellent means of movement for forces through the various terrain on the map. Autobahns are shown as double orange lines with black borders.
+
+---
 
 ## Railroads
 
-- ![](images/image406.jpg)**Railroad** – While we do not have trains or move things by rail in the game, railways are shown as alternating black and light gray lines on the map. Rail bridges are also shown on the maps and can, in a pinch, be used to cross units over water.
+- ![](images/image406.jpg){.img-right}**Railroad** – While we do not have trains or move things by rail in the game, railways are shown as alternating black and light gray lines on the map. Rail bridges are also shown on the maps and can, in a pinch, be used to cross units over water.
+
+---
 
 ## Water Obstacles
 
 There are a few types of water obstacles that can hamper the movement of military units across the map. There are different means to cross these obstacles.
 
-- ![](images/image408.jpg)**Stream** – Small, narrow, and shallow bodies of water. With a bit of prep time, units can cross streams without the aid of existing bridges nor engineered bridges.
+- ![](images/image408.jpg){.img-right}**Stream** – Small, narrow, and shallow bodies of water. With a bit of prep time, units can cross streams without the aid of existing bridges nor engineered bridges.
 
-- ![](images/image410.jpg)**Minor River** – Wide enough and deep enough to require a bridge (road or engineering) or amphibious vehicles to cross (with some prep time). Most minor rivers are named on the map.
+---
 
-- ![](images/image412.jpg)**Major River** – Vast and deep bodies of water that must be crossed by bridge (may be shown with two bridge markers) or swam at slow speeds by amphibious-capable vehicles. Most major rivers are named on the map.
+- ![](images/image410.jpg){.img-right}**Minor River** – Wide enough and deep enough to require a bridge (road or engineering) or amphibious vehicles to cross (with some prep time). Most minor rivers are named on the map.
 
-- ![](images/image414.jpg)**Lakes** – Lakes and ponds are various sizes of enclosed water obstacles. The only means of crossing these obstacles is an engineered bridge or two or amphibious units that can slowly swim across to the other side. In most cases, going around lakes is the better plan.
+---
+
+- ![](images/image412.jpg){.img-right}**Major River** – Vast and deep bodies of water that must be crossed by bridge (may be shown with two bridge markers) or swam at slow speeds by amphibious-capable vehicles. Most major rivers are named on the map.
+
+---
+
+- ![](images/image414.jpg){.img-right}**Lakes** – Lakes and ponds are various sizes of enclosed water obstacles. The only means of crossing these obstacles is an engineered bridge or two or amphibious units that can slowly swim across to the other side. In most cases, going around lakes is the better plan.
+
+---
 
 ## Bridges
 
@@ -162,25 +194,41 @@ The following hatches and lines are found on the Modified Combined Obstacle Over
 
 The MCOO can be activated by the Terrain Overlay menu bar item (see Section 11.8.1 above) or hitting ***Ctrl+M***.
 
-- ![](images/image422.jpg)**Impassible Terrain** – Terrain with red cross-hatching is considered impassable by ground units. Units cannot travel into or through this type of terrain. There is no impassible terrain currently in the game.
+- ![](images/image422.jpg){.img-right}**Impassible Terrain** – Terrain with red cross-hatching is considered impassable by ground units. Units cannot travel into or through this type of terrain. There is no impassible terrain currently in the game.
 
-- ![](images/image424.jpg)**Impassible Hex Edge** – Hex edges shown with a red solid line are impassible to ground forces. This indicates a slope that is at an incline/decline that is too steep for ground units to navigate. This is seen in hexes with multiple elevations at an edge. See Section 11.8.2 above for more on Elevation values.
+---
 
-- ![](images/image426.jpg)**Slow-Go Terrain** – Terrain with a red hatch is noted as slow-go terrain. This means ground units are slowed down as they navigate more restricted lanes of travel. This terrain is mainly seen in forested hexes in the game. See Section 11.8.5 above for more on Mobility ratings.
+- ![](images/image424.jpg){.img-right}**Impassible Hex Edge** – Hex edges shown with a red solid line are impassible to ground forces. This indicates a slope that is at an incline/decline that is too steep for ground units to navigate. This is seen in hexes with multiple elevations at an edge. See Section 11.8.2 above for more on Elevation values.
 
-- ![](images/image428.jpg)**Built-Up Terrain** – Terrain with an orange hatch is built-up with villages, towns, or cities. Units travel a bit slower through these areas. These hexes are also potentially dangerous for units moving through as Cover and Concealment for enemies is high in these areas (see Sections 11.8.3 and 11.8.4 above, respectively).
+---
 
-- ![](images/image430.jpg)**Open Terrain** – Gray zones are considered open ground. These hexes have relatively few hills, trees, or buildings, and can be crossed without slowing down. They also have clear lanes of fire and Lines of Sight (see Section 11.6.1 above). These areas are good to avoid if moving into an enemy area but having clear lanes of fire from Cover is excellent when defending.
+- ![](images/image426.jpg){.img-right}**Slow-Go Terrain** – Terrain with a red hatch is noted as slow-go terrain. This means ground units are slowed down as they navigate more restricted lanes of travel. This terrain is mainly seen in forested hexes in the game. See Section 11.8.5 above for more on Mobility ratings.
 
-- ![](images/image432.jpg)**Road Network** – Yellow lines show the road network on the map. This terrain has better movement rates than open ground and also allows for faster travel through any Slow-Go or Built-Up Terrain.
+---
 
-- ![](images/image434.jpg)**Water Obstacles** – Solid blue lines or blue-filled hexes represent water obstacles that require bridging or units with amphibious capability to cross over them. Other units can cross with road bridges. See Section 16.8 above for information on water obstacles.
+- ![](images/image428.jpg){.img-right}**Built-Up Terrain** – Terrain with an orange hatch is built-up with villages, towns, or cities. Units travel a bit slower through these areas. These hexes are also potentially dangerous for units moving through as Cover and Concealment for enemies is high in these areas (see Sections 11.8.3 and 11.8.4 above, respectively).
+
+---
+
+- ![](images/image430.jpg){.img-right}**Open Terrain** – Gray zones are considered open ground. These hexes have relatively few hills, trees, or buildings, and can be crossed without slowing down. They also have clear lanes of fire and Lines of Sight (see Section 11.6.1 above). These areas are good to avoid if moving into an enemy area but having clear lanes of fire from Cover is excellent when defending.
+
+---
+
+- ![](images/image432.jpg){.img-right}**Road Network** – Yellow lines show the road network on the map. This terrain has better movement rates than open ground and also allows for faster travel through any Slow-Go or Built-Up Terrain.
+
+---
+
+- ![](images/image434.jpg){.img-right}**Water Obstacles** – Solid blue lines or blue-filled hexes represent water obstacles that require bridging or units with amphibious capability to cross over them. Other units can cross with road bridges. See Section 16.8 above for information on water obstacles.
+
+---
 
 ## Animated Fire Lines
 
 ***Flashpoint Campaigns: Cold War*** offers two types of fire line animations: default basic fire lines or direct-fire-based weapon animations. Toggle these weapon-based effects from the User Preferences menu ([***F2***], see Section 3.3 above).
 
-**NOTE:** In the following images, the counters used are for fire line/animation illustration purposes only and may not reflect the weapons capability of the units shown.
+!!! note
+
+    In the following images, the counters used are for fire line/animation illustration purposes only and may not reflect the weapons capability of the units shown.
 
 ### Classic Fire Lines
 

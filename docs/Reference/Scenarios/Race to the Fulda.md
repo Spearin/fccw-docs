@@ -1,5 +1,5 @@
 # Race to the Fulda
-_D+0 | 20 July 1989, 04:30hrs - 09:30hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Eiterfeld](../../Maps/Eiterfeld/Eiterfeld)_
+_D+0 | 20 July 1989, 06:00hrs - 11:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Eiterfeld](../../Maps/eiterfeld/Eiterfeld/)_
 
 For first seven months of 1988, tension between the US and the Soviet Union has increased dramatically.  The US continues to push for sanctions against the Soviet Union, which are causing significant issues for the Soviet economy.  In July, 1988, the Warsaw Pact conducted major exercises in the Ukraine region of the Soviet Union.  Following the exercises, units supposedly return to their normal bases.  However, due to historically poor weather, the Soviets were able to move many units westward into East Germany and Czechoslovakia.
 

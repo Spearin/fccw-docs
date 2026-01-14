@@ -4,7 +4,9 @@
 
 How these units are used in battle and more information about their systems and sensors can be found in **FM02 Battlefield Primer.**
 
-**NOTE:** Roles can be changed in the game which impacts how the AI tries to use the units (see Section 14.1.1 above for how to change this). Recce units try to be out front locating the enemy. Following that are the Main Effort (mainly armor) and Line (mainly mechanized/infantry) units. Just behind those or mixed in are Overwatch units (defense and dedicated anti-tank units). Finally, those in a Support role (mainly headquarters and artillery units) should stay at the rear of the force.
+!!! note
+
+    Roles can be changed in the game which impacts how the AI tries to use the units (see Section 14.1.1 above for how to change this). Recce units try to be out front locating the enemy. Following that are the Main Effort (mainly armor) and Line (mainly mechanized/infantry) units. Just behind those or mixed in are Overwatch units (defense and dedicated anti-tank units). Finally, those in a Support role (mainly headquarters and artillery units) should stay at the rear of the force.
 
 ## Recce
 

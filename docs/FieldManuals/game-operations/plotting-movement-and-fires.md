@@ -44,7 +44,9 @@ Orders can be changed after plotting a set of waypoints. Go into the Dashboard [
 
 To view and change an order in the Dashboard, select the desired waypoint in the Orders list on the left-hand side and right-click on it to bring up a menu of alternative orders. In the image below, we’ll select a Move Hasty order so the unit moves the first part of this path quickly (see Section 21.2 above for information on primary orders).
 
-**NOTE:** Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed at once, and also as many times as desired. Hitting Apply commits all orders as they are indicated in the list at the time of clicking to Apply. These can be modified right up until the turn resolution begins.
+!!! note
+
+    Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed at once, and also as many times as desired. Hitting Apply commits all orders as they are indicated in the list at the time of clicking to Apply. These can be modified right up until the turn resolution begins.
 
 ![](images/image490.jpg)
 
@@ -64,7 +66,9 @@ Find the setting for Extra Delay Before Initiating This Order under the Order an
 
 In the case above, adding 7 minutes of Delay to the start of the first order shifts the time each subsequent order starts by 7 minutes, including the final Screen order in the destination. Hit Apply to commit any changes. Click Cancel to revert back to the orders last saved.
 
-**NOTE:** Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed as many times as desired. Hitting Apply commits all orders as they are indicated in the list. These can be modified right up until the turn resolution begins.
+!!! note
+
+    Orders that have been changed present with yellow text and must be implemented by clicking Apply below the Orders list. The text becomes white again when the changes are applied. Multiple waypoint orders can be changed as many times as desired. Hitting Apply commits all orders as they are indicated in the list. These can be modified right up until the turn resolution begins.
 
 ### Lost Transport Indicator
 

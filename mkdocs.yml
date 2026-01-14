@@ -15,6 +15,7 @@ theme:
   font:
     text: IBM Plex Mono
     code: Roboto Mono
+  use_directory_urls: true 
   features:
     - content.code.copy
     - content.tooltips
@@ -26,8 +27,8 @@ theme:
     - navigation.indexes
     - navigation.footer
     - navigation.tracking
-    - navigation.path
-    # - search.suggest
+    - navigation.prune
+    - search.suggest
     - toc.follow
 #    - toc.integrate
     - navigation.instant.preview
@@ -37,13 +38,10 @@ extra_css:
   - assets/stylesheets/mil-symbols.css
   - assets/stylesheets/force.css
 plugins:
-  - projects:
-        projects_config_files: "*/docs/mkdocs.yml"
   - search:
       lang: en
       separator: '[\s\,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-      prebuild_index: true
-      indexing: 'sections'
+      #prebuild_index: true
       pipeline:
         - stemmer
         - stopWordFilter
@@ -59,6 +57,7 @@ plugins:
   - macros
   - autolinks
   - autorefs
+  - typeset
  # - glightbox
   - optimize:
       optimize_png: false
@@ -69,17 +68,18 @@ plugins:
         - FieldManuals/*
         - Guides/*
       exclude:
-        - FieldManuals/Tutorials/index.md
-        - FieldManuals/game-operations/index.md
-        - FieldManuals/battlefield-primer/index.md
-        - FieldManuals/index.md
-        - FieldManuals/hotkeys.md
+        - fieldmanuals/Tutorials/index.md
+        - fieldmanuals/index.md
+        - fieldmanuals/hotkeys.md
+        - fieldmanuals/tutorials-overview.md
       restart_increment_after:
-        - FieldManuals/game-operations/welcome-commander-screen.md
-        - FieldManuals/battlefield-primer/surviving-modern-warfare.md
-        - FieldManuals/intermediate-tutorials/
-        - FieldManuals/advanced-tutorials/
-  - awesome-nav  
+        - fieldmanuals/game-operations/index.md
+        - fieldmanuals/battlefield-primer/index.md
+        - fieldmanuals/basic-tutorials/index.md
+        - fieldmanuals/intermediate-tutorials/index.md
+        - fieldmanuals/advanced-tutorials/index.md
+  - awesome-nav
+  - print-site
 markdown_extensions:
   - abbr
   - tables
@@ -116,4 +116,4 @@ markdown_extensions:
 extra:
   generator: false
   test_macro: ==yabba== ^^dabba^^ **doo**
-copyright: Copyright &copy; 2025 On Target Simulations (OTS) Ltd. All Rights Reserved.
+copyright: Copyright &copy; 2025 - 2026 On Target Simulations (OTS) Ltd. All Rights Reserved.

@@ -1,5 +1,7 @@
 # Armageddons Dawn
-_D+4 | 24 July 1989, 04:00hrs - 10:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Norderfurt](../../Maps/Norderfurt/Norderfurt)_
+_D+4 | 24 July 1989, 04:00hrs - 10:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Norderfurt](../../Maps/norderfurt/Norderfurt/)_
+
+Scenario Notes:  This scenario is based on the scenario "Soviet Main Attack Force". The units on both sides are the same as the parent scenario. Nuclear and chemical weapons have been added to allow the player to explore and compare how such weapons of mass destruction can effect the modern battlefield.
 
 Stung by the escape of the 11th Armored Cavalry and enraged by the American attack on their supply dump, the Soviet High Command decided to clear this sector of all NATO troops. A highly placed NATO spy in the Soviet Command structure managed to tip off his handler that an offensive was being planned near Norderfurt and when that information was confirmed by West German aerial recon then NATO decided to make a stand.
 

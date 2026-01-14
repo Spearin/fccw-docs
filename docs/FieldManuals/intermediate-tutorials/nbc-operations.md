@@ -4,7 +4,9 @@ This tutorial focuses on NBC Operations, covering the planning, execution, and c
 
 The screenshot below shows the first screen when the game launches. To proceed, click the “Tutorial” button.
 
-![](images/image258.jpg)As shown in the screenshot below, a list of tutorials will appear. Highlight Tutorial - Artillery**Operations** and select the “Play” button at the bottom of the dialog. As shown in the vertically split layout on the next page, the left side contains the relevant screenshot.
+![](images/image096.jpg)
+
+As shown in the screenshot below, a list of tutorials will appear. Highlight **Tutorial - Artillery Operations** and select the “Play” button at the bottom of the dialog. As shown in the vertically split layout on the next page, the left side contains the relevant screenshot.
 
 ![](images/image260.jpg)
 
@@ -12,13 +14,19 @@ Next, as shown in the screenshot below, we must set the Difficulty Settings for 
 
 Select “Player 1: NATO Commander.”
 
-![](images/image261.jpg)I recommend using the settings shown above for the first attempt at this mission. If that proves too challenging, try again and make the enemy units visible to aid your planning and movement.
+![](images/image261.jpg)
+
+I recommend using the settings shown above for the first attempt at this mission. If that proves too challenging, try again and make the enemy units visible to aid your planning and movement.
 
 Select the Difficulty level at “Grognard,” then select the “Play” button to proceed to the next screen. As shown in the vertically split layout on the next page, the left side contains the relevant screenshot.
 
-![](images/image263.jpg)Once you have read the Mission information in the screenshot above, click the “Proceed” button.
+![](images/image263.jpg)
 
-After you select the “Proceed” button, you will be presented with a screen, as shown below. ![](images/image265.jpg)
+Once you have read the Mission information in the screenshot above, click the “Proceed” button.
+
+After you select the “Proceed” button, you will be presented with a screen, as shown below. 
+
+![](images/image265.jpg)
 
 This displays the initial setup of your forces on the map. The next step is to review the troops you will command. If you need to review the forces and some basics of the Artillery operations, refer to Section 4 above.
 
@@ -67,7 +75,9 @@ a. Select the unit in the Spotlight panel, right click and select menu item “B
 
 b. Select the “OMA” (Off-Map Assets) button on the leader panel, locate “Corps HVY FA” on the Artillery asset report which pops up, right click on the unit counter and select “Barrage > Non\_Persistent Chemical”
 
-![](images/image271.jpg) ![](images/image273.jpg)
+![](images/image271.jpg) 
+
+![](images/image273.jpg)
 
 3. This now brings up the Plotting dialog, and you can select up to six target locations. Pick two hexes, say 2119 and 2219 to be the target hexes. Return to the Plotting dialog and click on the Commit button to lock in your choices.
 
@@ -125,7 +135,9 @@ Using Missiles to deliver a nuclear strike to disrupt, neutralize, and destroy k
 
 The player should know that there is a cost in Victory Points associated with using nuclear weapons. The penalty is 5,000 VPs for the first use by a side. Use thereafter by that same side has no penalty.
 
-**NOTE:** The blast radius in is 3 hexes in all directions from the target location. All units caught within the blast radius will be destroyed, and all other units within three times this radius will suffer a severe Readiness loss. Place the target hex carefully.
+!!! note
+
+    The blast radius in is 3 hexes in all directions from the target location. All units caught within the blast radius will be destroyed, and all other units within three times this radius will suffer a severe Readiness loss. Place the target hex carefully.
 
 All terrain hexes within the 3 hex blast radius will become contaminated. Any unit that enters a contaminated hex will become contaminated. This will not destroy many subunits outright, although a certain number will immediately give up the fight and fall out, but rather suffer severe and continuing morale and readiness losses until they are decontaminated in a Rest and Resupply cycle.
 
@@ -169,7 +181,9 @@ Press the Start button to begin turn resolution. When the nuclear event occurs, 
 
 ![](images/image295.jpg)
 
-![](images/image297.jpg)A “friendly” radiation marker is shown on the right.  The effects of radiation contamination will affect any unit that moves through it and can cause losses and heavy impacts on readiness and morale to contaminated units.
+![](images/image297.jpg)
+
+A “friendly” radiation marker is shown on the right.  The effects of radiation contamination will affect any unit that moves through it and can cause losses and heavy impacts on readiness and morale to contaminated units.
 
 ### Tips for Success
 

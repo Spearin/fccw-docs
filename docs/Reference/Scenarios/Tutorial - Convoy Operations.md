@@ -1,7 +1,7 @@
 # Tutorial - Convoy Operations
-_D+22 | 11 August 1989, 07:00hrs - 19:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Aiterhofen](../../Maps/Aiterhofen/Aiterhofen)_
+_D+22 | 11 August 1989, 07:00hrs - 19:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Aiterhofen](../../Maps/aiterhofen/Aiterhofen/)_
 
-To begin this tutorial, open the Help menu within Flashpoint Campaigns: Cold War. Navigate to the Field Manuals folder and locate FM FCCW-03 Tutorial Operations.pdf file. Follow the instructions in Section 14 to launch Tutorial - Convoy Operations.
+To begin this tutorial, open the Help menu within Flashpoint Campaigns: Cold War. Navigate to the Field Manuals folder and locate FM03C Tutorial Operations: Advanced.pdf file. Follow the instructions in Section 6 to launch Convoy Operations.
 
 NOTE: Only Playable from Player 1
 

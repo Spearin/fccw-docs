@@ -1,5 +1,5 @@
 # End Of The Road
-_D+5 | 25 July 1989, 12:00hrs - 16:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Neuffen](../../Maps/Neuffen/Neuffen)_
+_D+5 | 25 July 1989, 12:00hrs - 16:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Neuffen](../../Maps/neuffen/Neuffen/)_
 
 Following their successful crossing of the Neckar, the Soviets did not stop. Conscious of the grouping of NATO forces south and fully expecting a counter-attack at any time, a plan was needed to pin those forces and allow the Soviet 15th Gds Armoured Division to leapfrog over the 48th Motorized Rifle Division to attack in the direction of Stuttgart.
 

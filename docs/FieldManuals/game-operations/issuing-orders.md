@@ -138,7 +138,9 @@ Not all units follow orders under all circumstances. Self-preservation takes ove
 
 - Units in a group movement halt to keep spacing and formation by role (Recon in front, Main Effort and Line, then Overwatch, and Support in the rear).
 
-**NOTE:** Units doing an automatic Scoot show an “F” for the order type when moving (for “fallback”’; see Section 17.1 above for counter information breakdown). Units that trigger a Withdrawal via SOP settings (see Section 23 below) show a “W” for their orders. These order types cannot be set by the player since they are reactions to whatever is going on in the game for the unit in question.
+!!! note
+
+    Units doing an automatic Scoot show an “F” for the order type when moving (for “fallback”’; see Section 17.1 above for counter information breakdown). Units that trigger a Withdrawal via SOP settings (see Section 23 below) show a “W” for their orders. These order types cannot be set by the player since they are reactions to whatever is going on in the game for the unit in question.
 
 ## Issuing Group Orders
 
@@ -154,4 +156,6 @@ It is possible to give orders to more than one unit at a time via the following 
 
 To issue orders to the selected group, right-click on any of the highlighted units to open the Unit Popup Menu and select an order. If selecting a Movement order, the AI provides intelligent pathing to keep units in a cohesive formation and then spread them out at the final waypoint in defensive locations (if possible) to avoid stacking. Select any unit and alter the placement of the waypoints as you see fit (see Section 22 below for ordering and modifying movement orders).
 
-**NOTE:** Do this efficiently by selecting the order that will apply to the most units and then use the unit’s/units’ Dashboard(s) to change the type of Movement order at various waypoints to individually customize them, as described in the next section.
+!!! note
+
+    Do this efficiently by selecting the order that will apply to the most units and then use the unit’s/units’ Dashboard(s) to change the type of Movement order at various waypoints to individually customize them, as described in the next section.

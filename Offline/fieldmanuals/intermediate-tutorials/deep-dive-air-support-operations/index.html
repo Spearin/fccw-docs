@@ -1,0 +1,994 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://www.ontargetsimulations.com/guides/coldwar/fieldmanuals/intermediate-tutorials/deep-dive-air-support-operations/" rel="canonical"/>
+<link href="../deep-dive-artillery-operations/" rel="prev"/>
+<link href="../deep-dive-nbc-operations/" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.0" name="generator"/>
+<title>Deep Dive: Air Support Operations - Flashpoint Campaigns: Cold War Guides</title>
+<link href="../../../assets/stylesheets/main.618322db.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/neoteroi-mkdocs.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/mil-symbols.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/force.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#deep-dive-air-support-operations">63. 
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Flashpoint Campaigns: Cold War Guides" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Flashpoint Campaigns: Cold War Guides">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Flashpoint Campaigns: Cold War Guides
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Deep Dive: Air Support Operations
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-hidden="true" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="flashpoint" id="__palette_0" name="__palette" type="radio"/>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../info/faq/">
+          
+  
+  
+    
+  
+  Game Info
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
+          
+  
+  
+    
+  
+  Gameplay Manuals
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../reference/Chronology/">
+          
+  
+  
+    
+  
+  Operational Guides
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../userguides/">
+        
+  
+  
+    
+  
+  User Content Guides
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Flashpoint Campaigns: Cold War Guides" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Flashpoint Campaigns: Cold War Guides">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"></path></svg>
+</a>
+    Flashpoint Campaigns: Cold War Guides
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../info/faq/">
+<span class="md-ellipsis">
+    
+  
+    Game Info
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../">
+<span class="md-ellipsis">
+    
+  
+    Gameplay Manuals
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Gameplay Manuals
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../game-operations/welcome-commander-screen/">
+<span class="md-ellipsis">
+    
+  
+    FM01 Game Operations
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../battlefield-primer/combined-arms-battle/">
+<span class="md-ellipsis">
+    
+  
+    FM02 Battlefield Primer
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../basic-tutorials/introduction-to-tutorials/">
+<span class="md-ellipsis">
+    
+  
+    FM03A Basic Tutorials
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    FM03B Intermediate Tutorials
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_3_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_5">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    FM03B Intermediate Tutorials
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../intermediate-tutorial-overview/">
+<span class="md-ellipsis">
+    
+  
+    Intermediate Tutorial Overview
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../engineering-operations/">
+<span class="md-ellipsis">
+    
+  
+    Engineering Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../artillery-operations/">
+<span class="md-ellipsis">
+    
+  
+    Artillery Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../air-support-operations/">
+<span class="md-ellipsis">
+    
+  
+    Air Support Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nbc-operations/">
+<span class="md-ellipsis">
+    
+  
+    NBC Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../deep-dive-on-operations/">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive on Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../deep-dive-combat-engineering/">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive: Combat Engineering
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../deep-dive-artillery-operations/">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive: Artillery Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive: Air Support Operations
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive: Air Support Operations
+  
+
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-are-air-support-operations">
+<span class="md-ellipsis">
+      
+        What are Air Support Operations?
+      
+    </span>
+</a>
+<nav aria-label="What are Air Support Operations?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#key-features-of-air-support-operations">
+<span class="md-ellipsis">
+      
+        Key Features of Air Support Operations
+      
+    </span>
+</a>
+<nav aria-label="Key Features of Air Support Operations" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-mission-planning">
+<span class="md-ellipsis">
+      
+        Air Mission Planning:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#execution-of-air-support-missions">
+<span class="md-ellipsis">
+      
+        Execution of Air Support Missions:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-support-limitations">
+<span class="md-ellipsis">
+      
+        Air Support Limitations:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-mission-adjustments">
+<span class="md-ellipsis">
+      
+        Post-Mission Adjustments:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#weather-and-air-support">
+<span class="md-ellipsis">
+      
+        Weather and Air Support
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-support-units">
+<span class="md-ellipsis">
+      
+        Air Support Units
+      
+    </span>
+</a>
+<nav aria-label="Air Support Units" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#close-air-support-cas">
+<span class="md-ellipsis">
+      
+        Close Air Support (CAS)
+      
+    </span>
+</a>
+<nav aria-label="Close Air Support (CAS)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-cas-aircraft">
+<span class="md-ellipsis">
+      
+        Types of CAS Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interdictionstrike-aircraft">
+<span class="md-ellipsis">
+      
+        Interdiction/Strike Aircraft
+      
+    </span>
+</a>
+<nav aria-label="Interdiction/Strike Aircraft" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-interdictionstrike-aircraft">
+<span class="md-ellipsis">
+      
+        Types of Interdiction/Strike Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#suppression-of-enemy-air-defenses-sead">
+<span class="md-ellipsis">
+      
+        Suppression of Enemy Air Defenses (SEAD)
+      
+    </span>
+</a>
+<nav aria-label="Suppression of Enemy Air Defenses (SEAD)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-suppression-enemy-air-defense-aircraft">
+<span class="md-ellipsis">
+      
+        Types of Suppression Enemy Air Defense Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../deep-dive-nbc-operations/">
+<span class="md-ellipsis">
+    
+  
+    Deep Dive: NBC Operations
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../advanced-tutorials/advanced-tutorial-overview/">
+<span class="md-ellipsis">
+    
+  
+    FM03C Advanced Tutorials
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hotkeys/">
+<span class="md-ellipsis">
+    
+  
+    Hotkeys
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../reference/Chronology/">
+<span class="md-ellipsis">
+    
+  
+    Operational Guides
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../userguides/">
+<span class="md-ellipsis">
+    
+  
+    User Content Guides
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-are-air-support-operations">
+<span class="md-ellipsis">
+      
+        What are Air Support Operations?
+      
+    </span>
+</a>
+<nav aria-label="What are Air Support Operations?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#key-features-of-air-support-operations">
+<span class="md-ellipsis">
+      
+        Key Features of Air Support Operations
+      
+    </span>
+</a>
+<nav aria-label="Key Features of Air Support Operations" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-mission-planning">
+<span class="md-ellipsis">
+      
+        Air Mission Planning:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#execution-of-air-support-missions">
+<span class="md-ellipsis">
+      
+        Execution of Air Support Missions:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-support-limitations">
+<span class="md-ellipsis">
+      
+        Air Support Limitations:
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-mission-adjustments">
+<span class="md-ellipsis">
+      
+        Post-Mission Adjustments:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#weather-and-air-support">
+<span class="md-ellipsis">
+      
+        Weather and Air Support
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#air-support-units">
+<span class="md-ellipsis">
+      
+        Air Support Units
+      
+    </span>
+</a>
+<nav aria-label="Air Support Units" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#close-air-support-cas">
+<span class="md-ellipsis">
+      
+        Close Air Support (CAS)
+      
+    </span>
+</a>
+<nav aria-label="Close Air Support (CAS)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-cas-aircraft">
+<span class="md-ellipsis">
+      
+        Types of CAS Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interdictionstrike-aircraft">
+<span class="md-ellipsis">
+      
+        Interdiction/Strike Aircraft
+      
+    </span>
+</a>
+<nav aria-label="Interdiction/Strike Aircraft" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-interdictionstrike-aircraft">
+<span class="md-ellipsis">
+      
+        Types of Interdiction/Strike Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#suppression-of-enemy-air-defenses-sead">
+<span class="md-ellipsis">
+      
+        Suppression of Enemy Air Defenses (SEAD)
+      
+    </span>
+</a>
+<nav aria-label="Suppression of Enemy Air Defenses (SEAD)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-suppression-enemy-air-defense-aircraft">
+<span class="md-ellipsis">
+      
+        Types of Suppression Enemy Air Defense Aircraft:
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<nav aria-label="Navigation" class="md-path">
+<ol class="md-path__list">
+<li class="md-path__item">
+<a class="md-path__link" href="../../..">
+<span class="md-ellipsis">
+    Home
+  </span>
+</a>
+</li>
+<li class="md-path__item">
+<a class="md-path__link" href="../../">
+<span class="md-ellipsis">
+    Gameplay Manuals
+  </span>
+</a>
+</li>
+<li class="md-path__item">
+<a class="md-path__link" href="../intermediate-tutorial-overview/">
+<span class="md-ellipsis">
+    FM03B Intermediate Tutorials
+  </span>
+</a>
+</li>
+</ol>
+</nav>
+<article class="md-content__inner md-typeset">
+<h1 id="deep-dive-air-support-operations"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.</span> Deep Dive: Air Support Operations</h1>
+<p><em>"Whoever controls the air generally controls the battlefield."</em> – General Dwight D. Eisenhower.</p>
+<p><strong><em>Flashpoint Campaigns Cold War</em></strong> allows players to integrate Air Support Operations, utilizing a variety of aircraft for close air support (<abbr title="Close Air Support">CAS</abbr>), suppression of enemy air defenses (<abbr title="Suppression of Enemy Air Defenses">SEAD</abbr>), aerial reconnaissance and surveillance (ARS), level bombing, utility missions, and gunship strikes. Proper air asset coordination can tip the battle balance by neutralizing high-value targets, suppressing enemy movements, delivering precise firepower, supporting logistical operations, and providing critical battlefield intelligence.</p>
+<p><strong>NOTE:</strong> In reality, <abbr title="North Atlantic Treaty Organization">NATO</abbr> and Warsaw Pact employed different aircraft and munitions; however, in-game air support followed the same mechanics for both sides. Whether calling in a Soviet Su-25 or an American A-10, players will assign air missions. Designate targets and manage air assets using the same interface and rules.</p>
+<h2 id="what-are-air-support-operations"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1</span> What are Air Support Operations?</h2>
+<p>Air Support Operations involve deploying fixed-wing and rotary-wing aircraft to support ground forces. These missions may include close air support, deep strikes, interdiction, and reconnaissance.</p>
+<h3 id="key-features-of-air-support-operations"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1.1</span> Key Features of Air Support Operations</h3>
+<h4 id="air-mission-planning"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1.1.1</span> Air Mission Planning:</h4>
+<ul>
+<li>
+<p>Players can request air support via the Air Support Planner UI.</p>
+</li>
+<li>
+<p>Fixed-wing aircraft missions include:</p>
+</li>
+</ul>
+<p>o Close Air Support (<abbr title="Close Air Support">CAS</abbr>): Engages enemy forces near friendly troops.</p>
+<p>o Interdiction: Targets enemy reinforcements and supply lines.</p>
+<ul>
+<li>Suppression of Enemy Air Defenses (<abbr title="Suppression of Enemy Air Defenses">SEAD</abbr>): Destroying or
+neutralizing enemy surface-to-air missile (<abbr title="Surface-to-Air Missile">SAM</abbr>) sites and anti-aircraft artillery (<abbr title="Anti-Air Artillery">AAA</abbr>).</li>
+</ul>
+<p>o Reconnaissance: Provides critical intelligence on enemy movements.</p>
+<p><strong>NOTE:</strong> Air Assault and Transport will be covered in <strong>FM03C Tutorial Operations: Advanced.</strong></p>
+<h4 id="execution-of-air-support-missions"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1.1.2</span> Execution of Air Support Missions:</h4>
+<ul>
+<li>
+<p>Once assigned, aircraft will proceed to their designated target area.</p>
+</li>
+<li>
+<p><abbr title="Close Air Support">CAS</abbr> missions require forward observers or spotters to improve accuracy.</p>
+</li>
+<li>
+<p>Enemy air defenses pose a risk to aircraft, so <abbr title="Suppression of Enemy Air Defenses">SEAD</abbr> (Suppression of Enemy Air Defenses) missions may be necessary.</p>
+</li>
+</ul>
+<h4 id="air-support-limitations"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1.1.3</span> Air Support Limitations:</h4>
+<ul>
+<li>
+<p>Air assets have limited availability and must be carefully assigned.</p>
+</li>
+<li>
+<p>Weather conditions and airspace control impact mission effectiveness.</p>
+</li>
+<li>
+<p>Aircraft must return to bases for rearming and refueling.</p>
+</li>
+</ul>
+<h4 id="post-mission-adjustments"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.1.1.4</span> Post-Mission Adjustments:</h4>
+<ul>
+<li>
+<p>Players should analyze airstrike effectiveness and adjust future missions accordingly.</p>
+</li>
+<li>
+<p>Air superiority is vital to ensuring uncontested air support operations.</p>
+</li>
+<li>
+<p>Proper integration of air and ground forces enhances battlefield success.</p>
+</li>
+</ul>
+<p>By mastering Air Support Operations, players can exploit airpower’s mobility and striking power, creating opportunities for ground forces to advance and dominate the battlefield.</p>
+<h2 id="weather-and-air-support"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.2</span> Weather and Air Support</h2>
+<p>Weather can change how air support works on the battlefield. Bad weather—like rain, fog, or low clouds—can make it harder for aircraft to see targets, hit accurately, or even take off. Missions like Close Air Support (<abbr title="Close Air Support">CAS</abbr>), Gunship Support, and <abbr title="Suppression of Enemy Air Defenses">SEAD</abbr> may be delayed or less effective if weather conditions are poor. In this section, you’ll learn how to check the weather during a scenario, what different weather effects mean, and how to plan around them so your air missions stay on track.</p>
+<h2 id="air-support-units"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3</span> Air Support Units</h2>
+<p>Let’s examine the types of platforms in this scenario. Then, access the information below using the Dashboard (F4 hotkey) and Subunit Inspector (F6 hotkey).</p>
+<h3 id="close-air-support-cas"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.1</span> Close Air Support (<abbr title="Close Air Support">CAS</abbr>)</h3>
+<p>Close Air Support (<abbr title="Close Air Support">CAS</abbr>) involves ground-attack aircraft with various ammunition designed to engage and destroy ground targets. As the commander, you or the Fire Support Coordination Center (<abbr title="First Support Control Center">FSCC</abbr>) can call in these assets from off-map holding areas. <abbr title="Close Air Support">CAS</abbr> is fast and lethal but remains vulnerable to enemy air defenses.</p>
+<h4 id="types-of-cas-aircraft"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.1.1</span> Types of <abbr title="Close Air Support">CAS</abbr> Aircraft:</h4>
+<ul>
+<li><strong><abbr title="North Atlantic Treaty Organization">NATO</abbr>:</strong></li>
+</ul>
+<p>o A-10A Thunderbolt II – iconic <abbr title="Close Air Support">CAS</abbr> platform, durable, tank-killer.</p>
+<p>o F-4E Phantom II – multi-role, used for <abbr title="Close Air Support">CAS</abbr> in some <abbr title="North Atlantic Treaty Organization">NATO</abbr> forces.</p>
+<p>o Harrier GR.3 or AV-8A/B (USMC/<abbr title="United Kingdom">UK</abbr>) – V/STOL <abbr title="Close Air Support">CAS</abbr> option (terrain flexibility).</p>
+<ul>
+<li><strong>Warsaw Pact:</strong></li>
+</ul>
+<p>o Su-25 Frogfoot – Soviet A-10 equivalent, heavily armored.</p>
+<p>o MiG-21bis or MiG-23BN – secondary <abbr title="Close Air Support">CAS</abbr> roles in Eastern Bloc air forces.</p>
+<h3 id="interdictionstrike-aircraft"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.2</span> Interdiction/Strike Aircraft</h3>
+<p>Interdiction/Strike aircraft are military aircraft designed to conduct precision strikes against enemy ground targets, primarily to disrupt, delay, or destroy enemy forces before they can reach the battlefield.</p>
+<p>These missions typically target supply routes, bridges, convoys, command centers, and other critical infrastructure to impede enemy operations.</p>
+<p>Interdiction can occur deep behind enemy lines (deep interdiction) or closer to the frontline (battlefield interdiction).</p>
+<h4 id="types-of-interdictionstrike-aircraft"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.2.1</span> Types of Interdiction/Strike Aircraft:</h4>
+<ul>
+<li><strong><abbr title="North Atlantic Treaty Organization">NATO</abbr>:</strong></li>
+</ul>
+<p>o F-15E Strike Eagle (Introduced in 1988) - Multi-role, interdiction, strike</p>
+<p>o F-16</p>
+<p>o F-111F Aardvark - Deep strike, interdiction, precision bombing</p>
+<p>o B-52G Stratofortress - Strategic bombing, deep strike, interdiction</p>
+<ul>
+<li><strong>Warsaw Pact:</strong></li>
+</ul>
+<p>o Su-24 Fencer - Deep strike, interdiction, tactical bombing</p>
+<p>o MiG-27 Flogger-D/J - Tactical strike, ground attack</p>
+<p>o Tu-22M Backfire - Long-range strike, maritime interdiction</p>
+<h3 id="suppression-of-enemy-air-defenses-sead"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.3</span> Suppression of Enemy Air Defenses (<abbr title="Suppression of Enemy Air Defenses">SEAD</abbr>)</h3>
+<p>Suppression of Enemy Air Defenses (<abbr title="Suppression of Enemy Air Defenses">SEAD</abbr>) refers to military operations designed to neutralize, destroy, or temporarily degrade enemy air defense systems, including surface-to-air missiles (<abbr title="Surface-to-Air Missiles">SAMs</abbr>), anti-aircraft artillery (<abbr title="Anti-Air Artillery">AAA</abbr>), and associated radar installations.</p>
+<p>The primary goal of <abbr title="Suppression of Enemy Air Defenses">SEAD</abbr> is to reduce the threat posed by these defenses, enabling friendly aircraft to operate more freely in contested airspace.</p>
+<p><abbr title="Suppression of Enemy Air Defenses">SEAD</abbr> missions can involve a combination of electronic warfare (jamming and deception), precision-guided munitions, and direct attacks by aircraft, artillery, or missiles.</p>
+<h4 id="types-of-suppression-enemy-air-defense-aircraft"><span class="enumerate-headings-plugin enumerate-heading-plugin">63.3.3.1</span> Types of Suppression Enemy Air Defense Aircraft:</h4>
+<ul>
+<li><strong><abbr title="North Atlantic Treaty Organization">NATO</abbr></strong></li>
+</ul>
+<p>o F-4E Wild Weasel <strong>-</strong> Detect, engage, and neutralize enemy radar-guided <abbr title="Surface-to-Air Missile">SAM</abbr> sites and air defense systems.</p>
+<ul>
+<li><strong>Warsaw Pact</strong></li>
+</ul>
+<p>o MiG-25BM Foxbat - Destroy enemy radar systems and <abbr title="Surface-to-Air Missile">SAM</abbr> sites using long-range anti-radiation missiles</p>
+<p>o Su-17M4 Fitter-K - Ground attack and <abbr title="Suppression of Enemy Air Defenses">SEAD</abbr> platform</p>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Deep Dive: Artillery Operations" class="md-footer__link md-footer__link--prev" href="../deep-dive-artillery-operations/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                Deep Dive: Artillery Operations
+              </div>
+</div>
+</a>
+<a aria-label="Next: Deep Dive: NBC Operations" class="md-footer__link md-footer__link--next" href="../deep-dive-nbc-operations/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                Deep Dive: NBC Operations
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2025 On Target Simulations (OTS) Ltd. All Rights Reserved.
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.footer", "navigation.tracking", "navigation.path", "navigation.prune", "search.suggest", "toc.follow", "navigation.instant.preview"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+</body>
+</html>

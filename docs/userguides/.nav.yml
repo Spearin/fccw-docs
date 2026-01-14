@@ -1,0 +1,10 @@
+nav:
+  - User Content Guides: index.md
+  - scenario-design/
+  - battle-planning/
+  - campaign-design/
+  - map-construction/
+  - making-mods/
+  - data-structures/
+  - weather-setup/
+  - Map Overlay Creation: map-overlay-creation/

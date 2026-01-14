@@ -1,5 +1,5 @@
 # Eyes Ears and Teeth
-_D+1 | 21 July 1989, 07:00hrs - 11:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Marburg](../../Maps/Marburg/Marburg)_
+_D+1 | 21 July 1989, 07:00hrs - 11:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Marburg](../../Maps/marburg/Marburg/)_
 
 As the 3rd Amored Division fights in the Fulda Gap the offensive further south in the Hof Gap also develops.  The Soviet spearheads seem to be everywhere at the same time.  Communications are not the best.  Many units have ceased to exist.  Others are still fighting for their lives as the tide surges forward
 

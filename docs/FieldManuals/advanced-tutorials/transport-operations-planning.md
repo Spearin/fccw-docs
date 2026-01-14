@@ -2,7 +2,9 @@
 
 Transport operations are meticulously planned by matching the capacity of transport units with the specific needs of the units being moved.
 
-**NOTE:** NATO and Warsaw Pact forces may differ in equipment and capabilities, but both sides rely on the Transport Planner to manage the movement of units. No matter which faction you command, mastering transport planning is essential to ensure the timely arrival of critical forces and coordinated execution of operations. Effective transportation planning can distinguish between success and failure on the battlefield.
+!!! note
+
+    NATO and Warsaw Pact forces may differ in equipment and capabilities, but both sides rely on the Transport Planner to manage the movement of units. No matter which faction you command, mastering transport planning is essential to ensure the timely arrival of critical forces and coordinated execution of operations. Effective transportation planning can distinguish between success and failure on the battlefield.
 
 This is modeled at the individual vehicle, accounting for weight (mass) and personnel (troop capacity). Players can create detailed transportation plans incorporating ground vehicles, helicopters, and escort elements. These plans also define specific routes with designated pick-up and drop-off points. Once established, transport plans are translated into executable orders, which can be further refined, particularly for assault units requiring coordinated movement and rapid deployment after insertion.
 
@@ -14,9 +16,9 @@ For transport-capable units (inorganic transport), the database tracks the weigh
 
 This data is accessible through the Unit Dashboard (F4) and can be viewed at various organizational levels, including section, platoon, and company, as shown below.
 
-![](images/image095.jpg)
+![](images/image048.png)
 
-![](images/image097.jpg)
+![](images/image049.png)
 
 ## Passenger Loading Mechanics
 
@@ -30,9 +32,9 @@ The game simulates the loading of passenger units at the individual squad and ve
 
 **Example:** A single CH-47 Chinook unit, with a capacity of 12 tons and 55 personnel, can transport an American Infantry Platoon of 5.3 tons and 39 personnel.
 
-![](images/image099.jpg)However, a section of two CH-47s, with a combined carrying capacity of 24.6 t and a capacity for 110 men, cannot transport an entire American Infantry Company. This is because the American Infantry Company would have 3 infantry platoon units for a total of 117 men exceeds the seating capacity of the Chinook unit. (This is to say nothing of the headquarters section or weapons platoon that would be part of the company.)
+![](images/image050.png)However, a section of two CH-47s, with a combined carrying capacity of 24.6 t and a capacity for 110 men, cannot transport an entire American Infantry Company. This is because the American Infantry Company would have 3 infantry platoon units for a total of 117 men exceeds the seating capacity of the Chinook unit. (This is to say nothing of the headquarters section or weapons platoon that would be part of the company.)
 
-![](images/image101.jpg)
+![](images/image051.png)
 
 ## Transport Planner UI and Plans
 
@@ -40,7 +42,7 @@ The Transport Planner UI facilitates the creation and modification of transport 
 
 The following image illustrates the Transport Planner, showing a plan for a Helicopter Squadron, four Sections of two per CH-47. The squadron is tasked with transporting an American Infantry Company and four Recon HMMWVs.
 
-![](images/image103.jpg)
+![](images/image052.png)
 
 ## Plans: A Tool for Issuing Orders
 
@@ -48,7 +50,9 @@ A transport plan remains available for review if the units involved have active 
 
 The plan is automatically deleted once all related orders are executed or canceled.
 
-**NOTE:** The transport plan issues complex orders to transport, passenger, and escort units. After creation, the game executes the assigned orders and incorporates subsequent modifications.
+!!! note
+
+    The transport plan issues complex orders to transport, passenger, and escort units. After creation, the game executes the assigned orders and incorporates subsequent modifications.
 
 ## Accessing the Transport Planner
 
@@ -64,13 +68,13 @@ The Transport Planner can be activated for any unit capable of transporting othe
 
 - Click on the unit’s name in the Spotlight OOB (Order of Battle) to open the unit menu.
 
-![](images/image105.jpg)
+![](images/image053.png)
 
 The following image illustrates the unit pop-up menu displaying the ‘Plan Air Transport’ option for a CH-47 Chinook (Helicopter).
 
 Available transport options depend on the unit type and may include:
 
-![](images/image107.jpg)
+![](images/image054.png)
 
 If a transport plan already exists for the selected unit, the planner will display it. Otherwise, a new plan will be created, assigning the chosen unit as the transporter.
 
@@ -78,11 +82,13 @@ If a transport plan already exists for the selected unit, the planner will displ
 
 For transport operations involving multiple units, selecting them on the map using Shift+Click is faster than launching the Transport Planner individually for each unit.
 
-**NOTE:** The pop-up menu will only show transport options applicable to the last selected unit. The Transport Planner will apply add transport units within the selection.
+!!! note
+
+    The pop-up menu will only show transport options applicable to the last selected unit. The Transport Planner will apply add transport units within the selection.
 
 The following image illustrates that launching the planner for multiple selected units generates a new plan, assigning them as transporters, provided that no existing draft or active transport plans include these units.
 
-![](images/image109.jpg)
+![](images/image055.png)
 
 ### Launching Without a Selection
 
@@ -90,9 +96,11 @@ The Transport Planner can be accessed without selecting specific units. This all
 
 As shown below, the Staff menu provides access to the Transport Planner, enabling the creation of various transport plans, regardless of whether specific units have been pre-selected.
 
-![](images/image111.jpg)
+![](images/image056.png)
 
-**NOTE:** The game permits launching features like *Naval Transport Planning* even if the scenario lacks naval units.
+!!! note
+
+    The game permits launching features like *Naval Transport Planning* even if the scenario lacks naval units.
 
 While Air Transport, Naval Transport, Land Transport, and Transport from Ship automatically filter out units that don’t meet the respective transport criteria, the Any Transport option lists all available transport types (air, land, sea).
 
@@ -110,9 +118,9 @@ Each plan tab contains the following:
 
 - Any assigned escort units.
 
-- The plan’scurrent status and corresponding action options.
+- The plan’s current status and corresponding action options.
 
-![](images/image113.jpg)
+![](images/image057.png)
 
 ### Serial versus Current Cargo
 
@@ -144,7 +152,7 @@ The tab system enables you to:
 
 - Click “+ (New Plan)” to create a new transportation plan.
 
-![](images/image115.jpg)
+![](images/image058.png)
 
 ### Transport and Passengers in the Plan
 
@@ -166,7 +174,7 @@ Managing cargo:
 
 - Remove cargo from a transport’s serial: Right-Click the cargo unit counter in the transport’s row.
 
-![](images/image117.jpg)
+![](images/image059.png)
 
 ### Route, Pick-up & Drop-off Locations
 
@@ -190,9 +198,13 @@ Set Drop-off Locations (if applicable):
 
 To modify a route, plot a new one.
 
-**NOTE:** The planner does not allow unit drop-offs before all scheduled pick-ups in the same plan.
+!!! note
 
-**NOTE:** A plan must have at least a drop-off or a pick-up. If you do not want either, do not use the Transport Planner.
+    The planner does not allow unit drop-offs before all scheduled pick-ups in the same plan.
+
+!!! note
+
+    A plan must have at least a drop-off or a pick-up. If you do not want either, do not use the Transport Planner.
 
 ### The Plan’s Escorts
 
@@ -204,13 +216,13 @@ The Escorts section of the plan displays the escort units assigned to the missio
 
 The following image illustrates the Escort section with AH-64 Apache helicopters selected.
 
-![](images/image119.jpg)
+![](images/image060.png)
 
 ### Actions: Issue, Cancel, and Delete
 
 At the bottom of the plan interface, you’ll find a summary of the plan’s state and type, along with three key action buttons: Issue Plan, Cancel Plan, and Delete Plan, as shown in the following image.
 
-![](images/image121.jpg)
+![](images/image061.png)
 
 The following explains their functions:
 
@@ -220,9 +232,13 @@ The following explains their functions:
 
 - Delete Plan: This permanently removes the plan from the Planner, freeing space for new plans. However, deleting a plan does not cancel any orders that have already been issued associated with it.
 
-**NOTE:** If you need to remove a unit from the plan after issuing orders, use ‘Issue Plan’ to ensure the removed unit is no longer assigned orders from the plan.
+!!! note
 
-**NOTE:** Clicking either Issue or Delete Plan will Cancel the plan first, so all units that were previously involved will get set back to default orders.
+    If you need to remove a unit from the plan after issuing orders, use ‘Issue Plan’ to ensure the removed unit is no longer assigned orders from the plan.
+
+!!! note
+
+    Clicking either Issue or Delete Plan will Cancel the plan first, so all units that were previously involved will get set back to default orders.
 
 ## Planner UI – Tabs with Candidate Units
 
@@ -234,7 +250,7 @@ The ‘Transports’ tab displays transport units that match the plan type (e.g.
 
 The following image shows the candidate transport for the current plan. The available transport is listed above a separator line, while allocated transport appears below it in descending order of capacity. **Right-Click** on its unit counter to add a transport unit to the plan.
 
-![](images/image123.jpg)
+![](images/image062.png)
 
 ### Cargo Tab
 
@@ -248,7 +264,9 @@ The “Cargo” tab and the “Cargo by Group” provide access to available car
 
 To add a cargo unit to the selected transport, Right-Click on a unit counter labeled in white text.
 
-**NOTE:** The list of units within the remaining capacity is determined by the currently selected transport in the plan. Assessing whether a unit fits into a transport is more complex than comparing weight and personnel limits. For detailed information, refer to Section above, “Transport Capacity and Requirements.”
+!!! note
+
+    The list of units within the remaining capacity is determined by the currently selected transport in the plan. Assessing whether a unit fits into a transport is more complex than comparing weight and personnel limits. For detailed information, refer to Section above, “Transport Capacity and Requirements.”
 
 The accompanying image illustrates candidate cargo units, displaying:
 
@@ -260,7 +278,7 @@ The accompanying image illustrates candidate cargo units, displaying:
 
 All units are sorted to increase transport requirements.
 
-![](images/image125.jpg)
+![](images/image063.png)
 
 ### Cargo by Group Tab
 
@@ -270,7 +288,7 @@ It prioritizes maintaining unit integrity by distinguishing units from the same 
 
 As shown in the following image, units belonging to the same group as the existing cargo appear above the separator line. In contrast, other units are sorted by group and transport requirements below. To add a unit, Right-Click on a unit counter with white text.
 
-![](images/image127.jpg)
+![](images/image064.png)
 
 ### Escort Tab
 
@@ -278,7 +296,7 @@ The ‘Escort’ tab displays eligible escort units that meet the transport’s 
 
 The following image illustrates that available escort units are listed above the separator line, while unavailable units are listed below. Right-Click on a unit counter above the separator line to assign an escort to the plan.
 
-![](images/image129.jpg)
+![](images/image065.png)
 
 ## Monitoring Transport Operations
 
@@ -294,13 +312,15 @@ Transport operations can be tracked using three primary methods:
 
 The transport overlay highlights movement corridors for current and planned transport operations, including designated load and unload locations.
 
-![](images/image131.jpg)The image above emphasizes the route from pick-up (if applicable) to drop-off, while the return (egress) portion is less prominent.
+![](images/image066.png)The image above emphasizes the route from pick-up (if applicable) to drop-off, while the return (egress) portion is less prominent.
 
 - If a pick-up or drop-off occurs within a hex, a single load/unload hex is displayed.
 
 This overlay appears automatically when planning transport and can be manually enabled through the *Multi-Unit Overlays* menu under *Transport Plans*.
 
-**NOTE:** These corridors serve as a reference. Transport units may adjust their routes between waypoints as necessary.
+!!! note
+
+    These corridors serve as a reference. Transport units may adjust their routes between waypoints as necessary.
 
 ### TOC Operations – Transport Tab
 
@@ -308,7 +328,7 @@ The ‘*Transport’* tab in TOC Operations provides a comprehensive view of ong
 
 The following image presents a summary of active operations and remaining transport capacity.
 
-![](images/image133.jpg)
+![](images/image067.png)
 
 ### Unit Dashboard – Transport Information
 
@@ -316,9 +336,11 @@ The Unit Dashboard provides essential transport details for units engaged in tra
 
 The image below highlights the Unit Dashboard’s capability to connect cargo and transport units (marked in red). This functionality streamlines navigation, enabling users to view and manage unit orders efficiently.
 
-![](images/image135.jpg)
+![](images/image068.png)
 
-**NOTE:** Clicking on a cargo unit in the plan will automatically update the Unit Dashboard to display that specific cargo unit.
+!!! note
+
+    Clicking on a cargo unit in the plan will automatically update the Unit Dashboard to display that specific cargo unit.
 
 ## Issuing Orders After Disembarkation
 

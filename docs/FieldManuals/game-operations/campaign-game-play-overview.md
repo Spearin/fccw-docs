@@ -14,7 +14,9 @@ Click Play to proceed.
 
 Only the Difficulty settings can be customized for a campaign, as shown below. Select a Difficulty preset or set custom Game Options and Fog of War options that will apply to all scenarios in the campaign. These settings are covered in Section 4.3 above.
 
-**NOTE:** You cannot pick which side you play or who your opponent will be in a campaign. These are specified by the campaign author, and the opponent will be the AI.
+!!! note
+
+    You cannot pick which side you play or who your opponent will be in a campaign. These are specified by the campaign author, and the opponent will be the AI.
 
 ![](images/image573.jpg)
 
@@ -42,23 +44,23 @@ Click on Proceed to view the Scenario Information dialog for the usual postmorte
 
 - For the first scenario, it will show:
 
-o The Scenario Briefing, including scenario start and end game times.
+- The Scenario Briefing, including scenario start and end game times.
 
-o The Scenario Verdict, including your star rating and very brief staff evaluation (see Section 30.1 above).
+- The Scenario Verdict, including your star rating and very brief staff evaluation (see Section 30.1 above).
 
-o The distribution of Victory Points between forces.
+- The distribution of Victory Points between forces.
 
-o The Core Force Status, depicted with a bar graph of how many unit types are still active.
+- The Core Force Status, depicted with a bar graph of how many unit types are still active.
 
 - As subsequent scenarios’ results are available, it will also show:
 
-o Details on the Campaign Force Recovery Phase, including where you are in the progression of the campaign and Recovery details for your core forces.
+- Details on the Campaign Force Recovery Phase, including where you are in the progression of the campaign and Recovery details for your core forces.
 
-o The Subunit Distribution in table form, about the fate of your units.
+- The Subunit Distribution in table form, about the fate of your units.
 
-o Any new Force Attachments made to your force.
+- Any new Force Attachments made to your force.
 
-o Followed by the same information as provided for the first scenario, as above.
+- Followed by the same information as provided for the first scenario, as above.
 
 - When the entire campaign is complete, a final summary evaluation is appended for you to review.
 

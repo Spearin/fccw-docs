@@ -3,6 +3,7 @@ nav:
   - Section: index.md
   - FM01 Game Operations: game-operations/
   - FM02 Battlefield Primer: battlefield-primer/
+  - FM03 Tutorials Overview: tutorials-overview.md
   - FM03A Basic Tutorials: basic-tutorials/
   - FM03B Intermediate Tutorials: intermediate-tutorials/
   - FM03C Advanced Tutorials: advanced-tutorials/

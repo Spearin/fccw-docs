@@ -16,7 +16,9 @@ Next is a list box showing all the saved scenarios in the selected folder. Click
 
 Each saved game defaults to a file name containing the name of the scenario, the real-world date and time it was saved at, the percentage of the scenario completed, and the in-game time of that save point. This allows you to replay a scenario from any of these points in battle. File names can also be manually entered at the time of saving.
 
-**NOTE:** Games can be set to auto-save at the start of each turn resolution via Additional Settings in the Turn Resolution tab of User Preferences.
+!!! note
+
+    Games can be set to auto-save at the start of each turn resolution via Additional Settings in the Turn Resolution tab of User Preferences.
 
 The Selection Details panel to the right shows the number of saved scenario games and has a button to delete the highlighted save at the bottom. Click the Delete Selections button to remove the highlighted save. Multiple saves can be removed by checking the box for Allow Multiple Selections.
 
@@ -34,7 +36,9 @@ Next is a list box showing all the saved campaigns in the selected folder. Click
 
 Each saved game defaults to a file name containing the name of the campaign, the campaign number followed by scenario number and scenario name, the real-world date and time it was saved at, the percentage of the scenario completed, and the in-game time of that save point. This allows you to replay a campaign from any of these points in battle. File names can also be manually entered at the time of saving.
 
-**NOTE:** Games can be set to auto-save at the start of each turn resolution via Additional Settings in the Turn Resolution tab of User Preferences.
+!!! note
+
+    Games can be set to auto-save at the start of each turn resolution via Additional Settings in the Turn Resolution tab of User Preferences.
 
 The Selection Details panel to the right shows the number of saved campaign games and has a button to delete the highlighted save at the bottom. Click the Delete Selections button to remove the highlighted save. Multiple saves can be removed by checking the box for Allow Multiple Selections.
 

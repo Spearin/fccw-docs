@@ -1,5 +1,5 @@
 # Regulars Forward
-_D+0 | 20 July 1989, 19:00hrs - 01:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Koenigsfeld](../../Maps/Koenigsfeld/Koenigsfeld)_
+_D+0 | 20 July 1989, 19:00hrs - 00:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Koenigsfeld](../../Maps/koenigsfeld/Koenigsfeld/)_
 
 As news of the quasi-disaster in Königsfeld started to filter through NATO channels, the battered remnants of the West-German 102nd Panzer Grenadier Battalion were salvaging whatever they could and setting up defensive positions on the western approaches to Bayreuth. What was particularly worrying for them was that they learned, after restoring communications with their HQ, that there would be no reinforcements coming anytime soon. This was due to the Czechoslovakian forces having breached the border and advancing in large numbers.
 

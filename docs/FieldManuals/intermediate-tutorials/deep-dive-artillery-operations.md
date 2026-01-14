@@ -1,12 +1,16 @@
 # Deep Dive: Artillery Operations
 
-*"Artillery conquers and infantry occupies."* – Napoleon Bonaparte.
+!!! quote
+
+    *"Artillery conquers and infantry occupies."* – Napoleon Bonaparte.
 
 ***Flashpoint Campaigns Cold War*** features a robust artillery system that allows players to provide indirect fire support to friendly forces.
 
 Artillery operations are crucial for suppressing enemy positions, disrupting enemy movement, and providing force multipliers in offensive and defensive scenarios.
 
-**NOTE: A**rtillery units from NATO and the Warsaw Pact may look different and have different names, but they work the same way in the game. You’ll use the same steps to call in fire missions, move artillery units, and keep them supplied—no matter which side you play. Focus on learning how to use artillery effectively, and you’ll be successful with any faction.
+!!! note
+
+    Artillery units from NATO and the Warsaw Pact may look different and have different names, but they work the same way in the game. You’ll use the same steps to call in fire missions, move artillery units, and keep them supplied—no matter which side you play. Focus on learning how to use artillery effectively, and you’ll be successful with any faction.
 
 ## What are Artillery Operations?
 
@@ -22,11 +26,11 @@ Artillery Operations provides critical fire support to maneuver forces by delive
 
 - Artillery units can conduct various fire missions, including:
 
-o Suppression Fire: Disrupts enemy forces by lowering their combat effectiveness.
+- Suppression Fire: Disrupts enemy forces by lowering their combat effectiveness.
 
-o Counter-Battery Fire: Targets enemy artillery positions using counter-battery radar data to detect and engage enemy artillery units.
+- Counter-Battery Fire: Targets enemy artillery positions using counter-battery radar data to detect and engage enemy artillery units.
 
-o Pre-planned strikes: Conducted before or during engagements to weaken enemy positions.
+- Pre-planned strikes: Conducted before or during engagements to weaken enemy positions.
 
 #### Execution of Artillery Strikes:
 
@@ -100,9 +104,9 @@ Artillery can be classified into several types based on its role and firing char
 
 - Example units:
 
-o M109A3 Paladin – NATO standard self-propelled
+- M109A3 Paladin – NATO standard self-propelled
 
-o 155mm howitzer. 2S1 Gvozdika – Soviet 122mm self-propelled howitzer.
+- 155mm howitzer. 2S1 Gvozdika – Soviet 122mm self-propelled howitzer.
 
 #### Towed Artillery:
 
@@ -112,9 +116,9 @@ o 155mm howitzer. 2S1 Gvozdika – Soviet 122mm self-propelled howitzer.
 
 - Example units:
 
-o M198 155mm Howitzer – US Army/Marine Corps towed artillery.
+- M198 155mm Howitzer – US Army/Marine Corps towed artillery.
 
-o D-30 122mm Howitzer – Standard Soviet/Russian divisional artillery piece.
+- D-30 122mm Howitzer – Standard Soviet/Russian divisional artillery piece.
 
 #### Rocket Artillery:
 
@@ -124,9 +128,9 @@ o D-30 122mm Howitzer – Standard Soviet/Russian divisional artillery piece.
 
 - Example units:
 
-o M270 MLRS – NATO multiple-launch rocket system capable of firing guided or unguided rockets.
+- M270 MLRS – NATO multiple-launch rocket system capable of firing guided or unguided rockets.
 
-o BM-21 Grad – Soviet 122mm multiple launch rocket system.
+- BM-21 Grad – Soviet 122mm multiple launch rocket system.
 
 #### Mortars:
 
@@ -136,15 +140,17 @@ o BM-21 Grad – Soviet 122mm multiple launch rocket system.
 
 - Example units:
 
-o M120 120mm Mortar – US heavy mortar for indirect support.
+- M120 120mm Mortar – US heavy mortar for indirect support.
 
-o 2B11 Sani 120mm Mortar – Soviet standard battalion-level mortar.
+- 2B11 Sani 120mm Mortar – Soviet standard battalion-level mortar.
 
 ### **Types of Ammunition**
 
 Each combat unit employs specific types of ammunition based on its role and weapon system. Understanding and leveraging the right ammunition type is critical to maximizing battlefield effectiveness and achieving mission success.
 
-**NOTE:** This tutorial's naming conventions for artillery ammunition types are standardized for clarity and consistency. They apply equally to both NATO and Warsaw Pact forces, regardless of differences in exact munitions or terminology used historically.
+!!! note
+
+    This tutorial's naming conventions for artillery ammunition types are standardized for clarity and consistency. They apply equally to both NATO and Warsaw Pact forces, regardless of differences in exact munitions or terminology used historically.
 
 Nuclear rounds are not delivered by conventional artillery. Instead, they are assigned to missile systems outside the direct control of artillery units. These weapons may represent tactical or strategic nuclear capabilities depending on the scenario.
 

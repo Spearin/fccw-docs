@@ -4,7 +4,9 @@
 
 This menu allows players to customize SOP settings for selected units or apply SOPs based on unit type and the chosen SOP package.
 
-**NOTE:** All units in Flashpoint Campaigns: Cold War follow Standard Operating Procedures (SOPs) similarly, no matter the faction. SOPs dictate how units respond to enemy contact, utilize cover, or employ weapons. NATO or Warsaw Pact—your units will follow your SOP settings consistently.
+!!! note
+
+     All units in Flashpoint Campaigns: Cold War follow Standard Operating Procedures (SOPs) similarly, no matter the faction. SOPs dictate how units respond to enemy contact, utilize cover, or employ weapons. NATO or Warsaw Pact—your units will follow your SOP settings consistently.
 
 For detailed instructions on the Standard Operating Procedure, refer to ***FM01 Game Operations***.
 

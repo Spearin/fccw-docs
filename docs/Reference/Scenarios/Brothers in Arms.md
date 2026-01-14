@@ -1,5 +1,5 @@
 # Brothers in Arms
-_D+1 | 21 July 1989, 20:00hrs - 02:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-eg:](../Forces/East Germany.md) @ [Kulmbach](../../Maps/Kulmbach/Kulmbach)_
+_D+1 | 21 July 1989, 20:00hrs - 02:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-eg:](../../Forces/East Germany/) @ [Kulmbach](../../Maps/kulmbach/Kulmbach/)_
 
 Far away from the front, the East-German 7th Panzer Division had an initial attack that was straight out of a drill book. They started moving under cover of the Warsaw Pact’s first push for air superiority and started well behind the front line. Together with their fellow group units, they were part of the second-echelon forces. They were earmarked to give the knock-out punch in the Fulda Gap and take Frankfurt. The 7th Panzer’s route took them on an axis that was aimed at the Hof Corridor. The division had the option to attack the corridor or move parallel to it and then either support the Soviet 39th MRD or the main drive to Frankfurt.
 

@@ -1,5 +1,6 @@
 nav:
-  - welcome-commander-screen.md
+  - FM01 Overview: index.md
+  - main-menu.md
   - user-preferences.md
   - start-a-new-scenario.md
   - start-a-new-campaign.md

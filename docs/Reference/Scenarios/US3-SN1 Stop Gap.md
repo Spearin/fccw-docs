@@ -1,5 +1,5 @@
 # US3-SN1 Stop Gap
-_D+6 | 26 July 1989, 10:00hrs - 14:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Lauterbach_Hessen](../../Maps/Lauterbach_Hessen/Lauterbach_Hessen)_
+_D+6 | 26 July 1989, 10:00hrs - 14:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Lauterbach_Hessen](../../Maps/lauterbach_hessen/Lauterbach_Hessen/)_
 
 The 1st Guards Tank Army has made significant gains in the early stage of the war. The successful attack at Fulda has changed many timelines.  The 20th Motor Rifle Division (MRD) is leading one avenue of approach out of Fulda.   A Tank Division is close behind, ready to exploit any opening.
 

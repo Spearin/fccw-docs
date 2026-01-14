@@ -1,5 +1,5 @@
 # US3-SN3 Push Back
-_D+10 | 30 July 1989, 06:00hrs - 11:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Nidda](../../Maps/Nidda/Nidda)_
+_D+10 | 30 July 1989, 06:00hrs - 11:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Nidda](../../Maps/nidda/Nidda/)_
 
 The Soviets have continued to attack the main defence line.  They have switched to the 11th Tank Division as the line weakens.  It is anticipated that they will breach the line early this morning.  The 44th Tank Regiment is poised to exploit towards Nidda.  They will likely advance along one main axis towards Nidda.
 

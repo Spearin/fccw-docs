@@ -1,5 +1,5 @@
 # The Battle Of The Nations
-_D+37 | 26 August 1989, 08:00hrs - 13:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Soest](../../Maps/Soest/Soest)_
+_D+37 | 26 August 1989, 08:00hrs - 13:00hrs [:smflag-gb:](../../Forces/United Kingdom/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Soest](../../Maps/soest/Soest/)_
 
 As the Soviet forces advanced deeper the issue of bypassing pockets of resistance came to the forefront.
 

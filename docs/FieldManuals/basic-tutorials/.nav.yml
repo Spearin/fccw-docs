@@ -1,5 +1,6 @@
 nav:
-  - introduction-to-tutorials.md
+  - Basic Tutorial Introduction: index.md
+  - introduction.md
   - load-the-basic-operations-tutorial.md
   - user-interface-layout.md
   - standard-operating-procedure-sop.md

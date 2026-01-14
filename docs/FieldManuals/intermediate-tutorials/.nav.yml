@@ -1,10 +1,10 @@
 nav:
-  - intermediate-tutorial-overview.md
+  - Intermediate Tutorial Introduction: index.md
+  - introduction.md
   - engineering-operations.md
   - artillery-operations.md
   - air-support-operations.md
   - nbc-operations.md
-  - deep-dive-on-operations.md
   - deep-dive-combat-engineering.md
   - deep-dive-artillery-operations.md
   - deep-dive-air-support-operations.md

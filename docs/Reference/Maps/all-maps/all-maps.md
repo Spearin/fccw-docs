@@ -598,19 +598,18 @@
 
     ![Lichtenfels Gameplay Map]({{ img('Lichtenfels.jpg') }})
 
+---
+
+## Marburg
+
+=== "Briefing Map"
+
     ![Marburg Briefing Map]({{ img('Marburg.briefing.jpg') }})
 
 === "Gameplay Map"
 
     ![Marburg Gameplay Map]({{ img('Marburg.jpg') }})
-=======
-    ![Marburg Briefing Map](marburg/Marburg.briefing.jpg)
-
-=== "Gameplay Map"
-
-    ![Marburg Gameplay Map](marburg/Marburg.jpg)
->>>>>>> f38cecd (Many changes to folder structure, new maps, scenarios, etc.)
-
+    
 ---
 
 ## Marktredwitz

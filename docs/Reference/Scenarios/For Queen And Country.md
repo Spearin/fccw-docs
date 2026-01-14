@@ -1,5 +1,5 @@
 # For Queen And Country
-_D+24 | 13 August 1989, 14:00hrs - 20:00hrs [:smflag-gb:](../Forces/United Kingdom.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Geseke](../../Maps/Geseke/Geseke)_
+_D+24 | 13 August 1989, 14:00hrs - 20:00hrs [:smflag-gb:](../../Forces/United Kingdom/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Geseke](../../Maps/geseke/Geseke/)_
 
 The NORTHAG counterattack did not surprise the Pact forces. Even if expected, their extended defensive lines were slowly being rolled back and some areas were crumbling under pressure.
 

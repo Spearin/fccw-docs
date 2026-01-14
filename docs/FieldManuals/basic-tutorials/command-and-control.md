@@ -2,7 +2,9 @@
 
 In Flashpoint Campaigns: Cold War, Command and Control (C2) refer to effectively directing and coordinating military units to accomplish assigned missions. C2 involves managing the flow of information, issuing orders, and maintaining situational awareness through the game’s command interface. The game simulates realistic command delays, communication disruptions, and decision-making processes, requiring players to plan, adjust, and synchronize operations while considering unit readiness, command structure, and battlefield conditions.
 
-**NOTE:**In Flashpoint Campaigns: Cold War, the Command and Control (C2) system operates similarly for both NATO and the Warsaw Pact. Units rely on HQs, radios, and delays in receiving orders and reporting contact. Managing your chain of command is key to success, regardless of your side.
+!!! important
+
+    In Flashpoint Campaigns: Cold War, the Command and Control (C2) system operates similarly for both NATO and the Warsaw Pact. Units rely on HQs, radios, and delays in receiving orders and reporting contact. Managing your chain of command is key to success, regardless of your side.
 
 For detailed instructions on Command and Control, refer to ***FM01 Game Operations***.
 
@@ -26,7 +28,9 @@ If you select a subordinate unit, like the scout seen below, you get the line of
 
 With the overlay active you can select any unit and see the command relationship. Also, it is worth noting that the AH-64 and the Artillery Battery do not report to the 11ACR unit as they are on the same level in the OOB and are considered independent units (command themselves).
 
-**NOTE:** If there are other HQs in the Command Chain, clicking on one will show the command chain to the others based on which HQ you select.
+!!! note
+
+    If there are other HQs in the Command Chain, clicking on one will show the command chain to the others based on which HQ you select.
 
 You can turn this overlay off right-clicking a unit and deselecting the Chain of Command entry. You can also close this by clicking the Special button on the bottom left speed buttons.
 

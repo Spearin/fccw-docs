@@ -98,17 +98,17 @@ An air strike attack starts with the sound effect of the approaching jet(s) and 
 
 - All eligible defending units (air defense [AD] units and units with AD-capable weapons) located within range of the target location attempt to Detect the attacking aircraft.
 
-o AD units are much better at defense than standard units with anti-air weapons. Units with AD-capable weapons must have the aircraft approaching it directly to engage.
+- AD units are much better at defense than standard units with anti-air weapons. Units with AD-capable weapons must have the aircraft approaching it directly to engage.
 
 - Air defense units that happen to Spot the fast-moving attackers will fire during the approach.
 
-o If the aircraft is a level bomber flying at higher altitudes above the battlefield, it will only be engaged by weapons that reach the target altitude.
+- If the aircraft is a level bomber flying at higher altitudes above the battlefield, it will only be engaged by weapons that reach the target altitude.
 
-o Both aircraft and AD units have a few electronic and other systems used to degrade the performance of the enemy.
+- Both aircraft and AD units have a few electronic and other systems used to degrade the performance of the enemy.
 
 - Combat hints alert the player to any events of radar detection, AD attack evasion, or loss of aircraft if one or more is shot down. If an aircraft is shot down, then an appropriate sound effect is played.
 
-o The pilots’ Readiness plays heavily into their ability to detect AD fire and avoid it. If you push your pilots on repeated passes, fatigue may lead to a mistake and a loss of the aircraft and crew. See Section 26 below for combat soft factors like Readiness.
+- The pilots’ Readiness plays heavily into their ability to detect AD fire and avoid it. If you push your pilots on repeated passes, fatigue may lead to a mistake and a loss of the aircraft and crew. See Section 26 below for combat soft factors like Readiness.
 
 - The bomb’s special effects are rendered in the impact location on the ordnance delivery pass and combat losses are immediately applied to all units located there. Friendly and enemy units are both equally at risk if they occupy the impact location.
 
@@ -122,7 +122,9 @@ One of the new orders in the game is the Hunt order for helicopters. This order 
 
 Nuclear, chemical, and biological (NBC) weapons are extremely powerful and not to be taken lightly. Using these weapons will also cost Victory Points which must be taken into consideration when choosing to deploy them (see Section 15.1.2 above for victory information). Weapons of mass destruction come in three types: nuclear weapons, persistent chemical weapons, and non-persistent chemical weapons.
 
-**NOTE:** The game does not include biological weapons on the battlefield.
+!!! note
+
+    The game does not include biological weapons on the battlefield.
 
 - **Nuclear Weapons** – A nuclear strike (which has a very awesome animation) is resolved as a series of separate attacks against all units caught within the blast range. For game purposes, we assume a tactical nuclear capability of an approximately 10 kiloton yield with a 2 kilometer blast radius. Subunits will be eliminated based on distance from the blast center by their intrinsic protection rating, NBC rating, Cover level, and posture. Units also suffer massive losses in both Readiness and Morale even if they survive the blast and are automatically contaminated with radiation. Contamination can cause additional losses over time if not dealt with quickly after the attack by issuing a Rest and Resupply order. All bridges, smoke clouds, minefields, and chemical contamination within the blast zone will be eliminated.
 

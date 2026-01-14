@@ -1,5 +1,5 @@
 # CA1-SN1 Hold Them Here
-_D+5 | 25 July 1989, 05:00hrs - 09:00hrs [:smflag-ca:](../Forces/Canada.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Rottenburg](../../Maps/Rottenburg/Rottenburg)_
+_D+5 | 25 July 1989, 05:00hrs - 09:00hrs [:smflag-ca:](../../Forces/Canada/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Rottenburg](../../Maps/rottenburg/Rottenburg/)_
 
 During the night, the West German forces that had been fighting the Soviet 20 Motor Rifle Division (MRD) conducted a rearward passage of lines.  This handed the battle over to 2nd Princess Patricia’s Canadian Light Infantry (PPCLI) Battalion (Bn), who have been preparing their defence line for most of the last day.
 

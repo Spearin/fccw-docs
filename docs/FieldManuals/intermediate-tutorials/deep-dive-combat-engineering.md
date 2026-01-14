@@ -1,10 +1,14 @@
 # Deep Dive: Combat Engineering
 
-*"If you can’t go through it, blow it up or build a bridge."* – Sapper’s Motto.
+!!! quote
+
+    *"If you can’t go through it, blow it up or build a bridge."* – Sapper’s Motto.
 
 ***Flashpoint Campaigns: Cold War***supports various battlefield operations, including the use of engineer units to shape the battlefield through mobility, survivability, and fortification tasks. Engineer units are crucial in constructing defensive positions, clearing obstacles, breaching enemy fortifications, and laying minefields to control key terrain.
 
-**NOTE:** Although NATO and Warsaw Pact engineers use different vehicles, the engineering tasks—such as breaching obstacles, placing mines, or demolishing bridges—work similarly in-game. Focus on the timing and sequencing of your engineering missions, not the faction-specific tools.
+!!! note
+
+    Although NATO and Warsaw Pact engineers use different vehicles, the engineering tasks—such as breaching obstacles, placing mines, or demolishing bridges—work similarly in-game. Focus on the timing and sequencing of your engineering missions, not the faction-specific tools.
 
 This tutorial focuses on Engineer Operations, detailing how these units can be effectively deployed and utilized to enhance battlefield effectiveness.
 

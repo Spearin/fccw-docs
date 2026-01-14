@@ -1,5 +1,6 @@
 nav:
-  - advanced-tutorial-overview.md 
+  - Advanced Tutorials Introduction: index.md
+  - introduction.md
   - air-assault-operations.md
   - simplified-air-assault-operations.md
   - detailed-air-assault-operation.md

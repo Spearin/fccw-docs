@@ -1,13 +1,7 @@
 # US1-SN3 Iron Rangers
-_D+4 | 24 July 1989, 14:00hrs - 20:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Aichelberg](../../Maps/Aichelberg/Aichelberg)_
+_D+4 | 24 July 1989, 14:00hrs - 20:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Aichelberg](../../Maps/aichelberg/Aichelberg/)_
 
-Location: Aichelberg
-
-Date: July 24, 1989 - Day 4 @ 14:00hrs
-
-Opposing Forces: United States vs Soviet Union
-
-Despite the intense pressure at the front, the retreat from the town of Göppingen displayed remarkable organization, largely due to the chaos encountered by the Soviet lead elements. The strategic placement of obstacles, chemical zones, and raging fires in both the woods and the town itself provided valuable time for the 4-16 IN to withdraw. The arrival of the Bundeswehr's 253rd Fallschirmjager Battalion (FschjgBtl 253) in the vicinity of the town of Kirchheim further bolstered defenses, determined to prevent the Soviets from crossing the Neckar River and gaining access to Stuttgart.
+Despite the intense pressure at the front, the retreat from the town of Göppingen displayed remarkable organization, largely due to the chaos encountered by the Soviet lead elements. The strategic placement of obstacles, chemical zones, and raging fires in both the woods and the town itself provided valuable time for the 4-16 IN to withdraw. The arrival of the Bundeswehr&#x27;s 253rd Fallschirmjager Battalion (FschjgBtl 253) in the vicinity of the town of Kirchheim further bolstered defenses, determined to prevent the Soviets from crossing the Neckar River and gaining access to Stuttgart.
 
 The Soviet 48 MRD advanced towards the Neckar River in disarray, with the previously bypassed 375th Tank Regiment (375 TR) now overtaking its former lead. Despite encountering heavy resistance from German forces on the flanks and a perceived collapse of the American units, the Soviet command believed they were making headway towards the town of Kirchheim along the Bundesstraßen 279 axis. Consequently, the Soviet Commander was granted additional artillery, helicopter, and fixed-wing support, and ordered to accelerate towards Kirchheim.
 

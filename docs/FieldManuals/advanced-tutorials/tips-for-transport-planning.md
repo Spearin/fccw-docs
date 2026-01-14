@@ -1,4 +1,4 @@
-# Tips for Transport Planning …
+# Tips for Transport Planning
 
 Planning an air assault operation requires a deliberate, synchronized process that integrates ground and aviation elements under a unified scheme of maneuver. Begin by conducting a detailed mission analysis and terrain study to identify potential pick-up zones (PZs), landing zones (LZs), and enemy positions. Develop a task organization by assigning units into assault, security, and support forces, each with specific roles during the operation. Coordinate with supporting arms such as artillery and close air support (CAS) for Suppression of Enemy Air Defenses (SEAD) and landing zone preparation. Synchronize timelines for air movement, fire support, and ground maneuver to ensure unity of effort. Prioritize communication planning and contingency actions to maintain command and control during all assault phases.
 
@@ -52,4 +52,6 @@ Start Execution: Press ‘Start’ on the game clock panel to execute the orders
 
 **Reminder:** Even with a well-executed air assault plan, the game simulates real-world uncertainty—expect the unexpected after first contact.
 
-**NOTE:** All these basic tips and steps apply to ground transport operations as well.
+!!! note
+
+    All these basic tips and steps apply to ground transport operations as well.

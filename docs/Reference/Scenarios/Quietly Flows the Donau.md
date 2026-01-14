@@ -1,5 +1,5 @@
 # Quietly Flows the Donau
-_D+1 | 21 July 1989, 08:00hrs - 12:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-cz:](../Forces/Czechoslovakia.md) @ [Aiterhofen](../../Maps/Aiterhofen/Aiterhofen)_
+_D+1 | 21 July 1989, 08:00hrs - 12:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-cz:](../../Forces/Czechoslovakia/) @ [Aiterhofen](../../Maps/aiterhofen/Aiterhofen/)_
 
 On the Bavarian East, the war had, so far, been slow in developing. The Czechoslovakian forces had been split from the first hour, with the 2nd Motorized Rifle Division taking a northwest route that would eventually lead to Amberg. Meanwhile, the 15th Motorized Rifle Division took a more southwest route aimed at Munich. Their hope was that the dual-pronged advance would split the already dispersed NATO defenses. The West-German 11th Panzer Grenadeir Brigade had control of the area and, for the first day of the offensive, had been able to hold the line with minor issues. The fact that it was close to its higher HQ had helped in coordinating the defense under the heavy EW blanket laid down by the Czechoslovakians.
 

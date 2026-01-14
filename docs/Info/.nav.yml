@@ -1,5 +1,6 @@
 nav:
-  - FAQ: faq.md
-  - Setup: setup.md
-  - Releases: releases/
-  - Credits: credits.md
+  - Info Overview: index.md
+  - about.md
+  - faq.md
+  - setup.md
+  - credits.md

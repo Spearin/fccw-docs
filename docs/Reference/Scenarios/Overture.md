@@ -1,5 +1,5 @@
 # Overture
-_D+1 | 21 July 1989, 02:00hrs - 06:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Forchheim](../../Maps/Forchheim/Forchheim)_
+_D+1 | 21 July 1989, 02:00hrs - 06:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Forchheim](../../Maps/forchheim/Forchheim/)_
 
 The HQ of the US 1st Armored Division was a hive of activity overnight. The division was the focal point around which several other formations critical for NATO's defense rotated. To the northwest, the US 3rd Infantry Division was one of the formations struggling to contain the major push towards Frankfurt by the combined Soviet and East-German forces. To the north, elements of the division and of the West-German 10th Panzer Brigade tried to contain the Soviet 39th Motor Rifle Division.
 

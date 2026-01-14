@@ -1,5 +1,5 @@
 # Seek-Fix-Destroy
-_D+13 | 02 August 1989, 06:00hrs - 12:00hrs [:smflag-us:](../Forces/United States.md) vs [:smflag-so:](../Forces/Soviet Omg.md) @ [Buchholz](../../Maps/Buchholz/Buchholz)_
+_D+13 | 02 August 1989, 06:00hrs - 12:00hrs [:smflag-us:](../../Forces/United States/) vs [:smflag-so:](../../Forces/Soviet Omg/) @ [Buchholz](../../Maps/buchholz/Buchholz/)_
 
 The Soviet 3rd Shock Army hit the Netherlands and West German defenders hard in the opening days of the war with goal of reaching the Elbe River no matter the costs.  And this attack was successful with the 3rd Shock Army reaching the river by July 31.  Keeping the initiative and the attack moving, the 207th Motor Rifle Division conducted a hasty assault crossing of the Elbe River at the bend of the river at Fliegenberg during the night of July 31/ August 1.  This “crossing on the fly” caught NATO by surprise and caused the Netherlands I Corps and West German I Corps defense to collapse. The Soviet engineers worked furiously to get the ferry going as the 2nd Guards Tank Army (GTA) was hot on the heels of the 3rd Shock, ready to exploit.
 

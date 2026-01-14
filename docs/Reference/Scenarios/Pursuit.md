@@ -1,5 +1,5 @@
 # Pursuit
-_D+22 | 11 August 1989, 07:00hrs - 13:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Breitenbach am Herzberg](../../Maps/Breitenbach-am-Herzberg/Breitenbach am Herzberg)_
+_D+22 | 11 August 1989, 07:00hrs - 13:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Breitenbach am Herzberg](../../Maps/breitenbach-am-herzberg/Breitenbach am Herzberg/)_
 
 The invasion of Western Europe has just begun.  Spetsnaz activities across West Germany and France are causing havoc.  The Warsaw Pact was able to make some surprising headway in many areas in Central Europe.
 

@@ -1,5 +1,5 @@
 # USSR1-SN4 Hells Gate
-_D+6 | 26 July 1989, 10:00hrs - 18:00hrs [:smflag-de:](../Forces/West Germany.md) vs [:smflag-su:](../Forces/Soviet Union.md) @ [Montabaur](../../Maps/Montabaur/Montabaur)_
+_D+6 | 26 July 1989, 10:00hrs - 18:00hrs [:smflag-de:](../../Forces/West Germany/) vs [:smflag-su:](../../Forces/Soviet Union/) @ [Montabaur](../../Maps/montabaur/Montabaur/)_
 
 Starting to slow, but still creeping forward, the Soviet forces were now in sight of the Rhein. NATO kept plugging gaps and placing more and more reserves on their path. However, the advance, thus far, had not been stopped.
 
